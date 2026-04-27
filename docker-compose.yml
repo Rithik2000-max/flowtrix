@@ -17,9 +17,7 @@ services:
       start_period: 30s
 
   flowtrix:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/rithik-tri/flowtrix:v0.0.1.26.04.27.02
     container_name: flowtrix
     restart: always
     networks:

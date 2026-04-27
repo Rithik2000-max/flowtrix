@@ -2,8 +2,8 @@ export const DEFAULT_HEAD_META = `<meta name="viewport" content="width=device-wi
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="wekan">
-<meta name="application-name" content="wekan">
+<meta name="apple-mobile-web-app-title" content="Flowtrix">
+<meta name="application-name" content="Flowtrix">
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="theme-color" content="#ffffff">`;
 
@@ -529,7 +529,7 @@ export const DEFAULT_SITE_MANIFEST = `{
   "categories": [
     "productivity"
   ],
-  "description": "Open Source kanban with MIT license",
+  "description": "Flowtrix - Project Management Tool-Powered by Trisentrix",
   "dir": "auto",
   "prefer_related_applications": false,
   "display_override": [

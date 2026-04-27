@@ -1,17 +1,17 @@
 {
-  "name": "wekan",
+  "name": "flowtrix",
   "version": "v8.82.0",
   "description": "Open-Source kanban",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trisentrix-com/board"
+    "url": "git+https://github.com/trisentrix-com/Flowtrix"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trisentrix-com/board/issues"
+    "url": "https://github.com/trisentrix-com/Flowtrix/issues"
   },
-  "homepage": "https://github.com/trisentrix-com/board",
+  "homepage": "https://github.com/trisentrix-com/Flowtrix",
   "meteor": {
     "mainModule": {
       "client": "client/main.js",

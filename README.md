@@ -1,4 +1,4 @@
-# wekan ® - Open Source kanban
+# Flowtrix - Open Source kanban
 
 ## Downloads
 

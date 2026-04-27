@@ -17,7 +17,7 @@ Meteor.startup(async () => {
   });
 
   // Use Meteor's official API to modify the HTML boilerplate
-  WebAppInternals.registerBoilerplateDataCallback('wekan-custom-head', (request, data) => {
+  WebAppInternals.registerBoilerplateDataCallback('flowtrix-custom-head', (request, data) => {
     try {
       const setting = cachedSetting;
 
@@ -27,7 +27,7 @@ Meteor.startup(async () => {
       }
 
       // Always set title tag based on productName
-      const productName = (setting && setting.productName) ? setting.productName : 'wekan';
+      const productName = (setting && setting.productName) ? setting.productName : 'Flowtrix';
       data.head += `\n  <title>${productName}</title>\n`;
 
       // Only add custom head tags if enabled
