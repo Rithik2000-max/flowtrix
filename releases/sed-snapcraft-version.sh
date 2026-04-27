@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Update WeKan version at snapcraft.yaml
+# Update wekan version at snapcraft.yaml
 
 # 1) Check that there is 2 parameters
-#    of Wekan version number:
+#    of wekan version number:
 
 if [ $# -ne 2 ]; then
-  echo "Syntax with Wekan version number:"
+  echo "Syntax with wekan version number:"
   echo "  ./releases/sed-snapcraft-version.sh 7.10 7.11"
   exit 1
 fi

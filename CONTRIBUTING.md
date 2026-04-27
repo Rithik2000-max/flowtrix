@@ -6,18 +6,18 @@ Not paid:
   - Security reports, see [SECURITY.md](SECURITY.md)
   - Pull requests
   - xet7 checking pull requests
-  - This is because full-featured WeKan FLOSS kanban with MIT license is free to use
+  - This is because full-featured wekan FLOSS kanban with MIT license is free to use
     also for Commercial Use without any payment, with full source code at
     https://github.com/wekan/wekan for all platforms at https://wekan.fi/install/ .
-    There is nothing proprietary. WeKan is NOT Big Tech.
-    WeKan is maintained by https://github.com/xet7 at Finland https://wekan.fi .     
+    There is nothing proprietary. wekan is NOT Big Tech.
+    wekan is maintained by https://github.com/xet7 at Finland https://wekan.fi .     
 - Public FLOSS Developer Community Support:
   - https://github.com/wekan/wekan/issues
 
-Paid by customers of WeKan to WeKan:
+Paid by customers of wekan to wekan:
 
 - Optional Private Paid Commercial Support at https://wekan.fi/commercial-support/
-  - Optional Paid Support/Features/Fixes/PrivateChat . All Paid Features and Fixes are added directly to FLOSS WeKan https://github.com/wekan/wekan
+  - Optional Paid Support/Features/Fixes/PrivateChat . All Paid Features and Fixes are added directly to FLOSS wekan https://github.com/wekan/wekan
   - Optional Paid Official SaaS Hosting https://wekan.fi/saas/ , if you need full-featured hosting, that is more than free app https://wekan.fi/app/
 
 ## Contributing Security related
@@ -28,15 +28,15 @@ CVE Hall of Fame is at https://wekan.fi/hall-of-fame/
 
 ## Contributing to Documentation Wiki
 
-Fork WeKan repo https://github.com/wekan/wekan ,
+Fork wekan repo https://github.com/wekan/wekan ,
 edit `docs` directory content at GitHub web interface,
 and click send PR.
 
 ## Contributing code
 
-[Building WeKan and sending PR](https://github.com/wekan/wekan/blob/main/docs/DeveloperDocs/Build-and-Create-Pull-Request.md).
+[Building wekan and sending PR](https://github.com/wekan/wekan/blob/main/docs/DeveloperDocs/Build-and-Create-Pull-Request.md).
 
-WeKan code contributors Hall of Fame is at ChangeLog, where
+wekan code contributors Hall of Fame is at ChangeLog, where
 GitHub usernames are mentioned with changes added:
 
 https://github.com/wekan/wekan/blob/main/CHANGELOG.md
@@ -53,14 +53,14 @@ Do not use code formatting or linting like eslist or prettier.
 
 Only send minimal changed code lines, that are related to feature or fix.
 
-WeKan code has MIT license.
+wekan code has MIT license.
 
-About 300 persons have contributed to WeKan, stats at:
+About 300 persons have contributed to wekan, stats at:
 
 https://www.openhub.net/p/wekan
 
-WeKan maintainer xet7 reviews PR for typos etc before accepting to WeKan,
-so that WeKan code will still work OK.
+wekan maintainer xet7 reviews PR for typos etc before accepting to wekan,
+so that wekan code will still work OK.
 
 ## Contributing translations
 
@@ -72,17 +72,17 @@ https://github.com/wekan/wekan/pulls
 only add new English source language strings
 to https://github.com/wekan/wekan/blob/main/imports/i18n/data/en.i18n.json
 
-Maintainer of WeKan xet7 downloads all newest
+Maintainer of wekan xet7 downloads all newest
 translations from Transifex and adds
-them to WeKan repo before making
+them to wekan repo before making
 new release.
 
-## About WeKan Organization https://github.com/wekan
+## About wekan Organization https://github.com/wekan
 
-Only xet7 has write access to WeKan Organization.
+Only xet7 has write access to wekan Organization.
 
 xet7 reviews all PRs before merging.
 
-There has been over 300 contributors to WeKan, newest stats at:
+There has been over 300 contributors to wekan, newest stats at:
 
 https://www.openhub.net/p/wekan

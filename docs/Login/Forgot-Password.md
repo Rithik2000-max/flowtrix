@@ -1,6 +1,6 @@
 ## Snap
 
-**a) Wekan Snap**
+**a) wekan Snap**
 ```
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
 export PATH="$PATH:/snap/wekan/current/bin"
@@ -30,9 +30,9 @@ Then exit:
 ```
 exit
 ```
-Then login to Wekan and change any users passwords at `Admin Panel / People / People`.
+Then login to wekan and change any users passwords at `Admin Panel / People / People`.
 
-**b) Wekan Gantt GPL Snap**
+**b) wekan Gantt GPL Snap**
 ```
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan-gantt-gpl/current/lib/x86_64-linux-gnu
 export PATH="$PATH:/snap/wekan-gantt-gpl/current/bin"
@@ -63,7 +63,7 @@ Then exit:
 exit
 ```
 
-Then login to Wekan and change any users passwords at `Admin Panel / People / People`.
+Then login to wekan and change any users passwords at `Admin Panel / People / People`.
 
 **c) Use DBGate or Nosqlbooster** to edit wekan database users table to have admin true:
 - https://github.com/wekan/wekan/wiki/Backup#dbgate-open-source-mongodb-gui
@@ -132,7 +132,7 @@ db.AccountsLockout.Connections.deleteMany({})
 ```
 exit
 ```
-13. Then login to Wekan and change any users passwords at `Admin Panel / People / People`.
+13. Then login to wekan and change any users passwords at `Admin Panel / People / People`.
 
 More info:
 - https://github.com/wekan/wekan/wiki/Backup
@@ -157,14 +157,14 @@ a) If you don't have self-registration disabled, register new account at /sign-u
 ```
 use wekan
 ```
-2) Add Admin rights to some Wekan username:
+2) Add Admin rights to some wekan username:
 ```
 db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
 ```
 
 b) If someone else remembers their password, and his/her login works, copy their bcrypt hashed password to your password using Robo 3T.
 
-c) Install Wekan elsewhere, create new user, copy bcrypt hashed password to your password.
+c) Install wekan elsewhere, create new user, copy bcrypt hashed password to your password.
 
 d) Backup, New install, Create User, Copy Password, Restore:
 

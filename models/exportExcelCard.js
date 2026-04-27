@@ -86,7 +86,7 @@ runOnServer(function() {
 
       // Determine language: prefer the active UI language sent by the client
       // (?lang=fi), then the profile setting, then English.  The client-side
-      // param is necessary because WeKan may use the browser locale without
+      // param is necessary because wekan may use the browser locale without
       // ever writing it to profile.language.
       let userLanguage =
         req.query.lang ||

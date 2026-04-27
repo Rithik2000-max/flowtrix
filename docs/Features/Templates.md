@@ -9,7 +9,7 @@ There is currently:
 - [Per-user templates](https://github.com/wekan/wekan/issues/2209), it works as described below.
 - Card hamburger menu / Copy Checklist Template to Many Cards
 
-At [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license) of xet7, Maintainer of Wekan, these already have [some funding](https://wekan.fi/commercial-support/):
+At [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license) of xet7, Maintainer of wekan, these already have [some funding](https://wekan.fi/commercial-support/):
 - [Collapsible Swimlanes with count](https://github.com/wekan/wekan/issues/2804)
 - [Single fixed list titles static at top of swimlanes view](https://github.com/wekan/wekan/issues/2805).
 - [Main Boards/Organizing Boards/Nested Tabs](https://github.com/wekan/wekan/issues/2796) + [Shared templates](https://github.com/wekan/wekan/issues/2209) + [Top Level Projects](https://github.com/wekan/wekan/issues/641).
@@ -21,7 +21,7 @@ These don't yet have [funding](https://wekan.fi/commercial-support/):
 - [Email templates](https://github.com/wekan/wekan/issues/2022).
 - [Import and Export Checklists](https://github.com/wekan/wekan/issues/904).
 
-At Roadmap of some other Wekan Contributors:
+At Roadmap of some other wekan Contributors:
 
 - Prettify email notifications.
 

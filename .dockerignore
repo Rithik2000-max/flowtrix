@@ -1,36 +1,68 @@
-*~
-*.swp
+# Git & version control
+.git
+.gitignore
+.gitattributes
+.github
+.gitmodules
+
+# Meteor & build artifacts
+.meteor/local
 .meteor-spk
-*.sublime-workspace
-tmp/
+.build*
+.versions
+.versions.json
+.npm
+.eslintcache
+
+# Node & dependencies
 node_modules/
 npm-debug.log
-.gitmodules
-.vscode/
-.idea/
-.build/*
-**/parts/
-**/stage
-**/prime
-**/*.snap
-snap/.snapcraft/
-.idea
+package-lock.json   # (optional: include if you want to force fresh npm install)
+
+# OS & editor junk
 .DS_Store
 .DS_Store?
-.build*
-*.browserify.js.cached
-*.browserify.js.map
-.build*
-versions.json
-.versions
-.npm
-.build*
 ._*
-.Trashes
+*.swp
+*~
 Thumbs.db
 ehthumbs.db
-.eslintcache
-.meteor/local
-.devcontainer/docker-compose.extend.yml
-.devcontainer/volumes*/
-.git
+.Trashes
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-workspace
+.devcontainer/
+
+# Docs & unnecessary folders
+docs/
+docs2/
+tests/
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+FUTURE.md
+GOVERNANCE.md
+
+# Snap & packaging
+snap/
+snap-src/
+snap/.snapcraft/
+**/*.snap
+**/parts/
+**/stage/
+**/prime/
+
+# Temporary & logs
+tmp/
+*.log
+*.log.*
+npm-debug.log*
+
+# Other
+.build*
+**/*.browserify.js.cached
+**/*.browserify.js.map

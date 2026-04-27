@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { TrelloCreator } from './trelloCreator';
-import { WekanCreator } from './wekanCreator';
+import { wekanCreator } from './wekanCreator';
 import { CsvCreator } from './csvCreator';
 import { Exporter } from './exporter';
 import { getMembersToMap } from './wekanmapper';
@@ -18,7 +18,7 @@ Meteor.methods({
         break;
       case 'wekan':
         check(board, Object);
-        creator = new WekanCreator(data);
+        creator = new wekanCreator(data);
         break;
       case 'csv':
         check(board, Array);
@@ -59,7 +59,7 @@ Meteor.methods({
       additionalData.membersMapping = mappingById;
     }
 
-    const creator = new WekanCreator(additionalData);
+    const creator = new wekanCreator(additionalData);
     //data.title = `${data.title  } - ${  TAPi18n.__('copy-tag')}`;
     data.title = `${data.title}`;
     return await creator.create(data, currentBoardId);

@@ -2,7 +2,7 @@
 
 if [ $# -ne 1 ]
   then
-    echo "Syntax with Wekan version number:"
+    echo "Syntax with wekan version number:"
     echo "  ./ln.sh 5.10"
     exit 1
 fi

@@ -1,10 +1,10 @@
 Also see at this wiki right menu Webhooks:
 - Global Webhooks at Admin Panel, sends most board actions to webhook (chat, etc)
-- Per-board webhooks at Wekan board click hamburger menu => cog icon at right side of members => Board Settings / Webhooks, send actions of one board to some webhook
+- Per-board webhooks at wekan board click hamburger menu => cog icon at right side of members => Board Settings / Webhooks, send actions of one board to some webhook
 
-## Enable more Wekan debug logs:
+## Enable more wekan debug logs:
 
-a) Snap: `sudo snap set wekan debug='true'` - but also notice that [in Wekan v4.56 newer most mongo logs go to `/dev/null` on Snap](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v456-2020-11-30-wekan-release)
+a) Snap: `sudo snap set wekan debug='true'` - but also notice that [in wekan v4.56 newer most mongo logs go to `/dev/null` on Snap](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v456-2020-11-30-wekan-release)
 
 b) docker-compose.yml: `DEBUG=true`
 
@@ -32,7 +32,7 @@ Source: http://docs.mongodb.org/manual/reference/method/db.setProfilingLevel/
 db.setProfilingLevel(2) means "log all operations".
 ```
 
-## Wekan logs could be at syslog
+## wekan logs could be at syslog
 
 Logs are at /var/log/syslog , like with:
 ```
@@ -63,7 +63,7 @@ docker logs wekan-db
 ```
 ## Sandstorm
 
-When Wekan grain is open, click at top terminal icon, so then opens new window that shows logs
+When wekan grain is open, click at top terminal icon, so then opens new window that shows logs
 
 ## Additional logs
 

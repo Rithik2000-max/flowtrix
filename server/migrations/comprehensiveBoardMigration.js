@@ -1,7 +1,7 @@
 /**
  * Comprehensive Board Migration System
  *
- * This migration handles all database structure changes from previous Wekan versions
+ * This migration handles all database structure changes from previous wekan versions
  * to the current per-swimlane lists structure. It ensures:
  *
  * 1. All cards are visible with proper swimlaneId and listId

@@ -20,7 +20,7 @@ const ALL_FIELDS = [
 ];
 
 /**
- * Map WeKan label color names to opaque ARGB hex strings for ExcelJS.
+ * Map wekan label color names to opaque ARGB hex strings for ExcelJS.
  * Colours not in this map fall back to a neutral silver.
  */
 const LABEL_COLOR_ARGB = {
@@ -51,7 +51,7 @@ const LABEL_COLOR_ARGB = {
   indigo:        'FF4B0082',
 };
 
-/** Convert a WeKan color name to ARGB, falling back to silver. */
+/** Convert a wekan color name to ARGB, falling back to silver. */
 function labelColorToArgb(colorName) {
   return LABEL_COLOR_ARGB[colorName] || 'FFC0C0C0';
 }

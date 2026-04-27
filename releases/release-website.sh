@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Release website with new WeKan version number and new API docs.
+# Release website with new wekan version number and new API docs.
 #
 # Usage:
 #   ./releases/release-website.sh 8.42 8.43
 
 if [ $# -ne 2 ]; then
-  echo "Syntax with Wekan previous and new version number:"
+  echo "Syntax with wekan previous and new version number:"
   echo "  ./releases/release-website.sh 8.42 8.43"
   exit 1
 fi
@@ -35,7 +35,7 @@ git pull
 
 # install/index.html
 #   The version appears inside a specific HTML span tag.
-#   This pattern is already precise enough to match only the WeKan version.
+#   This pattern is already precise enough to match only the wekan version.
 sedi "s|>v$OLD<\/span>|>v$NEW<\/span>|g" install/index.html
 
 # api/index.html
@@ -49,7 +49,7 @@ sedi "s|>v$OLD<\/span>|>v$NEW<\/span>|g" install/index.html
 cd api
 sedi "s|v$OLD\([^0-9]\)|v$NEW\1|g; s|v$OLD$|v$NEW|g" index.html
 
-# Create directory for new API docs, copy from WeKan repo, rename entry point
+# Create directory for new API docs, copy from wekan repo, rename entry point
 cd ..
 mkdir -p api/v$NEW
 if [ -d "$HOME/repos/wekan" ]; then

@@ -301,7 +301,7 @@ FlowRouter.route('/global-search', {
 
     // Set title with product name
     const settings = Settings.findOne({});
-    const productName = (settings && settings.productName) ? settings.productName : 'Wekan';
+    const productName = (settings && settings.productName) ? settings.productName : 'wekan';
     try {
       document.title = `${TAPi18n.__('globalSearch-title')} - ${productName}`;
     } catch (e) {

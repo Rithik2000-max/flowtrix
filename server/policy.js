@@ -13,7 +13,7 @@ Meteor.startup(() => {
 */
 
   if (process.env.BROWSER_POLICY_ENABLED === 'true') {
-    // Trusted URL that can embed Wekan in iFrame.
+    // Trusted URL that can embed wekan in iFrame.
     const trusted = process.env.TRUSTED_URL;
     ////BrowserPolicy.framing.disallow();
     //Allow inline scripts, otherwise there is errors in browser/inspect/console

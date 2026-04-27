@@ -30,9 +30,9 @@ It has same database syntax, etc. But it also works with high concurrent usage,
 does not corrupt data like C89 SQLite, that is verified with simulator.
 
 
-# Docker: Wekan to PostgreSQL read-only mirroring
+# Docker: wekan to PostgreSQL read-only mirroring
 
-* [Wekan kanban board, made with Meteor.js framework, running on
+* [wekan kanban board, made with Meteor.js framework, running on
   Node.js](https://wekan.fi) -- [GitHub](https://github.com/wekan/wekan)
 * [MongoDB NoSQL database](https://www.mongodb.com)
 * [ToroDB: MongoDB to PostgreSQL read-only mirroring, programmed with Java](https://www.8kdata.com/products) --
@@ -55,7 +55,7 @@ git clone https://github.com/wekan/wekan
 cd torodb-postgresql
 ```
 
-3) IMPORTANT: In docker-compose.yml, to use Wekan on local network, change ROOT_URL=http://localhost to http://IPADRESS like http://192.168.10.100 or http://example.com
+3) IMPORTANT: In docker-compose.yml, to use wekan on local network, change ROOT_URL=http://localhost to http://IPADRESS like http://192.168.10.100 or http://example.com
 
 4) OPTIONAL: In docker-compose.yml, change PostgreSQL database name, username and password from wekan to something else.
 
@@ -65,18 +65,18 @@ cd torodb-postgresql
 docker-compose up -d
 ```
 
-6) Wekan is at http://IPADDRESS or http://example.com (port 80)
+6) wekan is at http://IPADDRESS or http://example.com (port 80)
 
 7) PostgreSQL connection URL for LibreOffice is `dbname=wekan hostaddr=127.0.0.1 port=15432 user=wekan password=wekan`.
    In some other apps URL could be postgresql://127.0.0.1:15432/wekan , and
    Username: wekan, Password: wekan , or others if you changed those at docker-compose.yml.
    Do not write to PostgreSQL, as it's readonly mirror. Write to MongoDB or make
-   changes in Wekan. If server port 15432 open, PostgreSQL can be accessed also
+   changes in wekan. If server port 15432 open, PostgreSQL can be accessed also
    remotely at local network at http://IPADDRESS:15432/wekan
 
 8) MongoDB is at 127.0.0.1:28017
 
-9) Wekan and databases bind to address 0.0.0.0 so could be also available to other
+9) wekan and databases bind to address 0.0.0.0 so could be also available to other
    computers in network. I have not tested this.
 
 10) [Restore your MongoDB data](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data).

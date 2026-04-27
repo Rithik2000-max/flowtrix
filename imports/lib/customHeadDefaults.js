@@ -2,8 +2,8 @@ export const DEFAULT_HEAD_META = `<meta name="viewport" content="width=device-wi
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Wekan">
-<meta name="application-name" content="Wekan">
+<meta name="apple-mobile-web-app-title" content="wekan">
+<meta name="application-name" content="wekan">
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="theme-color" content="#ffffff">`;
 
@@ -15,11 +15,11 @@ export const DEFAULT_HEAD_LINKS = `<link rel="shortcut icon" type="image/x-icon"
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">`;
 
 export const DEFAULT_SITE_MANIFEST = `{
-  "name": "Wekan",
-  "short_name": "Wekan",
+  "name": "Flowtrix",
+  "short_name": "Flowtrix",
   "icons": [
     {
-      "src": "svg-etc/wekan-logo-512.svg",
+      "src": "svg-etc/Flowtrix-logo-512.svg",
       "sizes": "any",
       "type": "image/svg"
     },

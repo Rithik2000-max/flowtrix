@@ -7,7 +7,7 @@ import Cards from '/models/cards';
 import { ReactiveCache } from '/imports/reactiveCache';
 
 /**
- * Fix duplicate lists and swimlanes created by WeKan 8.10
+ * Fix duplicate lists and swimlanes created by wekan 8.10
  * This method identifies and removes duplicate lists while preserving cards
  */
 Meteor.methods({

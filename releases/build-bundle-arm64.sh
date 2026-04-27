@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Build WeKan arm64 bundle - Meteor 3 style (no fibers needed).
+# Build wekan arm64 bundle - Meteor 3 style (no fibers needed).
 #
 # This script rebuilds only the native Node.js modules for arm64.
 # Run on an arm64 machine, or use the GitHub Actions ubuntu-24.04-arm runner.
@@ -9,7 +9,7 @@
 #   ./releases/build-bundle-arm64.sh 8.43
 
 if [ $# -ne 1 ]; then
-  echo "Syntax with Wekan version number:"
+  echo "Syntax with wekan version number:"
   echo "  ./releases/build-bundle-arm64.sh 8.43"
   exit 1
 fi

@@ -1,6 +1,6 @@
 @ECHO OFF
 
-REM Build WeKan Windows (win64) bundle - Meteor 3 style (no fibers needed).
+REM Build wekan Windows (win64) bundle - Meteor 3 style (no fibers needed).
 REM
 REM Prerequisites:
 REM   1. Node.js 24.x from https://nodejs.org/

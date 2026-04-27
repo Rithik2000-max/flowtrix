@@ -1,16 +1,16 @@
-[Other things that are not related to WeKan kanban](https://github.com/wekan/wekan/wiki/NOT-related-to-Wekan)
+[Other things that are not related to wekan kanban](https://github.com/wekan/wekan/wiki/NOT-related-to-wekan)
 
 ## Description
 
-Lauri Ojansivu (xet7) has [trademark to WeKan](https://www.tmdn.org/tmview/#/tmview/detail/FI50202100052006A), as can be seen from bottom of official WeKan webpage https://wekan.fi . Official domain is https://wekan.fi .
+Lauri Ojansivu (xet7) has [trademark to wekan](https://www.tmdn.org/tmview/#/tmview/detail/FI50202100052006A), as can be seen from bottom of official wekan webpage https://wekan.fi . Official domain is https://wekan.fi .
 
-Lauri Ojansivu, as maintainer of WeKan Open Source kanban, has added and removed about [4 million lines of code](https://github.com/wekan/wekan/graphs/contributors) to WeKan since December 2016. All changes to WeKan are at [ChangeLog](https://github.com/wekan/wekan/graphs/contributors). WeKan is used at [most countries of the world](https://wekan.github.com)
+Lauri Ojansivu, as maintainer of wekan Open Source kanban, has added and removed about [4 million lines of code](https://github.com/wekan/wekan/graphs/contributors) to wekan since December 2016. All changes to wekan are at [ChangeLog](https://github.com/wekan/wekan/graphs/contributors). wekan is used at [most countries of the world](https://wekan.github.com)
 
 Lauri Ojansivu has nickname xet7 at many places at Internet, for example:
 
 - https://github.com/xet7
 
-Problem is, fake companies try to register WeKan these domains, or other domains that have these words:
+Problem is, fake companies try to register wekan these domains, or other domains that have these words:
 
 - wekan
   - wekan io, virus page
@@ -24,7 +24,7 @@ Usually those fake companies setup virus webpages, or other fake webpages.
 
 SMI TEAMWORK at [iOS App Store](https://itunes.apple.com/de/app/smi-teamwork/id1232167123?mt=8) and [Google Play Store](https://play.google.com/store/apps/details?id=com.siliconmotion.teamwork) . xet7 has notified them to remove it.
 
-## Fake companies trying to register WeKan domains
+## Fake companies trying to register wekan domains
 
 ### 2023-12-27 From chinaregistrar.org.cn , about "Yongchen Holdings Ltd"
 
@@ -145,16 +145,16 @@ Regards,
 
 Jacky
 
-## WeKan Enterprise Solutions
+## wekan Enterprise Solutions
 
-xet7 does not know, what is this company? It is not related to WeKan kanban.
+xet7 does not know, what is this company? It is not related to wekan kanban.
 
 - https://www.wekanenterprisesolutions.com
 - https://www.linkedin.com/company/wekanenterprisesolutions/
 - https://in.linkedin.com/company/wekanenterprisesolutions/
 
-## Wekan France
+## wekan France
 
-xet7 does not know, what is this company? It is not related to WeKan kanban.
+xet7 does not know, what is this company? It is not related to wekan kanban.
 
 - https://www.linkedin.com/company/wekan-france/

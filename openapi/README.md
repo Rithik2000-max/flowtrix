@@ -4,7 +4,7 @@
 ## Open API generation
 
 This folder contains a script (`generate_openapi.py`) that extracts
-the REST API of Wekan and exports it under the OpenAPI 2.0 specification
+the REST API of wekan and exports it under the OpenAPI 2.0 specification
 (Swagger 2.0).
 
 ### dependencies

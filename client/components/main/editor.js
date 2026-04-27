@@ -420,7 +420,7 @@ Blaze.Template.registerHelper(
         linkClass = 'atMention'; // Remove js-open-member for special handles
       }
 
-      // This @user mention link generation did open same Wekan
+      // This @user mention link generation did open same wekan
       // window in new tab, so now A is changed to U so it's
       // underlined and there is no link popup. This way also
       // text can be selected more easily.

@@ -1,4 +1,4 @@
-UPDATE: Wekan now uses markdown-it and markdown-it-emoji plugin, see [Emoji page](Emoji)
+UPDATE: wekan now uses markdown-it and markdown-it-emoji plugin, see [Emoji page](Emoji)
 
 ## Numbered text
 
@@ -15,16 +15,16 @@ Write it this way (to escape dot), so it shows correctly:
 ***
 
 
-Wekan uses GFM (Github Flavored Markdown).
+wekan uses GFM (Github Flavored Markdown).
 We use the following project that ports GFM to meteor: https://github.com/wekan/markdown with updated newest markdown, that is fork of https://github.com/perak/markdown.
 
-Newest Wekan uses newest markdown.
+Newest wekan uses newest markdown.
 
-[Adding markdown to more places at Wekan progress](https://github.com/wekan/wekan/issues/2334)
+[Adding markdown to more places at wekan progress](https://github.com/wekan/wekan/issues/2334)
 
 [Related formatting tips for numbered lists](https://github.com/wekan/wekan/issues/2425)
 
-**Note**: In order to use gfm checklist and other v0.28+ features, you need Wekan v2.61+.
+**Note**: In order to use gfm checklist and other v0.28+ features, you need wekan v2.61+.
 
 [Checklist on markdown does not work yet](https://github.com/wekan/wekan/issues/2419)
 

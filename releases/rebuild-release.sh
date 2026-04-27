@@ -26,7 +26,7 @@ echo "Note: If you use other locale than en_US.UTF-8 , you need to additionally 
 echo "      with 'sudo dpkg-reconfigure locales' , so that MongoDB works correctly."
 echo "      You can still use any other locale as your main locale."
 
-echo "Building Wekan."
+echo "Building wekan."
 sudo chown -R $(id -u):$(id -g) $HOME/.npm $HOME/.meteor
 rm -rf node_modules .meteor/local .build
 (meteor update --npm 2>/dev/null || true) && meteor npm install

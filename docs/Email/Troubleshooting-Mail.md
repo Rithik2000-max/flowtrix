@@ -2,9 +2,9 @@
 
 [Uberspace Email](https://github.com/wekan/wekan/issues/2009#issuecomment-1017630758)
 
-## Newest Wekan
+## Newest wekan
 
-In [Wekan v5.02](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v502-2021-03-02-wekan-release) is fix for STMP settings [that works with very happy feedback](https://github.com/wekan/wekan/issues/3529#issuecomment-789085999). It requires:
+In [wekan v5.02](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v502-2021-03-02-wekan-release) is fix for STMP settings [that works with very happy feedback](https://github.com/wekan/wekan/issues/3529#issuecomment-789085999). It requires:
 - **There is no email settings at Admin Panel anymore**
 - Email settings are made only with snap commands like `sudo snap set wekan mail-url....` or similar in Docker/Source etc `MAIL_URL=...`, more details below.
 - For any errors like SSLv3 and STARTTLS, check [newest AWS SES info](#example-aws-ses) and use similar settings, other SSLv3/STARTTLS info could be outdated.
@@ -56,7 +56,7 @@ For example, for https://nodemailer.com/smtp/
 3) Install nodemailer: `npm install nodemailer`
 4) send email: `node email.js`
 
-For example, this kind of code uses similar like MAIL_SERVICE in Wekan:
+For example, this kind of code uses similar like MAIL_SERVICE in wekan:
 
 ```
 var nodemailer = require('nodemailer');
@@ -79,23 +79,23 @@ let info = transporter.sendMail({
 ```
 
 
-If with some code example sending email works, xet7 can add it to wekan, like in [Wekan v5.52](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v552-2021-08-26-wekan-release) xet7 added direct nodemailer usage for MAIL_SERVICE.
+If with some code example sending email works, xet7 can add it to wekan, like in [wekan v5.52](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v552-2021-08-26-wekan-release) xet7 added direct nodemailer usage for MAIL_SERVICE.
 
 ## MAIL_SERVICE (not currently in use)
 
 a) If you use smtps or smtp, please do not add any MAIL_SERVICE settings. For example, AWS SES and Postfix works with only MAIL_URL and MAIL_FROM.
 
-b) If smtps or smtp does not work, in Wekan v5.52 and newer, you can try these additional MAIL_SERVICE settings. This may still also require MAIL_URL to be valid, while it only uses MAIL_SERVICE settings of [Well Known email services](https://nodemailer.com/smtp/well-known/) that are these:
+b) If smtps or smtp does not work, in wekan v5.52 and newer, you can try these additional MAIL_SERVICE settings. This may still also require MAIL_URL to be valid, while it only uses MAIL_SERVICE settings of [Well Known email services](https://nodemailer.com/smtp/well-known/) that are these:
 
 126, 163, 1und1, AOL, DebugMail, DynectEmail, FastMail, GandiMail, Gmail, Godaddy, GodaddyAsia, GodaddyEurope, hot.ee, Hotmail, iCloud, mail.ee, Mail.ru, Maildev, Mailgun, Mailjet, Mailosaur, Mandrill, Naver, OpenMailBox, Outlook365, Postmark, QQ, QQex, SendCloud, SendGrid, SendinBlue, SendPulse, SES, SES-US-EAST-1, SES-US-WEST-2, SES-EU-WEST-1, Sparkpost, Yahoo, Yandex, Zoho, qiye.aliyun
 
-Wekan Snap:
+wekan Snap:
 ```
 sudo snap set wekan mail-service='Outlook365'
 sudo snap set wekan mail-service-user='firstname.lastname@hotmail.com'
 sudo snap set wekan mail-service-password='SecretPassword'
 ```
-Wekan Gantt GPL Snap:
+wekan Gantt GPL Snap:
 ```
 sudo snap set wekan-gantt-gpl mail-service='Outlook365'
 sudo snap set wekan-gantt-gpl mail-service-user='firstname.lastname@hotmail.com'
@@ -130,14 +130,14 @@ and copy converted characters to your password.
 
 ```
 sudo snap set wekan mail-url='smtp://user:password@smtp.office365.com:587?ignoreTLS=false&tls={rejectUnauthorized:false}&secure=true'
-sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+sudo snap set wekan mail-from='wekan Team Boards <info@example.com>'
 ```
 
 Converting special characters:
 ```
 sudo snap set wekan mail-url='smtp://support%40example.com:password@mail.example.com:587/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false'
 
-sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+sudo snap set wekan mail-from='wekan Team Boards <info@example.com>'
 ```
 ## Example: AWS SES
 
@@ -147,7 +147,7 @@ NOTE: At AWS SES settings, you don't need to convert special characters.
 
 1) At AWS SES, add verified sender email address, verified domain, verified DKIM etc.
 
-2) For your example.com domain for SPF purposes, add TXT record like this, where ip4:123.123.123.123 is your Wekan server IP address:
+2) For your example.com domain for SPF purposes, add TXT record like this, where ip4:123.123.123.123 is your wekan server IP address:
 
 ```
 @ TXT
@@ -165,18 +165,18 @@ v=spf1 include:_spf.protonmail.ch ip4:123.123.123.123 ip4:123.100.123.100 includ
 
 With AWS SMTP credentials:
 
-a) Wekan Snap
+a) wekan Snap
 ```
-sudo snap set wekan mail-from='Wekan Boards <boards@example.com>'
+sudo snap set wekan mail-from='wekan Boards <boards@example.com>'
 sudo snap set wekan mail-url='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
 ```
 You see settings with:
 ```
 sudo snap get wekan
 ```
-b) Wekan Gantt GPLv2 Snap:
+b) wekan Gantt GPLv2 Snap:
 ```
-sudo snap set wekan-gantt-gpl mail-from='Wekan Boards <boards@example.com>'
+sudo snap set wekan-gantt-gpl mail-from='wekan Boards <boards@example.com>'
 sudo snap set wekan-gantt-gpl mail-url='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
 ```
 You see settings with:
@@ -185,7 +185,7 @@ sudo snap get wekan-gantt-gpl
 ```
 c) Docker, Source, etc
 ```
-MAIL_FROM='Wekan Boards <boards@example.com>'
+MAIL_FROM='wekan Boards <boards@example.com>'
 MAIL_URL='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
 ```
 
@@ -211,7 +211,7 @@ base64-password-here
 MAIL FROM: boards@example.com-here
 RCPT TO: you@example.com-here
 DATA
-From: Wekan Boards-here <boards@example.com-here>
+From: wekan Boards-here <boards@example.com-here>
 To: you@example.com-here
 Subject: Amazon SES SMTP Test
 
@@ -240,7 +240,7 @@ Then you can run them like this:
 [Source](https://github.com/wekan/wekan/issues/3529#issuecomment-792724239)
 ```
 sudo snap set wekan mail-url='smtps://username@domain.com:password@smtp.gmail.com:465'
-sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+sudo snap set wekan mail-from='wekan Team Boards <info@example.com>'
 ```
 Convert password via this service https://www.url-encode-decode.com and everything will work.
 
@@ -249,7 +249,7 @@ Convert password via this service https://www.url-encode-decode.com and everythi
 Do instead this `smtp://` and ignoreTLS etc, and at click your right top username / Admin Panel / Email, with TLS support NOT enabled:
 ```
 sudo snap set wekan mail-url='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false'
-sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+sudo snap set wekan mail-from='wekan Team Boards <info@example.com>'
 ```
 ### If you use some other snap like wekan-gantt-gpl
 
@@ -257,18 +257,18 @@ Change part `sudo snap set wekan` to `sudo snap set wekan-gantt-gpl`
 
 ## Example: UCS
 
-### In admin panel (within admin account on Wekan app itself)
+### In admin panel (within admin account on wekan app itself)
 - SMTP Host: `smtp.example.com:25/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false`
 - SMTP Port: `25`
 - Username: `webadmin%40example.com`
 - [_] TLS Support UNCHECKED
-- From: `Wekan Admin <webadmin@example.com>`
+- From: `wekan Admin <webadmin@example.com>`
  
-### Settings in Wekan App settings in UCS dashboard
+### Settings in wekan App settings in UCS dashboard
 - URL settings: `https://www.example.com/wekan`
 - LDAP Settings: `(&(objectClass=person)(mailPrimaryAddress=*)(!(shadowExpire=*))(sambaBadPasswordTime=0)(wekanActivated=TRUE)(uid=<some_user_name>))`
 - Mail URL: `smtp://webadmin%40example.com:password@example.com:25/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false`
-- Mail From: `Wekan Notifications <webadmin@example.com>`
+- Mail From: `wekan Notifications <webadmin@example.com>`
 
 ## Example: username contains @
 
@@ -305,17 +305,17 @@ You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL`
 
 ## Email servers: SMTP or Exchange
 
-Standalone Wekan uses SMTP server for sending email invitations etc.
+Standalone wekan uses SMTP server for sending email invitations etc.
 
-For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP => Davmail => Exchange.
+For Exchange, you can use [DavMail](http://davmail.sourceforge.net), wekan SMTP => Davmail => Exchange.
 
 Another way is to [Configure Postfix to relay to Exchange with NTLM authentication](https://www.linuxquestions.org/questions/linux-newbie-8/configure-postfix-to-relay-to-exchange-server-with-ntlm-authentication-4175410961/#post4712832)
 
-There are Thunderbird Exchange Calendar extensions for [Exchange 2007/2010/2013/others? Open Source](https://github.com/ExchangeCalendar/exchangecalendar/releases), [Exchange 2007-2015 paid](https://exquilla.zendesk.com/hc/en-us) and [Exhange 2016 paid](http://www.beonex.com/owl/) and [other extensions](https://addons.thunderbird.net/en-US/thunderbird/search/?q=exchange&appver=&platform=), info how to use it is at [article at threenine.co.uk](https://threenine.co.uk/setup-office365-calendar-with-thunderbird/). Wekan has [Calendar feature](https://github.com/wekan/wekan/issues/808).
+There are Thunderbird Exchange Calendar extensions for [Exchange 2007/2010/2013/others? Open Source](https://github.com/ExchangeCalendar/exchangecalendar/releases), [Exchange 2007-2015 paid](https://exquilla.zendesk.com/hc/en-us) and [Exhange 2016 paid](http://www.beonex.com/owl/) and [other extensions](https://addons.thunderbird.net/en-US/thunderbird/search/?q=exchange&appver=&platform=), info how to use it is at [article at threenine.co.uk](https://threenine.co.uk/setup-office365-calendar-with-thunderbird/). wekan has [Calendar feature](https://github.com/wekan/wekan/issues/808).
 
-Wekan Email settings are required in both MAIL_URL and Admin Panel.
+wekan Email settings are required in both MAIL_URL and Admin Panel.
 
-If you want to receive Email to Wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use Wekan REST API to add card to Wekan board.
+If you want to receive Email to wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use wekan REST API to add card to wekan board.
 
 ## Postfix
 
@@ -339,7 +339,7 @@ mynetworks = 127.0.0.0/8 172.17.0.0/16 [::ffff:127.0.0.0]/104 [::1]/128
 
 ## Troubleshooting
 
-Email is quite important in Wekan, as without it you can't send password reset links nor can you verify your e-mail address. Here are some ways to figure out what is wrong with your mail server settings in WeKan.
+Email is quite important in wekan, as without it you can't send password reset links nor can you verify your e-mail address. Here are some ways to figure out what is wrong with your mail server settings in wekan.
 
 ## Log Files
 Firstly, make sure you're logged into your server and following your log files.
@@ -355,7 +355,7 @@ If you're using a snap package, you'll get the logs with
     @:~$ journalctl -u snap.wekan.wekan
 
 ## Error Messages
-Once you've got the log files in front of you, go to the WeKan frontend and send a password reset link, or try to register. This will try to send an e-mail, and you should see any error messages in the log file.
+Once you've got the log files in front of you, go to the wekan frontend and send a password reset link, or try to register. This will try to send an e-mail, and you should see any error messages in the log file.
 
 ### Wrong Port
 If you see an error message like the following one, your port number is wrong. If you're using plain old SMTP or STARTTLS, your port should be 25. If you're using TLS, you may need to change your port to 465. Some mail servers may use port 587 instead of the two above.
@@ -448,7 +448,7 @@ v=spf1 a mx ipv4:123.123.123.123/32 include:_spf.google.com include:example.com 
 ```
 
 ### Self-signed Certificate
-Unfortunately at this stage, WeKan does not support self-signed certificates. You will see the following error if your SMTP server is using a self-signed certificate. Ways to remedy to this are (by order of preference):
+Unfortunately at this stage, wekan does not support self-signed certificates. You will see the following error if your SMTP server is using a self-signed certificate. Ways to remedy to this are (by order of preference):
 * disable TLS on your SMTP server. For postfix juste add "smtpd_user_tls = no" to main.cf. !!! Unless doing this, wekan will try to connect with STARTTLS !!!
 * to get a certificate from a CA, or
 * to add "?tls={rejectUnauthorized:false}" to the end of the [MAIL_URL environment variable](https://nodemailer.com/smtp/), or
@@ -509,7 +509,7 @@ wekan_1      |     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ss
 ```
 
 ## No News Is Good News
-Of course, if you don't see any of these errors in your WeKan log file, then the problem is not in WeKan. Check your SMTP server's mail logs (if you can) to get a better idea of what might be going wrong.
+Of course, if you don't see any of these errors in your wekan log file, then the problem is not in wekan. Check your SMTP server's mail logs (if you can) to get a better idea of what might be going wrong.
 
 
 ***
@@ -518,35 +518,35 @@ Of course, if you don't see any of these errors in your WeKan log file, then the
 
 They are moved here from https://github.com/wekan/wekan/issues/961
 
-### Configure Wekan
+### Configure wekan
 
 Sample:
-### Wekan with TLS/SSL
-To run Wekan secured with TLS/SSL do the following steps:
+### wekan with TLS/SSL
+To run wekan secured with TLS/SSL do the following steps:
 1. Setup a Web-Server/-Proxy with TLS/SSL support that maps requests to wekan. [Link](url)
 2. Set protocol to http**s**. 
 `export ROOT_URL='https://example.com/'`
-3. Set Wekan to an internal port. 
+3. Set wekan to an internal port. 
 `export PORT=54321`
-4. Restart and run Wekan. 
+4. Restart and run wekan. 
 
-### Wekan at subpath
-To run Wekan to appear at a subpath of your domain:
+### wekan at subpath
+To run wekan to appear at a subpath of your domain:
 1. Setup a Web-Server/-Proxy that maps requests to wekan. [Link](url)
 2. Append subpath to domain, without trailing slash. 
 `export ROOT_URL='http://example.com/mywekan'`
-3. Set Wekan to an internal port. 
+3. Set wekan to an internal port. 
 `export PORT=54321`
-4. Restart and run Wekan. 
+4. Restart and run wekan. 
 
 ### SMTP with TLS/SSL
-To enable Wekan sending Mail from a mail server with TLS/SSL:
-1. Set Wekan to the specified port (465 / 587). 
+To enable wekan sending Mail from a mail server with TLS/SSL:
+1. Set wekan to the specified port (465 / 587). 
 `export MAIL_URL='smtp://user:password@example.com:587/'`
-2. Restart and run Wekan. 
+2. Restart and run wekan. 
 
 ### Mail Sender
-To define a sender name for the mails automatically sent by Wekan. 
+To define a sender name for the mails automatically sent by wekan. 
 1. ...`export MAIL_FROM='Thomas Anderson <neo@matrix.org>'`
 
 ## Using mail service from zoho
@@ -568,4 +568,4 @@ By default zoho uses port number 465 with TLS enabled.
 
 Step 3: form MAIL_FROM
 
-MAIL_FROM=Wekan Notifications <user1@example.com>
+MAIL_FROM=wekan Notifications <user1@example.com>

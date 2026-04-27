@@ -5,8 +5,8 @@ const { execFileSync } = require('child_process');
 
 const puppeteer = require('puppeteer-core');
 
-const BASE_URL = process.env.WEKAN_BASE_URL || 'http://localhost:3000';
-const MONGO_URL = process.env.WEKAN_MONGO_URL || 'mongodb://127.0.0.1:3001/meteor';
+const BASE_URL = process.env.wekan_BASE_URL || 'http://localhost:3000';
+const MONGO_URL = process.env.wekan_MONGO_URL || 'mongodb://127.0.0.1:3001/meteor';
 const CHROMIUM_PATH = process.env.CHROMIUM_PATH || '/usr/bin/chromium';
 const HEADLESS = process.env.HEADLESS !== 'false';
 const KEEP_E2E_DATA = process.env.KEEP_E2E_DATA === '1';

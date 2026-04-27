@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Build WeKan s390x bundle - Meteor 3 style (no fibers needed).
+# Build wekan s390x bundle - Meteor 3 style (no fibers needed).
 #
 # This script rebuilds only the native Node.js modules for s390x.
 # Run on an s390x machine (e.g. IBM LinuxONE), or use a QEMU s390x environment.
@@ -9,7 +9,7 @@
 #   ./releases/build-bundle-s390x.sh 8.43
 
 if [ $# -ne 1 ]; then
-  echo "Syntax with Wekan version number:"
+  echo "Syntax with wekan version number:"
   echo "  ./releases/build-bundle-s390x.sh 8.43"
   exit 1
 fi

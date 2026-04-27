@@ -27,8 +27,8 @@
     <p><a href="https://github.com/wekan/wekan/issues/4877#issuecomment-2105688702">Source</a></p>
 
     <textarea id="jsonInput" placeholder="Enter Trello-JSON here: (Ctrl+V)&#10;&#10;In Trello go to ... menu and select 'Print, Export and Share'&#10;Select 'Export as JSON'&#10;Copy the whole text (Ctrl+A, Ctrl+C)"></textarea><br>
-    <button id="updateButton">Convert from Trello to Wekan</button><br>
-    <textarea id="jsonOutput" placeholder="Copy JSON for Wekan from here: (Ctrl+A, Ctrl+C)&#10;&#10;In Wekan go to 'all Boards', 'Add Board', 'Import', 'From Trello'" readonly></textarea>
+    <button id="updateButton">Convert from Trello to wekan</button><br>
+    <textarea id="jsonOutput" placeholder="Copy JSON for wekan from here: (Ctrl+A, Ctrl+C)&#10;&#10;In wekan go to 'all Boards', 'Add Board', 'Import', 'From Trello'" readonly></textarea>
 
 
     <script>

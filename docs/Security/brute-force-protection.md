@@ -1,6 +1,6 @@
-# Brute Force Protection in WeKan
+# Brute Force Protection in wekan
 
-WeKan includes a robust brute force login protection system that helps prevent unauthorized access attempts by temporarily locking accounts after multiple failed login attempts.
+wekan includes a robust brute force login protection system that helps prevent unauthorized access attempts by temporarily locking accounts after multiple failed login attempts.
 
 ## Features
 

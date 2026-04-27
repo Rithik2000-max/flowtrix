@@ -1,41 +1,41 @@
 Here is how to build wekan code and add your new theme with code changes and send as pull request:
 https://github.com/wekan/wekan/wiki/Emoji#how-you-could-add-another-plugin
 
-Here is how some have sent previous themes to Wekan, what code changes they made:
+Here is how some have sent previous themes to wekan, what code changes they made:
 https://github.com/wekan/wekan/pulls?q=is%3Apr+is%3Aclosed+theme
 
 After you have sent new theme as pull request, you see it as open pull request:
 https://github.com/wekan/wekan/pulls?q=is%3Apr+theme+is%3Aopen
 
-And when I have merged it to Wekan, that theme will be in next Wekan release, listed at ChangeLog:
+And when I have merged it to wekan, that theme will be in next wekan release, listed at ChangeLog:
 https://github.com/wekan/wekan/blob/main/CHANGELOG.md
 
-At Wekan Snap page you see with webpage reload, when new version has been released:
+At wekan Snap page you see with webpage reload, when new version has been released:
 https://snapcraft.io/wekan
 
-Wekan Snap version gets updates automatically soon after new Wekan version has been released, or you can update manually immediately:
+wekan Snap version gets updates automatically soon after new wekan version has been released, or you can update manually immediately:
 https://github.com/wekan/wekan-snap/wiki/Automatic-update-schedule
 
 ***
 
 Also see: [Dark Mode](Dark-Mode)
 
-All Wekan themes are directly integrated to Wekan. You can add pull request to master branch to add custom theme, you can see from [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to these files 3 files listed below. In that commit is also changes to other files, you don't need to change those files.
+All wekan themes are directly integrated to wekan. You can add pull request to master branch to add custom theme, you can see from [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to these files 3 files listed below. In that commit is also changes to other files, you don't need to change those files.
   - `wekan/client/components/boards/boardColors.styl`
   - `wekan/models/boards.js`
   - `wekan/server/migrations.js`
 
 Alternatives for sending new theme as pull request:
-- If you would like to have some new theme, please add screenshot mockup to [new Wekan issue](https://github.com/wekan/wekan/issues).
+- If you would like to have some new theme, please add screenshot mockup to [new wekan issue](https://github.com/wekan/wekan/issues).
 - If possible, you can also try to create those CSS changes with [Stylish browser extension](https://userstyles.org/) and add those to new issue too.
 
 There are currently board color modes/themes, and these full themes:
 - Dark: modified from below by @lonix1 and more changes by xet7
-- Relax: Light green background that helps Wekan users to relax in company of Wekan contributor that sent theme CSS.
+- Relax: Light green background that helps wekan users to relax in company of wekan contributor that sent theme CSS.
 
 Upcoming full themes that will be added by xet7:
 - Corteza, that will be mostly-white theme, although different than example of white theme below
-- Octopus, that will have different colors and some Wekan features hidden
+- Octopus, that will have different colors and some wekan features hidden
 
 ![dark wekan](https://wekan.fi/wekan-dark-mode.png)
 
@@ -60,7 +60,7 @@ Other:
 /* HIDE PERMANENTLY -------------------------------------------------- */
 
 /* various */
-.wekan-logo,
+.Flowtrix-logo,
 .close-card-details { display:none; }
 
 /* header text */
@@ -207,7 +207,7 @@ div:nth-child(1 of .swimlane) .list-header-name { display: inline; }
 .pop-over-list .js-archive { color: darkred }
 
 /* not needed */
-.wekan-logo, .js-member, .attachments-galery { display: none; }
+.Flowtrix-logo, .js-member, .attachments-galery { display: none; }
 
 `
 

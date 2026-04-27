@@ -3,7 +3,7 @@ version: '8.82'
 base: core24
 summary: Open Source kanban
 description: |
-   WeKan ® is an Open Source and collaborative kanban board application.
+   wekan ® is an Open Source and collaborative kanban board application.
 
    Whether you're maintaining a personal todo list, planning your holidays with some friends, or working in a team on your next revolutionary idea, Kanban boards are an unbeatable tool to keep your things organized. They give you a visual overview of the current state of your project, and make you productive by allowing you to focus on the few items that matter the most.
    Depending on target environment, some configuration settings might need to be adjusted.
@@ -14,7 +14,7 @@ confinement: strict
 grade: stable
 
 # Metadata fields
-title: Wekan
+title: wekan
 contact: https://github.com/wekan/wekan/issues
 license: MIT
 donation: https://wekan.fi/commercial-support/
@@ -196,7 +196,7 @@ parts:
             # Create a basic default Caddyfile for the snap
             mkdir -p $SNAPCRAFT_PART_INSTALL/etc
             cat > $SNAPCRAFT_PART_INSTALL/etc/Caddyfile << 'EOF'
-            # Default Caddyfile for Wekan
+            # Default Caddyfile for wekan
             # This is loaded by caddy-control script if no other config is provided
 
             :8080 {

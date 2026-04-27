@@ -6,7 +6,7 @@ Note: This presumes that your laptop runs newest Ubuntu or Kubuntu, and that ser
 
 1) Install Caddy2 https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config
 
-2) Optional, recommended: Encrypted VM. Idea: Bare Metal Caddy => Proxy to encrypted VM ports => Each customer separate Snap WeKan port. Snap sandbox files at /common, snap code can not access files outside of it's /common directories. Newest WeKan is Snap Candidate. Snap has automatic updates.
+2) Optional, recommended: Encrypted VM. Idea: Bare Metal Caddy => Proxy to encrypted VM ports => Each customer separate Snap wekan port. Snap sandbox files at /common, snap code can not access files outside of it's /common directories. Newest wekan is Snap Candidate. Snap has automatic updates.
 
 2.1) If your server has additional harddrives, format them:
 
@@ -91,14 +91,14 @@ For example:
 sudo snap set system experimental.parallel-instances=true
 ```
 
-4) With newest WeKan Candidate like https://github.com/wekan/wekan-snap/wiki/CentOS8 . Note: Each user has different wekan port and mongodb port.
+4) With newest wekan Candidate like https://github.com/wekan/wekan-snap/wiki/CentOS8 . Note: Each user has different wekan port and mongodb port.
 ```
 sudo snap install wekan --channel=latest/candidate
 sudo snap install wekan wekan_customer1 --channel=latest/candidate
 sudo snap disable wekan
 sudo snap set wekan_customer1 caddy-enabled='false'
 ```
-Check that each WeKan uses candidate:
+Check that each wekan uses candidate:
 ```
 sudo snap list
 ```
@@ -131,7 +131,7 @@ sudo snap set wekan_customer1 port='5001'
 sudo snap set wekan_customer1 mongodb-port='25001'
 sudo snap set wekan_customer1 root-url='https://wekan.customer1.com'
 sudo snap set wekan_customer1 mail-url='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
-sudo snap set wekan_customer1 mail-from='Wekan Customer1 Support <board@customer1.com>'
+sudo snap set wekan_customer1 mail-from='wekan Customer1 Support <board@customer1.com>'
 sudo snap set wekan_customer1 oauth2-auth-endpoint='https://accounts.google.com/o/oauth2/v2/auth'
 sudo snap set wekan_customer1 oauth2-client-id='YOUR-GOOGLE-LOGIN-CLIENT_ID.apps.googleusercontent.com'
 sudo snap set wekan_customer1 oauth2-secret='YOUR-GOOGLE-LOGIN-SECRET'
@@ -238,7 +238,7 @@ function backupchat {
 # backup customername port backupdir
 
 function websync {
-  # Backup WeKan Kanban Snaps to different Syncthing sync directories
+  # Backup wekan Kanban Snaps to different Syncthing sync directories
   backup "customer1" "25001" "backup-wekan-customer1"
   backup "customer1" "25001" "websync"
   backup "customer2" "25002" "websync"
@@ -257,7 +257,7 @@ function websync {
 
 7. At bare metal server is installed [Caddy2](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config).
 
-Each customer has set in their nameserver to WeKan hosting server IP address:
+Each customer has set in their nameserver to wekan hosting server IP address:
 ```
 A 123.123.123.123  
 ```
@@ -266,7 +266,7 @@ automatic Let's Encrypt SSL/TLS cert with Caddy2.
 
 At encrypted KVM VM type `ip address`, it shows what is KVM VM internal IP address.
 
-Caddy2 proxies with Let's Encrypt TLS HTTPS to encrypted VM HTTP IP address and port where WeKan (Node.js) is running.
+Caddy2 proxies with Let's Encrypt TLS HTTPS to encrypted VM HTTP IP address and port where wekan (Node.js) is running.
 
 
 /etc/caddy/Caddyfile . Examples when in /etc/caddy directory as root: `caddy start`, `caddy stop`, `caddy validate`, `caddy --help`
@@ -372,7 +372,7 @@ https://discuss.linuxcontainers.org/t/failed-lxd-init-what-is-cidr/7181/2
 
 ## 1) Main Snap on bare metal
 
-[Install Wekan Snap](Install) to newest Ubuntu bare metal server. Snaps have automatic updates.
+[Install wekan Snap](Install) to newest Ubuntu bare metal server. Snaps have automatic updates.
 
 For example:
 ```
@@ -447,7 +447,7 @@ lxc launch ubuntu:25.04 ubu2504
 lxc exec ubu2504 -- /bin/bash
 ```
 
-## 3) Snapd and Wekan
+## 3) Snapd and wekan
 
 Then I go inside container and install snapd:
 ```
@@ -458,7 +458,7 @@ lxc exec lxccontainername -- /bin/bash
 snap install wekan
 snap set wekan root-url='https://boards.example.com'
 sudo snap set wekan port='3001'
-sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+sudo snap set wekan mail-from='wekan Team Boards <info@example.com>'
 sudo snap set wekan mail-url='smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587'
 ip address
 exit

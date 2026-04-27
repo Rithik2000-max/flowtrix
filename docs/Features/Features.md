@@ -6,65 +6,65 @@ Not all from [CHANGELOG](https://github.com/wekan/wekan/blob/main/CHANGELOG.md) 
 
 ### WIP Limits
 
-![Wekan WIP Limits screenshot](screenshot-wip-limit.png)
+![wekan WIP Limits screenshot](screenshot-wip-limit.png)
 
 ### Boards: List of all your public and private boards, board shortcuts at top of page
 
-![Wekan boards screenshot](screenshot-boards.png)
+![wekan boards screenshot](screenshot-boards.png)
 
-### Wekan full screen or window on desktop (without browser buttons etc)
+### wekan full screen or window on desktop (without browser buttons etc)
 
 [Info about browser standalone app mode](https://github.com/wekan/wekan/pull/1184)
 
-### Wekan full screen on mobile Firefox
+### wekan full screen on mobile Firefox
 
 [Instructions and screenshot](https://github.com/wekan/wekan/issues/953#issuecomment-336537875)
 
 ### Restore archived board
 
-![Wekan boards screenshot](screenshot-restore-board.png)
+![wekan boards screenshot](screenshot-restore-board.png)
 
 ### Star board
 
-![Wekan star board screenshot](screenshot-star-board.png)
+![wekan star board screenshot](screenshot-star-board.png)
 
 ### Watch board
 
-![Wekan watch board screenshot](screenshot-muted-watch.png)
+![wekan watch board screenshot](screenshot-muted-watch.png)
 
 ### Keyboard shortcuts button at bottom right corner
 
-![Wekan watch board screenshot](screenshot-keyboard-shortcuts.png)
+![wekan watch board screenshot](screenshot-keyboard-shortcuts.png)
 
 ### Board menu when clicking 3 lines "hamburger" menu on right
 
-![Wekan board menu screenshot](screenshot-board-menu.png)
+![wekan board menu screenshot](screenshot-board-menu.png)
 
 ### Member setting when clicking your username on top right corner
 
-![Wekan member settings screenshot](screenshot-member-settings.png)
+![wekan member settings screenshot](screenshot-member-settings.png)
 
 NOTE: Edit Notification duplicate was removed from above menu at https://github.com/wekan/wekan/pull/1948 so Edit Notification is only available at below menu screenshot.
 
 ### Member settings / Edit Notification
 
-![Wekan edit notification screenshot](screenshot-member-settings-edit-notification.png)
+![wekan edit notification screenshot](screenshot-member-settings-edit-notification.png)
 
 ### Member settings / Change settings
 
-![Wekan hide system messages screenshot](screenshot-member-settings-hide-system-messages.png)
+![wekan hide system messages screenshot](screenshot-member-settings-hide-system-messages.png)
 
 ### Members: Click member initials or avatar
 
-![Wekan members screenshot](screenshot-member-filter.png)
+![wekan members screenshot](screenshot-member-filter.png)
 
 ### Members: Click member initials or avatar => Permissions Admin/Normal/Comment only
 
-![Wekan boards permissions screenshot](screenshot-member-comment-only.png)
+![wekan boards permissions screenshot](screenshot-member-comment-only.png)
 
 ### Lists: Add, archive and restore archived, delete list.
 
-![Wekan kanban screenshot](screenshot-member-settings-archive.png)
+![wekan kanban screenshot](screenshot-member-settings-archive.png)
 
 ### Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Archive and restore archived card. Delete card.
 
@@ -73,33 +73,33 @@ Tip: Normally you archive a card so you can restore it back. If you want to dele
 ### [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
 ### [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
 
-![Wekan kanban screenshot](screenshot.png)
+![wekan kanban screenshot](screenshot.png)
 
 ### Cards: Drag and drop images to card. Paste images with Ctrl-V.
 
 ### 1) First attachment: Select Card 3 lines "hamburger" menu / Edit Attachments
 
-![Wekan kanban screenshot](screenshot-drag1.png)
+![wekan kanban screenshot](screenshot-drag1.png)
 
 ### 2) Select: Clipboard or drag and drop
 
-![Wekan kanban screenshot](screenshot-drag4.png)
+![wekan kanban screenshot](screenshot-drag4.png)
 
 ### 3) Drag and drop image, or Ctrl-V.
 
-![Wekan kanban screenshot](screenshot-drag2.png)
+![wekan kanban screenshot](screenshot-drag2.png)
 
 ### 4) Second image attachment and others can be added from Add Attachment button near first attachment.
 
-![Wekan kanban screenshot](screenshot-drag3.png)
+![wekan kanban screenshot](screenshot-drag3.png)
 
 ### Multi-selection => Checkmark select cards => drag-drop all selected to some list
 
-![Wekan multi-selection screenshot](screenshot-multi-selection.png)
+![wekan multi-selection screenshot](screenshot-multi-selection.png)
 
 ### Filtered views
 
-![Wekan multi-selection screenshot](screenshot-filter.png)
+![wekan multi-selection screenshot](screenshot-filter.png)
 
 ## Authentication, Admin Panel, SMTP Settings
 
@@ -107,20 +107,20 @@ NOTE: There is user admin as "People" in Admin Panel, but no screenshot here yet
 
 * Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
 
-![Wekan Admin Panel registration disable screenshot](screenshot-admin-panel-registration.png)
+![wekan Admin Panel registration disable screenshot](screenshot-admin-panel-registration.png)
 
-![Wekan Admin Panel email screenshot](screenshot-admin-panel-email.png)
+![wekan Admin Panel email screenshot](screenshot-admin-panel-email.png)
 
-* Sandstorm Platform: Admin: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. Wekan, Rocket.Chat, etc apps available with one click install.
+* Sandstorm Platform: Admin: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. wekan, Rocket.Chat, etc apps available with one click install.
 
 ## Import
 
 * Import Trello board: Text, labels, images, comments, checklists. Not imported yet: stickers, etc.
-* [Import Wekan board](https://github.com/wekan/wekan/pull/1117): Text, labels, images, comments, checklists.
+* [Import wekan board](https://github.com/wekan/wekan/pull/1117): Text, labels, images, comments, checklists.
 
 ## Export
 
-* Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059). If Export menu is not visible, you can change [Export menu to be visible by setting yourself as board admin in MongoDB](https://github.com/wekan/wekan/issues/1060).
+* Export wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059). If Export menu is not visible, you can change [Export menu to be visible by setting yourself as board admin in MongoDB](https://github.com/wekan/wekan/issues/1060).
 
 ## Working with big boards
 
@@ -131,7 +131,7 @@ NOTE: There is user admin as "People" in Admin Panel, but no screenshot here yet
 * [REST API Issue](https://github.com/wekan/wekan/issues/1037)
 * [REST API Docs](REST-API)
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
-* [Wekan Sandstorm cards to CSV using Python](Wekan-Sandstorm-cards-to-CSV-using-Python)
+* [wekan Sandstorm cards to CSV using Python](wekan-Sandstorm-cards-to-CSV-using-Python)
 
 ## Webhooks
 Sending notifications for board activities. Tested with [Slack](https://slack.com/) and [Rocket.chat](https://rocket.chat/).
@@ -150,11 +150,11 @@ Different activities send different webhook data. You can find the details in th
 ### Enabled
 #### 1) Board menu when clicking 3 lines "hamburger" menu on right
 
-![Wekan board menu screenshot](screenshot-board-menu.png)
+![wekan board menu screenshot](screenshot-board-menu.png)
 
 #### 2) Outgoing Webhooks
 
-![Wekan Outgoing Webhooks screenshot](screenshot-outgoing-webhooks.png)
+![wekan Outgoing Webhooks screenshot](screenshot-outgoing-webhooks.png)
 
 ### Disabled
 
@@ -162,14 +162,14 @@ Leave the URL field blank.
 
 ## Cleanup
 
-* [Wekan database cleanup script](https://github.com/wekan/wekan-cleanup)
+* [wekan database cleanup script](https://github.com/wekan/wekan-cleanup)
 * [Docker cleanup](https://github.com/wekan/wekan/issues/985)
 
 ## Stats
 
-* [Daily export of Wekan changes as JSON to Logstash and
+* [Daily export of wekan changes as JSON to Logstash and
 ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash)
-* [Statistics Python script for Wekan Dashboard](https://github.com/wekan/wekan-stats)
+* [Statistics Python script for wekan Dashboard](https://github.com/wekan/wekan-stats)
 * [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010) with [fix to replace console.log by winston logger](https://github.com/wekan/wekan/pull/1033)
 
 ## Versions of Meteor and Node
@@ -178,9 +178,9 @@ ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash)
 
 ## Translations
 
-* [Translate Wekan at Transifex](https://app.transifex.com/wekan/)
+* [Translate wekan at Transifex](https://app.transifex.com/wekan/)
 
-![Wekan translations screenshot](screenshot-change-language.png)
+![wekan translations screenshot](screenshot-change-language.png)
 
 # Already merged, will be at next version
 

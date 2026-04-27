@@ -1,8 +1,8 @@
-# MongoDB Oplog Configuration for WeKan
+# MongoDB Oplog Configuration for wekan
 
 ## Overview
 
-MongoDB oplog is **critical** for WeKan's pub/sub performance. Without it, Meteor falls back to polling-based change detection, which causes:
+MongoDB oplog is **critical** for wekan's pub/sub performance. Without it, Meteor falls back to polling-based change detection, which causes:
 - **3-5x higher CPU usage**
 - **40x latency** (from 50ms to 2000ms)
 - **Increased network traffic**
@@ -10,7 +10,7 @@ MongoDB oplog is **critical** for WeKan's pub/sub performance. Without it, Meteo
 
 ## Why Oplog is Important
 
-WeKan uses Meteor's pub/sub system for real-time updates. Meteor uses MongoDB's oplog to:
+wekan uses Meteor's pub/sub system for real-time updates. Meteor uses MongoDB's oplog to:
 1. Track all database changes
 2. Send updates to subscribed clients instantly (DDP protocol)
 3. Avoid expensive poll-and-diff operations
@@ -62,7 +62,7 @@ mongodb:
   command: mongod --replSet rs0
 ```
 
-WeKan service environment:
+wekan service environment:
 ```yaml
 wekan:
   environment:
@@ -116,7 +116,7 @@ Check if oplog is working:
 mongosh
 > rs.status()
 
-# Check WeKan logs for oplog confirmation
+# Check wekan logs for oplog confirmation
 grep -i oplog /path/to/wekan/logs
 # Should show: "oplog enabled" or similar message
 ```
@@ -137,7 +137,7 @@ grep -i oplog /path/to/wekan/logs
 
 ## Related Optimizations
 
-With oplog enabled, the following WeKan optimizations work at full potential:
+With oplog enabled, the following wekan optimizations work at full potential:
 - ✅ Real-time migration status updates
 - ✅ Real-time cron jobs tracking
 - ✅ Real-time attachment migration status

@@ -1,5 +1,5 @@
 // ============================================================================
-// WeKan Client Entry Point
+// wekan Client Entry Point
 //
 // Side-effect imports keep bootstrap order explicit without relying on
 // browser-side CommonJS require().

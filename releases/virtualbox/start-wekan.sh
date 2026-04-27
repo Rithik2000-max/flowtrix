@@ -16,14 +16,14 @@
       # https://github.com/wekan/wekan/wiki/Troubleshooting-Mail
       # https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml
       export MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
-      export MAIL_FROM='Wekan Boards <info@example.com>'
+      export MAIL_FROM='wekan Boards <info@example.com>'
       #export MAIL_SERVICE=Outlook365
       #export MAIL_SERVICE_USER=firstname.lastname@hotmail.com
       #export MAIL_SERVICE_PASSWORD=SecretPassword
       #---------------------------------------------
       #export KADIRA_OPTIONS_ENDPOINT=http://127.0.0.1:11011
       #---------------------------------------------
-      # This is local port where Wekan Node.js runs, same as below on Caddyfile settings.
+      # This is local port where wekan Node.js runs, same as below on Caddyfile settings.
       export PORT=2000
       #---------------------------------------------------------------
       # ==== AFTER OIDC LOGIN, ADD USERS AUTOMATICALLY TO THIS BOARD ID ====
@@ -33,8 +33,8 @@
       # ==== NUMBER OF SEARCH RESULTS PER PAGE BY DEFAULT ====
       #export RESULTS_PER_PAGE=20
       #---------------------------------------------
-      # Wekan Export Board works when WITH_API=true.
-      # If you disable Wekan API with false, Export Board does not work.
+      # wekan Export Board works when WITH_API=true.
+      # If you disable wekan API with false, Export Board does not work.
       export WITH_API='true'
       #---------------------------------------------------------------
       # ==== PASSWORD BRUTE FORCE PROTECTION ====
@@ -124,7 +124,7 @@
       ## The address of the server where Matomo is hosted:
       ##export MATOMO_ADDRESS=https://example.com/matomo
       #export MATOMO_ADDRESS=
-      ## The value of the site ID given in Matomo server for Wekan
+      ## The value of the site ID given in Matomo server for wekan
       # Example: export MATOMO_SITE_ID=123456789
       #export MATOMO_SITE_ID=''
       ## The option do not track which enables users to not be tracked by matomo"
@@ -133,12 +133,12 @@
       ## The option that allows matomo to retrieve the username:
       # Example: export MATOMO_WITH_USERNAME=true
       #export MATOMO_WITH_USERNAME='false'
-      # Enable browser policy and allow one trusted URL that can have iframe that has Wekan embedded inside.
+      # Enable browser policy and allow one trusted URL that can have iframe that has wekan embedded inside.
       # Setting this to false is not recommended, it also disables all other browser policy protections
       # and allows all iframing etc. See wekan/server/policy.js
       # Default value: true
       export BROWSER_POLICY_ENABLED=true
-      # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds Wekan inside.
+      # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds wekan inside.
       # Example: export TRUSTED_URL=http://example.com
       export TRUSTED_URL=''
       # What to send to Outgoing Webhook, or leave out. Example, that includes all that are default: cardId,listId,oldListId,boardId,comment,user,card,commentId .

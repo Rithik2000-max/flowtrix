@@ -1,24 +1,24 @@
-## What is Wekan
+## What is wekan
 
-[Wekan FAQ](https://github.com/wekan/wekan/wiki/FAQ)
+[wekan FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 
 ## Anyone can already do this, no need to be a maintainer
 
 - Answer Github issues
-- Keep any Wekan wikis up-to-date
+- Keep any wekan wikis up-to-date
 
-## Wekan welcomes new co-maintainers
+## wekan welcomes new co-maintainers
 
-[xet7](https://github.com/xet7) did have to [bring Wekan back to life](https://github.com/wekan/wekan/wiki/FAQ#what-was-wekan-fork--wefork) already once before. Generally in Open Source it's good to have more that one maintainer to keep project alive.
+[xet7](https://github.com/xet7) did have to [bring wekan back to life](https://github.com/wekan/wekan/wiki/FAQ#what-was-wekan-fork--wefork) already once before. Generally in Open Source it's good to have more that one maintainer to keep project alive.
 
 ## Requirements for maintainers
 
-When you [contributions on Wekan Team page](https://github.com/wekan/wekan/wiki/Team) starts growing, one of Wekan maintainers may ask if you'd like to become co-maintainer.
+When you [contributions on wekan Team page](https://github.com/wekan/wekan/wiki/Team) starts growing, one of wekan maintainers may ask if you'd like to become co-maintainer.
 
 ## Responsibilities of maintainer
 
 - Check that pull requests work. Merge pull requests.
-- Make new releases for Wekan.
+- Make new releases for wekan.
 - Ask other maintainers for more documentation how to maintain something.
 - Keep documentation on wikis up-to-date.
 

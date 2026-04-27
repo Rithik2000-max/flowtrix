@@ -4,7 +4,7 @@ Related projects:
 * [VBA to Javascript translator](https://github.com/mha105/VBA-to-JavaScript-Translator)
 * [Tcl and Excel](http://www.xet7.org/tcl)
 
-For accessing Wekan with Excel VBA, you can use Wekan REST API:
+For accessing wekan with Excel VBA, you can use wekan REST API:
 
 https://github.com/wekan/wekan/wiki/REST-API
 
@@ -45,12 +45,12 @@ converting them to other formats etc. There could be something similar that
 exists in PHP, that JSON file can be converted to PHP array, and array items accessed
 individually, and array converted back to JSON.
 
-Current Wekan REST API does not yet cover access to all data that is in MongoDB.
+Current wekan REST API does not yet cover access to all data that is in MongoDB.
 If you need that, REST API page also has link to Restheart, that adds REST API
 to MongoDB, so you can use all of MongoDB data directly with REST API.
 https://github.com/wekan/wekan/wiki/REST-API
 
-Wekan boards also have export JSON, where also attachments are included in JSON as
+wekan boards also have export JSON, where also attachments are included in JSON as
 base64 encoded files. To convert them back to files, you first get whole one board exported
 after authentication like this:
 
@@ -69,7 +69,7 @@ MongoDB database, so that it would export everything correctly.
 
 Options are:
 
-a) Some developer could do that work and contribute that code to Wekan as
-new pull request to Wekan devel branch.
+a) Some developer could do that work and contribute that code to wekan as
+new pull request to wekan devel branch.
 
 b) Use [Commercial Support](https://wekan.fi) and pay for the time to get it implemented.

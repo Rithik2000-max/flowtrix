@@ -1,6 +1,6 @@
-# Wekan Docker Compose Secrets
+# wekan Docker Compose Secrets
 
-This directory contains example secret files for Wekan Docker Compose deployment. These files should be used instead of environment variables for better security and GitOps compatibility.
+This directory contains example secret files for wekan Docker Compose deployment. These files should be used instead of environment variables for better security and GitOps compatibility.
 
 ## Secret Files
 

@@ -50,10 +50,10 @@
           export MONGO_OPLOG_URL=mongodb://127.0.0.1:27017/local?replicaSet=rs0
       fi
       # For production with credentials and remote MongoDB:
-      #   export MONGO_OPLOG_URL=mongodb://<user>:<password>@<host>:<port>/local?authSource=admin&replicaSet=rsWekan
+      #   export MONGO_OPLOG_URL=mongodb://<user>:<password>@<host>:<port>/local?authSource=admin&replicaSet=rswekan
       #-----------------------------------------------------------------
-      # If port is 80, must change ROOT_URL to: http://YOUR-WEKAN-SERVER-IPv4-ADDRESS , like http://192.168.0.100
-      # If port is not 80, must change ROOT_URL to: http://YOUR-WEKAN-SERVER-IPv4-ADDRESS:YOUR-PORT-NUMBER , like http://192.168.0.100:2000
+      # If port is 80, must change ROOT_URL to: http://YOUR-wekan-SERVER-IPv4-ADDRESS , like http://192.168.0.100
+      # If port is not 80, must change ROOT_URL to: http://YOUR-wekan-SERVER-IPv4-ADDRESS:YOUR-PORT-NUMBER , like http://192.168.0.100:2000
       # If ROOT_URL is not correct, these do not work: translations, uploading attachments.
       export ROOT_URL=http://localhost:2000
       # If at public Internet, required different SSL/TLS settings:
@@ -86,7 +86,7 @@
       # https://github.com/wekan/wekan/wiki/Troubleshooting-Mail
       # https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml
       export MAIL_URL=smtp://user:pass@mailserver.example.com:25/
-      export MAIL_FROM='Wekan Boards <info@example.com>'
+      export MAIL_FROM='wekan Boards <info@example.com>'
       # Currently MAIL_SERVICE is not in use.
       #export MAIL_SERVICE=Outlook365
       #export MAIL_SERVICE_USER=firstname.lastname@hotmail.com
@@ -101,8 +101,8 @@
       # ==== NUMBER OF SEARCH RESULTS PER PAGE BY DEFAULT ====
       #export RESULTS_PER_PAGE=20
       #---------------------------------------------
-      # Wekan Export Board works when WITH_API=true.
-      # If you disable Wekan API with false, Export Board does not work.
+      # wekan Export Board works when WITH_API=true.
+      # If you disable wekan API with false, Export Board does not work.
       export WITH_API=true
       #---------------------------------------------------------------
       # ==== AFTER OIDC LOGIN, ADD USERS AUTOMATICALLY TO THIS BOARD ID ====
@@ -196,7 +196,7 @@
       ## The address of the server where Matomo is hosted:
       ##export MATOMO_ADDRESS=https://example.com/matomo
       #export MATOMO_ADDRESS=
-      ## The value of the site ID given in Matomo server for Wekan
+      ## The value of the site ID given in Matomo server for wekan
       # Example: export MATOMO_SITE_ID=123456789
       #export MATOMO_SITE_ID=''
       ## The option do not track which enables users to not be tracked by matomo"
@@ -210,12 +210,12 @@
       # https://github.com/wekan/wekan/wiki/Metrics
       #export METRICS_ALLOWED_IP_ADDRESSES=192.168.0.100,192.168.0.200
       #-----------------------------------------------------------------
-      # Enable browser policy and allow one trusted URL that can have iframe that has Wekan embedded inside.
+      # Enable browser policy and allow one trusted URL that can have iframe that has wekan embedded inside.
       # Setting this to false is not recommended, it also disables all other browser policy protections
       # and allows all iframing etc. See wekan/server/policy.js
       # Default value: true
       export BROWSER_POLICY_ENABLED=true
-      # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds Wekan inside.
+      # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds wekan inside.
       # Example: export TRUSTED_URL=http://example.com
       export TRUSTED_URL=''
       # What to send to Outgoing Webhook, or leave out. Example, that includes all that are default: cardId,listId,oldListId,boardId,comment,user,card,commentId .

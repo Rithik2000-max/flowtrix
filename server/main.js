@@ -1,5 +1,5 @@
 // ============================================================================
-// WeKan Server Entry Point
+// wekan Server Entry Point
 //
 // Uses require() to guarantee bootstrap runs before any model code.
 // ============================================================================

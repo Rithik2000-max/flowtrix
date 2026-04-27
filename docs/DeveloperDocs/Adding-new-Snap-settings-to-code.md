@@ -8,7 +8,7 @@ Add all necessary settings that you find on code.
 
 After doing all changes, [fix lint errors](Developer-Documentation#preventing-travis-ci-lint-errors-before-submitting-pull-requests) and if possible warnings too. You can silence errors if you really can't find solution.
 
-Submit pull request to Wekan edge branch https://github.com/wekan/wekan/tree/edge
+Submit pull request to wekan edge branch https://github.com/wekan/wekan/tree/edge
 
 # Changes to server code
 
@@ -74,14 +74,14 @@ Actual settings can include double quotes, spaces, etc, but not single quotes. F
 snap set wekan ldap-user-search-filter='"(&(objectCategory=person)(objectClass=user)(!(cn=andy)))"'
 ```
 
-## 2) What to add as setting to Wekan help
+## 2) What to add as setting to wekan help
 
 Example 1:
 ```
 echo -e "OAuth2 Token Endpoint. Example: /oauth/token"
-echo -e "To enable the OAuth2 Token Endpoint of Wekan:"
+echo -e "To enable the OAuth2 Token Endpoint of wekan:"
 echo -e "\t$ snap set $SNAP_NAME OAUTH2_TOKEN_ENDPOINT='/oauth/token'"
-echo -e "\t-Disable the OAuth2 Token Endpoint of Wekan:"
+echo -e "\t-Disable the OAuth2 Token Endpoint of wekan:"
 echo -e "\t$ snap set $SNAP_NAME OAUTH2_TOKEN_ENDPOINT=''"
 echo -e "\n"
 ```

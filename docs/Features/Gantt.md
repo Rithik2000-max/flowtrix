@@ -1,6 +1,6 @@
 # Gantt chart
 
-This new Gantt feature was added to MIT WeKan 2025-12-22 at https://github.com/wekan/wekan
+This new Gantt feature was added to MIT wekan 2025-12-22 at https://github.com/wekan/wekan
 
 At "All Boards" page, click board to open one board view. There, Gantt is at top dropdown menu Swimlanes/Lists/Calendar/Gantt.
 
@@ -12,9 +12,9 @@ You can click task name to open card.
 
 You can click any date icon to change that date, like: Received Start Due End.
 
-# Old WeKan Gantt GPL
+# Old wekan Gantt GPL
 
-Previous GPLv2 WeKan Gantt is deprecated https://github.com/wekan/wekan-gantt-gpl
+Previous GPLv2 wekan Gantt is deprecated https://github.com/wekan/wekan-gantt-gpl
 
 # UCS
 

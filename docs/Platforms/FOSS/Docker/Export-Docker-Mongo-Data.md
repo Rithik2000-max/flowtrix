@@ -2,7 +2,7 @@
 
 ## Important info
 
-You need to stop Wekan before importing MongoDB database with command:
+You need to stop wekan before importing MongoDB database with command:
 
 `docker stop wekan-app`
 
@@ -18,7 +18,7 @@ Docker containers are at `/var/lib/docker`, so it [may contain important data th
 Check from your Dockerfile or docker-compose.yml what is name of MongoDB container.
 It can be wekan-db, mongodb or something else.
 
-1) You can run Wekan on Docker locally like this on http://localhost:8080/
+1) You can run wekan on Docker locally like this on http://localhost:8080/
 (or other port it you change 8080 in script):
 ```bash
 docker run -d --restart=always --name wekan-db mongo:3.2.18
@@ -92,7 +92,7 @@ users
 cd /
 ```
 
-6) Backup database to files inside container to directory /dump, only Wekan database with name "wekan" is included, not local:
+6) Backup database to files inside container to directory /dump, only wekan database with name "wekan" is included, not local:
 ```bash
 mongodump -o /dump/
 ```
@@ -141,7 +141,7 @@ docker rm wekan-app wekan-db
 ```
 Then you can reinstall from step 1.
 
-12) If latest version of Wekan Docker image is broken, here's how to run older version:
+12) If latest version of wekan Docker image is broken, here's how to run older version:
 
 https://github.com/wekan/wekan/issues/659
 

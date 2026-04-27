@@ -174,7 +174,7 @@ function validateAndCleanKey(key, validator) {
 }
 
 /**
- * Validate and clean all Wekan localStorage data
+ * Validate and clean all wekan localStorage data
  * Called on app startup and periodically
  */
 export function validateAndCleanLocalStorage() {

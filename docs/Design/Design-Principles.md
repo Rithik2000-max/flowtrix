@@ -1,8 +1,8 @@
-## WeKan Design Principles
+## wekan Design Principles
 
 - 2024-08 Design discussion here: https://github.com/wekan/wekan/discussions/5507
-- Original WeKan Design:
-  - Uses WeKan style confirm popups `Popup.afterConfirm(` , translations etc. Please look at existing code to keep same style.
+- Original wekan Design:
+  - Uses wekan style confirm popups `Popup.afterConfirm(` , translations etc. Please look at existing code to keep same style.
   - Kanban, the good parts. Like was done when figuring out best design for Swimlanes https://github.com/wekan/wekan/issues/955
   - Intuitive, easy to figure out, prevent messing up something https://github.com/wekan/wekan/wiki/Monkey-Proof-Software
   - Polished UI/UX
@@ -12,7 +12,7 @@
   - Not too many toggles and settings, because that is worse. For example, Discord settings has too many toggles and settings. Just select some default.
   - FOSS with MIT license
   - Swimlanes
-  - All the use cases of WeKan feature/fix contributors
+  - All the use cases of wekan feature/fix contributors
   - Cross-platform. Support many CPU/OS/Browsers for Desktop and Mobile. 
   - Support many browsers https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix . Add support for more.
   - PWA https://github.com/wekan/wekan/wiki/PWA

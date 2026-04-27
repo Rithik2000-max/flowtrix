@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# This script is only for Wekan maintainer to
+# This script is only for wekan maintainer to
 # convert x64 bundle to ppc64le bundle.
 
 if [ $# -ne 1 ]
   then
-    echo "Syntax with Wekan version number:"
+    echo "Syntax with wekan version number:"
     echo "  ./maintainer-make-bundle-o.sh 5.10"
     exit 1
 fi

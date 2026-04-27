@@ -34,9 +34,9 @@ Windows Updates:
 
 ## OLD BELOW: a) Bundle with Windows Node+MongoDB
 
-This has **highest performance and lowest RAM usage**, because there is no virtualization like Docker, Windows Subsystem for Linux, etc. Wekan is run with Windows native version of Node.js and MongoDB, directly at Windows filesystem.
+This has **highest performance and lowest RAM usage**, because there is no virtualization like Docker, Windows Subsystem for Linux, etc. wekan is run with Windows native version of Node.js and MongoDB, directly at Windows filesystem.
 
-1. If you have important data in Wekan, do [backup](Backup).
+1. If you have important data in wekan, do [backup](Backup).
 
 2. Install newest Node.js LTS v12.x for Windows from https://nodejs.org . When installing, checkmark "Install additional tools" that will install also Chocolatey etc.
 
@@ -45,13 +45,13 @@ This has **highest performance and lowest RAM usage**, because there is no virtu
 choco install -y mongodb
 ```
 
-4. Download and newest Wekan bundle wekan-x.xx.zip from https://releases.wekan.team
+4. Download and newest wekan bundle wekan-x.xx.zip from https://releases.wekan.team
 
 5. Unzip wekan-x.xx.zip, it has directory name `bundle`
 
 6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Default settins are: `ROOT_URL=http://localhost` and `PORT=80`, so it works only in local [compatible browser](Browser-compatibility-matrix). You can edit [ROOT_URL](Settings) to be or `http://YOUR-IP-ADDRESS` so it works on local network with `http://YOUR-IP-ADDRESS` .
 
-7. Start Wekan in cmd.exe as Administrator:
+7. Start wekan in cmd.exe as Administrator:
 ```
 cd bundle
 start-wekan.bat
@@ -83,7 +83,7 @@ There you can show databases. One MongoDB server can have many databases, simila
 ```
 show dbs
 ```
-Then use Wekan database:
+Then use wekan database:
 ```
 use wekan
 ```
@@ -117,7 +117,7 @@ You should not backup Windows MongoDB RAW database files that are here, when you
 ```
 C:\ProgramData\MongoDB\data\db
 ```
-[More info about MongoDB](Export-from-Wekan-Sandstorm-grain-.zip-file)
+[More info about MongoDB](Export-from-wekan-Sandstorm-grain-.zip-file)
 
 9. [Add users](Adding-users).
 
@@ -130,12 +130,12 @@ Note: With Docker, please don't use latest tag. Only use release tags. See https
 
 [Repair Docker](Repair-Docker)
 
-If you don't need to build Wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
+If you don't need to build wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
 ```
 docker-compose up -d
 ```
 
-If you like to build from source, clone Wekan repo:
+If you like to build from source, clone wekan repo:
 ```
 git clone https://github.com/wekan/wekan
 ```
@@ -157,7 +157,7 @@ Then edit docker-compose.yml with [these lines uncommented](https://github.com/w
         - USE_EDGE=${USE_EDGE}
     #-------------------------------------------------------------------------------------
 ```
-Then you can build Wekan with 
+Then you can build wekan with 
 ```
 docker-compose up -d --build
 ```
@@ -179,16 +179,16 @@ Then edit `start-wekan.sh` to start at correct port, ROOT_URL setting, and MONGO
 ./start-wekan.sh
 ```
 More info at https://github.com/wekan/wekan/wiki/Raspberry-Pi
-- You could try to proxy from IIS SSL website to Wekan localhost port, for example when ROOT_URL=https://example.com and PORT=3001 , and you make IIS config that supports websockets proxy to Wekan http port 3001.
+- You could try to proxy from IIS SSL website to wekan localhost port, for example when ROOT_URL=https://example.com and PORT=3001 , and you make IIS config that supports websockets proxy to wekan http port 3001.
 
-If you need to build from source, do as above, and build Wekan with `wekan/rebuild-wekan.sh`.
+If you need to build from source, do as above, and build wekan with `wekan/rebuild-wekan.sh`.
 After building, if you like to start meteor faster by excluding some parts, have rebuilds after file change, and test on local network devices, try with your computer IP address:
 ```
 WITH_API=true RICHER_CARD_COMMENT_EDITOR=false ROOT_URL=http://192.168.0.200:4000 meteor --exclude-archs web.browser.legacy,web.cordova --port 4000
 ```
 ## d) VirtualBox with Ubuntu 19.10 64bit
 
-Install Ubuntu to VirtualBox and then Wekan, for example Wekan Snap.
+Install Ubuntu to VirtualBox and then wekan, for example wekan Snap.
 
 Currently Snap works only when installed to Ubuntu 19.10 64bit running on VirtualBox VM.
 
@@ -204,7 +204,7 @@ https://github.com/wekan/wekan-snap/wiki/Install
 
 ## e) Probaby does not work
 
-[Install from source directly on Windows](Install-Wekan-from-source-on-Windows) to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
+[Install from source directly on Windows](Install-wekan-from-source-on-Windows) to get wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
 
 ## f) Install Meteor on Windows - does not build correctly, gives errors
 
@@ -250,7 +250,7 @@ SET WITH_API=true
 SET RICHER_CARD_EDITOR=false
 meteorz --port 4000
 
-REM c) For production, after Wekan is built to "wekan/.build/bundle",
+REM c) For production, after wekan is built to "wekan/.build/bundle",
 REM    edit "start-wekan.bat" to "cd" to correct bundle directory to run "node main.js"
 ```
 ## g) Snap

@@ -6,15 +6,15 @@
 
 ## Single server install, for small teams
 
-## Also see: [Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L86-L100)
+## Also see: [Using same database for both LAN and VPN wekan](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L86-L100)
 
-**Purpose:** run Wekan on a production Linux server with Docker and Apache or Nginx as a front-end server (reverse proxy)
+**Purpose:** run wekan on a production Linux server with Docker and Apache or Nginx as a front-end server (reverse proxy)
 
 ## 1. Install newest Docker and Docker Compose
 
 [Docker website](https://docker.com)
 
-## 2. Use Wekan-MongoDB with Docker Compose
+## 2. Use wekan-MongoDB with Docker Compose
 
 https://github.com/wekan/wekan-mongodb
 
@@ -30,7 +30,7 @@ https://github.com/wekan/wekan-mongodb
 * [Nginx](Nginx-Webserver-Config)
 * [Apache](Apache)
 
-## 5. Launch Wekan
+## 5. Launch wekan
 
 As `wekan` user and from `/home/wekan`, run `docker-compose up -d`
 

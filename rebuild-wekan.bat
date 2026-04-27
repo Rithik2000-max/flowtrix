@@ -3,7 +3,7 @@
 REM TODO: Test how to fix this
 REM Installing NPM on Windows: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 REM Install meteor with: npm -g install meteor
-REM Old info: https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows
+REM Old info: https://github.com/wekan/wekan/wiki/Install-wekan-from-source-on-Windows
 REM Please add fix PRs, like config of MongoDB etc.
 
 
@@ -28,9 +28,9 @@ call npm -g install fibers
 cd C:\repos
 git clone https://github.com/wekan/wekan.git
 cd wekan
-echo "Building Wekan."
+echo "Building wekan."
 REM del /S /F /Q packages
-REM ## REPOS BELOW ARE INCLUDED TO WEKAN
+REM ## REPOS BELOW ARE INCLUDED TO wekan
 REM md packages
 REM cd packages
 REM git clone --depth 1 -b master https://github.com/wekan/flow-router.git kadira-flow-router
@@ -49,7 +49,7 @@ REM del /S /F /Q node_modules
 call meteor npm install
 REM del /S /F /Q .build
 call meteor build .build --directory
-REM ## Remove legacy webbroser bundle, so that Wekan works also at Android Firefox, iOS Safari, etc.
+REM ## Remove legacy webbroser bundle, so that wekan works also at Android Firefox, iOS Safari, etc.
 del /S /F /Q rm .build/bundle/programs/web.browser.legacy
 REM ## Install some NPM packages
 cd .build\bundle\programs\server

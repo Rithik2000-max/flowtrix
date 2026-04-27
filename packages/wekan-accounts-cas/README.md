@@ -8,7 +8,7 @@ This is a merged repository of useful forks of: atoy40:accounts-cas
 
 With this plugin, you can pick CAS attributes : https://github.com/joshchan/node-cas/wiki/CAS-Attributes
 
-Moved to Wekan GitHub org from from https://github.com/ppoulard/meteor-accounts-cas
+Moved to wekan GitHub org from from https://github.com/ppoulard/meteor-accounts-cas
 
 ## Install
 

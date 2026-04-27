@@ -1,0 +1,42 @@
+<svg width="100%" viewBox="0 0 680 220" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">FlowTrix logo</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">FlowTrix logo with F icon and gradient text</desc>
+<defs>
+  <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#7B2FF7"/>
+    <stop offset="50%" stop-color="#F040A0"/>
+    <stop offset="100%" stop-color="#FF9A3C"/>
+  </linearGradient>
+  <linearGradient id="gBottom" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00BFFF"/>
+    <stop offset="100%" stop-color="#00D4AA"/>
+  </linearGradient>
+  <linearGradient id="gMid" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2BCBEA"/>
+    <stop offset="100%" stop-color="#00D4AA"/>
+  </linearGradient>
+  <linearGradient id="gText" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#2BCBEA"/>
+    <stop offset="50%" stop-color="#7B2FF7"/>
+    <stop offset="100%" stop-color="#C040C0"/>
+  </linearGradient>
+</defs>
+
+<!-- F Icon: top bar (purple→pink→orange) with checkmark -->
+<path d="M60,40 L155,40 Q175,40 175,58 L175,88 Q175,100 162,100 L105,100 Q95,100 95,110 L95,175 Q95,188 82,188 L72,188 Q60,188 60,175 Z" fill="url(#gTop)" rx="12" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Checkmark inside top bar -->
+<polyline points="128,62 140,75 160,52" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(0, 0, 0);stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- F Icon: middle stroke (cyan) -->
+<path d="M95,108 L148,108 Q162,108 162,122 L162,142 Q162,155 148,155 L95,155 Z" fill="url(#gMid)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- F Icon: bottom extension (cyan→teal) -->
+<path d="M60,155 L95,155 L95,188 L72,188 Q60,188 60,175 Z" fill="url(#gBottom)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- "Flow" text -->
+<text x="205" y="148" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="72" fill="url(#gText)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:72px;font-weight:900;text-anchor:start;dominant-baseline:auto">Flow</text>
+
+<!-- "Trix" text -->
+<text x="418" y="148" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="72" fill="url(#gText)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:72px;font-weight:900;text-anchor:start;dominant-baseline:auto">Trix</text>
+</svg>

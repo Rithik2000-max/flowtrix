@@ -6,15 +6,15 @@ See [CONTRIBUTING](CONTRIBUTING.md)
 
 1. To send email, if possible, use PGP key [security-at-wekan.fi.asc](security-at-wekan.fi.asc)
 2. Send info about security issue ONLY to security@wekan.fi . NOT TO ANYWHERE ELSE. NO CC, NO BCC.
-3. Wait for new WeKan release that fixes security issue to appear to top of
+3. Wait for new wekan release that fixes security issue to appear to top of
    https://github.com/wekan/wekan/blob/main/CHANGELOG.md
 4. We will thank you by adding you to Hall the of Fame: https://wekan.fi/hall-of-fame/
 5. All vulnerability details will be private to security@wekan.fi ,
-   unless you help all WeKan platforms to have a way to upgrade, like sending
+   unless you help all wekan platforms to have a way to upgrade, like sending
    database migrations code to security@wekan.fi or PRs to https://github.com/wekan/wekan/pulls .
    There is no benefit to the Wordwide Security Community to have more details about vulnerabilities,
    if Worldwide Security Community does not help to make upgrades possible.
-6. If some day a way becomes available to upgrade all WeKan platforms,
+6. If some day a way becomes available to upgrade all wekan platforms,
    this page will be updated to add permission for security researchers
    to request new GHSA or CVE ID and publish your vulnerability details at your blog, talks, etc,
    and send that info also to security@wekan.fi to be added to
@@ -28,7 +28,7 @@ See [CONTRIBUTING](CONTRIBUTING.md)
 
 ## Losing Points
 
-- If you ask about [bounty](CONTRIBUTING.md). There is no bounty. WeKan is NOT Big Tech. WeKan is FLOSS.
+- If you ask about [bounty](CONTRIBUTING.md). There is no bounty. wekan is NOT Big Tech. wekan is FLOSS.
 - If you forget to include vulnerability details.
 - If you send info about security issue to somewhere else than security@wekan.fi
 
@@ -50,34 +50,34 @@ CWSS (optional): %cwss
 
 Anyone who reports a unique security issue in scope and does not disclose it to
 a third party before we have patched and updated may be upon their approval
-added to the WeKan Hall of Fame https://wekan.fi/hall-of-fame/
+added to the wekan Hall of Fame https://wekan.fi/hall-of-fame/
 
 ## Which domains are in scope?
 
-No public domains, because all those are donated to Wekan Open Source project,
+No public domains, because all those are donated to wekan Open Source project,
 and we don't have any permissions to do security scans on those donated servers.
 
 Please don't perform research that could impact other users. Second, please keep
 the reports short and succinct. If we fail to understand the logic of your bug, we will tell you.
 
-You can [Install Wekan](https://github.com/wekan/wekan/releases) on your own computer
+You can [Install wekan](https://github.com/wekan/wekan/releases) on your own computer
 and scan it's vulnerabilities there.
 
-## About Wekan Versions
+## About wekan Versions
 
-There are only 2 versions of Wekan: Standalone Wekan, and Sandstorm Wekan.
+There are only 2 versions of wekan: Standalone wekan, and Sandstorm wekan.
 
-### Standalone Wekan Security
+### Standalone wekan Security
 
-Standalone Wekan includes all non-Sandstorm platforms. Some Standalone Wekan platforms
+Standalone wekan includes all non-Sandstorm platforms. Some Standalone wekan platforms
 like Snap and Docker have their own specific sandboxing etc features.
 
-Standalone Wekan by default does not load any files from Internet, like fonts, CSS, etc.
-This also means all Standalone Wekan functionality works in offline local networks.
-WeKan is used in most countries of the world https://snapcraft.io/wekan
+Standalone wekan by default does not load any files from Internet, like fonts, CSS, etc.
+This also means all Standalone wekan functionality works in offline local networks.
+wekan is used in most countries of the world https://snapcraft.io/wekan
 and by companies that have 30k users.
 
-- Wekan private board attachments are not accessible without logging in.
+- wekan private board attachments are not accessible without logging in.
 - There is feature to set board public, so that board is visible without logging in in readonly mode, with realtime updates.
 - Admin Panel has feature to disable all public boards, so all boards are private.
 
@@ -91,7 +91,7 @@ and by companies that have 30k users.
 ## XSS
 
 - DOMpurify https://www.npmjs.com/package/dompurify
-  - WeKan uses DOMpurify npm package to filter for XSS at fields like cards, as you can see from
+  - wekan uses DOMpurify npm package to filter for XSS at fields like cards, as you can see from
     [package.json](https://github.com/wekan/wekan/blob/main/package.json). Other used versions can be seen from
     [Meteor versions file](https://github.com/wekan/wekan/blob/main/.meteor/versions).
   - Forms can include markdown links, html, image tags etc like you see at https://wekan.github.io .
@@ -153,8 +153,8 @@ A:
 ## Permissions and Roles
 
 - For any user permissions, it's best to use Meteor package https://github.com/Meteor-Community-Packages/meteor-roles .
-- Currently, WeKan has custom hardcoded permissions and does not yet use the meteor-roles package.
-  - Using permissions at WeKan sidebar https://github.com/wekan/wekan/blob/main/client/components/sidebar/sidebar.js#L1854-L1875
+- Currently, wekan has custom hardcoded permissions and does not yet use the meteor-roles package.
+  - Using permissions at wekan sidebar https://github.com/wekan/wekan/blob/main/client/components/sidebar/sidebar.js#L1854-L1875
   - List of roles: https://github.com/wekan/wekan/wiki/REST-API-Role . Change at board or Admin Panel. Also Organizations/Teams.
   - Worker role: https://github.com/wekan/wekan/issues/2788
   - Not implemented yet: Granular Roles https://github.com/wekan/wekan/issues/3022
@@ -176,7 +176,7 @@ Meteor.startup(() => {
 ```
 
 - For serverside, you can set Meteor.settings.variablename, without text public
-- For WeKan kanban, there is a feature for setting a board to public; it can be viewed by anyone, with realtime updates. But
+- For wekan kanban, there is a feature for setting a board to public; it can be viewed by anyone, with realtime updates. But
 - Some of those permissions are checked at users.js models at https://github.com/wekan/wekan/tree/main/models
 - Environment variables are used for email server passwords, etc, at all platforms https://github.com/wekan/wekan/commit/a781c0e7dcfdbe34c1483ee83cec12455b7026f7
 
@@ -247,20 +247,20 @@ Meteor.startup(() => {
 - https://github.com/wekan/wekan/commit/23e5e1e3bd081699ce39ce5887db7e612616014d
 - https://github.com/wekan/wekan/tree/main/packages/wekan-accounts-lockout
 
-### Sandstorm Wekan Security
+### Sandstorm wekan Security
 
-On the Sandstorm platform, Standalone WeKan features like the Admin Panel are turned off using environment variables, because Sandstorm platform provides SSO for all apps running on Sandstorm.
+On the Sandstorm platform, Standalone wekan features like the Admin Panel are turned off using environment variables, because Sandstorm platform provides SSO for all apps running on Sandstorm.
 
 [Sandstorm](https://sandstorm.io) is a separate Open Source platform that has been
 [security audited](https://sandstorm.io/news/2017-03-02-security-review) and found bugs fixed.
 Sandstorm also has passwordless login, LDAP, SAML, Google, and other auth options already.
 On Sandstorm, code is read-only and signed by app maintainers; only grain content can be modified.
-WeKan on Sandstorm runs in a sandboxed grain; it does not have access elsewhere without a user-visible PowerBox request or opening a randomly-generated API key URL.
+wekan on Sandstorm runs in a sandboxed grain; it does not have access elsewhere without a user-visible PowerBox request or opening a randomly-generated API key URL.
 Also read [Sandstorm Security Practices](https://docs.sandstorm.io/en/latest/using/security-practices/) and
 [Sandstorm Security non-events](https://docs.sandstorm.io/en/latest/using/security-non-events/).
 For Sandstorm specific security issues you can contact [kentonv](https://github.com/kentonv) by email.
 
-## What Wekan bugs are eligible?
+## What wekan bugs are eligible?
 
 Any typical web security bugs. If any of the previously mentioned is somehow problematic and
 a security issue, we'd like to know about it, and also how to fix it:
@@ -272,18 +272,18 @@ a security issue, we'd like to know about it, and also how to fix it:
 - Authentication bypass
 - Server-side code execution
 
-## What Wekan bugs are NOT eligible?
+## What wekan bugs are NOT eligible?
 
 Typical already-known or 'no impact' bugs such as:
 
-- [Wekan API old tokens not replaced correctly](https://github.com/wekan/wekan/issues/1437)
+- [wekan API old tokens not replaced correctly](https://github.com/wekan/wekan/issues/1437)
 - Missing Cookie flags on non-session cookies or 3rd party cookies
 - Logout CSRF
 - Social engineering
 - Denial of service
-- SSL BEAST/CRIME/etc. WeKan does not have SSL built-in; it uses Caddy/Nginx/Apache, etc., on the front end.
+- SSL BEAST/CRIME/etc. wekan does not have SSL built-in; it uses Caddy/Nginx/Apache, etc., on the front end.
   Integrated Caddy support is updated often.
-- Email spoofing, SPF, DMARC & DKIM. Wekan does not include email server.
+- Email spoofing, SPF, DMARC & DKIM. wekan does not include email server.
 
-Wekan is Open Source with MIT license, and free to use also for commercial use.
+wekan is Open Source with MIT license, and free to use also for commercial use.
 We welcome all fixes to improve security by email to security@wekan.fi

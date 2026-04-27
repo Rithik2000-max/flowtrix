@@ -1,19 +1,19 @@
-<img src="https://wekan.fi/wekan-logo.svg" width="20%" alt="Wekan logo" />
+<img src="https://wekan.fi/Flowtrix-logo.svg" width="20%" alt="wekan logo" />
 
 <img src="https://wekan.fi/donated/MacStadium-developerlogo.png" width="20%" alt="Powered by MacStadium" />
 
 ## ChangeLog
 - Previously:
-  - Below info about Wekan on Mac x64
-  - [Wekan PWA on iOS Safari](PWA)
+  - Below info about wekan on Mac x64
+  - [wekan PWA on iOS Safari](PWA)
   - Many mobile web fixes
-- 2021-05-14 Wekan maintainer [xet7](https://github.com/xet7) got donated hardware [OpenSource MacStadium](https://www.macstadium.com/opensource) remote access to Mac Mini M1 that has 16 GB RAM and 1 TB SSD.
+- 2021-05-14 wekan maintainer [xet7](https://github.com/xet7) got donated hardware [OpenSource MacStadium](https://www.macstadium.com/opensource) remote access to Mac Mini M1 that has 16 GB RAM and 1 TB SSD.
 - 2021-05-15 xet7 bought Apple Developer access for 99 euro/year. Trying to figure out how to sign some test app for iPhone, did not get it working yet.
-- 2021-05-16 Instructions added below by xet7 about how to run Wekan Server Node.js/MongoDB for development on M1.
+- 2021-05-16 Instructions added below by xet7 about how to run wekan Server Node.js/MongoDB for development on M1.
 - 2021-06-21 xet7 got iPhone 12 mini for testing prototypes locally. Some testing of coding tools on M1.
 - 2022-02-12 [Enable drag handles on iPad landscape mode automatically](https://github.com/wekan/wekan/issues/3755).
 - TODO:
-  - Trying to find out some way how to make macOS App Store and iOS iPhone/iPad App Store versions of Wekan.
+  - Trying to find out some way how to make macOS App Store and iOS iPhone/iPad App Store versions of wekan.
   
 ## Docker: Easiest for install and use
 
@@ -38,13 +38,13 @@ https://github.com/wekan/wekan/blob/main/docker-compose.yml-arm64#L185
 
 5. Save and exit: Cmd-o Enter Cmd-x.
 
-6. Start WeKan:
+6. Start wekan:
 ```
 docker-compose up -d -f docker-compose.yml-arm64
 ```
-7. At same local network, use any webbrowser at any computer/smartphone/TV to browse to your WeKan IP address, like http://192.168.0.100
+7. At same local network, use any webbrowser at any computer/smartphone/TV to browse to your wekan IP address, like http://192.168.0.100
 
-## Mac M1 Wekan development
+## Mac M1 wekan development
 
 Meteor includes Node.js and MongoDB version, when developing. But if not developing, those can be installed like below in Bundle section.
 
@@ -57,7 +57,7 @@ Install Homebrew from https://brew.sh, and Homebrew GUI that is very useful:
 brew install --cask applite
 open -a Applite
 ```
-2) Clone Wekan:
+2) Clone wekan:
 ```
 git clone https://github.com/wekan/wekan
 cd wekan
@@ -95,10 +95,10 @@ export MONGO_URL=mongodb://127.0.0.1:27017/wekan
 
 8. Edit `start-wekan.sh` so that it starts in bundle directory command `node main.js`
 
-## Build bundle from source and develop Wekan
+## Build bundle from source and develop wekan
 
 1. Install XCode
-2. [With steps 3-6 fork and clone your fork of Wekan](https://github.com/wekan/wekan-maintainer/wiki/Developing-Wekan-for-Sandstorm#3-fork-wekan-and-clone-your-fork)
+2. [With steps 3-6 fork and clone your fork of wekan](https://github.com/wekan/wekan-maintainer/wiki/Developing-wekan-for-Sandstorm#3-fork-wekan-and-clone-your-fork)
 
 ## Docker
 
@@ -108,12 +108,12 @@ Note: With Docker, please don't use latest tag. Only use release tags. See https
 - [Docker](Docker)
 - [Docker Dev Environment](https://github.com/wekan/wekan-dev)
 
-If you don't need to build Wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
+If you don't need to build wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
 ```
 docker-compose up -d
 ```
 
-If you like to build from source, clone Wekan repo:
+If you like to build from source, clone wekan repo:
 ```
 git clone https://github.com/wekan/wekan
 ```
@@ -135,7 +135,7 @@ Then edit docker-compose.yml with [these lines uncommented](https://github.com/w
         - USE_EDGE=${USE_EDGE}
     #-------------------------------------------------------------------------------------
 ```
-Then you can build Wekan with 
+Then you can build wekan with 
 ```
 docker-compose up -d --build
 ```

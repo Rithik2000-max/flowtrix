@@ -1,12 +1,12 @@
-# 🔐 WeKan — Login System Overview
+# 🔐 wekan — Login System Overview
 
-This document provides a detailed overview of WeKan’s **login and authentication system**, covering client-side UI, server-side logic, external authentication methods, and potential upgrade paths.
+This document provides a detailed overview of wekan’s **login and authentication system**, covering client-side UI, server-side logic, external authentication methods, and potential upgrade paths.
 
 ---
 
 ## 🖥️ Login Web UI
 
-WeKan's login interface is implemented using a combination of:
+wekan's login interface is implemented using a combination of:
 
 - `layouts.jade` – Login HTML structure
 - `layouts.js` – Login logic and interactivity
@@ -32,7 +32,7 @@ Other related configurations:
 
 ## 👥 Meteor User Accounts
 
-WeKan utilizes Meteor’s `accounts` system. Relevant resources:
+wekan utilizes Meteor’s `accounts` system. Relevant resources:
 
 - 📚 Meteor 2.x Accounts Docs: [v2-docs.meteor.com/api/accounts](https://v2-docs.meteor.com/api/accounts)
 - 🔍 Meteor Packages:
@@ -44,7 +44,7 @@ WeKan utilizes Meteor’s `accounts` system. Relevant resources:
 
 ## 🔐 External Authentication (OIDC, LDAP, etc.)
 
-WeKan supports external authentication methods via internal packages.
+wekan supports external authentication methods via internal packages.
 
 📁 See [`packages/`](https://github.com/wekan/wekan/tree/main/packages) for:
 - OpenID Connect (OIDC)
@@ -56,7 +56,7 @@ WeKan supports external authentication methods via internal packages.
 ## 📦 NPM & AtmosphereJS Dependencies
 
 - 🔗 `package.json`: [Dependencies list](https://github.com/wekan/wekan/blob/main/package.json)
-- 🧩 WekanTeam scoped NPM packages: [@wekanteam on npm](https://www.npmjs.com/search?q=%40wekanteam)
+- 🧩 wekanTeam scoped NPM packages: [@wekanteam on npm](https://www.npmjs.com/search?q=%40wekanteam)
 - ☁️ AtmosphereJS Meteor packages: [atmospherejs.com](https://atmospherejs.com)
 
 ---
@@ -84,9 +84,9 @@ Used in experimental versions:
 
 ---
 
-### 🎨 WeKan Studio Prototype
+### 🎨 wekan Studio Prototype
 
-Sign-up logic in the **WeKan Studio** version:
+Sign-up logic in the **wekan Studio** version:
 
 - [`signUp.fmt`](https://github.com/wekan/wekanstudio/blob/main/srv/templates/login/signUp.fmt)
 
@@ -104,7 +104,7 @@ Sign-up logic in the **WeKan Studio** version:
 
 - 🔧 Main Repo: [github.com/wekan/wekan](https://github.com/wekan/wekan)
 - 🌐 Website: [wekan.github.io](https://wekan.github.io)
-- 📚 Documentation: [Wekan Wiki](https://github.com/wekan/wekan/wiki)
+- 📚 Documentation: [wekan Wiki](https://github.com/wekan/wekan/wiki)
 
 ---
 

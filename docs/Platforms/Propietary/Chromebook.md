@@ -11,7 +11,7 @@ Because this happened:
 
 Below intructions only worked for xet7, because xet7 did have free disk space on Chromebook. There is **NO WARRANTY OF ANY KIND** for any of below info. If your Chomebook breaks, well, thank your backups, and have a nice day!
 
-## Installing Wekan Snap to Chromebook
+## Installing wekan Snap to Chromebook
 
 Installing to Asus Chromebook C223NA-GJ0007 11.6" laptop, that was cheapest available at local shop, did cost 199 euro.
 
@@ -151,34 +151,34 @@ That being said, it is a full, no-compromise Ubuntu. I've developed and tested c
 
 The only glitch I do see is occasionally GUI applications don't receive keystrokes. This is generally fixed by switching focus to Chromebook application and then back again. Once the application is able to process keystrokes, it remains able to do so.
 
-## 6) Install Wekan
+## 6) Install wekan
 
 At Ubuntu terminal:
 ```
 sudo snap install wekan
 ```
 
-#### a) Use Wekan locally
+#### a) Use wekan locally
 
 At Ubuntu terminal, type:
 ```
 ip address
 ```
-It shows container internal IP address. You can set it to use Wekan locally, for example:
+It shows container internal IP address. You can set it to use wekan locally, for example:
 ```
 sudo snap set wekan root-url='http://100.115.92.200'
 sudo snap set wekan port='80'
 ```
-Then Wekan works locally using Ubuntu webbrowser at http://100.115.92.200 , and you can open cards.
+Then wekan works locally using Ubuntu webbrowser at http://100.115.92.200 , and you can open cards.
 
-#### b) Use Wekan from other computers at LAN
+#### b) Use wekan from other computers at LAN
 
 Look at your Chromebook wifi settings `(i)`, what is your laptop IP address, and use it with below http address:
 ```
 sudo snap set wekan root-url='http://192.168.0.2:2000'
 sudo snap set wekan port='2000'
 ```
-At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` with nickname like for example `wekan`. This does forward Chromebook port to inside Ubuntu 20.10 64bit LXC container where Wekan is running.
+At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` with nickname like for example `wekan`. This does forward Chromebook port to inside Ubuntu 20.10 64bit LXC container where wekan is running.
 
 NOTE: Sometimes reboot stops port forwarding, then it needs to be enabled again at Chromebook settings.
 

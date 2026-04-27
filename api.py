@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # vi:ts=4:et
 
-# Wekan API Python CLI, originally from here, where is more details:
+# wekan API Python CLI, originally from here, where is more details:
 # https://github.com/wekan/wekan/wiki/New-card-with-Python3-and-REST-API
 
 # TODO:
@@ -21,7 +21,7 @@ import sys
 
 arguments = len(sys.argv) - 1
 
-syntax = """=== Wekan API Python CLI: Shows IDs for addcard ===
+syntax = """=== wekan API Python CLI: Shows IDs for addcard ===
 # AUTHORID is USERID that writes card or custom field.
 If *nix:  chmod +x api.py => ./api.py users
   Syntax:
@@ -79,7 +79,7 @@ if arguments == 0:
 
 # ------- SETTINGS START -------------
 
-# Username is your Wekan username or email address.
+# Username is your wekan username or email address.
 # OIDC/OAuth2 etc uses email address as username.
 
 username = 'testtest'

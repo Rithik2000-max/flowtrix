@@ -1,4 +1,4 @@
-## Repair Snap WeKan
+## Repair Snap wekan
 
 ```
 sudo su
@@ -20,11 +20,11 @@ Logs from Snap:
 
 https://github.com/wekan/wekan/issues/5073
 
-## Repair Docker WeKan
+## Repair Docker wekan
 
 At step 12 below is actual repair MongoDB command.
 
-Some customer of [WeKan Commercial Support](https://wekan.fi/commercial-support/) ordered restore and repair of WeKan MongoDB database at UCS appliance. This was needed when changing back to previous UCS 4.x major version, when in new major UCS 5.x version Docker containers were all the time crashing and restarting, or something else got broken. Here are commands that were used while repairing.
+Some customer of [wekan Commercial Support](https://wekan.fi/commercial-support/) ordered restore and repair of wekan MongoDB database at UCS appliance. This was needed when changing back to previous UCS 4.x major version, when in new major UCS 5.x version Docker containers were all the time crashing and restarting, or something else got broken. Here are commands that were used while repairing.
 
 Similarly, MongoDB may require repair, if:
 - MongoDB does not recover from sudden power failure cleanly
@@ -52,11 +52,11 @@ apt install ntfs-3g
 ```
 mount /dev/sdd1 /mnt
 ```
-4. Stop WeKan Docker containers. If copying raw database files, WeKan and MongoDB should not be running, so that MongoDB would not be even more corrupted. (If MongoDB is running, and you have mongodump backup, you can [Backup with mongorestore](Backup)
+4. Stop wekan Docker containers. If copying raw database files, wekan and MongoDB should not be running, so that MongoDB would not be even more corrupted. (If MongoDB is running, and you have mongodump backup, you can [Backup with mongorestore](Backup)
 ```
 docker stop wekan-db wekan-app
 ```
-5. Find WeKan database raw files. MongoDB has various database engines, like WiredTiger, how to save raw data compressed, or other formats. WiredTiger is file format to save compressed MongoDB data. Similar like MySQL has ISAM, InnoDB etc.
+5. Find wekan database raw files. MongoDB has various database engines, like WiredTiger, how to save raw data compressed, or other formats. WiredTiger is file format to save compressed MongoDB data. Similar like MySQL has ISAM, InnoDB etc.
 ```
 apt -y install mlocate
 updatedb
@@ -99,7 +99,7 @@ cd /root
 ```
 locate /usr/bin/mongod
 ```
-12. Repair Docker WeKan with version of Docker MongoDB that WeKan uses, change mongod path to below. Repairing logged to textfile.
+12. Repair Docker wekan with version of Docker MongoDB that wekan uses, change mongod path to below. Repairing logged to textfile.
 ```
 root@ucs:~# /var/lib/docker/overlay2/7b58483a16a2f67ee50486c00ec669940f7a95d460ee8188966fee0096e81fa2/diff/usr/bin/mongod --dbpath "/var/lib/univention-appcenter/apps/wekan/data/db" --repair >> repairlog.txt
 ```
@@ -119,7 +119,7 @@ docker start wekan-db
 ```
 docker logs wekan-db
 ```
-17. Start WeKan next.
+17. Start wekan next.
 ```
 docker start wekan-app
 ```
@@ -131,8 +131,8 @@ docker logs wekan-app
 ```
 docker ps
 ```
-20. Try to login to WeKan with webbrowser.
-21. Backup WeKan database now after repair:
+20. Try to login to wekan with webbrowser.
+21. Backup wekan database now after repair:
 ```
 docker exec -it wekan-db bash
 cd /data
@@ -162,4 +162,4 @@ sync
 umount /dev/sdd1
 ```
 26. Remove external USB harddisk from server.
-27. Login to WeKan, check do all WeKan boards work. In this case, all did work.
+27. Login to wekan, check do all wekan boards work. In this case, all did work.

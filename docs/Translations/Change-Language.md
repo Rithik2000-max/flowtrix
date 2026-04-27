@@ -1,6 +1,6 @@
 ## Change language for all users
 
-Using MongoDB Shell with WeKan Snap Candidate, to change English date format to `DD/MM/YY`.
+Using MongoDB Shell with wekan Snap Candidate, to change English date format to `DD/MM/YY`.
 
 MongoDB Shell Download: https://www.mongodb.com/try/download/shell
 

@@ -140,7 +140,7 @@
   "and-n-other-card": "En  __count__ andere kaarten",
   "and-n-other-card_plural": "En __count__ andere kaarten",
   "apply": "Aanmelden",
-  "app-is-offline": "Wekan is aan het laden, wacht alstublieft. Het verversen van de pagina zorgt voor verlies van gegevens. Als Wekan niet laadt, check dan of de Wekan server niet is gestopt.",
+  "app-is-offline": "wekan is aan het laden, wacht alstublieft. Het verversen van de pagina zorgt voor verlies van gegevens. Als wekan niet laadt, check dan of de wekan server niet is gestopt.",
   "app-try-reconnect": "Probeer opnieuw te verbinden.",
   "archive": "Verplaats naar Archief",
   "archive-all": "Verplaats Alles naar Archief",

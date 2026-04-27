@@ -4,9 +4,9 @@ This is only for developers. For normal users, do not add these options, just st
 
 This only builds `wekan-app` Docker image, where is Node.js 14.x and all Javascript code. This does not build `wekan-db` MongoDB image, that usually does not require modifications.
 
-Alpine Linux does not work properly with current Meteor 2 based WeKan. Ubuntu works, and has newest security fixes.
+Alpine Linux does not work properly with current Meteor 2 based wekan. Ubuntu works, and has newest security fixes.
 
-Only amd64 currently works. Currently used Node.js 14.x segfaults at arm64 and s390x. Only Node.js 14.x is compatible with current version of Meteor 2 based WeKan. Trying to upgrade is in progress https://github.com/wekan/wekan/issues/5475
+Only amd64 currently works. Currently used Node.js 14.x segfaults at arm64 and s390x. Only Node.js 14.x is compatible with current version of Meteor 2 based wekan. Trying to upgrade is in progress https://github.com/wekan/wekan/issues/5475
 
 Dockerfile is at https://raw.githubusercontent.com/wekan/wekan/main/Dockerfile
 
@@ -30,7 +30,7 @@ After your above modifications, text should look like this:
 
 Then modify ROOT_URL, etc settings as needed, see https://github.com/wekan/wekan/wiki/Settings
 
-Start WeKan with custom built Dockerfile with this command:
+Start wekan with custom built Dockerfile with this command:
 ```
 docker compose up -d --build
 ```
@@ -38,7 +38,7 @@ If you like to only build Dockerfile:
 ```
 docker build .
 ```
-You can also push your image to some Docker registry, like here it's done for WeKan:
+You can also push your image to some Docker registry, like here it's done for wekan:
 
 https://github.com/wekan/wekan/blob/main/releases/docker-push-wekan.sh
 
@@ -54,7 +54,7 @@ Edit it to have IP address of your server
 ```
 export ROOT_URL=http://SERVER-IP-ADDRESS-HERE
 ```
-Then start WeKan with:
+Then start wekan with:
 ```
 docker compose up -d
 ```
@@ -77,12 +77,12 @@ SSL/TLS info at https://github.com/wekan/wekan/wiki/Settings
 
 There is much more settings at well-documented [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml), those can also be added to be used below.
 
-If you don't need to build Wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
+If you don't need to build wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
 ```
 docker compose up -d
 ```
 
-If you like to build from source, clone Wekan repo:
+If you like to build from source, clone wekan repo:
 ```
 git clone https://github.com/wekan/wekan
 ```
@@ -104,12 +104,12 @@ Then edit docker-compose.yml with [these lines uncommented](https://github.com/w
         - USE_EDGE=${USE_EDGE}
     #-------------------------------------------------------------------------------------
 ```
-Then you can build Wekan with 
+Then you can build wekan with 
 ```
 docker compose up -d --build
 ```
 
-## Example for latest Wekan, port 2000 to Docker Wekan internal port 8080
+## Example for latest wekan, port 2000 to Docker wekan internal port 8080
 ```
 docker run -d --restart=always --name wekan-db mongo:5
 
@@ -184,11 +184,11 @@ docker start wekan-app
 
 ## Docker Compose
 
-[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb). REQUIRED: READ AND ADD SETTINGS LIKE ROOT_URL ETC TO docker-compose.yml textfile. It also has info about using same MongoDB database for office and VPN users.
+[Docker Compose: wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb). REQUIRED: READ AND ADD SETTINGS LIKE ROOT_URL ETC TO docker-compose.yml textfile. It also has info about using same MongoDB database for office and VPN users.
 
-[Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
+[Docker Compose: wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
 
-TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
+TODO: [Docker Compose: wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
 ## OpenShift
 
@@ -196,21 +196,21 @@ TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring
 
 ## SLES
 
-[SLES SP1](Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+[SLES SP1](Install-wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 
 ## Rancher
 
-[Rancher Rancher Active Proxy](Rancher---Rancher-Active-Proxy---Wekan-MongoDB-Docker)
+[Rancher Rancher Active Proxy](Rancher---Rancher-Active-Proxy---wekan-MongoDB-Docker)
 
 ## Testing
 
-[Install for testing](Install-Wekan-Docker-for-testing)
+[Install for testing](Install-wekan-Docker-for-testing)
 
 ## Production
 
 [Production setup for thousands of users with Docker at AWS](AWS)
 
-[Other way to do production](Install-Wekan-Docker-in-production)
+[Other way to do production](Install-wekan-Docker-in-production)
 
 ## External MongoDB auth
 
@@ -218,7 +218,7 @@ TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring
 
 ## Admin Panel
 
-First registered Wekan user will get Admin Panel on new Docker and source based
+First registered wekan user will get Admin Panel on new Docker and source based
 installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
 
 ## Docker Hub - sometimes broken
@@ -271,13 +271,13 @@ echo 'USE_EDGE=true' >> .env && \
 sudo docker compose up -d --build
 ```
 
-## Docker env for Wekan dev
+## Docker env for wekan dev
 
-* [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
+* [Docker environment for wekan Development](https://github.com/wekan/wekan-dev)
 
 ## Alpine, needs testing
 
-* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
+* [Docker Compose: Alpine Linux and wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
 
 ## Webserver Config
 

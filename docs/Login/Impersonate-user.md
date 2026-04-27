@@ -17,5 +17,5 @@ To return to your original admin account:
 ---
 
 📝 **Note:**  
-This feature was added to Wekan v4.39 at https://github.com/wekan/wekan/pull/3280
+This feature was added to wekan v4.39 at https://github.com/wekan/wekan/pull/3280
 

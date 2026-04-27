@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Verification script for WeKan migration system improvements
+# Verification script for wekan migration system improvements
 # This script checks that all 13 migrations have proper implementations
 
 echo "=========================================="
-echo "WeKan Migration System Verification Report"
+echo "wekan Migration System Verification Report"
 echo "=========================================="
 echo ""
 
@@ -132,7 +132,7 @@ echo "Summary: All migration improvements applied!"
 echo "=========================================="
 echo ""
 echo "Next steps:"
-echo "1. Test with fresh WeKan installation"
+echo "1. Test with fresh wekan installation"
 echo "2. Verify no migrations run (all marked 'not needed')"
 echo "3. Test with old database with legacy data"
 echo "4. Verify migrations detect and run with real progress"

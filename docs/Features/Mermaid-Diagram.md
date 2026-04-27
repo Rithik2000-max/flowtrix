@@ -2,7 +2,7 @@
 
 https://github.com/wekan/wekan/issues/4841
 
-As of newest Mermaid 10.0.0, Mermaid does not work in WeKan anymore, so Mermaid was removed in WeKan v6.76. xet7 did maintain https://www.npmjs.com/package/@wekanteam/markdown-it-mermaid but after updating to Mermaid 10.0.0 using Mermaid on WeKan card description etc did not work anymore.
+As of newest Mermaid 10.0.0, Mermaid does not work in wekan anymore, so Mermaid was removed in wekan v6.76. xet7 did maintain https://www.npmjs.com/package/@wekanteam/markdown-it-mermaid but after updating to Mermaid 10.0.0 using Mermaid on wekan card description etc did not work anymore.
 
 ## Source
 
@@ -21,7 +21,7 @@ As of newest Mermaid 10.0.0, Mermaid does not work in WeKan anymore, so Mermaid 
 
 ## Howto
 
-- Add mermaid code to Wekan card or any other input field. After some time, if chart is not visible, reload browser webpage.
+- Add mermaid code to wekan card or any other input field. After some time, if chart is not visible, reload browser webpage.
 - Mermaid code starts with `~~~mermaid`
 - Mermaid code ends with `~~~`
 

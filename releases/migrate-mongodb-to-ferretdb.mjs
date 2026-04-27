@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * WeKan MongoDB → FerretDB + PostgreSQL Migration Script
+ * wekan MongoDB → FerretDB + PostgreSQL Migration Script
  *
- * Runs BEFORE WeKan starts. Connects to an existing MongoDB instance (any
+ * Runs BEFORE wekan starts. Connects to an existing MongoDB instance (any
  * version ≥ 3.0), migrates all data to a FerretDB instance (which speaks
  * the MongoDB wire protocol), upgrades the schema to v8.43, and extracts
  * GridFS/CollectionFS binary files to the local filesystem.
@@ -70,7 +70,7 @@ function pushError(msg) {
 // ── HTTP progress server ───────────────────────────────────────────────────
 const HTML_TEMPLATE = `<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta http-equiv="refresh" content="3">
-<title>WeKan Migration Progress</title>
+<title>wekan Migration Progress</title>
 <style>
   body{font-family:monospace;background:#111;color:#ddd;padding:1em 2em}
   h1{color:#7bf}  .ok{color:#7f7}  .fail{color:#f77}  .warn{color:#fb7}
@@ -81,7 +81,7 @@ const HTML_TEMPLATE = `<!DOCTYPE html><html lang="en"><head>
   th{color:#aaa;font-size:.85em}
   .phase{font-size:1.3em;margin:1em 0}
 </style></head><body>
-<h1>WeKan Migration: MongoDB → FerretDB + PostgreSQL</h1>
+<h1>wekan Migration: MongoDB → FerretDB + PostgreSQL</h1>
 <div class="phase">Phase: <strong id="phase">…</strong> <span id="detail" style="color:#aaa"></span></div>
 <p>Started: __STARTED__  &nbsp; Elapsed: <span id="elapsed"></span></p>
 <div id="files_section">
@@ -761,7 +761,7 @@ async function run() {
 // ── Entry point ────────────────────────────────────────────────────────────
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
   console.log(`
-WeKan MongoDB → FerretDB Migration
+wekan MongoDB → FerretDB Migration
 ===================================
 Usage:  node releases/migrate-mongodb-to-ferretdb.mjs [--dry-run]
 

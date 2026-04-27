@@ -1,10 +1,10 @@
-## [FOR SANDSTORM WEKAN DEVELOPERS, CLICK HERE FOR OTHER DOCS](https://github.com/wekan/wekan-maintainer/wiki/Developing-Wekan-for-Sandstorm).
+## [FOR SANDSTORM wekan DEVELOPERS, CLICK HERE FOR OTHER DOCS](https://github.com/wekan/wekan-maintainer/wiki/Developing-wekan-for-Sandstorm).
 
 ## NOTE: This remaining page below is only for maintainers, and is partially outdated.
 
 ***
 
-## 1) Download Wekan Sandstorm VirtualBox image
+## 1) Download wekan Sandstorm VirtualBox image
 
 [https://releases.wekan.team](https://releases.wekan.team)
 
@@ -73,7 +73,7 @@ Uncomment this line this way, so Sandstorm packages are not updated automaticall
 #UPDATE_CHANNEL=dev
 ```
 
-## 7) Add Wekan to sandstorm user group textfile /etc/group
+## 7) Add wekan to sandstorm user group textfile /etc/group
 
 ```
 sudo useradd -G sandstorm wekan
@@ -95,14 +95,14 @@ echo "export PATH=$PATH:~/repos/meteor-spk-0.4.0" >> ~/.bashrc
 sudo reboot
 ```
 
-## 10) Stop Wekan
+## 10) Stop wekan
 
 ```
 cd ~/repos
 ./stop.wekan.sh
 ```
 
-Check did Wekan stop really:
+Check did wekan stop really:
 
 ```
 ps aux | grep 'node main.js'
@@ -116,7 +116,7 @@ sudo kill -9 PID-NUMBER-HERE
 
 (This process should be improved).
 
-## 11) Rebuild Wekan
+## 11) Rebuild wekan
 
 ```
 cd ~/repos
@@ -131,7 +131,7 @@ cd ~/repos/wekan
 meteor-spk dev
 ```
 
-## 13) After building Wekan, last line of text should be:
+## 13) After building wekan, last line of text should be:
 
 ```
 App in now available from Sandstorm server. Ctrl-C to disconnect.
@@ -147,11 +147,11 @@ sudo sandstorm admin-token
 
 ## 16) You may need to setup your username etc
 
-## 17) Go to Apps / Wekan. Wekan has grey "dev mode" background. Click Wekan.
+## 17) Go to Apps / wekan. wekan has grey "dev mode" background. Click wekan.
 
 ## 18) Click + (Dev) Create new board
 
-## 19) Check is everything working in Wekan.
+## 19) Check is everything working in wekan.
 
 ***
 

@@ -1,6 +1,6 @@
 ## Paste big JSON in Linux
 
-1. Copy WeKan board JSON to clipboard
+1. Copy wekan board JSON to clipboard
 
 ```
 sudo apt install xclip

@@ -1,4 +1,4 @@
-Wekan supports settings key values:
+wekan supports settings key values:
 
 ```
 $ snap set wekan <key name>='<key value>'
@@ -55,13 +55,13 @@ root-url:	 wekan's root url, eg http://127.0.0.1, https://example.com,
 port:		 port wekan is exposed at
 		 Default value: '8080'
 disable-mongodb: Disable mongodb service: use only if binding to
-		 database outside of Wekan snap. Valid values: [true,false]
+		 database outside of wekan snap. Valid values: [true,false]
 		 Default value: 'false'
 caddy-enabled:   Enable caddy service (caddy - Every Site on HTTPS).
                  see https://caddyserver.com/products/licenses and
                  https://github.com/wekan/wekan-snap/issues/39 ,
                  use personal non-commercial license or
-                 contact Wekan maintainer x@xet7.org about enabling
+                 contact wekan maintainer x@xet7.org about enabling
                  commercial license for Caddy.
                  Set to 'true' to enable caddy.
 		 caddy settings are handled through
@@ -78,26 +78,26 @@ cors:            Set Access-Control-Allow-Origin header. Example:
                  Default value, disabled: ''
 browser-policy-enabled: Enable browser policy and allow one
                  trusted URL that can have iframe that has
-                 Wekan embedded inside.
+                 wekan embedded inside.
                  Setting this to false is not recommended,
                  it also disables all other browser policy protections
                  and allows all iframing etc. See wekan/server/policy.js
                  Default value: 'true'
 trusted-url:     When browser policy is enabled, HTML code at this URL
-                 can have iframe that embeds Wekan inside.
+                 can have iframe that embeds wekan inside.
                  Example: trusted-url='https://example.com'
                  Default value: ''
 webhooks-attributes: What to send to Outgoing Webhook, or leave out.
                  Example, that includes all that are default: 
                  cardId,listId,oldListId,boardId,comment,user,card,commentId .
-                 To enable the Webhooks Attributes of Wekan:
+                 To enable the Webhooks Attributes of wekan:
                  snap set wekan webhooks-attributes=cardId,listId,oldListId,boardId,comment,user,card,commentId
-                 Disable the Webhooks Attributest of Wekan to send all default ones:
+                 Disable the Webhooks Attributest of wekan to send all default ones:
                  snap set wekan webhooks-attributes=''
 ```
-## Rocket.Chat providing OAuth2 login to Wekan
+## Rocket.Chat providing OAuth2 login to wekan
 
-Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when Rocket.Chat is providing OAuth2 login to Wekan.
+Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to wekan when Rocket.Chat is providing OAuth2 login to wekan.
 
 [OAuth2 Login Docs](https://github.com/wekan/wekan/wiki/OAuth2)
 

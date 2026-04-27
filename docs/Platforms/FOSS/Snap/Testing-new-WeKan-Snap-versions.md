@@ -1,16 +1,16 @@
 Please:
-- Test does WeKan on some non-stable channel work, [add a new issue](https://github.com/wekan/wekan-snap/issues) about can it be added to stable channel.
+- Test does wekan on some non-stable channel work, [add a new issue](https://github.com/wekan/wekan-snap/issues) about can it be added to stable channel.
 - Check [is there PR about fixing some bug already](https://github.com/wekan/wekan/pulls)
 - Please report bugs [by adding a new issue](https://github.com/wekan/wekan-snap/issues).
 - Make backups first, so you are not using your only copy of production data
 - Have time to test
 - Have enough disk space. For example, some update migration could write all attachments from database to some subdirectory of `/var/snap/wekan/common` or `/var/snap/wekan-gantt-gpl/common`.
-- You can try bleeding edge versions of Wekan Snap, that contains cool new features, and could be broken in many ways.
+- You can try bleeding edge versions of wekan Snap, that contains cool new features, and could be broken in many ways.
 - Sometimes Snap builds fail, so then there is no package file to upload to Snap store at all, only successfully built are visible at Snap store. Successfully built does not mean that every feature works.
 
-[Changing between WeKan and WeKan Gantt GPL](https://github.com/wekan/wekan/issues/2870#issuecomment-721364824)
+[Changing between wekan and wekan Gantt GPL](https://github.com/wekan/wekan/issues/2870#issuecomment-721364824)
 
-## 1) Stop WeKan
+## 1) Stop wekan
 
 ```
 sudo snap stop wekan
@@ -50,11 +50,11 @@ This is how you can try snap beta channel:
 ```
 sudo snap refresh wekan --beta --amend
 ```
-This is how to change back to snap stable channel, that most Wekan users have installed:
+This is how to change back to snap stable channel, that most wekan users have installed:
 ```
 sudo snap refresh wekan --stable --amend
 ```
-Wekan stable versions are numbered v1.x
+wekan stable versions are numbered v1.x
 
 ## 4) Update all Snaps to newest on that channel
 
@@ -65,7 +65,7 @@ sudo snap refresh
 
 ```
 
-## 5) Start WeKan
+## 5) Start wekan
 
 ```
 sudo snap stop wekan
@@ -78,4 +78,4 @@ sudo snap stop wekan-gantt-gpl
 ## Other docs
 
 * [Adding Snap settings to code](https://github.com/wekan/wekan/wiki/Adding-new-Snap-settings-to-code)
-* [Wekan Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
+* [wekan Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)

@@ -1,4 +1,4 @@
-REQUIRED: Your webhook should reply 200 OK immediately after receiving webhook, so that WeKan continues working:
+REQUIRED: Your webhook should reply 200 OK immediately after receiving webhook, so that wekan continues working:
 
 https://github.com/wekan/wekan/issues/5077#event-10054506387
 

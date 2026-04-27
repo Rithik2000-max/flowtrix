@@ -1,6 +1,6 @@
 Tested on Ubuntu 16.04 based distro.
 
-Wekan installed with https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
+wekan installed with https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
 
 ## A) Let's Encrypt support, without Google Auth:
 
@@ -16,7 +16,7 @@ my.domain.com {
 sudo setcap cap_net_bind_service=+ep ./caddy
 ```
 
-## B) Caddy Let's Encrypt => Google Auth only allowed email addresses => Wekan
+## B) Caddy Let's Encrypt => Google Auth only allowed email addresses => wekan
 
 1) https://caddyserver.com config Caddyfile:
 ```bash
@@ -65,6 +65,6 @@ WantedBy=multi-user.target
 sudo systemctl enable proxybouncer
 sudo systemclt start proxybouncer
 ```
-Question: Does this setup imply that everyone will be logged in to Wekan as 'proxybouncer'? Is there a way to pass username from Google via headers, etc.?
+Question: Does this setup imply that everyone will be logged in to wekan as 'proxybouncer'? Is there a way to pass username from Google via headers, etc.?
 
-Answer: First login to Proxybouncer can limit login domain of G Suite. Second login is using Wekan username and password. There is no integrated login yet for standalone Wekan like there is for https://sandstorm.io
+Answer: First login to Proxybouncer can limit login domain of G Suite. Second login is using wekan username and password. There is no integrated login yet for standalone wekan like there is for https://sandstorm.io

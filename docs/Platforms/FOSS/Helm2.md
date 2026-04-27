@@ -1,4 +1,4 @@
-# WeKan Helm Charts
+# wekan Helm Charts
 
 ## Webpage
 

@@ -1,4 +1,4 @@
-# Install Wekan on SmartOS
+# Install wekan on SmartOS
 
 based on: https://github.com/greinbold/install-wekan/blob/master/v0.32/freebsd-11.0-RELEASE.md
 
@@ -54,7 +54,7 @@ As wekan
 
 ## Run
 
-Considering that we set the shell for user wekan to `/usr/bin/bash`, the following ENV variables can be set according the following method before starting of Wekan. These must be adapted according the shell.
+Considering that we set the shell for user wekan to `/usr/bin/bash`, the following ENV variables can be set according the following method before starting of wekan. These must be adapted according the shell.
 
 	$ export MONGO_URL=mongodb://127.0.0.1:27017/wekan
 	$ export ROOT_URL=https://example.com

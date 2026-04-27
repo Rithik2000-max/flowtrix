@@ -1,5 +1,5 @@
 name: ✨ Feature Request
-description: Suggest a new feature for WeKan
+description: Suggest a new feature for wekan
 labels: ["Feature:Request"]
 body:
   - type: textarea

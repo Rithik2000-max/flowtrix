@@ -45,14 +45,14 @@ jobs:
           # Pattern: section heading through (but not including) the next heading
           patterns = [
               rf"(# v{re.escape(version)} .*?)(?=\n# v[0-9]|\Z)",
-              r"(# Upcoming WeKan.*?)(?=\n# v[0-9]|\Z)",
+              r"(# Upcoming wekan.*?)(?=\n# v[0-9]|\Z)",
           ]
           for pat in patterns:
               m = re.search(pat, content, re.DOTALL)
               if m:
                   print(m.group(1).strip())
                   sys.exit(0)
-          print(f"WeKan v{version}")
+          print(f"wekan v{version}")
           PYEOF
           )
           echo "content<<GHEOF" >> $GITHUB_OUTPUT
@@ -106,7 +106,7 @@ jobs:
           fi
           echo "$HOME/.meteor" >> $GITHUB_PATH
 
-      - name: Build WeKan bundle
+      - name: Build wekan bundle
         run: |
           rm -rf .build node_modules .meteor/local
           (meteor update --npm 2>/dev/null || true) && meteor npm install
@@ -529,7 +529,7 @@ jobs:
   #        retention-days: 30
   #
   #    # Publish to edge — NOT stable.
-  #    # Stable channel holds the old WeKan version until database migrations are ready.
+  #    # Stable channel holds the old wekan version until database migrations are ready.
   #    # Promote to stable manually via the Snap Store dashboard when migrations exist.
   #    - name: Publish all snaps to Snap Store (candidate, beta, edge)
   #      env:

@@ -4,7 +4,7 @@ We follow the [meteor style guide](https://guide.meteor.com/code-style.html#java
 
 Please read the meteor style guide before making any significant contribution.
 
-# Stories about how Wekan works, and developing Wekan
+# Stories about how wekan works, and developing wekan
 
 - [Login code](https://github.com/wekan/wekan/issues/5714)
 - https://www.mongodb.com/docs/drivers/node/v3.7/fundamentals/promises/
@@ -13,8 +13,8 @@ Please read the meteor style guide before making any significant contribution.
 - [Mobile Web interface](https://github.com/wekan/wekan/issues/3566#issuecomment-778700604)
 - [How to add RTL support](https://github.com/wekan/wekan/issues/3376#issuecomment-766092425)
 - [How to code Part 1](https://wekan.fi/blog/2019/04/howto-code-part-1-learning-to-learn/)
-- [First time Wekan contributor easily figures out Wekan and develops big features](https://wekan.fi/blog/2018/05/wekan-v1-00-released/)
-- [Benefits of contributing your features to upstream Wekan](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/)
+- [First time wekan contributor easily figures out wekan and develops big features](https://wekan.fi/blog/2018/05/wekan-v1-00-released/)
+- [Benefits of contributing your features to upstream wekan](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/)
 - [Excellent example how pull requests are improved and integrated, and not needed commits removed](https://github.com/wekan/wekan/pull/1470)
 - [How to add dependency](https://github.com/wekan/wekan/discussions/5235)
 - [How to add set default view feature](https://github.com/wekan/wekan/discussions/5233)
@@ -43,12 +43,12 @@ When you run this, you see .jade template files where is search input box, and .
 
 ## Getting Started
 
-- Currently Wekan development is done mainly at Ubuntu 20.10 64bit, but building Wekan does work on any Debian, Ubuntu, WSL Ubuntu 20.04, [Mac](Mac). Sametime maybe on [Windows](Windows) with `choco install -y meteor` and installing packages it then asks for with `meteor add ...` or `meteor npm install --save ...` and then running meteor again.
+- Currently wekan development is done mainly at Ubuntu 20.10 64bit, but building wekan does work on any Debian, Ubuntu, WSL Ubuntu 20.04, [Mac](Mac). Sametime maybe on [Windows](Windows) with `choco install -y meteor` and installing packages it then asks for with `meteor add ...` or `meteor npm install --save ...` and then running meteor again.
   - Look through old [pull requests](https://github.com/wekan/wekan/pulls)
-  - Read Wekan source code, you can use some git history viewer GUI like gitk
+  - Read wekan source code, you can use some git history viewer GUI like gitk
   - Read [Meteor documentation](https://docs.meteor.com/) for [Meteor version](https://github.com/wekan/wekan/blob/main/.meteor/release) in use, other versions mentioned at [Dockerfile](https://github.com/wekan/wekan/blob/main/Dockerfile)
 - Docker up-to-date way: You can  clone wekan/wekan repo and update docker-compose.yml file ROOT_URL etc as documented at https://github.com/wekan/wekan commented `docker-compose.yml` file, install docker, and build from source with docker with `docker compose up -d --build`
-- Docker not up-to-date way: [Docker environment for Wekan development](https://github.com/wekan/wekan-dev). 
+- Docker not up-to-date way: [Docker environment for wekan development](https://github.com/wekan/wekan-dev). 
 
 ## Pull Request Workflow (Please read before submitting PR's)
 
@@ -99,7 +99,7 @@ It's possible to import your existing boards from Trello. Instructions [[here|mi
 
 # Chat
 
-[![Wekan chat][vanila_badge]][vanila_chat]
+[![wekan chat][vanila_badge]][vanila_chat]
 
 
 [rocket_chat]: https://chat.indie.host/channel/wekan

@@ -1,12 +1,12 @@
 Originally from @webenefits at https://github.com/wekan/wekan/discussions/3504
 
-## Migrate from Jira Server (Atlassian) to Wekan
+## Migrate from Jira Server (Atlassian) to wekan
 
 Hello all,
 
-I wanted to share here my experience with migrating data from Jira (Server) to Wekan. It took me 1 - 2 days to find a solution and I think it makes sense to record it here so that successors have it easier.
+I wanted to share here my experience with migrating data from Jira (Server) to wekan. It took me 1 - 2 days to find a solution and I think it makes sense to record it here so that successors have it easier.
 
-In order to not transfer everything manually and still keep all comments and (at least) links to attachments from Jira, my plan was to first migrate everything from **Jira → Trello** and then from **Trello → Wekan**, since importing from Trello works very well. :ok_hand:
+In order to not transfer everything manually and still keep all comments and (at least) links to attachments from Jira, my plan was to first migrate everything from **Jira → Trello** and then from **Trello → wekan**, since importing from Trello works very well. :ok_hand:
 
 Unfortunately there is no "easy" variant to transfer data from Jira to Tello.
 First of all, I found "TaskAdpater" through various threads, which allows you to transfer data between different tools (including Jira and Trello). This would have been a nice way to do it, since the data would not have gone through a third party. Unfortunately, this didn't work because of the newer API token authentication in combination with Jira server. Also other suggested things like "Zapier" were not really functional.
@@ -27,7 +27,7 @@ Here again briefly the way:
 4. Create a new "flow" for the current project in Unito Sync
 5. Synchronize
 6. Export data from Trello again afterwards
-7. Import JSON into Wekan
+7. Import JSON into wekan
 
 
 I hope I could save you some work with this. Good luck! :four_leaf_clover:

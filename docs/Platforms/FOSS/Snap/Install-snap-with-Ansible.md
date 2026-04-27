@@ -8,7 +8,7 @@ https://github.com/Vaizard/mage-wekan
 
 https://github.com/vaizard/mage-snapd
 
-## Wekan's forked version
+## wekan's forked version
 
 https://github.com/wekan/mage-wekan
 

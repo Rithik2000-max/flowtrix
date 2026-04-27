@@ -1,10 +1,10 @@
-# Wekan - Open Souce kanban - IRC FAQ
+# wekan - Open Souce kanban - IRC FAQ
 
-- [Wekan website](https://wekan.fi)
+- [wekan website](https://wekan.fi)
 
 ### If you are in a hurry, please don't use IRC
 
-Instead, [please search existing open and closed issues or add new issue to Wekan Feature Requests and Bugs](https://github.com/wekan/wekan/issues) (open issues have not been solved yet), or alternatively [read docs](https://github.io/wekan/wekan/wiki). Thanks!
+Instead, [please search existing open and closed issues or add new issue to wekan Feature Requests and Bugs](https://github.com/wekan/wekan/issues) (open issues have not been solved yet), or alternatively [read docs](https://github.io/wekan/wekan/wiki). Thanks!
 
 ### Required license to enter IRC channel
 
@@ -12,9 +12,9 @@ License:
 
 [_] If you ask something, you will wait patiently on IRC channel for answer, idling for at least a week, and not leave IRC channel immediately.
 
-### Congratulations! If you agree with IRC license above, you can join Wekan IRC channel
+### Congratulations! If you agree with IRC license above, you can join wekan IRC channel
 
-Wekan IRC is `#wekan` channel at:
+wekan IRC is `#wekan` channel at:
 - Libera.Chat 
 - (or OFTC)
 
@@ -22,7 +22,7 @@ Unfortunately Freenode `#wekan` was taken over by Freenode admins, so it's no lo
 
 ***
 
-## QA, answers by [xet7](https://github.com/xet), Maintainer of Wekan
+## QA, answers by [xet7](https://github.com/xet), Maintainer of wekan
 
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 ***
@@ -37,11 +37,11 @@ the comment-counter on the minicard
 [16:11:53] <Dalisay> but, the comments are
 not visible when scrolling down
 ```
-A: What new Wekan release? I tested newest versions Wekan for Snap/Docker/Sandstorm, and comments can be added to card. Please add new issue with more details https://github.com/wekan/wekan/issues
+A: What new wekan release? I tested newest versions wekan for Snap/Docker/Sandstorm, and comments can be added to card. Please add new issue with more details https://github.com/wekan/wekan/issues
 
 If you mean bug about [only 20 newest comments visible](https://github.com/wekan/wekan/issues/2377), that bug is fixed on non-public boards. I will add more fixes to that.
 
-### Q: Contributing to Wekan?
+### Q: Contributing to wekan?
 ```
 [16:12:54] <Dalisay> yes, it's open source
 [16:12:57] <Dalisay> yes, it's free
@@ -49,7 +49,7 @@ If you mean bug about [only 20 newest comments visible](https://github.com/wekan
 [16:13:27] <Dalisay> if this does not change,  I will
 gather a group of developers to make a reasonable fork
 ```
-A: I don't know why you think fork would be necessary. I welcome all new contributors and co-maintainers, and help them to get up to speed. You can send your pull requests to Wekan https://github.com/wekan/wekan/pulls . I do have also [blog post about it](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html). All what I do on Wekan is based of feedback at GitHub issues, chats and emails. Wekan is friendly Community driven Open Source project. I do also provide [Commercial Support](https://wekan.fi/commercial-support) for features and fixes.
+A: I don't know why you think fork would be necessary. I welcome all new contributors and co-maintainers, and help them to get up to speed. You can send your pull requests to wekan https://github.com/wekan/wekan/pulls . I do have also [blog post about it](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html). All what I do on wekan is based of feedback at GitHub issues, chats and emails. wekan is friendly Community driven Open Source project. I do also provide [Commercial Support](https://wekan.fi/commercial-support) for features and fixes.
 
 ### Q: CPU usage?
 ```
@@ -76,7 +76,7 @@ some minimum standards of quality should be maintained
 [17:56:20] <Dalisay> it means, that the server admin will be called
 all the time to restart the board
 ```
-A: Yes, that bug is back, to fix 2 other bugs. [I added explanation](https://github.com/wekan/wekan/issues/718#issuecomment-561377824). CPU usage is getting improved in newer Wekan releases.
+A: Yes, that bug is back, to fix 2 other bugs. [I added explanation](https://github.com/wekan/wekan/issues/718#issuecomment-561377824). CPU usage is getting improved in newer wekan releases.
 
 ***
 ### Q: Import multiple Trello boards?
@@ -84,7 +84,7 @@ A: Yes, that bug is back, to fix 2 other bugs. [I added explanation](https://git
 ```
 [13:15:32] <netopejr> Hello, i there way how to import multiple
 Trello booards? I have over 100 boards which i need to migrate
-to Wekan. Importing via add board -> import -> from trello
+to wekan. Importing via add board -> import -> from trello
 works more or less but its time consuming.
 ```
 
@@ -126,7 +126,7 @@ because this was a bug in the previous version
 [15:33:36] <Dalisay> I am not talking about small bugs.
 [15:34:03] <Dalisay> these are all bugs that massively mess up the
 functionality to a degree, that it renders the board useless
-[15:34:42] <Dalisay> Wekan is such a promising project.
+[15:34:42] <Dalisay> wekan is such a promising project.
 [15:34:47] <Dalisay> But the testing must be much better.
 [15:54:46] <Dalisay> aaaaaaaaaaaand OPENING cards on Samsung
 phones & tablets stopped working again!
@@ -141,13 +141,13 @@ but I think it's time for a fork
 [16:00:14] <Dalisay> bye, cya later
 ```
 A: 
-- Please test newest Wekan
-- Do you have time to be Wekan co-maintainer?
-- What is URL to your fork? Please send it to me with email to x@xet7.org . Thanks! Currently there is about 2200 forks of Wekan, it would be hard to find without exact URL.
-- What features and fixes have you implemented to Wekan?
-- [What usually happens when Wekan gets broken](Test-Edge#what-usually-happens-when-wekan-gets-broken).
-- [Benefits of contributing your features to upstream Wekan](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html).
-- [What was Wekan fork](FAQ#what-was-wekan-fork--wefork).
+- Please test newest wekan
+- Do you have time to be wekan co-maintainer?
+- What is URL to your fork? Please send it to me with email to x@xet7.org . Thanks! Currently there is about 2200 forks of wekan, it would be hard to find without exact URL.
+- What features and fixes have you implemented to wekan?
+- [What usually happens when wekan gets broken](Test-Edge#what-usually-happens-when-wekan-gets-broken).
+- [Benefits of contributing your features to upstream wekan](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html).
+- [What was wekan fork](FAQ#what-was-wekan-fork--wefork).
 
 ***
 ### Q: Other mobile browsers?
@@ -156,7 +156,7 @@ A:
 works in Google Chrome.
 [12:49:12] <MarioSC> On Samsung devices,  clicking on cards fails
 ```
-A: Please try newest Wekan.
+A: Please try newest wekan.
 
 ### Q: Colored text?
 ```
@@ -183,7 +183,7 @@ to enable more html, or have visual editor
 elsewhere.
 
 
-### Q: Wekan on mobile Chrome?
+### Q: wekan on mobile Chrome?
 ```
 [15:49:52] <Rojola1> xet7, I saw your answer to the
 mobile card question
@@ -194,18 +194,18 @@ has the same issue
 [15:50:40] <Rojola1> Chrome in the newest version,
 even in the dev-version
 ```
-A: Please try newest Wekan.
+A: Please try newest wekan.
 
 ### Q: Older Node version?
 
 ```
-[16:47:42] <imestin> Is Wekan compatible with older
+[16:47:42] <imestin> Is wekan compatible with older
 versions of Node?
 ```
 A: You can try, but older Node versions have
 security issues that are fixed in newest Node version.
 
-### Q: Wekan crashing?
+### Q: wekan crashing?
 
 ```
 [15:20:04] <Rojola> hi
@@ -250,7 +250,7 @@ a board loaded
 [15:44:55] <Rojola> I don't know how to
 bugfix this
 ```
-A: You should upgrade to newest Wekan, or
+A: You should upgrade to newest wekan, or
 be online when xet7 is online to debug.
 xet7's own boards are not crashing.
 
@@ -260,14 +260,14 @@ xet7's own boards are not crashing.
 A: Added Feature Request https://github.com/wekan/wekan/issues/2537
 
 ***
-### Q: Wekan on Sandstorm features?
+### Q: wekan on Sandstorm features?
 At IRC #sandstorm
 ```
 [20:40:57] <pwa2> are desktop notifications from
 wekan possible in sandstorm?  I see references to
 notifications throughout the code, but haven't
 been able to answer this question on my own. Thanks.
-[21:05:22] <xet7> pwa2: Wekan does not yet have push
+[21:05:22] <xet7> pwa2: wekan does not yet have push
 notifications https://github.com/wekan/wekan/issues/2026 ,
 sometime they will be added. I don't know yet would
 they work on Sandstorm, because I can't test yet.
@@ -278,13 +278,13 @@ email notifications in wekan, where they have to be
 configured both at the board level and at the member
 settings level. However, the wekan app in sandstorm does
 not have the "Edit Notifications" menu item.  So are
-email notifications from Wekan under Sandstorm not
+email notifications from wekan under Sandstorm not
 implemented either?  Or is there some configuration
 switch someplace?  "Change Password" and
 "Change Language" are also missing from Member Settings
 under Sandstorm, which makes some sense.
-[21:19:58] <xet7> pwa2: I need to add code to Wekan
-to enable Wekan to send email at Sandtorm
+[21:19:58] <xet7> pwa2: I need to add code to wekan
+to enable wekan to send email at Sandtorm
 https://github.com/wekan/wekan/issues/2208#issuecomment-469290305
 [21:20:52] <xet7> pwa2: Sandstorm apps need special
 code for accessing outside secure sandboxed grain
@@ -303,19 +303,19 @@ but it takes some time to develop.
 ### Q: Board crashes?
 
 ```
-<Rojola> Board crashes on server that has Wekan and RocketChat installed.
+<Rojola> Board crashes on server that has wekan and RocketChat installed.
 <Rojola> /var/log/syslog contains a lot
 ```
 A: Well, what does /var/log/syslog contain?
 Without that info it's kind of hard to debug.
 
-You could try export that board to Wekan JSON, and then import that Wekan JSON.
+You could try export that board to wekan JSON, and then import that wekan JSON.
 
 I do have server at AWS LightSail that has 4 GB RAM and 60 GB SSD,
-running [Snap versions of Wekan and RocketChat installed this way](OAuth2)
+running [Snap versions of wekan and RocketChat installed this way](OAuth2)
 on same server, and it does not crash.
 
-BTW, I did yesterday release [Wekan v2.95 with these new features](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v295-2019-07-01-wekan-release).
+BTW, I did yesterday release [wekan v2.95 with these new features](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v295-2019-07-01-wekan-release).
 
 ***
 ### Q: Board cleanup?
@@ -391,7 +391,7 @@ A: https://github.com/wekan/wekan/issues/2356#issuecomment-494573761
 ### Q: Copying Checklists?
 
 ```
-[09:25:51] <sfielding> I have now about one year of exp with Wekan
+[09:25:51] <sfielding> I have now about one year of exp with wekan
 usage somewhat daily, and it has become my favourite productivity tool.
 [09:27:36] <sfielding> Initially we used it with Sandstorm, but
 because of closed sandbox model we changed into standalone snap install.
@@ -408,7 +408,7 @@ from one card to another.
 A: [LDAP for Standalone is now available](LDAP).
 
 ```
-[17:56:10] <regdude> Hi! I'm trying to setup Wekan with LDAP,
+[17:56:10] <regdude> Hi! I'm trying to setup wekan with LDAP,
 but can't seem to get it to work.
 Where could I found logs for why LDAP is not working?
 [17:56:18] <regdude> does not seem to send out any LDAP packets
@@ -417,16 +417,16 @@ Where could I found logs for why LDAP is not working?
 
 Please see is there existing issues at [LDAP Bugs and Feature Requests](https://github.com/wekan/wekan-ldap/issues), or add a new one.
 
-### Q: Is there in Wekan: My Cards: List of all boards/lists/cards for every card where person is assigned to card ?
+### Q: Is there in wekan: My Cards: List of all boards/lists/cards for every card where person is assigned to card ?
 ```
-[15:25:23] <superlou> If I have a Wekan board per project, with people assigned
+[15:25:23] <superlou> If I have a wekan board per project, with people assigned
 cards in multiple projects, is there a way to provide a list of the tasks for
 a person across all of their projects?
 ```
 
 A: Yes. Click right top your username / My Cards.
 
-### Q: Wekan Internal Server Error
+### Q: wekan Internal Server Error
 
 2018-11-09
 
@@ -442,7 +442,7 @@ A: Yes. Click right top your username / My Cards.
 [20:49:35] <Rojola> but, in reality I can not access it
 ```
 
-A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalone Wekan (Snap, Docker, Source) email setting. This has nothing to do with Sandstorm.
+A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalone wekan (Snap, Docker, Source) email setting. This has nothing to do with Sandstorm.
 
 ***
 
@@ -455,39 +455,39 @@ since several days, I see that other users asks some things,
 and no one is answering
 [12:58:11] <gros> I think that you could close this channel in fact,
 it will make win time for users
-[12:58:24] <gros> and again I don't whine, thanks for the great Wekan :)
+[12:58:24] <gros> and again I don't whine, thanks for the great wekan :)
 ```
 A:
 
 - Fastest: If you want fast answers, get [Commercial Support](https://wekan.fi/commercial-support/).
 - Medium speed: If you have time to wait, [add new GitHub issue](https://github.com/wekan/wekan/issues).
-- Slow: [Wekan Community Chat with webbroser and mobile Rocket.Chat](https://chat.vanila.io/channel/wekan)
-- Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some Wekan users prefer it. Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer.
+- Slow: [wekan Community Chat with webbroser and mobile Rocket.Chat](https://chat.vanila.io/channel/wekan)
+- Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some wekan users prefer it. Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer.
 
 ***
 
 ### Q: SMTP sending to own domain but not Gmail
 ```
-[16:18:47] <k_sze> Does anybody have an idea why I can send e-mail from Wekan
+[16:18:47] <k_sze> Does anybody have an idea why I can send e-mail from wekan
 to my personal domain, but not to a Gmail address?
-[17:34:16] <k_sze> And now Wekan doesn't actually work. I set it up
+[17:34:16] <k_sze> And now wekan doesn't actually work. I set it up
 from Snap on Ubuntu 18.04.
-[17:34:32] <k_sze> (Wekan doesn't work after I reboot Ubuntu)
+[17:34:32] <k_sze> (wekan doesn't work after I reboot Ubuntu)
 [17:38:51] <k_sze> Like, I get 502 Bad Gateway from my nginx reverse proxy
 ```
 
-A: Did you set your domain SPF records (as TXT records) and DKIM records on your domain that your SMTP server uses? Problem is not in Wekan, it's your SMTP server. For example AWS SES works. Also see [Troubleshooting Email](Troubleshooting-Mail).
+A: Did you set your domain SPF records (as TXT records) and DKIM records on your domain that your SMTP server uses? Problem is not in wekan, it's your SMTP server. For example AWS SES works. Also see [Troubleshooting Email](Troubleshooting-Mail).
 
 ***
 
-### Q: Integrating Wekan
+### Q: Integrating wekan
 ```
 [03:32:12] <ajay> Hi  can anyone tell me how to integrate wekan in
 other applications
 [03:32:50] <ajay> i am want to integrate it in QGIS for task management
 [03:33:01] <ajay> *i want
 ```
-A: Use [Wekan REST API](REST-API). For example, see [Wekan Gogs integration](https://github.com/wekan/wekan-gogs). You can also use [Outgoing Webhooks](Outgoing-Webhook-to-Discord) to send data to some Incoming Webhook. There is also [IFTTT Rules](IFTTT) for some automations.
+A: Use [wekan REST API](REST-API). For example, see [wekan Gogs integration](https://github.com/wekan/wekan-gogs). You can also use [Outgoing Webhooks](Outgoing-Webhook-to-Discord) to send data to some Incoming Webhook. There is also [IFTTT Rules](IFTTT) for some automations.
 
 ***
 
@@ -498,7 +498,7 @@ never loads, I just get the spinner. all the other
 boards are working fine. This happened after we moved
 some subtasks from a subtask board to the main board.
 any tips would be appreciated. thanks.
-[18:33:58] <xet7> wekanuser: What Wekan version?
+[18:33:58] <xet7> wekanuser: What wekan version?
 [18:34:45] <xet7> Can you move subtasks back to subtask board?
 [18:42:02] <wekanuser> v 1.55.0. re: move tasks back to
 subtask board - I can't, since the parent board will not load.
@@ -563,24 +563,24 @@ hopefully it will help someone else. Thanks again
 
 ***
 
-### QA: Wekan in iFrame
+### QA: wekan in iFrame
 ```
 [17:42:12] <siqueira> Hi, I want to embed my Kanban
-from wekan in my website using iframe. Does Wekan
+from wekan in my website using iframe. Does wekan
 support this feature?
 [18:13:59] <xet7> siqueira: Yes, set trusted-url to
-your web address that iframes Wekan
+your web address that iframes wekan
 https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys
 [18:15:35] <xet7> siquiera: If you have problems with browser
 javascript console, or something not working, you can
 also set browser-policy-enabled='false' that enables
 all iframing - but that has a little less security
 [18:18:13] <xet7> siquiera: Problem with iframing
-Wekan is that link to card does not work well.
-For that it's better to have Wekan in sub-url, and
+wekan is that link to card does not work well.
+For that it's better to have wekan in sub-url, and
 add "iframe" replacing HTML/CSS at beginning of
 body tag, and at end of body tag, but that
-feature is not yet in Wekan, I'm currently developing it.
+feature is not yet in wekan, I'm currently developing it.
 [19:25:07] <siqueira> xet7, Thanks a lot
 for the information! I just want to have my
 public tasks on my website. I think the
@@ -590,7 +590,7 @@ until I wait for the new feature. Thanks :)
 board as public, and provide that public link in iframe.
 [19:27:32] <siqueira> I will try it :)
 ```
-A: Currently having Wekan in iframe is broken, because browser APIs changed. See [this issue for progress](https://github.com/wekan/wekan/issues/3875).
+A: Currently having wekan in iframe is broken, because browser APIs changed. See [this issue for progress](https://github.com/wekan/wekan/issues/3875).
 
 
 ***
@@ -613,4 +613,4 @@ Wow, you are so cool ! You gonna be an expert guru soon.
 Check out here for more wild stuff: https://github.com/wekan/wekan/wiki
 
 There is:
-- Info about translations, dev stuff, changelog, and huge amount of Wekan features.
+- Info about translations, dev stuff, changelog, and huge amount of wekan features.

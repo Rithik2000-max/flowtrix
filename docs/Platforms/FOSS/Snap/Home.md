@@ -1,4 +1,4 @@
-## Installing newest Snap WeKan
+## Installing newest Snap wekan
 
 Newest Stable Snap is at Snap Candidate channel:
 
@@ -12,7 +12,7 @@ Later, when xet7 gets database migrations working, newest version will be added 
 OLD INFO:
 
 
-## Wekan snap at web
+## wekan snap at web
 
 https://uappexplorer.com/snap/ubuntu/wekan
 
@@ -23,4 +23,4 @@ $ wekan.help
 
 **All of commandline help is also in this wiki, categorized to their own wiki pages.**
 
-See also [Wekan documentation](https://github.com/wekan/wekan/wiki)
+See also [wekan documentation](https://github.com/wekan/wekan/wiki)

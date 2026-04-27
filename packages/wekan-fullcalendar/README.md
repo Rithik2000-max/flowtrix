@@ -1,8 +1,8 @@
-[FullCalendar](https://fullcalendar.io/) packaged for Wekan as a Blaze wrapper.
+[FullCalendar](https://fullcalendar.io/) packaged for wekan as a Blaze wrapper.
 
 ### Installation
 
-This package is bundled in Wekan (`wekan-fullcalendar`).
+This package is bundled in wekan (`wekan-fullcalendar`).
 
 ### Usage
 

@@ -43,7 +43,7 @@ npm config -g set msvs_version 2015
 meteor npm config -g set msvs_version 2015
 ```
 
-# Running Wekan
+# Running wekan
 - Clone the repo (`https://github.com/wekan/wekan`)
 - Browse the wekan directory and run `meteor`, 
 - If you see any error regarding **xss**, do `meteor npm i --save xss` to install xss.
@@ -97,7 +97,7 @@ meteor
 
 # FAQ
 ### I am getting `node-gyp` related issues.
-Make sure to install all required programs stated here, https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows#setup-required-dependencies
+Make sure to install all required programs stated here, https://github.com/wekan/wekan/wiki/Install-wekan-from-source-on-Windows#setup-required-dependencies
 
 ### I am getting `Error: Cannot find module 'fibers'` related problem.
 Make sure to run the command `meteor` instead of `node`.

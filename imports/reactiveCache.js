@@ -1088,7 +1088,7 @@ const ReactiveCacheClient = {
 //
 // having this class here has several advantages:
 // - The Programmer hasn't to care about in which context he call's this class
-// - having all queries together in 1 class to make it possible to see which queries in Wekan happens, e.g. with console.log
+// - having all queries together in 1 class to make it possible to see which queries in wekan happens, e.g. with console.log
 //
 // Methods are NOT async - they return a Promise on server (from async ReactiveCacheServer)
 // and synchronous data on client (from ReactiveCacheClient).
@@ -1657,7 +1657,7 @@ const ReactiveMiniMongoIndexClient = {
 //
 // having this class here has several advantages:
 // - The Programmer hasn't to care about in which context he call's this class
-// - having all queries together in 1 class to make it possible to see which queries in Wekan happens, e.g. with console.log
+// - having all queries together in 1 class to make it possible to see which queries in wekan happens, e.g. with console.log
 const ReactiveMiniMongoIndex = {
   getSubTasksWithParentId(parentId, addSelect = {}, options = {}) {
     let ret;

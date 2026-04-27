@@ -1,8 +1,8 @@
 [Mac ChangeLog](https://github.com/wekan/wekan/wiki/Mac)
 
-Newest WeKan at these platforms:
+Newest wekan at these platforms:
 
-- [Upgrade WeKan](https://wekan.fi/upgrade/)
+- [Upgrade wekan](https://wekan.fi/upgrade/)
 - [bundle zip at releases](https://github.com/wekan/wekan/releases), docs at
   - [Linux amd64, arm64, s390x](https://github.com/wekan/wekan/blob/main/docs/Platforms/FOSS/RaspberryPi/Raspberry-Pi.md)
   - [Windows amd64, works also at Windows arm64](https://github.com/wekan/wekan/blob/main/docs/Platforms/Propietary/Windows/Offline.md)
@@ -16,17 +16,17 @@ Newest WeKan at these platforms:
 
 Versions:
 
-- WeKan 8.75 and newer uses Meteor 3.5-beta.7, [Node.js 24.x](https://nodejs.org/dist/latest-v24.x/),
+- wekan 8.75 and newer uses Meteor 3.5-beta.7, [Node.js 24.x](https://nodejs.org/dist/latest-v24.x/),
   MongoDB 7.x (or 6.x), or [FerretDB2/PostgreSQL](https://github.com/wekan/wekan/blob/main/docs/Databases/FerretDB2-PostgreSQL.md)
-- WeKan 8.43 upgraded to Meteor 3.x, huge thanks to harryadel:
+- wekan 8.43 upgraded to Meteor 3.x, huge thanks to harryadel:
   - https://harryadel.com/dev-diary-24/
   - https://harryadel.com/dev-diary-25/
   - https://harryadel.com/dev-diary-26/
-- WeKan 8.00-8.24 used Colorful Unicode Emoji Icons, versions before and after use mostly Font Awesome 4.7 icons.
-- WeKan 8.00-8.06 had wrong raw database directory setting /var/snap/wekan/common/wekan and some cards were not visible,
-  it was fixed at WeKan 8.07 where database directory is back to /var/snap/wekan/common and all cards are visible.
+- wekan 8.00-8.24 used Colorful Unicode Emoji Icons, versions before and after use mostly Font Awesome 4.7 icons.
+- wekan 8.00-8.06 had wrong raw database directory setting /var/snap/wekan/common/wekan and some cards were not visible,
+  it was fixed at wekan 8.07 where database directory is back to /var/snap/wekan/common and all cards are visible.
 
-# Upcoming WeKan ® release
+# Upcoming wekan ® release
 
 This release adds the following updates:
 
@@ -39,7 +39,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.82 2026-04-14 WeKan ® release
+# v8.82 2026-04-14 wekan ® release
 
 This release adds the following updates:
 
@@ -52,7 +52,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.81 2026-04-14 WeKan ® release
+# v8.81 2026-04-14 wekan ® release
 
 This release adds the following updates:
 
@@ -84,7 +84,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.80 2026-04-10 WeKan ® release
+# v8.80 2026-04-10 wekan ® release
 
 This release fixes the following bugs:
 
@@ -93,17 +93,17 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.79 2026-04-09 WeKan ® release
+# v8.79 2026-04-09 wekan ® release
 
 This release fixes the following bugs:
 
-- [Fix 8.78: WeKan build Error: Could not find rspack config. Using MongoDB Change Streams
+- [Fix 8.78: wekan build Error: Could not find rspack config. Using MongoDB Change Streams
   at start-wekan.sh start-wekan.bat bundle, docker-compose.yml and Snap Candidate](https://github.com/wekan/wekan/commit/2d4170a9bfc58b8e6504abf122aea505e55802ef).
   Thanks to nachocodoner and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.78 2026-04-09 WeKan ® release
+# v8.78 2026-04-09 wekan ® release
 
 This release adds the the following updates:
 
@@ -127,7 +127,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.74 2026-04-08 WeKan ® release
+# v8.74 2026-04-08 wekan ® release
 
 This release fixes the following bugs:
 
@@ -136,7 +136,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.73 2026-04-07 WeKan ® release
+# v8.73 2026-04-07 wekan ® release
 
 This release fixes the following bugs:
 
@@ -161,7 +161,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.72 2026-04-07 WeKan ® release
+# v8.72 2026-04-07 wekan ® release
 
 This release adds the following new features and fixes:
 
@@ -188,7 +188,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.71 2026-04-06 WeKan ® release
+# v8.71 2026-04-06 wekan ® release
 
 This release fixes the following bugs:
 
@@ -197,7 +197,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.70 2026-04-06 WeKan ® release
+# v8.70 2026-04-06 wekan ® release
 
 This release fixes the following bugs:
 
@@ -206,7 +206,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.69 2026-04-06 WeKan ® release
+# v8.69 2026-04-06 wekan ® release
 
 This release fixes the following bugs:
 
@@ -215,7 +215,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.68 2026-04-06 WeKan ® release
+# v8.68 2026-04-06 wekan ® release
 
 This release fixes the following bugs:
 
@@ -224,7 +224,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.67 2026-04-05 WeKan ® release
+# v8.67 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -233,7 +233,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.65 2026-04-05 WeKan ® release
+# v8.65 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -244,7 +244,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.64 2026-04-05 WeKan ® release
+# v8.64 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -253,7 +253,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.63 2026-04-05 WeKan ® release
+# v8.63 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -262,7 +262,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.62 2026-04-05 WeKan ® release
+# v8.62 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -271,7 +271,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.61 2026-04-05 WeKan ® release
+# v8.61 2026-04-05 wekan ® release
 
 This release adds the following updates:
 
@@ -287,7 +287,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.60 2026-04-05 WeKan ® release
+# v8.60 2026-04-05 wekan ® release
 
 This release adds the following updates:
 
@@ -296,7 +296,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.59 2026-04-05 WeKan ® release
+# v8.59 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -307,7 +307,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.58 2026-04-05 WeKan ® release
+# v8.58 2026-04-05 wekan ® release
 
 This release adds the following updates:
 
@@ -321,7 +321,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.57 2026-04-05 WeKan ® release
+# v8.57 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -330,7 +330,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.56 2026-04-05 WeKan ® release
+# v8.56 2026-04-05 wekan ® release
 
 This release fixes the following bugs:
 
@@ -339,7 +339,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.55 2026-04-05 WeKan ® release
+# v8.55 2026-04-05 wekan ® release
 
 This release adds the following updates:
 
@@ -361,7 +361,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.54 2026-04-04 WeKan ® release
+# v8.54 2026-04-04 wekan ® release
 
 This release fixes the following bugs:
 
@@ -370,7 +370,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.53 2026-04-04 WeKan ® release
+# v8.53 2026-04-04 wekan ® release
 
 This release fixes the following bugs:
 
@@ -379,7 +379,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.52 2026-04-03 WeKan ® release
+# v8.52 2026-04-03 wekan ® release
 
 This release fixes the following bugs:
 
@@ -388,7 +388,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.51 2026-04-03 WeKan ® release
+# v8.51 2026-04-03 wekan ® release
 
 This release adds the following updates:
 
@@ -397,12 +397,12 @@ This release adds the following updates:
 
 and fixes the following bugs:
 
-- [Fix Bug: WeKan v8.50 WRITABLE_PATH](https://github.com/wekan/wekan/commit/edc6b18b5f77320e966e56c888575bcb764096dc).
+- [Fix Bug: wekan v8.50 WRITABLE_PATH](https://github.com/wekan/wekan/commit/edc6b18b5f77320e966e56c888575bcb764096dc).
   Thanks to snowsky and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.50 2026-04-03 WeKan ® release
+# v8.50 2026-04-03 wekan ® release
 
 This release adds the following updates:
 
@@ -424,7 +424,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.49 2026-03-31 WeKan ® release
+# v8.49 2026-03-31 wekan ® release
 
 This release fixes the following bugs:
 
@@ -437,7 +437,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.48 2026-03-31 WeKan ® release
+# v8.48 2026-03-31 wekan ® release
 
 This release adds the following updates:
 
@@ -448,7 +448,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.47 2026-03-31 WeKan ® release
+# v8.47 2026-03-31 wekan ® release
 
 This release adds the following updates:
 
@@ -457,7 +457,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.46 2026-03-31 WeKan ® release
+# v8.46 2026-03-31 wekan ® release
 
 This release adds the following updates:
 
@@ -470,7 +470,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.45 2026-03-31 WeKan ® release
+# v8.45 2026-03-31 wekan ® release
 
 This release adds the following updates:
 
@@ -512,11 +512,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.44 2026-03-30 WeKan ® release
+# v8.44 2026-03-30 wekan ® release
 
 This release adds the following updates:
 
-- [From WeKan v8.43 FerretDB/PostgreSQL back to MongoDB 7.x](https://github.com/wekan/wekan/commit/cf2b3e4fc95ce4619c1ba13b63c3ad9d90bf59f6).
+- [From wekan v8.43 FerretDB/PostgreSQL back to MongoDB 7.x](https://github.com/wekan/wekan/commit/cf2b3e4fc95ce4619c1ba13b63c3ad9d90bf59f6).
   Thanks to xet7.
 - [Updated dependencies](https://github.com/wekan/wekan/commit/82f1de078f16e87028ffd101e3f80550a4b18afa).
   Thanks to developers of dependencies.
@@ -536,7 +536,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.43 2026-03-27 WeKan ® release
+# v8.43 2026-03-27 wekan ® release
 
 This release adds the following updates:
 
@@ -565,7 +565,7 @@ This release adds the following updates:
 
 and fixes the following bugs:
 
-- [Fixed rebuild-wekan.sh to build WeKan correctly](https://github.com/wekan/wekan/commit/4a8293f8812276f08d8a77a2c8be56441d7e87c1).
+- [Fixed rebuild-wekan.sh to build wekan correctly](https://github.com/wekan/wekan/commit/4a8293f8812276f08d8a77a2c8be56441d7e87c1).
   Thanks to xet7.
 - [Export Card to Excel. Part 3. Also, fixed uploading attachments](https://github.com/wekan/wekan/commit/5c5ed102cabd07e1be00d3fdb01ea599da0a5517).
   Thanks to xet7.
@@ -588,7 +588,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.42 2026-03-23 WeKan ® release
+# v8.42 2026-03-23 wekan ® release
 
 This release fixes the following bugs:
 
@@ -597,7 +597,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.41 2026-03-23 WeKan ® release
+# v8.41 2026-03-23 wekan ® release
 
 This release adds the following new features:
 
@@ -624,7 +624,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.40 2026-03-21 WeKan ® release
+# v8.40 2026-03-21 wekan ® release
 
 This release adds the following new features:
 
@@ -633,7 +633,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.39 2026-03-21 WeKan ® release
+# v8.39 2026-03-21 wekan ® release
 
 This release adds the following new features:
 
@@ -649,7 +649,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.38 2026-03-21 WeKan ® release
+# v8.38 2026-03-21 wekan ® release
 
 This release adds the following updates:
 
@@ -670,7 +670,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.37 2026-03-20 WeKan ® release
+# v8.37 2026-03-20 wekan ® release
 
 This release fixes the following bugs:
 
@@ -679,7 +679,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.36 2026-03-20 WeKan ® release
+# v8.36 2026-03-20 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [IntegrationBleed](https://wekan.fi/hall-of-fame/integrationBleed/):
 
@@ -761,7 +761,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.35 2026-03-05 WeKan ® release
+# v8.35 2026-03-05 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [IntegrationBleed](https://wekan.fi/hall-of-fame/integrationBleed/):
 
@@ -787,7 +787,7 @@ and adds the following updates:
 
 and fixes the following bugs:
 
-- [Commented out Admin Panel/Settings/Migrations related menu option and code to speed up WeKan](https://github.com/wekan/wekan/commit/9b3ecd795fffaf012911d0d36cea0ee362e2fc27).
+- [Commented out Admin Panel/Settings/Migrations related menu option and code to speed up wekan](https://github.com/wekan/wekan/commit/9b3ecd795fffaf012911d0d36cea0ee362e2fc27).
   Thanks to xet7.
 - [Optimized board loading](https://github.com/wekan/wekan/commit/7127862bea34ab84ebf8ef00727e3f7633ca8b69).
   Thanks to xet7.
@@ -798,19 +798,19 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.34 2026-02-20 WeKan ® release
+# v8.34 2026-02-20 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [AnchorBleed](https://wekan.fi/hall-of-fame/anchorBleed/):
 
-- [Fix GHSL-2026-035_Wekan CursorBleed of AnchorBleed](https://github.com/wekan/wekan/commit/1c8667eae8b28739e43569b612ffdb2693c6b1ce).
+- [Fix GHSL-2026-035_wekan CursorBleed of AnchorBleed](https://github.com/wekan/wekan/commit/1c8667eae8b28739e43569b612ffdb2693c6b1ce).
   Thanks to GHSL and xet7.
-- [Fix GHSL-2026-036_Wekan WatchBleed of AnchorBleed](https://github.com/wekan/wekan/commit/8c00adc6b865653bd717a946dd646eb54ac78c9c).
+- [Fix GHSL-2026-036_wekan WatchBleed of AnchorBleed](https://github.com/wekan/wekan/commit/8c00adc6b865653bd717a946dd646eb54ac78c9c).
   Thanks to GHSL and xet7.
-- [Fix GHSL-2026-037_Wekan GlobalBleed of AnchorBleed](https://github.com/wekan/wekan/commit/1ee9b2e917104f54c035f6426169a28fedecbdb6).
+- [Fix GHSL-2026-037_wekan GlobalBleed of AnchorBleed](https://github.com/wekan/wekan/commit/1ee9b2e917104f54c035f6426169a28fedecbdb6).
   Thanks to GHSL and xet7.
-- [Fix GHSL-2026-044_Wekan CustomFieldBleed of AnchorBleed](https://github.com/wekan/wekan/commit/73eb98c57afd3d72377a1f7160a52450ab0eeb8b).
+- [Fix GHSL-2026-044_wekan CustomFieldBleed of AnchorBleed](https://github.com/wekan/wekan/commit/73eb98c57afd3d72377a1f7160a52450ab0eeb8b).
   Thanks to GHSL and xet7.
-- [Fix GHSL-2026-045_Wekan ImportBleed of AnchorBleed](https://github.com/wekan/wekan/commit/62216e36c15f55d4ef6cb97313db3aa54fc77fe0).
+- [Fix GHSL-2026-045_wekan ImportBleed of AnchorBleed](https://github.com/wekan/wekan/commit/62216e36c15f55d4ef6cb97313db3aa54fc77fe0).
   Thanks to GHSL and xet7.
 
 and adds the following new features:
@@ -848,7 +848,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.33 2026-02-15 WeKan ® release
+# v8.33 2026-02-15 wekan ® release
 
 This release adds the following new features:
 
@@ -864,7 +864,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.32 2026-02-13 WeKan ® release
+# v8.32 2026-02-13 wekan ® release
 
 This release adds the following updates:
 
@@ -881,7 +881,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.31 2026-02-08 WeKan ® release
+# v8.31 2026-02-08 wekan ® release
 
 This release fixes the following bugs:
 
@@ -890,16 +890,16 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.30 2026-02-08 WeKan ® release
+# v8.30 2026-02-08 wekan ® release
 
 This release reverts the following new features and adds the following fixes:
 
-- [Reverted New UI Design of WeKan v8.29 and added more fixes and performance improvements](https://github.com/wekan/wekan/commit/1b8b8d2eef5b56654026597ae445f3f20ad886b2).
+- [Reverted New UI Design of wekan v8.29 and added more fixes and performance improvements](https://github.com/wekan/wekan/commit/1b8b8d2eef5b56654026597ae445f3f20ad886b2).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.29 2026-02-07 WeKan ® release
+# v8.29 2026-02-07 wekan ® release
 
 This release adds the following new features:
 
@@ -927,7 +927,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.28 2026-02-05 WeKan ® release
+# v8.28 2026-02-05 wekan ® release
 
 This release adds the following updates:
 
@@ -949,7 +949,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.27 2026-01-31 WeKan ® release
+# v8.27 2026-01-31 wekan ® release
 
 This release adds the following updates:
 
@@ -963,7 +963,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.26 2026-01-31 WeKan ® release
+# v8.26 2026-01-31 wekan ® release
 
 This release adds the following updates:
 
@@ -987,7 +987,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.25 2026-01-28 WeKan ® release
+# v8.25 2026-01-28 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [FloppyBleed](https://wekan.fi/hall-of-fame/floppyBleed/):
 
@@ -1027,7 +1027,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.24 2026-01-24 WeKan ® release
+# v8.24 2026-01-24 wekan ® release
 
 This release adds the following updates:
 
@@ -1052,7 +1052,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.23 2026-01-21 WeKan ® release
+# v8.23 2026-01-21 wekan ® release
 
 This release adds the following updates:
 
@@ -1078,7 +1078,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.22 2026-01-20 WeKan ® release
+# v8.22 2026-01-20 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1087,7 +1087,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.21 2026-01-18 WeKan ® release
+# v8.21 2026-01-18 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [SnowBleed](https://wekan.fi/hall-of-fame/snowBleed/):
 
@@ -1149,7 +1149,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.20 2026-01-16 WeKan ® release
+# v8.20 2026-01-16 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [SnowBleed](https://wekan.fi/hall-of-fame/snowBleed/):
 
@@ -1172,7 +1172,7 @@ and adds the following updates:
   [Part 2](https://github.com/wekan/wekan/commit/f198421f10dd3be9d58f64a242d12ea1ef45fee3),
   [Part 3](https://github.com/wekan/wekan/commit/9431b2d53014289bebb06567f5662fdcb6dd409c),
   [Part 4](https://github.com/wekan/wekan/commit/ffd37b9fd9171ca22973d6d0a62baef4a18494f5).
-  Thanks to juri_ at WeKan Libera.Chat IRC and xet7.
+  Thanks to juri_ at wekan Libera.Chat IRC and xet7.
 - [Added s390x firewall Docs](https://github.com/wekan/wekan/commit/ec7c0e6dc3641f43b1a110d285f6ef15c146584a).
   Thanks to xet7.
 - Updated GitHub issue templates.
@@ -1182,7 +1182,7 @@ and adds the following updates:
   Thanks to xet7.
 - [Migrate kadira:flow-router to ostrio:flow-router-extra](https://github.com/wekan/wekan/pull/6067), related to Meteor 3 upgrades.
   Thanks to harryadel.
-- [Some fixes to make WeKan working after Meteor 3 related router upgrades](https://github.com/wekan/wekan/commit/984a2dcec18fd20ebd1a5add8380d4c13d8303ba).
+- [Some fixes to make wekan working after Meteor 3 related router upgrades](https://github.com/wekan/wekan/commit/984a2dcec18fd20ebd1a5add8380d4c13d8303ba).
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -1209,7 +1209,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.19 2025-12-29 WeKan ® release
+# v8.19 2025-12-29 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [MegaBleed](https://wekan.fi/hall-of-fame/megaBleed/):
 
@@ -1265,7 +1265,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.18 2025-12-28 WeKan ® release
+# v8.18 2025-12-28 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -1299,7 +1299,7 @@ and adds the following updates:
   Thanks to xet7.
 - [Updated build script for Linux arm64 bundle](https://github.com/wekan/wekan/commit/3db1305e58168f7417023ccd8d54995026844b18).
   Thanks to xet7.
-- Update Backup docs about migrating to newest WeKan.
+- Update Backup docs about migrating to newest wekan.
   [Part 1](https://github.com/wekan/wekan/commit/e669b1b9c72278c8debbc9de74d3fa02224a66d8),
   [Part 2](https://github.com/wekan/wekan/commit/19fa12bb26a0444acffd49f24123ed993c425f6a),
   [Part 3](https://github.com/wekan/wekan/commit/4e346c0ab7fbfb39544063cbd0e095307b26648f),
@@ -1331,7 +1331,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.17 2025-11-06 WeKan ® release
+# v8.17 2025-11-06 wekan ® release
 
 This release adds the following new feature:
 
@@ -1367,7 +1367,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.16 2025-11-02 WeKan ® release
+# v8.16 2025-11-02 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES of [SpaceBleed](https://wekan.fi/hall-of-fame/spaceBleed/):
 
@@ -1396,7 +1396,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.15 2025-10-23 WeKan ® release
+# v8.15 2025-10-23 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1407,7 +1407,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.14 2025-10-23 WeKan ® release
+# v8.14 2025-10-23 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1416,7 +1416,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.12 2025-10-23 WeKan ® release
+# v8.12 2025-10-23 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1435,7 +1435,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.11 2025-10-21 WeKan ® release
+# v8.11 2025-10-21 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1455,7 +1455,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.10 2025-10-21 WeKan ® release
+# v8.10 2025-10-21 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1464,7 +1464,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.09 2025-10-21 WeKan ® release
+# v8.09 2025-10-21 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1475,7 +1475,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.08 2025-10-21 WeKan ® release
+# v8.08 2025-10-21 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1484,11 +1484,11 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.07 2025-10-20 WeKan ® release
+# v8.07 2025-10-20 wekan ® release
 
 This release fixes the following bugs:
 
-- [Fix Snap Candidate WeKan 8.00-8.06 commit ae01ea5 database directory from /var/snap/wekan/common/wekan back to 8.07 /var/snap/wekan/common](https://github.com/wekan/wekan/commit/98f141d62f3b6d4371d024c72eae6688d0f4e516).
+- [Fix Snap Candidate wekan 8.00-8.06 commit ae01ea5 database directory from /var/snap/wekan/common/wekan back to 8.07 /var/snap/wekan/common](https://github.com/wekan/wekan/commit/98f141d62f3b6d4371d024c72eae6688d0f4e516).
   Thanks to xet7.
 - [When opening board, add missing lists](https://github.com/wekan/wekan/commit/80777b46638ed15b8194105751499ada4b066d19).
   Thanks to xet7.
@@ -1497,7 +1497,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.06 2025-10-20 WeKan ® release
+# v8.06 2025-10-20 wekan ® release
 
 This release adds the following new features:
 
@@ -1547,7 +1547,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.05 2025-10-17 WeKan ® release
+# v8.05 2025-10-17 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1574,7 +1574,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.04 2025-10-16 WeKan ® release
+# v8.04 2025-10-16 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1599,7 +1599,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.03 2025-10-14 WeKan ® release
+# v8.03 2025-10-14 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1608,11 +1608,11 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.02 2025-10-14 WeKan ® release
+# v8.02 2025-10-14 wekan ® release
 
 This release adds the following new features:
 
-- [Run database migrations when opening board. Not when upgrading WeKan](https://github.com/wekan/wekan/commit/2b5c56484a4dd559f062ef892fd5248a903b2a10).
+- [Run database migrations when opening board. Not when upgrading wekan](https://github.com/wekan/wekan/commit/2b5c56484a4dd559f062ef892fd5248a903b2a10).
   Thanks to xet7.
 - [Added Cron Manager to Admin Panel for long running jobs, like running migrations when opening board, copying or moving boards swimlanes lists cards etc](https://github.com/wekan/wekan/commit/da68b01502afc9d5d9ea1267bee9fc98bb08b611).
   Thanks to xet7.
@@ -1659,11 +1659,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.01 2025-10-11 WeKan ® release
+# v8.01 2025-10-11 wekan ® release
 
 This release adds the following new features:
 
-- [Made possible to start WeKan immediately without running any database migrations](https://github.com/wekan/wekan/commit/3ccdc2e3070978a79bc68941375122504318677d).
+- [Made possible to start wekan immediately without running any database migrations](https://github.com/wekan/wekan/commit/3ccdc2e3070978a79bc68941375122504318677d).
   Thanks to xet7.
 - [Add support for MongoDB 3-8 client, detecting which one is in use](https://github.com/wekan/wekan/commit/74ccfea5703b08b2166593d1bb8e1d981970cec0).
   Thanks to xet7.
@@ -1680,12 +1680,12 @@ and fixes the following bugs:
   Thanks to xet7.
 - [Fix count of Orgs Teams People at Admin Panel](https://github.com/wekan/wekan/commit/b77eed221f9e5fc657234a6de3e11c27f4de3d38).
   Thanks to xet7.
-- [Fixed attachments and minicard related bugs that prevented WeKan starting](https://github.com/wekan/wekan/commit/a86ff1e8d03d330a7ea0702cf3677859ed552509).
+- [Fixed attachments and minicard related bugs that prevented wekan starting](https://github.com/wekan/wekan/commit/a86ff1e8d03d330a7ea0702cf3677859ed552509).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v8.00 2025-10-11 WeKan ® release
+# v8.00 2025-10-11 wekan ® release
 
 This release adds the following new features:
 
@@ -1694,7 +1694,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.99 2025-10-11 WeKan ® release
+# v7.99 2025-10-11 wekan ® release
 
 This release fixed the following bugs:
 
@@ -1703,11 +1703,11 @@ This release fixed the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.98 2025-10-11 WeKan ® release
+# v7.98 2025-10-11 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
-- [Security Fix: IDOR CWE-639 that affected WeKan 7.80-7.93](https://github.com/wekan/wekan/commit/b87cff1289d2c98ef84d69e171f112ecedb4d843).
+- [Security Fix: IDOR CWE-639 that affected wekan 7.80-7.93](https://github.com/wekan/wekan/commit/b87cff1289d2c98ef84d69e171f112ecedb4d843).
   Thanks to Romain Korpas at apitech.fr and xet7.
 - [Security Fix: Computational Resource Abuse in Export endpoints](https://github.com/wekan/wekan/commit/d0f118e7af0b2ede517d6d051226c38fa8e557b6).
   Thanks to Anynymous Security Researcher and xet7.
@@ -1721,9 +1721,9 @@ This release fixes the following CRITICAL SECURITY ISSUES:
   Thanks to Ryoya Koyama of Mitsui Bussan Secure Directions, Inc and xet7.
 - [Security Fix JVN#86586539: Stored XSS](https://github.com/wekan/wekan/commit/ee79cab7b27f73fab62a00ec49add73fd6f7bcaa).
   Thanks to Ryoya Koyama of Mitsui Bussan Secure Directions, Inc and xet7.
-- [Security Fix JVN#15385465: CWE-79 XSS, that affected WeKan 7.94](https://github.com/wekan/wekan/commit/81c3dc1d956cd7040655940f6569653d7b98fa9a).
+- [Security Fix JVN#15385465: CWE-79 XSS, that affected wekan 7.94](https://github.com/wekan/wekan/commit/81c3dc1d956cd7040655940f6569653d7b98fa9a).
   Thanks to Sho Sugiyama and xet7.
-- Security Fix JVN#80785288: CWE-79 XSS, that affected WeKan 3.94 and v3.95. This was already previously fixed.
+- Security Fix JVN#80785288: CWE-79 XSS, that affected wekan 3.94 and v3.95. This was already previously fixed.
   Thanks to xet7.
 
 and adds the following new features:
@@ -1770,7 +1770,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.97 2025-10-08 WeKan ® release
+# v7.97 2025-10-08 wekan ® release
 
 This release fixes the following bugs:
 
@@ -1785,7 +1785,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.96 2025-10-07 WeKan ® release
+# v7.96 2025-10-07 wekan ® release
 
 This release adds the following updates:
 
@@ -1813,7 +1813,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.95 2025-09-18 WeKan ® release
+# v7.95 2025-09-18 wekan ® release
 
 This release adds the following updates:
 
@@ -1823,7 +1823,7 @@ This release adds the following updates:
   Thanks to xet7.
 - [More info about ToroDB, FerretDB, Turso, TigerBeetle, PostgreSQL, SQLite etc](https://github.com/wekan/wekan/commit/701485d76aded5ee4fa17967d94918132a821af6).
   Thanks to xet7.
-- [Added missing image to WeKan Multiverse page](https://github.com/wekan/wekan/commit/946f7045e92e26bbe8d182634844ee5eebf73564).
+- [Added missing image to wekan Multiverse page](https://github.com/wekan/wekan/commit/946f7045e92e26bbe8d182634844ee5eebf73564).
   Thanks to xet7.
 - [Added more info to Windows Offline docs about WRITABLE_PATH and ATTACHMENTS_STORE_PATH](https://github.com/wekan/wekan/pull/5872).
   Thanks to sowwos.
@@ -1836,7 +1836,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.94 2025-08-18 WeKan ® release
+# v7.94 2025-08-18 wekan ® release
 
 This release adds the following new features:
 
@@ -1895,7 +1895,7 @@ and fixes the following bugs:
 - [Fixes for building at macOS](https://github.com/wekan/wekan/commit/200545822c5c778521f76525938fe777ed9666f0).
   Thanks to xet7.
 - [Improves accessibility by disabling custom Tab handling](https://github.com/wekan/wekan/pull/5853).
-  Thanks to seve12, co-maintainer of WeKan.
+  Thanks to seve12, co-maintainer of wekan.
 - [Comment out not used Tab code at accessibility related changes](https://github.com/wekan/wekan/commit/0e32f666eb30cc254177119907e6eae3c09ce0ca).
   Thanks to xet7.
 - [Fixed link at OpenShift docs](https://github.com/wekan/wekan/commit/b9887fc91758edb31259a8df7770a1d992bc9251).
@@ -1906,12 +1906,12 @@ and fixes the following bugs:
   Added product name to page titles, settings and global search.
   More accessible header and layout templates, modal dialogs, DOM structure, color contrast.
   Thanks to seve12.
-- [Fixed uppercase K of WeKan](https://github.com/wekan/wekan/commit/b137108ae15a9c5685cca5f45cfa9480ec7d3510).
+- [Fixed uppercase K of wekan](https://github.com/wekan/wekan/commit/b137108ae15a9c5685cca5f45cfa9480ec7d3510).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.93 2025-07-18 WeKan ® release
+# v7.93 2025-07-18 wekan ® release
 
 This release adds the following new features:
 
@@ -1935,7 +1935,7 @@ This release adds the following new features:
 - [Add REST API endpoint to edit a list with various properties](https://github.com/wekan/wekan/pull/5832).
   Thanks to Atry.
 
-and adds the following major updates to links of WeKan websites, blog and docs:
+and adds the following major updates to links of wekan websites, blog and docs:
 
 - These changes are because most people at Finland expect Finnish company to be at .fi domain.
   - It did take too much time at local computer shop to explain about domain being .team
@@ -1968,7 +1968,7 @@ and adds the following major updates to links of WeKan websites, blog and docs:
   [Part 6: Fixed links](https://github.com/wekan/wekan/commit/cc7459b98395f15fd2c97992f74c279a93f8956a),
   [Part 7: Updated links](https://github.com/wekan/wekan/commit/4bfc0140bef8504ba24b237a9c5c525a5bf3fb7d),
   [Part 8: Reorganized docs file locations](https://github.com/wekan/wekan/commit/f54cbac37008fc99f19fb20930d2fa5ecb535a69),
-  [Part 9: Fix Discord image link and WeKan API link](https://github.com/wekan/wekan/commit/3a8473e6326bff2f17ada1bb48f0c7f38b356721),
+  [Part 9: Fix Discord image link and wekan API link](https://github.com/wekan/wekan/commit/3a8473e6326bff2f17ada1bb48f0c7f38b356721),
   [Part 10: Fix links about docs that were moved from wiki to readme](https://github.com/wekan/wekan/commit/bd796ce64248dc58ff4a192ca58796096dbef019),
   [Part 11: Updated building Snap](https://github.com/wekan/wekan/commit/aa681cde88d17ee0fd957233c52297e9ab0047ce),
   [Part 12: Updated Snap platforms setting](https://github.com/wekan/wekan/commit/6b401000b91dc46b810dfc27964246891b7cd68c),
@@ -2015,7 +2015,7 @@ and fixes the following bugs:
   [Part 1](https://github.com/wekan/wekan/pull/5816),
   [Part 2](https://github.com/wekan/wekan/commit/51e43f1c254abee7ee12e8fdab8c52695e858fa2).
   Thanks to dassio and xet7.
-- [Reorganized docs to fix building WeKan](https://github.com/wekan/wekan/commit/6e11aa27f896e41c57980b45b59dc8248259421f).
+- [Reorganized docs to fix building wekan](https://github.com/wekan/wekan/commit/6e11aa27f896e41c57980b45b59dc8248259421f).
   Thanks to xet7.
 - Fixed rebuild-wekan.sh install deps for macOS.
   [Part 1](https://github.com/wekan/wekan/commit/938fe49b2c0dd523e3402b514b13ba5b605dac2b),
@@ -2032,7 +2032,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.92 2025-06-12 WeKan ® release
+# v7.92 2025-06-12 wekan ® release
 
 This release adds the following updates:
 
@@ -2061,7 +2061,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.91 2025-05-25 WeKan ® release
+# v7.91 2025-05-25 wekan ® release
 
 This release adds the following updates:
 
@@ -2077,7 +2077,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.90 2025-05-14 WeKan ® release
+# v7.90 2025-05-14 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2092,7 +2092,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.89 2025-05-13 WeKan ® release
+# v7.89 2025-05-13 wekan ® release
 
 Note: Docker image is only at ghcr.io (GitHub) and Docker Hub (wekanteam/wekan).
 Quay.io is at read only mode, they are fixing something, so it's not possible to
@@ -2125,7 +2125,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.88 2025-04-25 WeKan ® release
+# v7.88 2025-04-25 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2134,7 +2134,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.87 2025-04-25 WeKan ® release
+# v7.87 2025-04-25 wekan ® release
 
 Note: This release does not work, there is bugs. Use newest release.
 
@@ -2147,7 +2147,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.86 2025-04-25 WeKan ® release
+# v7.86 2025-04-25 wekan ® release
 
 Note: This release does not work, there is typos. Use newest release.
 
@@ -2167,7 +2167,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.85 2025-04-21 WeKan ® release
+# v7.85 2025-04-21 wekan ® release
 
 This release adds the following updates:
 
@@ -2185,7 +2185,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.84 2025-03-23 WeKan ® release
+# v7.84 2025-03-23 wekan ® release
 
 This release adds the following new features:
 
@@ -2210,7 +2210,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.83 2025-03-08 WeKan ® release
+# v7.83 2025-03-08 wekan ® release
 
 This release adds the following updates:
 
@@ -2228,12 +2228,12 @@ and fixes the following bugs:
   Thanks to Firas-Git.
 - [Comment out error message of non-existing Custom Field](https://github.com/wekan/wekan/commit/908a5fc60d5d574a36d4bfd496d3a16fd267ae75).
   Thanks to xet7.
-- [Reverted Docker changes of WeKan v7.68 to get WeKan Docker version working](https://github.com/wekan/wekan/commit/e7462ada12ec8edfd08d6c3b3a97a034211d51eb).
+- [Reverted Docker changes of wekan v7.68 to get wekan Docker version working](https://github.com/wekan/wekan/commit/e7462ada12ec8edfd08d6c3b3a97a034211d51eb).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.82 2025-02-24 WeKan ® release
+# v7.82 2025-02-24 wekan ® release
 
 v7.82 Docker version is broken: https://github.com/wekan/wekan/issues/5697 . Snap Candidate works.
 
@@ -2250,7 +2250,7 @@ and adds the following updates:
   Thanks to mueller-ma.
 - [Updated dependencies](https://github.com/wekan/wekan/commit/666ee8403388f7d5e1a30cf0e53bc46a70bf1c40).
   Thanks to developes of dependencies.
-- [Fixed building WeKan. Updated dompurify. Forked Meteor 2.14 version of meteor-node-stubs to update elliptic](https://github.com/wekan/wekan/commit/18d0fa43275cd2955dd6416213e316ca08a62255).
+- [Fixed building wekan. Updated dompurify. Forked Meteor 2.14 version of meteor-node-stubs to update elliptic](https://github.com/wekan/wekan/commit/18d0fa43275cd2955dd6416213e316ca08a62255).
   Thanks to developers of depedencies and xet7.
 
 and fixes the following bugs:
@@ -2260,7 +2260,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.81 2025-02-07 WeKan ® release
+# v7.81 2025-02-07 wekan ® release
 
 This release adds the following new features:
 
@@ -2287,7 +2287,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.80 2025-01-12 WeKan ® release
+# v7.80 2025-01-12 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2298,7 +2298,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.79 2025-01-02 WeKan ® release
+# v7.79 2025-01-02 wekan ® release
 
 This release adds the following new features:
 
@@ -2309,7 +2309,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.78 2024-12-31 WeKan ® release
+# v7.78 2024-12-31 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2328,7 +2328,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.77 2024-12-30 WeKan ® release
+# v7.77 2024-12-30 wekan ® release
 
 This release adds the following new features:
 
@@ -2348,7 +2348,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.76 2024-12-30 WeKan ® release
+# v7.76 2024-12-30 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2359,7 +2359,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.75 2024-12-29 WeKan ® release
+# v7.75 2024-12-29 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2370,7 +2370,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.74 2024-12-25 WeKan ® release
+# v7.74 2024-12-25 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2385,7 +2385,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.73 2024-12-24 WeKan ® release
+# v7.73 2024-12-24 wekan ® release
 
 This release adds the following updates:
 
@@ -2412,7 +2412,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.72 2024-12-08 WeKan ® release
+# v7.72 2024-12-08 wekan ® release
 
 This release adds the following new features:
 
@@ -2431,7 +2431,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.71 2024-12-05 WeKan ® release
+# v7.71 2024-12-05 wekan ® release
 
 This release adds the following new features:
 
@@ -2440,7 +2440,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.70 2024-12-04 WeKan ® release
+# v7.70 2024-12-04 wekan ® release
 
 This release adds the following new features:
 
@@ -2456,7 +2456,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.69 2024-12-02 WeKan ® release
+# v7.69 2024-12-02 wekan ® release
 
 This release adds the following updates:
 
@@ -2482,16 +2482,16 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.68 2024-11-24 WeKan ® release
+# v7.68 2024-11-24 wekan ® release
 
 This release adds the following updates:
 
-- [Speed improvements to building WeKan x86_64 Dockerfile. Reduced Docker image size from 1 GB to 0.5 GB. Using Ubuntu 24.04 Docker base image](https://github.com/wekan/wekan/pull/5588).
+- [Speed improvements to building wekan x86_64 Dockerfile. Reduced Docker image size from 1 GB to 0.5 GB. Using Ubuntu 24.04 Docker base image](https://github.com/wekan/wekan/pull/5588).
   Thanks to NadavTasher.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.67 2024-11-21 WeKan ® release
+# v7.67 2024-11-21 wekan ® release
 
 This release adds the following new features:
 
@@ -2500,7 +2500,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.65 2024-11-20 WeKan ® release
+# v7.65 2024-11-20 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2509,7 +2509,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.64 2024-11-20 WeKan ® release
+# v7.64 2024-11-20 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2524,7 +2524,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.63 2024-11-16 WeKan ® release
+# v7.63 2024-11-16 wekan ® release
 
 This release adds the following new features:
 
@@ -2559,7 +2559,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.62 2024-11-15 WeKan ® release
+# v7.62 2024-11-15 wekan ® release
 
 This release adds the following new features:
 
@@ -2574,7 +2574,7 @@ This release adds the following new features:
 
 and adds the following updates:
 
-- [Copied updated Docs from wiki to WeKan repo](https://github.com/wekan/wekan/commit/559251eb0d8aea6a714f14224497d0a25c7a3864).
+- [Copied updated Docs from wiki to wekan repo](https://github.com/wekan/wekan/commit/559251eb0d8aea6a714f14224497d0a25c7a3864).
   Thanks to xet7.
 - [Updated docs about Linked Cards](https://github.com/wekan/wekan/commit/96627540da0b6e12890ee1660f4ff0f469bb0e25).
   Thanks to xet7.
@@ -2586,7 +2586,7 @@ and adds the following updates:
   Thanks to emmanuel-ferdman.
 - [Updated dependencies](https://github.com/wekan/wekan/commit/b24acefa6f6696b702f2c3ceb28d6d6290017bb2).
   Thanks to developers of dependencies.
-- [Update Snap Candidate to MongoDB 6.0.19. Updated WeKan Windows version numbers. Added Cron docs](https://github.com/wekan/wekan/commit/fb4d95672e37d849ff52954c79eede2af7d2a509).
+- [Update Snap Candidate to MongoDB 6.0.19. Updated wekan Windows version numbers. Added Cron docs](https://github.com/wekan/wekan/commit/fb4d95672e37d849ff52954c79eede2af7d2a509).
   Thanks to xet7.
 - [Updated docs sidebar](https://github.com/wekan/wekan/commit/5448a1569113142ab5b2440763c9642c88e86ba4)-
   Thanks to xet7.
@@ -2602,7 +2602,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.61 2024-10-23 WeKan ® release
+# v7.61 2024-10-23 wekan ® release
 
 This release adds the following updates:
 
@@ -2628,7 +2628,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.60 2024-09-23 WeKan ® release
+# v7.60 2024-09-23 wekan ® release
 
 This release adds the following updates:
 
@@ -2641,7 +2641,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.59 2024-09-04 WeKan ® release
+# v7.59 2024-09-04 wekan ® release
 
 This release tries to fix the following bugs:
 
@@ -2651,7 +2651,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.58 2024-09-04 WeKan ® release
+# v7.58 2024-09-04 wekan ® release
 
 This release tries to fix the following bugs:
 
@@ -2660,7 +2660,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.57 2024-09-04 WeKan ® release
+# v7.57 2024-09-04 wekan ® release
 
 This release adds the following updates:
 
@@ -2675,7 +2675,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.56 2024-08-21 WeKan ® release
+# v7.56 2024-08-21 wekan ® release
 
 This release adds the following updates:
 
@@ -2704,7 +2704,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.55 2024-08-08 WeKan ® release
+# v7.55 2024-08-08 wekan ® release
 
 This release fixes the following bugs:
 
@@ -2713,7 +2713,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.54 2024-08-07 WeKan ® release
+# v7.54 2024-08-07 wekan ® release
 
 This release adds the following new features:
 
@@ -2759,7 +2759,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.53 2024-08-03 WeKan ® release
+# v7.53 2024-08-03 wekan ® release
 
 This release adds the following new features:
 
@@ -2794,7 +2794,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.52 2024-08-03 WeKan ® release
+# v7.52 2024-08-03 wekan ® release
 
 This release adds the following new features:
 
@@ -2802,7 +2802,7 @@ This release adds the following new features:
   Thanks to mreichelt-dicos.
 - [Helm Chart: Fixes for mongodb persistence. Please test is this correct](https://github.com/wekan/charts/commit/7efb071dd91d76c3971e1865fd18f9d43d8c6891).
   Thanks to emoritzx.
-- [Helm Chart: Added info about rarely used running WeKan at subpath](https://github.com/wekan/charts/commit/7d4176c7b328c5477c1fa29a323574aac78616a9).
+- [Helm Chart: Added info about rarely used running wekan at subpath](https://github.com/wekan/charts/commit/7d4176c7b328c5477c1fa29a323574aac78616a9).
   Thanks to emoritzx.
 
 and adds the following updates:
@@ -2821,7 +2821,7 @@ and adds the following updates:
   [Part 2](https://github.com/wekan/wekan/commit/e663ce038af397f547e8823d61ce5dc2e3cea84d),
   [Part 3](https://github.com/wekan/wekan.github.io/commit/e9e0550824cdda31daae42df7c497fbd037fd78f).
   Thanks to RepoCloud.
-- [Updated WeKan app webmanifest](https://github.com/wekan/wekan/commit/745618626535743938b9d2e8c88afe6345807a85).
+- [Updated wekan app webmanifest](https://github.com/wekan/wekan/commit/745618626535743938b9d2e8c88afe6345807a85).
   Thanks to xet7.
 - [Revert forking of ldapjs](https://github.com/wekan/wekan/commit/c89f3ba3da6512169e033d76377a9190b35a92d2).
   Thanks to xet7.
@@ -2837,7 +2837,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.51 2024-06-27 WeKan ® release
+# v7.51 2024-06-27 wekan ® release
 
 This release adds the following updates:
 
@@ -2864,7 +2864,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.50 2024-06-22 WeKan ® release
+# v7.50 2024-06-22 wekan ® release
 
 This release adds the following new features:
 
@@ -2873,7 +2873,7 @@ This release adds the following new features:
 
 and adds the following updates:
 
-- Updated docs for WeKan version for Windows.
+- Updated docs for wekan version for Windows.
   [Part 1](https://github.com/wekan/wekan/commit/9b428150a4fb9efdcb2ae9d3bb59d0da29529e69),
   [Part 2](https://github.com/wekan/wekan/commit/3c35a6400b88e071a474a552ee941892522c8d59).
   Thanks to xet7.
@@ -2889,11 +2889,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.49 2024-06-11 WeKan ® release
+# v7.49 2024-06-11 wekan ® release
 
 This release adds the following updates:
 
-- [WeKan new release version number from wiki to WeKan repo docs](https://github.com/wekan/wekan/commit/e5c7650fc8eb5c3fcc6216f12e806ceb56fd94d9).
+- [wekan new release version number from wiki to wekan repo docs](https://github.com/wekan/wekan/commit/e5c7650fc8eb5c3fcc6216f12e806ceb56fd94d9).
   Thanks to xet7.
 - Updated dependencies.
   [Part 1](https://github.com/wekan/wekan/pull/5430),
@@ -2911,7 +2911,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.48 2024-06-06 WeKan ® release
+# v7.48 2024-06-06 wekan ® release
 
 This release adds the following updates:
 
@@ -2933,7 +2933,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.47 2024-06-03 WeKan ® release
+# v7.47 2024-06-03 wekan ® release
 
 This release adds the following updates:
 
@@ -2953,7 +2953,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.46 2024-06-03 WeKan ® release
+# v7.46 2024-06-03 wekan ® release
 
 This release adds the following updates:
 
@@ -2985,7 +2985,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.45 2024-05-06 WeKan ® release
+# v7.45 2024-05-06 wekan ® release
 
 This release adds the following updates:
 
@@ -3007,7 +3007,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.44 2024-04-26 WeKan ® release
+# v7.44 2024-04-26 wekan ® release
 
 This release adds the following new features:
 
@@ -3023,7 +3023,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.43 2024-04-18 WeKan ® release
+# v7.43 2024-04-18 wekan ® release
 
 This release adds the following updates:
 
@@ -3047,7 +3047,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.42 2024-04-03 WeKan ® release
+# v7.42 2024-04-03 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -3071,7 +3071,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.41 2024-03-18 WeKan ® release
+# v7.41 2024-03-18 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3082,7 +3082,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.40 2024-03-17 WeKan ® release
+# v7.40 2024-03-17 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3093,7 +3093,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.39 2024-03-16 WeKan ® release
+# v7.39 2024-03-16 wekan ® release
 
 This release adds the following updates:
 
@@ -3112,11 +3112,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.38 2024-03-10 WeKan ® release
+# v7.38 2024-03-10 wekan ® release
 
 This release adds the following new features:
 
-- [Added docs wikis to WeKan repo directory docs, to make possible to send PRs](https://github.com/wekan/wekan/commit/73ae73d4c38640e9daedbe8ef9e5b25b877ee804).
+- [Added docs wikis to wekan repo directory docs, to make possible to send PRs](https://github.com/wekan/wekan/commit/73ae73d4c38640e9daedbe8ef9e5b25b877ee804).
   Thanks to e-gaulue, C0rn3j and xet7.
 - [Added script to count lines of code changed per committer email address, because GitHub removed that feature from web UI](https://github.com/wekan/wekan/commit/835e33bf090022875f50916412f80b6a9b4a3b21).
   Thanks to bgwines and xet7.
@@ -3141,7 +3141,7 @@ and tried to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.37 2024-03-07 WeKan ® release
+# v7.37 2024-03-07 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3152,7 +3152,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.36 2024-03-06 WeKan ® release
+# v7.36 2024-03-06 wekan ® release
 
 This release adds the following features:
 
@@ -3168,7 +3168,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.35 2024-02-27 WeKan ® release
+# v7.35 2024-02-27 wekan ® release
 
 This release adds the following features and bugs:
 
@@ -3177,7 +3177,7 @@ This release adds the following features and bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.34 2024-02-23 WeKan ® release
+# v7.34 2024-02-23 wekan ® release
 
 This release adds the following updates:
 
@@ -3186,11 +3186,11 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.33 2024-02-23 WeKan ® release
+# v7.33 2024-02-23 wekan ® release
 
 This release adds the following updates:
 
-- [Updated docs for previous version of WeKan](https://github.com/wekan/wekan/commit/3b0616c1500b5070e660d2ba00968d59600958eb).
+- [Updated docs for previous version of wekan](https://github.com/wekan/wekan/commit/3b0616c1500b5070e660d2ba00968d59600958eb).
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -3200,7 +3200,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.32 2024-02-22 WeKan ® release
+# v7.32 2024-02-22 wekan ® release
 
 This release adds the following new features:
 
@@ -3224,7 +3224,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.31 2024-02-17 WeKan ® release
+# v7.31 2024-02-17 wekan ® release
 
 This release adds the following new features:
 
@@ -3241,7 +3241,7 @@ This release adds the following new features:
 
 and adds the following updates:
 
-- [Release scripts: Commented out not currently in use builds of WeKan bundle](https://github.com/wekan/wekan/commit/4eb0085243672071a392dc32f77dba3103c592ab).
+- [Release scripts: Commented out not currently in use builds of wekan bundle](https://github.com/wekan/wekan/commit/4eb0085243672071a392dc32f77dba3103c592ab).
   Thanks to xet7.
 - [Try to fix Snap](https://github.com/wekan/wekan/commit/a54e52d34bdab02befda7eefad46d16814d2c46e).
   Thanks to xet7.
@@ -3252,7 +3252,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.30 2024-01-28 WeKan ® release
+# v7.30 2024-01-28 wekan ® release
 
 This release adds the following updates:
 
@@ -3261,7 +3261,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.29 2024-01-27 WeKan ® release
+# v7.29 2024-01-27 wekan ® release
 
 This release removes the following features:
 
@@ -3277,11 +3277,11 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.28 2024-01-23 WeKan ® release
+# v7.28 2024-01-23 wekan ® release
 
 This release adds the following new features:
 
-- [Added archive option to of Wekan API](https://github.com/wekan/wekan/pull/5265).
+- [Added archive option to of wekan API](https://github.com/wekan/wekan/pull/5265).
   Thanks to gustavengstrom.
 
 and adds the following updates:
@@ -3294,7 +3294,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.27 2024-01-02 WeKan ® release
+# v7.27 2024-01-02 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3303,7 +3303,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.26 2024-01-02 WeKan ® release
+# v7.26 2024-01-02 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3312,7 +3312,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.25 2023-12-30 WeKan ® release
+# v7.25 2023-12-30 wekan ® release
 
 This release adds the following updates:
 
@@ -3344,7 +3344,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.24 2023-12-17 WeKan ® release
+# v7.24 2023-12-17 wekan ® release
 
 This release adds the following new features:
 
@@ -3359,7 +3359,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.23 2023-12-11 WeKan ® release
+# v7.23 2023-12-11 wekan ® release
 
 This release adds the following updates:
 
@@ -3372,7 +3372,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.22 2023-12-01 WeKan ® release
+# v7.22 2023-12-01 wekan ® release
 
 This release adds the following new features:
 
@@ -3393,7 +3393,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.21 2023-11-27 WeKan ® release
+# v7.21 2023-11-27 wekan ® release
 
 This release adds the following updates:
 
@@ -3402,7 +3402,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.20 2023-11-26 WeKan ® release
+# v7.20 2023-11-26 wekan ® release
 
 This release adds the following updates:
 
@@ -3415,7 +3415,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.19 2023-11-20 WeKan ® release
+# v7.19 2023-11-20 wekan ® release
 
 This release adds the following new features:
 
@@ -3457,7 +3457,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.18 2023-11-14 WeKan ® release
+# v7.18 2023-11-14 wekan ® release
 
 This release adds the following new features:
 
@@ -3476,7 +3476,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.17 2023-11-09 WeKan ® release
+# v7.17 2023-11-09 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3485,7 +3485,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.16 2023-11-09 WeKan ® release
+# v7.16 2023-11-09 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3494,7 +3494,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.15 2023-11-09 WeKan ® release
+# v7.15 2023-11-09 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3507,7 +3507,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.14 2023-11-09 WeKan ® release
+# v7.14 2023-11-09 wekan ® release
 
 This release adds the following updates:
 
@@ -3523,7 +3523,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.12 2023-11-02 WeKan ® release
+# v7.12 2023-11-02 wekan ® release
 
 This release adds the following updates:
 
@@ -3539,7 +3539,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.11 2023-11-02 WeKan ® release
+# v7.11 2023-11-02 wekan ® release
 
 Known issues: At some non-amd64 platforms, Node.js 14.x may show segmentation fault.
 This will be fixed when upgrading to Node.js 18.x or newer works.
@@ -3598,7 +3598,7 @@ and fixed the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.10 2023-09-29 WeKan ® release
+# v7.10 2023-09-29 wekan ® release
 
 This release adds the following new features:
 
@@ -3614,7 +3614,7 @@ This release adds the following new features:
   Thanks to xet7.
 - [After OIDC login, add users to board DEFAULT_BOARD_ID](https://github.com/wekan/wekan/pull/5098).
   Thanks to diegosteiner.
-- [Added DEFAULT_BOARD_ID environment variable setting to all WeKan platforms](https://github.com/wekan/wekan/commit/a781c0e7dcfdbe34c1483ee83cec12455b7026f7).
+- [Added DEFAULT_BOARD_ID environment variable setting to all wekan platforms](https://github.com/wekan/wekan/commit/a781c0e7dcfdbe34c1483ee83cec12455b7026f7).
   Thanks to xet7.
 - [Make available translation text to set empty string](https://github.com/wekan/wekan/pull/5103).
   Thanks to ipyramiddev.
@@ -3656,7 +3656,7 @@ and adds the following updates:
   Thanks to Meteor developers.
 - [Upgrade Snap Candidate to MongoDB 6.0.10](https://github.com/wekan/wekan/commit/522ab40f436be5656fd6fbd8057c6715afa2fa36).
   Thanks to MongoDB developers.
-- Renamed WeKan repo branch master to main.
+- Renamed wekan repo branch master to main.
   [Part 1](https://github.com/wekan/wekan/commit/549982b5e10c240fb2358c21b0781fef2e63a2ba),
   [Part 2](https://github.com/wekan/wekan/commit/fa32010a656a47a6fba9a625d6ab216c9b2034df),
   [Part 3](https://github.com/wekan/wekan/commit/b68493b009bbbb63cf26c9020299762c2a2717aa).
@@ -3678,7 +3678,7 @@ and fixes the following bugs:
 
 - [Correctly display preview for very tall images](https://github.com/wekan/wekan/pull/5097).
   Thanks to VidVidex.
-- Replaced ldap logger https://www.npmjs.com/package/bunyan with https://docs.meteor.com/packages/logging.html, because bunyan did show dtrace errors when building WeKan.
+- Replaced ldap logger https://www.npmjs.com/package/bunyan with https://docs.meteor.com/packages/logging.html, because bunyan did show dtrace errors when building wekan.
   [Part 1](https://github.com/wekan/wekan/commit/e83945c1a6c08fe58f660bcd7b7f8494f629e913),
   [Part 2](https://github.com/wekan/wekan/commit/427eb8ebd16b847eb278cd319adb75adc5206e99).
   Thanks to xet7.
@@ -3723,7 +3723,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.09 2023-08-21 WeKan ® release
+# v7.09 2023-08-21 wekan ® release
 
 This release adds the following new features:
 
@@ -3751,7 +3751,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.08 2023-08-17 WeKan ® release
+# v7.08 2023-08-17 wekan ® release
 
 This release adds the following new features:
 
@@ -3780,7 +3780,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.07 2023-08-16 WeKan ® release
+# v7.07 2023-08-16 wekan ® release
 
 This release adds the following updates:
 
@@ -3796,7 +3796,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.06 2023-08-15 WeKan ® release
+# v7.06 2023-08-15 wekan ® release
 
 This release adds the following updates:
 
@@ -3818,7 +3818,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.05 2023-08-08 WeKan ® release
+# v7.05 2023-08-08 wekan ® release
 
 This release adds the following updates:
 
@@ -3840,7 +3840,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.04 2023-08-03 WeKan ® release
+# v7.04 2023-08-03 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3853,7 +3853,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.03 2023-08-02 WeKan ® release
+# v7.03 2023-08-02 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3864,7 +3864,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.02 2023-08-02 WeKan ® release
+# v7.02 2023-08-02 wekan ® release
 
 This release adds the following new features:
 
@@ -3877,13 +3877,13 @@ and adds the following updates:
 
 - [Upgrade to Meteor 2.13 and Node.js 14.21.4](https://github.com/wekan/wekan/commit/caa8d087389b3f212c5eb4b7f538f3ad7c8c1227).
   Thanks to Meteor developers.
-- [Upgrade WeKan Docker to Node.js 14.21.4](https://github.com/wekan/wekan/commit/8dc7aa490a456cbf3207d266470febe69c0d5b6a).
+- [Upgrade wekan Docker to Node.js 14.21.4](https://github.com/wekan/wekan/commit/8dc7aa490a456cbf3207d266470febe69c0d5b6a).
   Thanks to Meteor and xet7.
 - [Upgrade to MongoDB 6.0.8 in Snap Candidate](https://github.com/wekan/wekan/commit/a773abaf2f4c77cbf586e2b0cba7b9ce412527ef).
   Thanks to MongoDB developers.
-- [Upgrade WeKan Snap Candidate to Node.js 14.21.4](https://github.com/wekan/wekan/commit/0161f19ba7ac63c40933bb4550f5397ddecd3452).
+- [Upgrade wekan Snap Candidate to Node.js 14.21.4](https://github.com/wekan/wekan/commit/0161f19ba7ac63c40933bb4550f5397ddecd3452).
   Thanks to Meteor and xet7.
-- [Upgrade WeKan StackSmith to Node.js 14.21.4](https://github.com/wekan/wekan/commit/f0620ce8800eccff4da822048f90ee4812560937).
+- [Upgrade wekan StackSmith to Node.js 14.21.4](https://github.com/wekan/wekan/commit/f0620ce8800eccff4da822048f90ee4812560937).
   Thanks to Meteor and xet7.
 - [Upgrade to Node.js 14.21.4 at build scripts and remaining Docker containers](https://github.com/wekan/wekan/commit/9f6e6bdc8193d86387166468578a6a24811ca9ec).
   Thanks to Meteor and xet7.
@@ -3907,7 +3907,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.01 2023-07-21 WeKan ® release
+# v7.01 2023-07-21 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3924,7 +3924,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v7.00 2023-07-19 WeKan ® release
+# v7.00 2023-07-19 wekan ® release
 
 This release adds the following new features:
 
@@ -3943,7 +3943,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.9 2023-07-18 WeKan ® release
+# v6.99.9 2023-07-18 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3952,7 +3952,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.8 2023-07-13 WeKan ® release
+# v6.99.8 2023-07-13 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3963,7 +3963,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.7 2023-07-11 WeKan ® release
+# v6.99.7 2023-07-11 wekan ® release
 
 This release adds the following updates:
 
@@ -3981,7 +3981,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.5 2023-07-10 WeKan ® release
+# v6.99.5 2023-07-10 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3990,7 +3990,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.4 2023-07-10 WeKan ® release
+# v6.99.4 2023-07-10 wekan ® release
 
 This release fixes the following bugs:
 
@@ -3999,7 +3999,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.3 2023-07-10 WeKan ® release
+# v6.99.3 2023-07-10 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4008,7 +4008,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.2 2023-07-10 WeKan ® release
+# v6.99.2 2023-07-10 wekan ® release
 
 This release adds the following updates:
 
@@ -4022,7 +4022,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99.1 2023-07-10 WeKan ® release
+# v6.99.1 2023-07-10 wekan ® release
 
 This release adds the following updates:
 
@@ -4036,7 +4036,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.99 2023-07-09 WeKan ® release
+# v6.99 2023-07-09 wekan ® release
 
 This release adds the following new features:
 
@@ -4106,7 +4106,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.98 2023-06-22 WeKan ® release
+# v6.98 2023-06-22 wekan ® release
 
 This release adds the following new features:
 
@@ -4142,7 +4142,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.97 2023-06-10 WeKan ® release
+# v6.97 2023-06-10 wekan ® release
 
 This release adds the following updates:
 
@@ -4156,11 +4156,11 @@ and removes the following features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.96 2023-06-10 WeKan ® release
+# v6.96 2023-06-10 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
-- Found and fixed more InvisibleBleed of WeKan.
+- Found and fixed more InvisibleBleed of wekan.
   [Part 1](https://github.com/wekan/wekan/commit/4c016169c55e0dc5df9533795ddfec424a053300),
   [Part 2](https://github.com/wekan/wekan/commit/df40384200d10595a7a9cd582d8534295eec5036).
   Thanks to xet7.
@@ -4185,14 +4185,14 @@ and fixes the following bugs:
   Thanks to xet7.
 - [Clarified required settings for start-wekan.bat and start-wekan.sh](https://github.com/wekan/wekan/commit/3e6b396d0913e6747714a9f87e2161bba0ce525e).
   Thanks to xet7.
-- [Fixed drag-drop at Ubuntu Touch Morph Browser and WeKan OpenStore app by changing jquery-ui-touch-punch to newer updated @rwap/jquery-ui-touch-punch](https://github.com/wekan/wekan/commit/af63259f091cb2ade84493a288ea37c53cd37321).
+- [Fixed drag-drop at Ubuntu Touch Morph Browser and wekan OpenStore app by changing jquery-ui-touch-punch to newer updated @rwap/jquery-ui-touch-punch](https://github.com/wekan/wekan/commit/af63259f091cb2ade84493a288ea37c53cd37321).
   Thanks to xet7.
 - [Try to fix SVG image failed to render](https://github.com/wekan/wekan/commit/7a3c340d657894bf72130b7e51e313e3b020f9cf).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.95 2023-06-07 WeKan ® release
+# v6.95 2023-06-07 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4201,7 +4201,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.94 2023-06-07 WeKan ® release
+# v6.94 2023-06-07 wekan ® release
 
 This release adds the following new features:
 
@@ -4244,7 +4244,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.93 2023-05-29 WeKan ® release
+# v6.93 2023-05-29 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4253,7 +4253,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.92 2023-05-29 WeKan ® release
+# v6.92 2023-05-29 wekan ® release
 
 This release adds the following improvements:
 
@@ -4271,7 +4271,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.91 2023-05-27 WeKan ® release
+# v6.91 2023-05-27 wekan ® release
 
 This release adds the following new features:
 
@@ -4280,7 +4280,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.90 2023-05-24 WeKan ® release
+# v6.90 2023-05-24 wekan ® release
 
 This release adds the following new features:
 
@@ -4309,7 +4309,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.89 2023-05-12 WeKan ® release
+# v6.89 2023-05-12 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4320,7 +4320,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.88 2023-05-11 WeKan ® release
+# v6.88 2023-05-11 wekan ® release
 
 This release adds the following new features:
 
@@ -4334,7 +4334,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.87 2023-05-08 WeKan ® release
+# v6.87 2023-05-08 wekan ® release
 
 This release adds the following new features:
 
@@ -4355,7 +4355,7 @@ and adds the following updates:
   Thanks to Meteor developers.
 - [Updated translations](https://github.com/wekan/wekan/commit/40c077101a94f639b90f607624c4c72e12235711).
   xet7 fixed all translations of advanced filter description to have correct escaping of slash and backslash,
-  so that bulding bundle of WeKan would not crash to invalid JSON syntax in translations.
+  so that bulding bundle of wekan would not crash to invalid JSON syntax in translations.
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -4365,18 +4365,18 @@ and fixes the following bugs:
 
 and tried to fix the following bugs:
 
-- [Tried to fix building WeKan OpenAPI docs using Ubuntu 23.04 amd64 with XFCE desktop, but it did not work, still getting error: Failed to parse the source OpenAPI document](https://github.com/wekan/wekan/commit/97c6b6531502d09cbd6c267212651f3036338a11).
+- [Tried to fix building wekan OpenAPI docs using Ubuntu 23.04 amd64 with XFCE desktop, but it did not work, still getting error: Failed to parse the source OpenAPI document](https://github.com/wekan/wekan/commit/97c6b6531502d09cbd6c267212651f3036338a11).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.86 2023-04-26 WeKan ® release
+# v6.86 2023-04-26 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
-- [Security fix to InvisibleBleed in WeKan. Escape HTML comment tags so that HTML comments are visible](https://github.com/wekan/wekan/commit/167863d95711249e69bb3511175d73b34acbbdb3).
+- [Security fix to InvisibleBleed in wekan. Escape HTML comment tags so that HTML comments are visible](https://github.com/wekan/wekan/commit/167863d95711249e69bb3511175d73b34acbbdb3).
   Thanks to xet7 for fixing.
-- [Security Fix to AdminBleed in WeKan, so that non-admin can not change to Admin](https://github.com/wekan/wekan/commit/cbad4cf5943d47b916f64b4582f8ca76a9dfd743).
+- [Security Fix to AdminBleed in wekan, so that non-admin can not change to Admin](https://github.com/wekan/wekan/commit/cbad4cf5943d47b916f64b4582f8ca76a9dfd743).
   Thanks to Christian Pöschl of usd AG Responsible Disclosure Team for reporting and xet7 for fixing.
 
 and adds the following new features:
@@ -4406,11 +4406,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.85 2023-04-18 WeKan ® release
+# v6.85 2023-04-18 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
-- [Security fix to ReactionBleed in WeKan. It is XSS in feature "Reaction to comment"](https://github.com/wekan/wekan/commit/47ac33d6c234359c31d9b5eae49ed3e793907279).
+- [Security fix to ReactionBleed in wekan. It is XSS in feature "Reaction to comment"](https://github.com/wekan/wekan/commit/47ac33d6c234359c31d9b5eae49ed3e793907279).
   Thanks to Alexander Starikov at Jet Infosystems (https://jetinfosystems.com/) for reporting and fixing.
 
 and adds the following updates:
@@ -4437,7 +4437,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.84 2023-04-11 WeKan ® release
+# v6.84 2023-04-11 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4448,7 +4448,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.83 2023-04-08 WeKan ® release
+# v6.83 2023-04-08 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4457,7 +4457,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.82 2023-04-07 WeKan ® release
+# v6.82 2023-04-07 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4472,23 +4472,23 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.81 2023-03-26 WeKan ® release
+# v6.81 2023-03-26 wekan ® release
 
 This release fixes the following bugs:
 
 - [Helm Chart - fix: broken secretEnv indentation](https://github.com/wekan/charts/pull/18).
-  Fixed in already released WeKan Helm Chart 1.2.7.
+  Fixed in already released wekan Helm Chart 1.2.7.
   Thanks to Nightreaver.
 - [Fix Bug: Cardoptions disappear behind scrollbar in german](https://github.com/wekan/wekan/commit/bf636725e8637200c2121e754297d281f8c38d4e).
   Thanks to Meeques and xet7.
 - [Add some info about allowed filesizes and filetypes for attachments and avatars](https://github.com/wekan/wekan/commit/5b3bd8ff2a29e2c1ada4c49de4c50c132b603863).
   Thanks to Meeques and xet7.
-- [Disable MongoDB telemetry and free monitoring in WeKan Snap](https://github.com/wekan/wekan/commit/df152e292dadd10a9873c21fff9571b98a06eec6).
+- [Disable MongoDB telemetry and free monitoring in wekan Snap](https://github.com/wekan/wekan/commit/df152e292dadd10a9873c21fff9571b98a06eec6).
   Thanks to webenefits and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.80 2023-03-23 WeKan ® release
+# v6.80 2023-03-23 wekan ® release
 
 This release adds the following improvements:
 
@@ -4507,7 +4507,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.79 2023-03-22 WeKan ® release
+# v6.79 2023-03-22 wekan ® release
 
 This release adds the following updates:
 
@@ -4523,7 +4523,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.78 2023-02-28 WeKan ® release
+# v6.78 2023-02-28 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -4532,7 +4532,7 @@ This release fixes the following CRITICAL SECURITY ISSUES:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.77 2023-02-27 WeKan ® release
+# v6.77 2023-02-27 wekan ® release
 
 This release adds the following updates:
 
@@ -4564,7 +4564,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.76 2023-02-22 WeKan ® release
+# v6.76 2023-02-22 wekan ® release
 
 This release adds the following updates:
 
@@ -4578,17 +4578,17 @@ and fixes the following bugs:
 - Fix at bottom of list Add button to be higher, so that text Add is not over button borders.
   [Part 1](https://github.com/wekan/wekan/commit/139a1c0f784443103397c9b6c8c17d5432ce9bdd),
   [Part 2](https://github.com/wekan/wekan/commit/c27a2b22c604377170c34f30e4b5710e18ae47c8).
-  Thanks to WeKan commercial support customer and xet7.
+  Thanks to wekan commercial support customer and xet7.
 - [Removed Mermaid, because newest Mermaid does not work anymore](https://github.com/wekan/wekan/commit/67500abcd4d034ebed2d13f5156123d5f70bd014).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.75 2023-02-21 WeKan ® release
+# v6.75 2023-02-21 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
-- Security Fix of FileBleed in WeKan. That is XSS in filename.
+- Security Fix of FileBleed in wekan. That is XSS in filename.
   [Part 1](https://github.com/wekan/wekan/commit/ff993e7c917b5650a790238e95c78001e4f0e039),
   [Part 2](https://github.com/wekan/wekan/commit/382168a5b428a7124d368c4fcb37e7e140e7ec8b).
   Thanks to responsible security disclosure contributors and xet7.
@@ -4611,7 +4611,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.74 2023-02-10 WeKan ® release
+# v6.74 2023-02-10 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4620,7 +4620,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.73 2023-02-10 WeKan ® release
+# v6.73 2023-02-10 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4630,12 +4630,12 @@ This release fixes the following bugs:
   Thanks to garciadavy.
 - [Back to MongoDB 6.x](https://github.com/wekan/wekan/commit/b5d35d464501cbca4dc4e4ee403c8bb205024b21).
   Thanks to urmel1960 and xet7.
-- [Try to fix building WeKan](https://github.com/wekan/wekan/commit/d9a7e135d33339aedf23875b67ac29c6f11f1bdb).
+- [Try to fix building wekan](https://github.com/wekan/wekan/commit/d9a7e135d33339aedf23875b67ac29c6f11f1bdb).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.72 2023-02-02 WeKan ® release
+# v6.72 2023-02-02 wekan ® release
 
 This release adds the following updates:
 
@@ -4661,7 +4661,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.71 2023-01-18 WeKan ® release
+# v6.71 2023-01-18 wekan ® release
 
 This release adds the following updates:
 
@@ -4685,7 +4685,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.70 2023-01-14 WeKan ® release
+# v6.70 2023-01-14 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4696,7 +4696,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.69 2023-01-09 WeKan ® release
+# v6.69 2023-01-09 wekan ® release
 
 This release adds the following updates:
 
@@ -4705,7 +4705,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.68 2023-01-07 WeKan ® release
+# v6.68 2023-01-07 wekan ® release
 
 This release adds the following updates:
 
@@ -4721,7 +4721,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.67 2023-01-03 WeKan ® release
+# v6.67 2023-01-03 wekan ® release
 
 This release adds the following updates:
 
@@ -4737,7 +4737,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.65 2022-12-27 WeKan ® release
+# v6.65 2022-12-27 wekan ® release
 
 This release adds the following new features:
 
@@ -4767,18 +4767,18 @@ and adds the following updates:
 
 and fixes the following bugs:
 
-- [Fixed Windows bundle build script and updated newest Windows WeKan release](https://github.com/wekan/wekan/commit/f1ff6d1e1fe935073f2600303c5c54f62d892311).
+- [Fixed Windows bundle build script and updated newest Windows wekan release](https://github.com/wekan/wekan/commit/f1ff6d1e1fe935073f2600303c5c54f62d892311).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.64 2022-12-24 WeKan ® release
+# v6.64 2022-12-24 wekan ® release
 
 This release adds the following updates:
 
 - [Updated release scripts](https://github.com/wekan/wekan/commit/71d35b0525b50191839147e74a7c9c66bf99496a).
   Thanks to xet7.
-- [Update webmanifest for WeKan Android Play Store app](https://github.com/wekan/wekan/commit/558093ff0c41da5798acc0b3ab723d288e104f8a).
+- [Update webmanifest for wekan Android Play Store app](https://github.com/wekan/wekan/commit/558093ff0c41da5798acc0b3ab723d288e104f8a).
   Thanks to xet7.
 - Upgrade to MongoDB 6.0.3.
   [Part 1](https://github.com/wekan/wekan/commit/62242b4a9636c1af49462403143e43e14e9a0cec),
@@ -4794,7 +4794,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.63 2022-12-22 WeKan ® release
+# v6.63 2022-12-22 wekan ® release
 
 This release adds the following new features:
 
@@ -4808,7 +4808,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.62 2022-12-20 WeKan ® release
+# v6.62 2022-12-20 wekan ® release
 
 This release adds the following updates:
 
@@ -4830,7 +4830,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.61 2022-12-15 WeKan ® release
+# v6.61 2022-12-15 wekan ® release
 
 This release adds the following new features:
 
@@ -4866,7 +4866,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.60 2022-12-01 WeKan ® release
+# v6.60 2022-12-01 wekan ® release
 
 This release adds the following updates:
 
@@ -4877,7 +4877,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.59 2022-11-28 WeKan ® release
+# v6.59 2022-11-28 wekan ® release
 
 This release adds the following updates:
 
@@ -4893,7 +4893,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.58 2022-11-25 WeKan ® release
+# v6.58 2022-11-25 wekan ® release
 
 This release fixes the following bugs:
 
@@ -4902,7 +4902,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.57 2022-11-24 WeKan ® release
+# v6.57 2022-11-24 wekan ® release
 
 This release adds the following updates:
 
@@ -4916,7 +4916,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.56 2022-11-22 WeKan ® release
+# v6.56 2022-11-22 wekan ® release
 
 This release adds the following new features:
 
@@ -4941,7 +4941,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.55 2022-11-05 WeKan ® release
+# v6.55 2022-11-05 wekan ® release
 
 This release adds the following new features:
 
@@ -4970,13 +4970,13 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.54 2022-10-24 WeKan ® release
+# v6.54 2022-10-24 wekan ® release
 
 This release adds the following new features:
 
 - [Added development option for using bundle visualizer](https://github.com/wekan/wekan/commit/7810e90524438c4305c55b64da716c0f68e1b1df).
   Thanks to xet7.
-- [In optional WeKan metrics feature, rename metrics key and add a new one](https://github.com/wekan/wekan/pull/4728).
+- [In optional wekan metrics feature, rename metrics key and add a new one](https://github.com/wekan/wekan/pull/4728).
   Thanks to Emile840.
 - Drag handle toggle at top left.
   Each touch/non-touch screen can use different setting, because it's saved to browser localstorage, not database.
@@ -5009,7 +5009,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.53 2022-10-06 WeKan ® release
+# v6.53 2022-10-06 wekan ® release
 
 This release adds the following updates:
 
@@ -5031,7 +5031,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.52 2022-10-02 WeKan ® release
+# v6.52 2022-10-02 wekan ® release
 
 This release adds the following new features:
 
@@ -5047,7 +5047,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.51 2022-09-29 WeKan ® release
+# v6.51 2022-09-29 wekan ® release
 
 This release adds the following updates:
 
@@ -5056,11 +5056,11 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.50 2022-09-23 WeKan ® release
+# v6.50 2022-09-23 wekan ® release
 
 This release adds the following new features:
 
-- [Added a possibility of getting some WeKan metrics datas](https://github.com/wekan/wekan/pull/4700).
+- [Added a possibility of getting some wekan metrics datas](https://github.com/wekan/wekan/pull/4700).
   Thanks to Emile840.
 - [Added METRICS_ALLOWED_IP_ADDRESSES settings to Docker/Snap/Source](https://github.com/wekan/wekan/commit/34862810df686abfc0ee9ff1a13690a7b2bacc7e)
   https://github.com/wekan/wekan/wiki/Metrics and missing Matomo settings to Snap help.
@@ -5095,7 +5095,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.49 2022-09-18 WeKan ® release
+# v6.49 2022-09-18 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5104,7 +5104,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.48 2022-09-17 WeKan ® release
+# v6.48 2022-09-17 wekan ® release
 
 This release adds the following new features:
 
@@ -5113,7 +5113,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.47 2022-09-16 WeKan ® release
+# v6.47 2022-09-16 wekan ® release
 
 This release adds the following new features:
 
@@ -5127,7 +5127,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.46 2022-09-15 WeKan ® release
+# v6.46 2022-09-15 wekan ® release
 
 This release adds the following new features:
 
@@ -5143,7 +5143,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.45 2022-09-14 WeKan ® release
+# v6.45 2022-09-14 wekan ® release
 
 This release adds the following new features:
 
@@ -5151,7 +5151,7 @@ This release adds the following new features:
   Thanks to helioguardabaxo.
 - [Heading hierarchy fixed on checklist title to simplify screen reader](https://github.com/wekan/wekan/pull/4680).
   Thanks to helioguardabaxo.
-- [Add info about RTL languages to Meteor WeKan. Not used in Meteor WeKan yet](https://github.com/wekan/wekan/commit/cf7c0512422178be23d287cce269a7b854a2bc21).
+- [Add info about RTL languages to Meteor wekan. Not used in Meteor wekan yet](https://github.com/wekan/wekan/commit/cf7c0512422178be23d287cce269a7b854a2bc21).
   Thanks to xet7.
 - [Added help button with custom URL](https://github.com/wekan/wekan/pull/4681).
   Thanks to helioguardabaxo.
@@ -5165,12 +5165,12 @@ and fixes the following bugs:
 
 - [Avoid non-terminating containers](https://github.com/wekan/wekan/pull/4675).
   Thanks to bronger.
-- [Fixed WeKan api.py . WeKan API now works in newest WeKan and n8n](https://github.com/wekan/wekan/commit/aa2c3774a233025a163e9d9c210ad2f1807c0acb).
+- [Fixed wekan api.py . wekan API now works in newest wekan and n8n](https://github.com/wekan/wekan/commit/aa2c3774a233025a163e9d9c210ad2f1807c0acb).
   Thanks to DimDz and Joffcom.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.44 2022-09-05 WeKan ® release
+# v6.44 2022-09-05 wekan ® release
 
 This release adds the following new features:
 
@@ -5195,7 +5195,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.43 2022-09-01 WeKan ® release
+# v6.43 2022-09-01 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5206,7 +5206,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.42 2022-08-31 WeKan ® release
+# v6.42 2022-08-31 wekan ® release
 
 This release adds the following new translations:
 
@@ -5232,7 +5232,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.41 2022-08-28 WeKan ® release
+# v6.41 2022-08-28 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5241,7 +5241,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.40 2022-08-25 WeKan ® release
+# v6.40 2022-08-25 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5250,7 +5250,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.39 2022-08-21 WeKan ® release
+# v6.39 2022-08-21 wekan ® release
 
 This release adds the following new features:
 
@@ -5271,7 +5271,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.38 2022-08-18 WeKan ® release
+# v6.38 2022-08-18 wekan ® release
 
 This release adds the following new features:
 
@@ -5302,7 +5302,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.37 2022-08-15 WeKan ® release
+# v6.37 2022-08-15 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -5316,7 +5316,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.36 2022-08-14 WeKan ® release
+# v6.36 2022-08-14 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5327,7 +5327,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.35 2022-08-13 WeKan ® release
+# v6.35 2022-08-13 wekan ® release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -5352,7 +5352,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.34 2022-08-05 WeKan ® release
+# v6.34 2022-08-05 wekan ® release
 
 This release adds the following updates:
 
@@ -5366,16 +5366,16 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.33 2022-08-05 WeKan ® release
+# v6.33 2022-08-05 wekan ® release
 
 This release fixes the following bugs:
 
-- [Try 2 to fix missing variable in WeKan fails to get MongoDB server version](https://github.com/wekan/wekan/commit/37f9de8b9b11e8dd1b54452531aa708e16517c6d).
+- [Try 2 to fix missing variable in wekan fails to get MongoDB server version](https://github.com/wekan/wekan/commit/37f9de8b9b11e8dd1b54452531aa708e16517c6d).
   Thanks to simon816 and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.32 2022-08-05 WeKan ® release
+# v6.32 2022-08-05 wekan ® release
 
 This release adds the following new features:
 
@@ -5400,12 +5400,12 @@ and fixes the following bugs:
 
 - [Fix In Lists view, Card Details pop-up does not appear in 6.31 release](https://github.com/wekan/wekan/commit/063ad08e9e81f5235d323cc3ed7af4cd5610dc93).
   Thanks to Sdub76, niels, m4teh, r4nc0r, mfilser, medjedovicm and xet7.
-- [Try to fix missing variable in WeKan fails to get MongoDB server version](https://github.com/wekan/wekan/commit/4941fd183c54f514119587380bf659115a1adc6e).
+- [Try to fix missing variable in wekan fails to get MongoDB server version](https://github.com/wekan/wekan/commit/4941fd183c54f514119587380bf659115a1adc6e).
   Thanks to simon816 and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.31 2022-07-31 WeKan ® release
+# v6.31 2022-07-31 wekan ® release
 
 This release adds the following new features:
 
@@ -5433,7 +5433,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.30 2022-07-11 WeKan ® release
+# v6.30 2022-07-11 wekan ® release
 
 This release adds the following new features:
 
@@ -5446,14 +5446,14 @@ and tries to fix the following bugs:
 
 - [Try to fix Snap](https://github.com/wekan/wekan/commit/17f8f8f14ff205d0cbb316c63a2da36f61ba4a1d).
   Thanks to xet7.
-- [On CentOS 7 Docker there is seccomp issue with glibc 6, so setting it to unconfined to get WeKan working](https://github.com/wekan/wekan/commit/054d420dc97cadee6ed7896c608d95a6fe09dc9d).
+- [On CentOS 7 Docker there is seccomp issue with glibc 6, so setting it to unconfined to get wekan working](https://github.com/wekan/wekan/commit/054d420dc97cadee6ed7896c608d95a6fe09dc9d).
   Thanks to m-brangeon.
 - [Fix uploading attachments](https://github.com/wekan/wekan/commit/69d454dd035a989266175eb4268ffc3d7891eb95).
   Thanks to BabyFnord and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.29 2022-07-11 WeKan ® release
+# v6.29 2022-07-11 wekan ® release
 
 This release adds the following features:
 
@@ -5497,7 +5497,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.28 2022-06-08 WeKan ® release
+# v6.28 2022-06-08 wekan ® release
 
 This release adds the following updates:
 
@@ -5522,7 +5522,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.27 2022-05-28 WeKan ® release
+# v6.27 2022-05-28 wekan ® release
 
 This release adds the following updates:
 
@@ -5545,12 +5545,12 @@ and fixes the following bugs:
   [Part 7](https://github.com/wekan/wekan/commit/2587e2f00ae27742893e48e98845a3139e3f3a02),
   [Part 8](https://github.com/wekan/wekan/commit/693a49f85200adcf81f5cf0ea56c7dd795757988).
   Thanks to xet7.
-- [WeKan Gantt GPLv2: Try to fix Gantt, by adding translations, but is not visible yet](https://github.com/wekan/wekan-gantt-gpl/commit/a08c01c76eaaf2884890a39c97d1f72da222fba1).
+- [wekan Gantt GPLv2: Try to fix Gantt, by adding translations, but is not visible yet](https://github.com/wekan/wekan-gantt-gpl/commit/a08c01c76eaaf2884890a39c97d1f72da222fba1).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.26 2022-05-21 WeKan ® release
+# v6.26 2022-05-21 wekan ® release
 
 This release adds the following updates:
 
@@ -5559,7 +5559,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.25 2022-05-21 WeKan ® release
+# v6.25 2022-05-21 wekan ® release
 
 This release adds the following new features:
 
@@ -5577,7 +5577,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.24 2022-05-18 WeKan ® release
+# v6.24 2022-05-18 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5588,7 +5588,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.23 2022-05-17 WeKan ® release
+# v6.23 2022-05-17 wekan ® release
 
 This release adds the following updates:
 
@@ -5600,13 +5600,13 @@ This release adds the following updates:
   Thanks to xet7.
 - [Updated meteor-upgrade branch to Node.js v14.19.2](https://github.com/wekan/wekan/commit/907013228d00f1190933bf7fc402957b1a973131).
   Thanks to Node.js developers.
-- [Added back to meteor-upgrade branch packages WeKan lockout, ldap, oidc, cas](https://github.com/wekan/wekan/commit/00768b4392109dec62a4dcf44dbceb295990d785).
+- [Added back to meteor-upgrade branch packages wekan lockout, ldap, oidc, cas](https://github.com/wekan/wekan/commit/00768b4392109dec62a4dcf44dbceb295990d785).
   Thanks to xet7.
 - [Added fixes to meteor-upgrade branch Sandstorm accounts](https://github.com/wekan/wekan/pulls/4500).
   Thanks to mfilser.
 - [Added backup to meteor-upgrade branch Sandstorm Accounts](https://github.com/wekan/wekan/commit/f260b7ba889c39a2db4a5f3057439a9b78dd7cf1).
   Thanks to xet7.
-- [Improvements to future WeKan Snap core20. Does not work yet. In Progress](https://github.com/wekan/wekan/commit/38d26fa7e32c705a0cad34c199e1190c5226b968).
+- [Improvements to future wekan Snap core20. Does not work yet. In Progress](https://github.com/wekan/wekan/commit/38d26fa7e32c705a0cad34c199e1190c5226b968).
   Thanks to xet7.
 - [Updated MongoDB 5 rawCollection deprecated update to updateMany (or updateOne)](https://github.com/wekan/wekan/commit/a196a5ed63cba2b812b9e825172f3a97d9756daa).
   Thanks to xet7.
@@ -5643,14 +5643,14 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.22 2022-05-09 WeKan ® release
+# v6.22 2022-05-09 wekan ® release
 
 - [Updated to Node.js v14.19.2](https://github.com/wekan/wekan/commit/bfef7844ba15a28bce63a577ed499ed899aaff79).
   Thanks to Node.js developers.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.21 2022-04-28 WeKan ® release
+# v6.21 2022-04-28 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5661,7 +5661,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.20 2022-04-25 WeKan ® release
+# v6.20 2022-04-25 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5672,7 +5672,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.19 2022-04-22 WeKan ® release
+# v6.19 2022-04-22 wekan ® release
 
 This release adds the following new features:
 
@@ -5712,7 +5712,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.18 2022-04-08 WeKan ® release
+# v6.18 2022-04-08 wekan ® release
 
 This release adds the following new features:
 
@@ -5732,7 +5732,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.17 2022-04-06 WeKan ® release
+# v6.17 2022-04-06 wekan ® release
 
 This release adds the following updates:
 
@@ -5741,7 +5741,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.16 2022-04-06 WeKan ® release
+# v6.16 2022-04-06 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5762,7 +5762,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.15 2022-04-05 WeKan ® release
+# v6.15 2022-04-05 wekan ® release
 
 This release add the following new features:
 
@@ -5784,13 +5784,13 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.14 2022-04-03 WeKan ® release
+# v6.14 2022-04-03 wekan ® release
 
 This release fixes the following bugs:
 
-- [WRITABLE_PATH must be writable, otherwise abort starting Wekan](https://github.com/wekan/wekan/pull/4440).
+- [WRITABLE_PATH must be writable, otherwise abort starting wekan](https://github.com/wekan/wekan/pull/4440).
   Thanks to mfilser.
-- [Better error message layout if Wekan can not start](https://github.com/wekan/wekan/pull/4442).
+- [Better error message layout if wekan can not start](https://github.com/wekan/wekan/pull/4442).
   Thanks to mfilser.
 - [Try to fix Attachments.insert is not a function](https://github.com/wekan/wekan/commit/02e977f5128c76b6ff592c8b236868baaa9404cb).
   Thanks to ChrisMagnuson and xet7.
@@ -5815,11 +5815,11 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.13 2022-04-01 WeKan ® release
+# v6.13 2022-04-01 wekan ® release
 
 This release adds the following new features:
 
-- [Added Perl scripts for Asana export to WeKan ®](https://github.com/wekan/wekan/commit/376bcbb373d16317060adc2b1154cc20496775cc).
+- [Added Perl scripts for Asana export to wekan ®](https://github.com/wekan/wekan/commit/376bcbb373d16317060adc2b1154cc20496775cc).
   Thanks to GeekRuthie.
 - [Add get list and board cards count to API](https://github.com/wekan/wekan/pull/4424).
   Thanks to helioguardabaxo.
@@ -5852,7 +5852,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.12 2022-03-11 WeKan ® release
+# v6.12 2022-03-11 wekan ® release
 
 This release adds the following new features:
 
@@ -5878,7 +5878,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.11 2022-03-03 WeKan ® release
+# v6.11 2022-03-03 wekan ® release
 
 This release adds the following updates:
 
@@ -5892,7 +5892,7 @@ and tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.10 2022-03-02 WeKan ® release
+# v6.10 2022-03-02 wekan ® release
 
 This release adds the following new features:
 
@@ -5903,7 +5903,7 @@ This release adds the following new features:
   Thanks to xet7.
 - [Added WRITABLE_PATH to be usable when developing with meteor command, and to torodb](https://github.com/wekan/wekan/commit/e0d8ddf0034a6d2a7f259a71544ec4c57d23f0c5).
   Thanks to xet7.
-- [Enabled building Sandstorm WeKan, now that file uploading with Meteor-Files works](https://github.com/wekan/wekan/commit/dc99218e4ecb766e7947f8a0298236dead140b9f).
+- [Enabled building Sandstorm wekan, now that file uploading with Meteor-Files works](https://github.com/wekan/wekan/commit/dc99218e4ecb766e7947f8a0298236dead140b9f).
   Thanks to imajus, mfilser and xet7.
 
 and adds the following updates:
@@ -5919,7 +5919,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.09 2022-02-28 WeKan ® release
+# v6.09 2022-02-28 wekan ® release
 
 This release tries to fix the following bugs:
 
@@ -5928,7 +5928,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.08 2022-02-27 WeKan ® release
+# v6.08 2022-02-27 wekan ® release
 
 This release tries to fix the following bugs:
 
@@ -5937,7 +5937,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.07 2022-02-26 WeKan ® release
+# v6.07 2022-02-26 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5946,7 +5946,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.06 2022-02-26 WeKan ® release
+# v6.06 2022-02-26 wekan ® release
 
 This release adds the following new features:
 
@@ -5968,7 +5968,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.05 2022-02-07 WeKan ® release
+# v6.05 2022-02-07 wekan ® release
 
 This release adds the following updates:
 
@@ -5982,7 +5982,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.04 2022-02-07 WeKan ® release
+# v6.04 2022-02-07 wekan ® release
 
 This release fixes the following bugs:
 
@@ -5993,7 +5993,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.03 2022-02-07 WeKan ® release
+# v6.03 2022-02-07 wekan ® release
 
 This release adds the following updates:
 
@@ -6002,7 +6002,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.02 2022-02-06 WeKan ® release
+# v6.02 2022-02-06 wekan ® release
 
 This release adds the following updates:
 
@@ -6011,7 +6011,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.01 2022-02-06 WeKan ® release
+# v6.01 2022-02-06 wekan ® release
 
 This release adds the following updates:
 
@@ -6020,14 +6020,14 @@ This release adds the following updates:
 
 and fixes the following bugs:
 
-- [Fixed WeKan on Sandstorm](https://github.com/sandstorm-io/meteor-spk/pull/41).
+- [Fixed wekan on Sandstorm](https://github.com/sandstorm-io/meteor-spk/pull/41).
   Thanks to xet7.
 - [Fixed building fibers](https://github.com/wekan/wekan/commit/0460a7d9d3219ed7ba5aa5040349b9d56e6a45e0).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v6.00 2022-02-05 WeKan ® release
+# v6.00 2022-02-05 wekan ® release
 
 This release adds the following new features:
 
@@ -6041,7 +6041,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.99 2022-02-04 WeKan ® release
+# v5.99 2022-02-04 wekan ® release
 
 This release adds the following changes:
 
@@ -6055,7 +6055,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.98 2022-02-03 WeKan ® release
+# v5.98 2022-02-03 wekan ® release
 
 This release adds the following CRITICAL SECURITY UPDATES:
 
@@ -6089,12 +6089,12 @@ and fixes the following bugs:
   Thanks to mfilser.
 - [Lists now moveable when swimlane requires scrolling](https://github.com/wekan/wekan/pull/4330).
   Thanks to mfilser.
-- [Add more stack and heap to Node.js at all WeKan platforms](https://github.com/wekan/wekan/commit/ff13571c719ad24e24ea6dc871ced827a7120ac8).
+- [Add more stack and heap to Node.js at all wekan platforms](https://github.com/wekan/wekan/commit/ff13571c719ad24e24ea6dc871ced827a7120ac8).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.97 2022-01-23 WeKan ® release
+# v5.97 2022-01-23 wekan ® release
 
 This release fixes the following bugs:
 
@@ -6107,7 +6107,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.96 2022-01-23 WeKan ® release
+# v5.96 2022-01-23 wekan ® release
 
 This release adds the following new features:
 
@@ -6127,7 +6127,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.95 2022-01-18 WeKan ® release
+# v5.95 2022-01-18 wekan ® release
 
 This release adds the following new features:
 
@@ -6144,9 +6144,9 @@ and adds the following updates:
 
 - [Update ISSUE_TEMPLATE.md: Use comments and rephrase](https://github.com/wekan/wekan/pull/4295).
   Thanks to xeruf.
-- [Updated WeKan s390x bundle build script](https://github.com/wekan/wekan/commit/d4c3f323830e4692aac0f1d0faa413302087303b).
+- [Updated wekan s390x bundle build script](https://github.com/wekan/wekan/commit/d4c3f323830e4692aac0f1d0faa413302087303b).
   Thanks to xet7.
-- [Use different distro for building WeKan releases](https://github.com/wekan/wekan/commit/a176a58a728ffc2bb410b3e8a0036fee25f0b0bd).
+- [Use different distro for building wekan releases](https://github.com/wekan/wekan/commit/a176a58a728ffc2bb410b3e8a0036fee25f0b0bd).
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -6156,7 +6156,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.94 2022-01-16 WeKan ® release
+# v5.94 2022-01-16 wekan ® release
 
 This release adds the following new features:
 
@@ -6170,18 +6170,18 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.93 2022-01-14 WeKan ® release
+# v5.93 2022-01-14 wekan ® release
 
 This release tries to fix the following bugs:
 
-- Try to fix Sandstorm WeKan package. This did not fix it. Do not try broken experimental Sandstorm WeKan versions yet.
+- Try to fix Sandstorm wekan package. This did not fix it. Do not try broken experimental Sandstorm wekan versions yet.
   [Part 1](https://github.com/wekan/wekan/commit/bff43c3f9252e3133acedb9ccf4fb4f91d1c908d),
   [Part 2](https://github.com/wekan/wekan/commit/f75ab964be784bf7f6accb3ab0085f623196d811).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.92 2022-01-13 WeKan ® release
+# v5.92 2022-01-13 wekan ® release
 
 This release adds the following CRITICAL SECURITY UPDATES:
 
@@ -6202,7 +6202,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.91 2022-01-11 WeKan ® release
+# v5.91 2022-01-11 wekan ® release
 
 This release adds the following CRITICAL SECURITY UPDATES:
 
@@ -6233,7 +6233,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.90 2021-12-26 WeKan ® release
+# v5.90 2021-12-26 wekan ® release
 
 This release fixes the following bugs:
 
@@ -6242,7 +6242,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.89 2021-12-26 WeKan ® release
+# v5.89 2021-12-26 wekan ® release
 
 This release adds the following new features:
 
@@ -6268,7 +6268,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.88 2021-12-22 WeKan ® release
+# v5.88 2021-12-22 wekan ® release
 
 This release fixes to following CRITICAL SECURITY ISSUES:
 
@@ -6288,10 +6288,10 @@ and adds the following new features:
 
 and adds the following accessibility improvements:
 
-- Made WeKan zoomable by recommendation of Axe browser extension
+- Made wekan zoomable by recommendation of Axe browser extension
   https://github.com/wekan/wekan/issues/459#issuecomment-999098233 by changing meta viewport settings at
   https://github.com/wekan/wekan/blob/main/client/components/main/layouts.jade#L3 ,
-  in some commit of this WeKan v5.88.
+  in some commit of this wekan v5.88.
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -6304,7 +6304,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.87 2021-12-19 WeKan ® release
+# v5.87 2021-12-19 wekan ® release
 
 This release adds the following updates:
 
@@ -6313,7 +6313,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.86 2021-12-19 WeKan ® release
+# v5.86 2021-12-19 wekan ® release
 
 This release fixes the following bugs:
 
@@ -6322,7 +6322,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.85 2021-12-17 WeKan ® release
+# v5.85 2021-12-17 wekan ® release
 
 This release adds the following updates:
 
@@ -6338,7 +6338,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.84 2021-12-15 WeKan ® release
+# v5.84 2021-12-15 wekan ® release
 
 This release adds the following new features:
 
@@ -6362,7 +6362,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.83 2021-11-30 WeKan ® release
+# v5.83 2021-11-30 wekan ® release
 
 This release adds to following new improvements:
 
@@ -6373,11 +6373,11 @@ This release adds to following new improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.82 2021-11-29 WeKan ® release
+# v5.82 2021-11-29 wekan ® release
 
 This release removes the following new features:
 
-- [Revert change from WeKan v5.81: At Sandstorm, every WeKan user is now WeKan Admin and has Admin Panel](https://github.com/wekan/wekan/commit/ebc7741fcb9ad854234921ed0546255411adeec9).
+- [Revert change from wekan v5.81: At Sandstorm, every wekan user is now wekan Admin and has Admin Panel](https://github.com/wekan/wekan/commit/ebc7741fcb9ad854234921ed0546255411adeec9).
   Thanks to ocdtrekkie and xet7.
 
 and adds the following new features:
@@ -6387,16 +6387,16 @@ and adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.81 2021-11-29 WeKan ® release
+# v5.81 2021-11-29 wekan ® release
 
 This release adds the following new features:
 
-- [At Sandstorm, every WeKan user is now WeKan Admin and has WeKan Admin Panel. This could help export, board member permissions, etc](https://github.com/wekan/wekan/commit/23a2e90f5f553c2051978a0b4cd5b0d6d4ee03da).
+- [At Sandstorm, every wekan user is now wekan Admin and has wekan Admin Panel. This could help export, board member permissions, etc](https://github.com/wekan/wekan/commit/23a2e90f5f553c2051978a0b4cd5b0d6d4ee03da).
   Thanks to PizzaProgram and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.80 2021-11-26 WeKan ® release
+# v5.80 2021-11-26 wekan ® release
 
 This release adds the following new features:
 
@@ -6449,7 +6449,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.79 2021-11-25 WeKan ® release
+# v5.79 2021-11-25 wekan ® release
 
 This release fixes the following bugs:
 
@@ -6460,16 +6460,16 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.78 2021-11-17 WeKan ® release
+# v5.78 2021-11-17 wekan ® release
 
 This release fixes the following bugs:
 
-- [Fix: Sandstorm WeKan Admin Panel version info broken](https://github.com/wekan/wekan/commit/02b6df320fc98e18e5a97105a35196bdffec98bb).
+- [Fix: Sandstorm wekan Admin Panel version info broken](https://github.com/wekan/wekan/commit/02b6df320fc98e18e5a97105a35196bdffec98bb).
   Thanks to ocdtrekkie and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.77 2021-11-16 WeKan ® release
+# v5.77 2021-11-16 wekan ® release
 
 This release adds the following updates:
 
@@ -6478,7 +6478,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.76 2021-11-16 WeKan ® release
+# v5.76 2021-11-16 wekan ® release
 
 This release adds the following new features:
 
@@ -6513,7 +6513,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.75 2021-11-12 WeKan ® release
+# v5.75 2021-11-12 wekan ® release
 
 This release adds the following new features:
 
@@ -6531,7 +6531,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.74 2021-11-11 WeKan ® release
+# v5.74 2021-11-11 wekan ® release
 
 This release fixes the following bugs:
 
@@ -6540,7 +6540,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.73 2021-11-11 WeKan ® release
+# v5.73 2021-11-11 wekan ® release
 
 This release adds the following new features:
 
@@ -6569,7 +6569,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.72 2021-10-31 WeKan ® release
+# v5.72 2021-10-31 wekan ® release
 
 This release adds the following new features:
 
@@ -6587,7 +6587,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.71 2021-10-29 WeKan ® release
+# v5.71 2021-10-29 wekan ® release
 
 This release adds the following updates:
 
@@ -6605,7 +6605,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.70 2021-10-28 WeKan ® release
+# v5.70 2021-10-28 wekan ® release
 
 This release fixes the following bugs:
 
@@ -6618,7 +6618,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.69 2021-10-28 WeKan ® release
+# v5.69 2021-10-28 wekan ® release
 
 This release adds the following updates:
 
@@ -6634,7 +6634,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.68 2021-10-27 WeKan ® release
+# v5.68 2021-10-27 wekan ® release
 
 This release adds the following new features:
 
@@ -6648,7 +6648,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.67 2021-10-27 WeKan ® release
+# v5.67 2021-10-27 wekan ® release
 
 This release fixes the following bugs:
 
@@ -6657,7 +6657,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.66 2021-10-27 WeKan ® release
+# v5.66 2021-10-27 wekan ® release
 
 This release adds the following new features:
 
@@ -6734,7 +6734,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.65 2021-10-12 WeKan ® release
+# v5.65 2021-10-12 wekan ® release
 
 This release adds to following CRITICAL SECURITY UPDATES:
 
@@ -6750,7 +6750,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.64 2021-10-09 WeKan ® release
+# v5.64 2021-10-09 wekan ® release
 
 This release adds the following new features:
 
@@ -6759,7 +6759,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.63 2021-10-07 Wekan release
+# v5.63 2021-10-07 wekan release
 
 This release adds the following new features:
 
@@ -6773,7 +6773,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.62 2021-10-04 Wekan release
+# v5.62 2021-10-04 wekan release
 
 This release adds the following new features:
 
@@ -6797,7 +6797,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.61 2021-09-25 Wekan release
+# v5.61 2021-09-25 wekan release
 
 This release adds the following new features:
 
@@ -6807,14 +6807,14 @@ This release adds the following new features:
 and fixes the following bugs:
 
 - [Fixed REST API, it shoud work now by Admin user](https://github.com/wekan/wekan/commit/e3a0dea85fa1f8e2f580f419b30cf5f36775d731).
-  Reverted [Allow board members to use more of API of Wekan v5.35](https://github.com/wekan/wekan/commit/a719e8fda1f78bcbf9af6e7b4341f8be1d141e90).
+  Reverted [Allow board members to use more of API of wekan v5.35](https://github.com/wekan/wekan/commit/a719e8fda1f78bcbf9af6e7b4341f8be1d141e90).
   Thanks to tomhughes and xet7.
-- [Wekan Gantt GPL: Fix Tasks not displayed in Gantt screen](https://github.com/wekan/wekan-gantt-gpl/commit/72d464f5eb55501f08eb0cfd31fd5340380d7f3b).
+- [wekan Gantt GPL: Fix Tasks not displayed in Gantt screen](https://github.com/wekan/wekan-gantt-gpl/commit/72d464f5eb55501f08eb0cfd31fd5340380d7f3b).
   Thanks to MrLovegreen and khjde1207.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.60 2021-09-22 Wekan release
+# v5.60 2021-09-22 wekan release
 
 This release adds the following new features:
 
@@ -6837,7 +6837,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.59 2021-09-17 Wekan release
+# v5.59 2021-09-17 wekan release
 
 This release adds the following new features:
 
@@ -6873,7 +6873,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.58 2021-09-01 Wekan release
+# v5.58 2021-09-01 wekan release
 
 This release fixes the following bugs:
 
@@ -6884,7 +6884,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.57 2021-08-31 Wekan release
+# v5.57 2021-08-31 wekan release
 
 This release adds the following updates:
 
@@ -6893,7 +6893,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.56 2021-08-31 Wekan release
+# v5.56 2021-08-31 wekan release
 
 This release adds the following updates:
 
@@ -6902,7 +6902,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.55 2021-08-31 Wekan release
+# v5.55 2021-08-31 wekan release
 
 This release adds to following CRITICAL SECURITY UPDATES:
 
@@ -6919,7 +6919,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.54 2021-08-28 Wekan release
+# v5.54 2021-08-28 wekan release
 
 This release adds the following new features:
 
@@ -6933,7 +6933,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.53 2021-08-27 Wekan release
+# v5.53 2021-08-27 wekan release
 
 This release fixes the following bugs:
 
@@ -6942,7 +6942,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.52 2021-08-26 Wekan release
+# v5.52 2021-08-26 wekan release
 
 This release adds the following new features:
 
@@ -6976,7 +6976,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.51 2021-08-17 Wekan release
+# v5.51 2021-08-17 wekan release
 
 This release fixes the following bugs:
 
@@ -6985,7 +6985,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.50 2021-08-15 Wekan release
+# v5.50 2021-08-15 wekan release
 
 This release fixes the following bugs:
 
@@ -6994,7 +6994,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.49 2021-08-14 Wekan release
+# v5.49 2021-08-14 wekan release
 
 This release adds the following new features:
 
@@ -7005,7 +7005,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.48 2021-08-11 Wekan release
+# v5.48 2021-08-11 wekan release
 
 This release adds the following CRITICAL SECURITY UPDATES:
 
@@ -7035,7 +7035,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.47 2021-08-05 Wekan release
+# v5.47 2021-08-05 wekan release
 
 This release adds the following updates:
 
@@ -7044,7 +7044,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.46 2021-08-05 Wekan release
+# v5.46 2021-08-05 wekan release
 
 This release adds the following updates:
 
@@ -7053,7 +7053,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.45 2021-08-05 Wekan release
+# v5.45 2021-08-05 wekan release
 
 This release adds the following new features:
 
@@ -7067,11 +7067,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.44 2021-08-03 Wekan release
+# v5.44 2021-08-03 wekan release
 
 This release adds the following updates:
 
-- [Wekan v5.43](https://github.com/wekan/wekan/commit/4e17d5a10f95fcea420c794ed8b30ea18dc2a725) and v5.44 for helm.
+- [wekan v5.43](https://github.com/wekan/wekan/commit/4e17d5a10f95fcea420c794ed8b30ea18dc2a725) and v5.44 for helm.
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -7081,7 +7081,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.43 2021-08-03 Wekan release
+# v5.43 2021-08-03 wekan release
 
 This release adds the following new features:
 
@@ -7094,12 +7094,12 @@ and adds the following updates:
   This makes this Chart compatible with [flux](https://fluxcd.io)
   [helm-controller](https://fluxcd.io/docs/components/helm), which requires v2 charts.
   Thanks to varac.
-- [Wekan v5.42 for helm](https://github.com/wekan/wekan/commit/7a1f42fa4e153ff4a0fb481ca5a363ac62033b7f).
+- [wekan v5.42 for helm](https://github.com/wekan/wekan/commit/7a1f42fa4e153ff4a0fb481ca5a363ac62033b7f).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.42 2021-08-01 Wekan release
+# v5.42 2021-08-01 wekan release
 
 This release adds the following CRITICAL SECURITY UPDATES:
 
@@ -7108,16 +7108,16 @@ This release adds the following CRITICAL SECURITY UPDATES:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.41 2021-07-26 Wekan release
+# v5.41 2021-07-26 wekan release
 
 This release fixes the following bugs:
 
-- [Fixed Wekan JSON import fails](https://github.com/wekan/wekan/commit/0fa8fc8b506831a60649d100ce93c96f8f7b76f5).
+- [Fixed wekan JSON import fails](https://github.com/wekan/wekan/commit/0fa8fc8b506831a60649d100ce93c96f8f7b76f5).
   Thanks to BartoszBroda and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.40 2021-07-25 Wekan release
+# v5.40 2021-07-25 wekan release
 
 This release fixes the following bugs:
 
@@ -7126,13 +7126,13 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.39 2021-07-24 Wekan release
+# v5.39 2021-07-24 wekan release
 
 This release adds the following new features:
 
 - [LDAP AD Simple Auth](https://github.com/wekan/wekan/pull/3909).
   Thanks to indika-dev.
-- [LDAP AD Simple Auth: Added settings for all remaining Wekan Standalone (non-Sandstorm)
+- [LDAP AD Simple Auth: Added settings for all remaining wekan Standalone (non-Sandstorm)
   platforms](https://github.com/wekan/wekan/commit/fe40f35d6d9b6293f3bdbf5bc0f3e8e708c59518)
   and Docs to https://github.com/wekan/wekan/wiki/LDAP-AD-Simple-Auth .
   Thanks to xet7.
@@ -7149,7 +7149,7 @@ and adds the following new translations:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.38 2021-07-18 Wekan release
+# v5.38 2021-07-18 wekan release
 
 This release adds the following new features:
 
@@ -7179,7 +7179,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.37 2021-07-04 Wekan release
+# v5.37 2021-07-04 wekan release
 
 This release adds the following CRITICAL SECURITY UPDATES:
 
@@ -7188,12 +7188,12 @@ This release adds the following CRITICAL SECURITY UPDATES:
 
 and fixes the following bugs:
 
-- [Building OpenAPI docs is broken in Wekan v3.56](https://github.com/wekan/wekan/pull/3889).
+- [Building OpenAPI docs is broken in wekan v3.56](https://github.com/wekan/wekan/pull/3889).
   Thanks to bentiss.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.36 2021-06-29 Wekan release
+# v5.36 2021-06-29 wekan release
 
 This release adds the following new features:
 
@@ -7223,7 +7223,7 @@ This release adds the following new features:
 and adds the following improvements:
 
 - [Removed unused exceljs from client bundle](https://github.com/wekan/wekan/pull/3871).
-  This decreased Wekan browserside frontend amount of Javascript from 5.4 MB to 4.3 MB.
+  This decreased wekan browserside frontend amount of Javascript from 5.4 MB to 4.3 MB.
   Thanks to jankapunkt.
 - Added note: With Docker, please don't use latest tag. Only use release tags.
   See https://github.com/wekan/wekan/issues/3874 .
@@ -7246,7 +7246,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.35 2021-06-14 Wekan release
+# v5.35 2021-06-14 wekan release
 
 This release adds the following new features:
 
@@ -7266,9 +7266,9 @@ This release adds the following new features:
 
 and removes some not needed files:
 
-- [Reduced Wekan bundle size from 636 MB to 467 MB by deleting all dependencies of lucasantoniassi:accounts-lockout and including
+- [Reduced wekan bundle size from 636 MB to 467 MB by deleting all dependencies of lucasantoniassi:accounts-lockout and including
   only required 10 files](https://github.com/wekan/wekan/commit/23e5e1e3bd081699ce39ce5887db7e612616014d).
-  Wekan Docker image size changed from 269.6 MB to 165.1 MB.
+  wekan Docker image size changed from 269.6 MB to 165.1 MB.
   Thanks to xet7.
 
 and adds the following improvements:
@@ -7292,7 +7292,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.34 2021-06-11 Wekan release
+# v5.34 2021-06-11 wekan release
 
 This release adds the following new features:
 
@@ -7312,7 +7312,7 @@ and adds the following new improvements:
 
 and fixes the following bugs:
 
-- [Fix Google SSO to access Wekan has not been working by reverting Wekan v5.31 not-working fixes
+- [Fix Google SSO to access wekan has not been working by reverting wekan v5.31 not-working fixes
   to OAUTH2_LOGIN_STYLE=redirect Has No Effect](https://github.com/wekan/wekan/commit/1e837dec11dc5cb266b83efcff4f462aa02d733d).
   Thanks to unpokitodxfavor and xet7.
 - [CustomFields were not created after adding 1 card](https://github.com/wekan/wekan/pull/3856).
@@ -7322,7 +7322,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.33 2021-06-10 Wekan release
+# v5.33 2021-06-10 wekan release
 
 This release adds the following new features:
 
@@ -7336,7 +7336,7 @@ and adds the following new improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.32 2021-06-09 Wekan release
+# v5.32 2021-06-09 wekan release
 
 This release adds the following new features:
 
@@ -7345,7 +7345,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.31 2021-06-09 Wekan release
+# v5.31 2021-06-09 wekan release
 
 This release adds the following new features:
 
@@ -7356,7 +7356,7 @@ This release adds the following new features:
 - [Admin Panel Organizations/Teams: Show confirm text above delete button](https://github.com/wekan/wekan/commit/16379201704ea1a43ce14859633ffb1b9fae6710).
   Thanks to xet7.
 - [Gantt: Retain links created between tasks. Part 1: Database changes, not active in
-  MIT Wekan](https://github.com/wekan/wekan/commit/07a3a0b3882147effac890514b19ff84f1d76bdb).
+  MIT wekan](https://github.com/wekan/wekan/commit/07a3a0b3882147effac890514b19ff84f1d76bdb).
   Thanks to benjaminhrivera.
 
 and adds the following updates:
@@ -7372,7 +7372,7 @@ and fixes the following bugs:
   Thanks to tedkoch and xet7.
 - [Try to fix OAUTH2_LOGIN_STYLE=redirect Has No Effect](https://github.com/wekan/wekan/commit/78324263c1c78e7e9e99f153e3158e39f564b67a).
   Thanks to 1ubuntuuser and xet7.
-- [Try to fix: Wekan UI fails to finish import of closed Trello boards](https://github.com/wekan/wekan/commit/007e0f1c16c935ce580093a6aec31305c75d1e45).
+- [Try to fix: wekan UI fails to finish import of closed Trello boards](https://github.com/wekan/wekan/commit/007e0f1c16c935ce580093a6aec31305c75d1e45).
   Thanks to berezovskyi and xet7.
 - [Partial Fix: Vote and Planning Poker: Setting date and time now works for some languages that have
   ascii characters in date format](https://github.com/wekan/wekan/commit/57f31d443faaa32d6c7b53d81af3be133af5f040).
@@ -7380,7 +7380,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.30 2021-06-03 Wekan release
+# v5.30 2021-06-03 wekan release
 
 This release adds the following new features:
 
@@ -7399,7 +7399,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.29 2021-05-29 Wekan release
+# v5.29 2021-05-29 wekan release
 
 This release adds the following new features:
 
@@ -7435,7 +7435,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.28 2021-05-07 Wekan release
+# v5.28 2021-05-07 wekan release
 
 This release adds the following new features:
 
@@ -7457,7 +7457,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.27 2021-04-29 Wekan release
+# v5.27 2021-04-29 wekan release
 
 This release fixes the following bugs:
 
@@ -7466,7 +7466,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.26 2021-04-28 Wekan release
+# v5.26 2021-04-28 wekan release
 
 This release adds the following new features:
 
@@ -7480,7 +7480,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.25 2021-04-27 Wekan release
+# v5.25 2021-04-27 wekan release
 
 This release adds the following new features:
 
@@ -7505,7 +7505,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.24 2021-04-24 Wekan release
+# v5.24 2021-04-24 wekan release
 
 This release adds the following new features:
 
@@ -7524,7 +7524,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.23 2021-04-22 Wekan release
+# v5.23 2021-04-22 wekan release
 
 This release adds the following new features:
 
@@ -7547,7 +7547,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.22 2021-04-16 Wekan release
+# v5.22 2021-04-16 wekan release
 
 This release adds the following new translations:
 
@@ -7564,7 +7564,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.21 2021-04-16 Wekan release
+# v5.21 2021-04-16 wekan release
 
 This release adds the following new features:
 
@@ -7587,7 +7587,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.20 2021-04-14 Wekan release
+# v5.20 2021-04-14 wekan release
 
 This release fixes the following bugs:
 
@@ -7596,7 +7596,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.19 2021-04-14 Wekan release
+# v5.19 2021-04-14 wekan release
 
 This release adds the following new features:
 
@@ -7624,7 +7624,7 @@ and adds the following updates:
 
 and fixes the following bugs:
 
-- [Revert stable tag, because it did break Wekan version numbers](https://github.com/wekan/wekan/commit/5ca90f4d2245910580cb0af885fac17dcec44ef0).
+- [Revert stable tag, because it did break wekan version numbers](https://github.com/wekan/wekan/commit/5ca90f4d2245910580cb0af885fac17dcec44ef0).
   Thanks to xet7.
 - [Updating ARM Dockerfile](https://github.com/wekan/wekan/pull/3692).
   Thanks to loganballard.
@@ -7642,11 +7642,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.18 2021-04-14 Wekan release
+# v5.18 2021-04-14 wekan release
 
 Not released version, because some version numbers not changed in all release files.
 
-# v5.17 2021-04-01 Wekan release
+# v5.17 2021-04-01 wekan release
 
 This release fixes the following bugs:
 
@@ -7660,7 +7660,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.16 2021-04-01 Wekan release
+# v5.16 2021-04-01 wekan release
 
 This release adds the following new features:
 
@@ -7671,7 +7671,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.15 2021-03-31 Wekan release
+# v5.15 2021-03-31 wekan release
 
 This release fixes the following bugs:
 
@@ -7705,14 +7705,14 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.14 2021-03-29 Wekan release
+# v5.14 2021-03-29 wekan release
 
 This release adds the following new features:
 
 - [Clean-up Global Search, Due Cards, and My Cards. New environment variable `RESULTS_PER_PAGE` for search
   results](https://github.com/wekan/wekan/pull/3676).
   Thanks to jrsupplee.
-- [Added environment variable `RESULTS_PER_PAGE` to all Wekan platforms](https://github.com/wekan/wekan/commit/ba05f383ca29211c5474e06c5ba6673e712afe7a).
+- [Added environment variable `RESULTS_PER_PAGE` to all wekan platforms](https://github.com/wekan/wekan/commit/ba05f383ca29211c5474e06c5ba6673e712afe7a).
   Thanks to xet7.
 
 and adds the following updates:
@@ -7727,16 +7727,16 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.13 2021-03-28 Wekan release
+# v5.13 2021-03-28 wekan release
 
 This release fixes the following bugs:
 
-- [Fixed Sandstorm Wekan attachments upload](https://github.com/wekan/wekan/commit/d4a1611b86521cd5913277cfa2c86c43958eec7b).
+- [Fixed Sandstorm wekan attachments upload](https://github.com/wekan/wekan/commit/d4a1611b86521cd5913277cfa2c86c43958eec7b).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.12 2021-03-28 Wekan release
+# v5.12 2021-03-28 wekan release
 
 This release fixes the following bugs:
 
@@ -7745,7 +7745,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.11 2021-03-28 Wekan release
+# v5.11 2021-03-28 wekan release
 
 This release adds the following new features:
 
@@ -7761,7 +7761,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.10 2021-03-28 Wekan release
+# v5.10 2021-03-28 wekan release
 
 This release adds the following new features:
 
@@ -7779,7 +7779,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.09 2021-03-26 Wekan release
+# v5.09 2021-03-26 wekan release
 
 This release adds the following improvements:
 
@@ -7793,7 +7793,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.08 2021-03-26 Wekan release
+# v5.08 2021-03-26 wekan release
 
 This release adds the following new features:
 
@@ -7819,7 +7819,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.07 2021-03-19 Wekan release
+# v5.07 2021-03-19 wekan release
 
 This release fixes the following bugs:
 
@@ -7828,7 +7828,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.06 2021-03-18 Wekan release
+# v5.06 2021-03-18 wekan release
 
 This release fixes the following bugs:
 
@@ -7839,7 +7839,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.05 2021-03-11 Wekan release
+# v5.05 2021-03-11 wekan release
 
 This release fixes the following bugs:
 
@@ -7848,7 +7848,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.04 2021-03-07 Wekan release
+# v5.04 2021-03-07 wekan release
 
 This release adds the following speed improvements:
 
@@ -7862,13 +7862,13 @@ and adds the following new features:
   Thanks to chrisi51.
 - [Add custom field editing to the REST API](https://github.com/wekan/wekan/pull/3593).
   Thanks to dudeofawesome.
-- [Related to custom field editing, Fixed generating API docs and Wekan Custom Fields
+- [Related to custom field editing, Fixed generating API docs and wekan Custom Fields
   REST API](https://github.com/wekan/wekan/commit/0bb3b670753c6ba20b0ad63f63d273036f609ee5).
   Thanks to xet7.
 
 and adds back the following platforms:
 
-- [OpenPower Minicloud emergency maintenance has finished, so can now build Wekan for
+- [OpenPower Minicloud emergency maintenance has finished, so can now build wekan for
   ppc64le](https://github.com/wekan/wekan/commit/ac9b23f00f10b0170b8693e1e997bfb54f807adc).
   Thanks to OpenPower Minicloud.
 
@@ -7884,11 +7884,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.03 2021-03-03 Wekan release
+# v5.03 2021-03-03 wekan release
 
 This release adds the following changes:
 
-- [Hide email settings from Sandstorm Wekan Admin Panel](https://github.com/wekan/wekan/commit/626f435edf75fac68448ba2e14c62acb749f9c9b).
+- [Hide email settings from Sandstorm wekan Admin Panel](https://github.com/wekan/wekan/commit/626f435edf75fac68448ba2e14c62acb749f9c9b).
   Thanks to ocdtrekkie and xet7.
 
 and fixes the following bugs:
@@ -7899,9 +7899,9 @@ and fixes the following bugs:
 - [Fixed Bug: Link at board title can not be edited](https://github.com/wekan/wekan/commit/7d3917adb79be09356d32612585029392bac1e49).
   Thanks to jonesrussell42, aiac, bbyszio and xet7.
 
-Thanks to above GitHub and Wekan vanila.io community users for their contributions and translators for their translations.
+Thanks to above GitHub and wekan vanila.io community users for their contributions and translators for their translations.
 
-# v5.02 2021-03-02 Wekan release
+# v5.02 2021-03-02 wekan release
 
 This release adds the following improvements:
 
@@ -7913,14 +7913,14 @@ This release adds the following improvements:
 and fixes the following bugs:
 
 - [Fix SMTP port lost after upgrade. STMP settings are made only with environment variables on non-Sandstorm platforms.
-  Note: Sending email on Sandstorm Wekan does not work yet](https://github.com/wekan/wekan/commit/65b8220fe53349695a335bdb8b9692f82d4b3329).
+  Note: Sending email on Sandstorm wekan does not work yet](https://github.com/wekan/wekan/commit/65b8220fe53349695a335bdb8b9692f82d4b3329).
   Thanks to jrsupplee and xet7.
 - [Removed extra imports of Meteor](https://github.com/wekan/wekan/commit/de13b8b9bafbfb186a037ae20e845846b296ac69).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.01 2021-02-26 Wekan release
+# v5.01 2021-02-26 wekan release
 
 This release fixes the following bugs:
 
@@ -7929,7 +7929,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v5.00 2021-02-25 Wekan release
+# v5.00 2021-02-25 wekan release
 
 This release fixes the following bugs:
 
@@ -7938,7 +7938,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.99 2021-02-25 Wekan release
+# v4.99 2021-02-25 wekan release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -7956,7 +7956,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.98 2021-02-24 Wekan release
+# v4.98 2021-02-24 wekan release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -7991,7 +7991,7 @@ and adds the following updates:
 - [Update release-bundle.sh script: Can not build ppc64le version because OpenPower Minicloud
   is having emergency maintenance](https://github.com/wekan/wekan/commit/799ae886c5fedad3bafa18a14f8fbbca7ad2c227).
   Thanks to xet7.
-- [Update release.sh script: Also build Sandstorm version of Wekan with same
+- [Update release.sh script: Also build Sandstorm version of wekan with same
   script](https://github.com/wekan/wekan/commit/b105088c2858bc04120551a8a8e5a75f187041e5).
   Thanks to xet7.
 
@@ -8002,11 +8002,11 @@ and adds the following new translations:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.97 2021-02-24 Wekan release
+# v4.97 2021-02-24 wekan release
 
 Release skipped, because not all required files had new version number updated yet.
 
-# v4.96 2021-02-13 Wekan release
+# v4.96 2021-02-13 wekan release
 
 This release adds the following new features:
 
@@ -8027,7 +8027,7 @@ and adds the following improvements:
   Thanks to mfilser.
 - [Added ChangeLog update script](https://github.com/wekan/wekan/commit/c7ec07ed4748fe9b00f622af7472fd291cf1a3ce).
   Thanks to xet7.
-- [Helm: Made SecretEnv a secret and added default mongodb name as Wekan](https://github.com/wekan/wekan/pull/3570).
+- [Helm: Made SecretEnv a secret and added default mongodb name as wekan](https://github.com/wekan/wekan/pull/3570).
   Thanks to meerkampdvv.
 - [Checklist drag handle now at the left side (same place as for the checklist items)](https://github.com/wekan/wekan/pull/3571).
   Thanks to mfilser.
@@ -8052,7 +8052,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.95 2021-02-08 Wekan release
+# v4.95 2021-02-08 wekan release
 
 This release adds back the following features:
 
@@ -8072,7 +8072,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.94 2021-02-08 Wekan release
+# v4.94 2021-02-08 wekan release
 
 This release adds the following new features:
 
@@ -8097,7 +8097,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# 4.93 2021-02-06 Wekan release
+# 4.93 2021-02-06 wekan release
 
 This release adds the following new features:
 
@@ -8124,7 +8124,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.92 2021-02-03 Wekan release
+# v4.92 2021-02-03 wekan release
 
 This release adds the following improvements:
 
@@ -8172,7 +8172,7 @@ and improves some security related info:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.91 2021-01-29 Wekan release
+# v4.91 2021-01-29 wekan release
 
 This release fixes the following bugs:
 
@@ -8183,7 +8183,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.90 2021-01-28 Wekan release
+# v4.90 2021-01-28 wekan release
 
 This release adds the following new features:
 
@@ -8194,12 +8194,12 @@ and fixes the following bugs:
 
 - [Added missing backtick quotes](https://github.com/wekan/wekan/commit/bf7b1789ec16e3c52397318c799ec5a0fc2de3a5).
   Thanks to xet7.
-- [Fix some bugs when importing Wekan JSON](https://github.com/wekan/wekan/pull/3500).
+- [Fix some bugs when importing wekan JSON](https://github.com/wekan/wekan/pull/3500).
   Thanks to jrsupplee.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.89 2021-01-28 Wekan release
+# v4.89 2021-01-28 wekan release
 
 This release fixes the following bugs:
 
@@ -8208,7 +8208,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.88 2021-01-28 Wekan release
+# v4.88 2021-01-28 wekan release
 
 This release adds the following new features:
 
@@ -8236,7 +8236,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.87 2021-01-26 Wekan release
+# v4.87 2021-01-26 wekan release
 
 This release fixes the following bugs:
 
@@ -8252,7 +8252,7 @@ and adds the following improvements
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.86 2021-01-25 Wekan release
+# v4.86 2021-01-25 wekan release
 
 This release adds the following improvements:
 
@@ -8261,7 +8261,7 @@ This release adds the following improvements:
   Thanks to xet7.
 - [Added PWA related monochrome icon](https://github.com/wekan/wekan/commit/2977f7cf47626b429159cb7b7496919c07ece914).
   Thanks to xet7.
-- [Mention Wekan GitHub Discussions at readme](https://github.com/wekan/wekan/commit/4c0bd359f921ae0ea722f78946fcc1168e8b939e).
+- [Mention wekan GitHub Discussions at readme](https://github.com/wekan/wekan/commit/4c0bd359f921ae0ea722f78946fcc1168e8b939e).
   Thanks to xet7.
 
 and adds the following updates:
@@ -8276,7 +8276,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.85 2021-01-23 Wekan release
+# v4.85 2021-01-23 wekan release
 
 This release adds the following new features:
 
@@ -8316,7 +8316,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.84 2021-01-22 Wekan release
+# v4.84 2021-01-22 wekan release
 
 This release adds the following new features:
 
@@ -8338,7 +8338,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.83 2021-01-20 Wekan release
+# v4.83 2021-01-20 wekan release
 
 This release adds the following new features:
 
@@ -8357,7 +8357,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.82 2021-01-20 Wekan release
+# v4.82 2021-01-20 wekan release
 
 This release adds the following new features:
 
@@ -8371,7 +8371,7 @@ This release adds the following new features:
 and adds the following features back after fixing:
 
 - [Cards, custom fields are displayed in alphabetic order](https://github.com/wekan/wekan/pull/3442).
-  This was added in Wekan v4.71, removed in Wekan v4.81 and added back at Wekan v4.82.
+  This was added in wekan v4.71, removed in wekan v4.81 and added back at wekan v4.82.
   Thanks to mfilser.
 
 and adds the following new translations:
@@ -8390,7 +8390,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.81 2021-01-18 Wekan release
+# v4.81 2021-01-18 wekan release
 
 This release adds the following new features:
 
@@ -8401,14 +8401,14 @@ and fixes the following bugs:
 
 - [Restore original working Dockerfile](https://github.com/wekan/wekan/commit/c4ea7457dcf1db200c87784c35b7d3c390e94d80).
   Thanks to gpalyu and xet7.
-- [Reverted Cards, custom fields are displayed in alphabetic order from Wekan v4.71
+- [Reverted Cards, custom fields are displayed in alphabetic order from wekan v4.71
   https://github.com/wekan/wekan/pulls/3417 because it caused board not
   loading](https://github.com/wekan/wekan/commit/413f91d0c8f2d3f9df9bf036bb20551dba29bc2e).
   Thanks to olivierlambert and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.80 2021-01-18 Wekan release
+# v4.80 2021-01-18 wekan release
 
 This release adds the following improvements:
 
@@ -8418,7 +8418,7 @@ This release adds the following improvements:
   Thanks to johappel and xet7.
 - [Use multi stage build based on Node images](https://github.com/wekan/wekan/pull/3438).
   Thanks to GavinLilly.
-- [Try to use buster base images, because when using Wekan Alpine, registering new user of Wekan does not work,
+- [Try to use buster base images, because when using wekan Alpine, registering new user of wekan does not work,
   maybe because of glibc/musl](https://github.com/wekan/wekan/commit/254a9abad2dec620d95c02ac9209e9f569407986).
   Thanks to GavinLilly and xet7.
 - [Use MongoDB setFeatureCompatibilityVersion 4.2 on Snap. TODO: Docker](https://github.com/wekan/wekan/commit/2791b7da22ddb0ff5588eca56f1dc90ff5ffdd2d).
@@ -8436,7 +8436,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.79 2021-01-17 Wekan release
+# v4.79 2021-01-17 wekan release
 
 This release adds the following new features:
 
@@ -8450,7 +8450,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.78 2021-01-16 Wekan release
+# v4.78 2021-01-16 wekan release
 
 This release adds the following new features:
 
@@ -8471,7 +8471,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.77 2021-01-13 Wekan release
+# v4.77 2021-01-13 wekan release
 
 This release adds the following new features:
 
@@ -8480,7 +8480,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.76 2021-01-13 Wekan release
+# v4.76 2021-01-13 wekan release
 
 This release adds the following new features:
 
@@ -8494,7 +8494,7 @@ and adds the following improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.75 2021-01-11 Wekan release
+# v4.75 2021-01-11 wekan release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -8509,7 +8509,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.74 2021-01-10 Wekan release
+# v4.74 2021-01-10 wekan release
 
 This release adds the following improvements:
 
@@ -8519,7 +8519,7 @@ This release adds the following improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.73 2021-01-10 Wekan release
+# v4.73 2021-01-10 wekan release
 
 This release adds the following new features:
 
@@ -8544,18 +8544,18 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.72 2021-01-09 Wekan release
+# v4.72 2021-01-09 wekan release
 
 This release fixes the following bugs:
 
 - [Fixed badges at readme](https://github.com/wekan/wekan/pull/3421).
   Thanks to kuchengrab.
-- [Changed Sandstorm menus to be more similar like other Wekan versions, make Export visible, etc](https://github.com/wekan/wekan/commit/103d03d4c86df445b9d28d506f7d3098ab56368b).
+- [Changed Sandstorm menus to be more similar like other wekan versions, make Export visible, etc](https://github.com/wekan/wekan/commit/103d03d4c86df445b9d28d506f7d3098ab56368b).
   Thanks to PizzaProgram and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.71 2021-01-08 Wekan release
+# v4.71 2021-01-08 wekan release
 
 This release adds the following new features:
 
@@ -8571,12 +8571,12 @@ and adds the following improvements:
 
 and fixes the following bugs:
 
-- [Fixed Color picker of lists is empty. Fixed error about existing file at Wekan Docker version](https://github.com/wekan/wekan/issues/3418).
+- [Fixed Color picker of lists is empty. Fixed error about existing file at wekan Docker version](https://github.com/wekan/wekan/issues/3418).
   Thanks to bronger and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.70 2021-01-04 Wekan release
+# v4.70 2021-01-04 wekan release
 
 This release fixes the following CRITICAL SECURITY ISSUES:
 
@@ -8585,7 +8585,7 @@ This release fixes the following CRITICAL SECURITY ISSUES:
 
 and adds the following new features:
 
-- [Added many new translations to Wekan, now there is total 60 translations in Wekan. Updated translations. Organized pull-translations.sh alphabetically by
+- [Added many new translations to wekan, now there is total 60 translations in wekan. Updated translations. Organized pull-translations.sh alphabetically by
   language name](https://github.com/wekan/wekan/commit/d171f4088f40512d321969df3f0c280a620c0c5f).
   Thanks to translators and xet7.
 - [Added markdown and emoji to My Cards board, swimlane and list names](https://github.com/wekan/wekan/commit/763dc9c8e0122990c5f496392f2cce980c535dce).
@@ -8595,7 +8595,7 @@ and adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.69 2021-01-02 Wekan release
+# v4.69 2021-01-02 wekan release
 
 This release adds the following new features:
 
@@ -8623,7 +8623,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.68 2020-12-29 Wekan release
+# v4.68 2020-12-29 wekan release
 
 This release fixes the following bugs:
 
@@ -8634,7 +8634,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.67 2020-12-29 Wekan release
+# v4.67 2020-12-29 wekan release
 
 This release adds the following new features:
 
@@ -8651,7 +8651,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.66 2020-12-27 Wekan release
+# v4.66 2020-12-27 wekan release
 
 This release fixes the following bugs:
 
@@ -8661,7 +8661,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.65 2020-12-26 Wekan release
+# v4.65 2020-12-26 wekan release
 
 This release fixes the following bugs:
 
@@ -8673,7 +8673,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.64 2020-12-24 Wekan release
+# v4.64 2020-12-24 wekan release
 
 This release fixes the following bugs:
 
@@ -8682,7 +8682,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.63 2020-12-21 Wekan release
+# v4.63 2020-12-21 wekan release
 
 This release fixes the following bugs:
 
@@ -8691,7 +8691,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.62 2020-12-18 Wekan release
+# v4.62 2020-12-18 wekan release
 
 This release fixes the following bugs:
 
@@ -8713,7 +8713,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.61 2020-12-16 Wekan release
+# v4.61 2020-12-16 wekan release
 
 This release fixes the following bugs:
 
@@ -8724,7 +8724,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.60 2020-12-15 Wekan release
+# v4.60 2020-12-15 wekan release
 
 This release adds the following updates:
 
@@ -8742,7 +8742,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.59 2020-12-10 Wekan release
+# v4.59 2020-12-10 wekan release
 
 This release fixes the following bugs:
 
@@ -8751,7 +8751,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.58 2020-12-09 Wekan release
+# v4.58 2020-12-09 wekan release
 
 This release fixes the following bugs:
 
@@ -8760,7 +8760,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.57 2020-12-08 Wekan release
+# v4.57 2020-12-08 wekan release
 
 This release adds the following new features:
 
@@ -8773,7 +8773,7 @@ This release adds the following new features:
   For using this, Python code example:
   https://github.com/wekan/wekan/wiki/New-card-with-Python3-and-REST-API .
   Thanks to xet7.
-- REST API: Added Wekan REST API Python CLI, for adding card, etc. In Progress,
+- REST API: Added wekan REST API Python CLI, for adding card, etc. In Progress,
   downloading attachments does not work yet.
   [Part1](https://github.com/wekan/wekan/commit/051f7b2769c51404063e7f0ddf85fbd0f9508a88),
   [Part2](https://github.com/wekan/wekan/commit/387f0600ce1389aab955cc125d331dcd5eeeafdd).
@@ -8804,7 +8804,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.56 2020-11-30 Wekan release
+# v4.56 2020-11-30 wekan release
 
 This release adds the following new features:
 
@@ -8837,7 +8837,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.55 2020-11-21 Wekan release
+# v4.55 2020-11-21 wekan release
 
 This release adds the following improvements:
 
@@ -8850,7 +8850,7 @@ This release adds the following improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.54 2020-11-17 Wekan release
+# v4.54 2020-11-17 wekan release
 
 This release adds the following new features:
 
@@ -8866,7 +8866,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.53 2020-11-15 Wekan release
+# v4.53 2020-11-15 wekan release
 
 This release adds the following updates:
 
@@ -8892,7 +8892,7 @@ and adds the following improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.52 2020-11-12 Wekan release
+# v4.52 2020-11-12 wekan release
 
 This release adds the following improvements:
 
@@ -8901,7 +8901,7 @@ This release adds the following improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.51 2020-11-11 Wekan release
+# v4.51 2020-11-11 wekan release
 
 This release adds the following new features:
 
@@ -8919,7 +8919,7 @@ and adds the following improvements:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.50 2020-11-10 Wekan release
+# v4.50 2020-11-10 wekan release
 
 This release adds the following new features:
 
@@ -8934,7 +8934,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.49 2020-11-04 Wekan release
+# v4.49 2020-11-04 wekan release
 
 This release adds the following new features:
 
@@ -8948,8 +8948,8 @@ and adds the following changes:
 
 and adds the following translations:
 
-- [Translate some part of Gantt chart of Wekan Gantt GPL version](https://github.com/wekan/wekan/commit/fd363c69cc6e1cf3a283e3dbcc323edb1eae896e).
-  This only adds translations to all Wekan versions, not any GPL code to MIT version.
+- [Translate some part of Gantt chart of wekan Gantt GPL version](https://github.com/wekan/wekan/commit/fd363c69cc6e1cf3a283e3dbcc323edb1eae896e).
+  This only adds translations to all wekan versions, not any GPL code to MIT version.
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -8959,7 +8959,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.48 2020-11-02 Wekan release
+# v4.48 2020-11-02 wekan release
 
 This release adds the following new features:
 
@@ -8983,7 +8983,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.47 2020-11-01 Wekan release
+# v4.47 2020-11-01 wekan release
 
 This release fixes the following bugs:
 
@@ -8993,7 +8993,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.46 2020-10-30 Wekan release
+# v4.46 2020-10-30 wekan release
 
 This release adds the following updates:
 
@@ -9007,7 +9007,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.45 2020-10-30 Wekan release
+# v4.45 2020-10-30 wekan release
 
 This release fixes the following bugs:
 
@@ -9018,7 +9018,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.44 2020-10-28 Wekan release
+# v4.44 2020-10-28 wekan release
 
 This release adds the following new features:
 
@@ -9050,7 +9050,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.43 2020-10-20 Wekan release
+# v4.43 2020-10-20 wekan release
 
 This release adds the following new features:
 
@@ -9065,7 +9065,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.42 2020-10-14 Wekan release
+# v4.42 2020-10-14 wekan release
 
 This release adds the following updates:
 
@@ -9074,7 +9074,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.41 2020-10-03 Wekan release
+# v4.41 2020-10-03 wekan release
 
 This release adds the following new features:
 
@@ -9091,7 +9091,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.40 2020-09-18 Wekan release
+# v4.40 2020-09-18 wekan release
 
 This release adds the following new features:
 
@@ -9109,7 +9109,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.39 2020-09-17 Wekan release
+# v4.39 2020-09-17 wekan release
 
 This release adds the following new features:
 
@@ -9119,7 +9119,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.38 2020-09-16 Wekan release
+# v4.38 2020-09-16 wekan release
 
 This release fixes the following CRITICAL VULNERABILITIES:
 
@@ -9128,7 +9128,7 @@ This release fixes the following CRITICAL VULNERABILITIES:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.37 2020-09-15 Wekan release
+# v4.37 2020-09-15 wekan release
 
 This release adds the following UI improvements:
 
@@ -9147,7 +9147,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.36 2020-09-15 Wekan release
+# v4.36 2020-09-15 wekan release
 
 This release adds the following new features:
 
@@ -9156,7 +9156,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.35 2020-09-14 Wekan release
+# v4.35 2020-09-14 wekan release
 
 This release tries to fix the following bugs:
 
@@ -9165,7 +9165,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.34 2020-09-14 Wekan release
+# v4.34 2020-09-14 wekan release
 
 This release tries to fix the following bugs:
 
@@ -9174,7 +9174,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.33 2020-09-14 Wekan release
+# v4.33 2020-09-14 wekan release
 
 This release adds the following login settings:
 
@@ -9190,7 +9190,7 @@ and updates some dependencies:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.32 2020-09-13 Wekan release
+# v4.32 2020-09-13 wekan release
 
 This release tried to fix the following bugs:
 
@@ -9199,7 +9199,7 @@ This release tried to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.31 2020-09-13 Wekan release
+# v4.31 2020-09-13 wekan release
 
 This release tried to fix the following bugs:
 
@@ -9208,7 +9208,7 @@ This release tried to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.30 2020-09-13 Wekan release
+# v4.30 2020-09-13 wekan release
 
 This release adds the following new features and improvements:
 
@@ -9233,7 +9233,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.29 2020-09-11 Wekan release
+# v4.29 2020-09-11 wekan release
 
 This release adds the following new features:
 
@@ -9243,7 +9243,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.28 2020-09-11 Wekan release
+# v4.28 2020-09-11 wekan release
 
 This release updates some dependencies:
 
@@ -9259,7 +9259,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.27 2020-09-09 Wekan release
+# v4.27 2020-09-09 wekan release
 
 This release fixes the following bugs:
 
@@ -9269,7 +9269,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.26 2020-09-05 Wekan release
+# v4.26 2020-09-05 wekan release
 
 This release adds the following quality checks:
 
@@ -9292,7 +9292,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.25 2020-08-31 Wekan release
+# v4.25 2020-08-31 wekan release
 
 This release adds the following docker-compose.yml changes:
 
@@ -9311,7 +9311,7 @@ and removes the following code and allows double quotes in code:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.24 2020-08-27 Wekan release
+# v4.24 2020-08-27 wekan release
 
 This release adds the following updates:
 
@@ -9336,17 +9336,17 @@ and adds the following mouse scroll settings:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.23 2020-08-13 Wekan release
+# v4.23 2020-08-13 wekan release
 
 This release fixes following CRITICAL VULNERABILITIES:
 
 - [Update vulnerable dependency elliptic that is dependency of meteor-node-stubs that is dependency of
-  Wekan](https://github.com/wekan/wekan/commit/910f0cecbe7a4b3fdff603e5e74c2cb1c40b660b).
+  wekan](https://github.com/wekan/wekan/commit/910f0cecbe7a4b3fdff603e5e74c2cb1c40b660b).
   Thanks to filipenevola, neeldug, L25inux and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.22 2020-07-23 Wekan release
+# v4.22 2020-07-23 wekan release
 
 This release adds back these features:
 
@@ -9367,7 +9367,7 @@ and adds the following updates:
 and fixes the following bugs:
 
 - [Fix Snap](https://github.com/wekan/wekan/commit/68391a943bd37d9f98819ffb7b7a29692d0bd380).
-  This fix was already included to Wekan v4.21 to get it released.
+  This fix was already included to wekan v4.21 to get it released.
   TODO: Sometime migrate from Caddy v1 to Caddy v2.
   Thanks to xet7.
 - [Fix detecting current IP address on rebuild-wekan.sh](https://github.com/wekan/wekan/commit/ec1d8f275ff4cd720a8cd3bc918b32f9c5f5d099).
@@ -9375,7 +9375,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.21 2020-07-21 Wekan release
+# v4.21 2020-07-21 wekan release
 
 This release adds the following new features:
 
@@ -9384,7 +9384,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.20 2020-07-20 Wekan release
+# v4.20 2020-07-20 wekan release
 
 This release adds the following updates:
 
@@ -9396,12 +9396,12 @@ and fixes the following bugs:
 
 - [Change slug on card rename](https://github.com/wekan/wekan/pull/3214).
   Thanks to NicoP-S.
-- [Add missing Wekan logo sizes for PWAs and Apps](https://github.com/wekan/wekan/commit/de28bf8569a7373a5d6fd60a4f413e76673adc26).
+- [Add missing wekan logo sizes for PWAs and Apps](https://github.com/wekan/wekan/commit/de28bf8569a7373a5d6fd60a4f413e76673adc26).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.19 2020-07-18 Wekan release
+# v4.19 2020-07-18 wekan release
 
 This release adds the following features:
 
@@ -9424,7 +9424,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.18 2020-07-10 Wekan release
+# v4.18 2020-07-10 wekan release
 
 This release adds the following updates:
 
@@ -9449,11 +9449,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.17 2020-06-18 Wekan release
+# v4.17 2020-06-18 wekan release
 
 This release fixes the following bugs:
 
-- [Revert finding correct user changes that were made at Wekan v4.16](https://github.com/wekan/wekan/commit/5eb378452761ad1d6d67a491316007fdf6dfd689).
+- [Revert finding correct user changes that were made at wekan v4.16](https://github.com/wekan/wekan/commit/5eb378452761ad1d6d67a491316007fdf6dfd689).
   Thanks to xet7.
 - [Fix activities view on mobile devices](https://github.com/wekan/wekan/pull/3183).
   Thanks to marc1006.
@@ -9462,7 +9462,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.16 2020-06-17 Wekan release
+# v4.16 2020-06-17 wekan release
 
 This release adds the following features:
 
@@ -9486,7 +9486,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.15 2020-06-16 Wekan release
+# v4.15 2020-06-16 wekan release
 
 This release fixes the following bugs:
 
@@ -9496,7 +9496,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.14 2020-06-16 Wekan release
+# v4.14 2020-06-16 wekan release
 
 This release adds the following new features:
 
@@ -9523,7 +9523,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.13 2020-06-09 Wekan release
+# v4.13 2020-06-09 wekan release
 
 This release adds the following updates:
 
@@ -9541,7 +9541,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.12 2020-06-08 Wekan release
+# v4.12 2020-06-08 wekan release
 
 This release fixes the following CRITICAL SECURITY VULNERABILITIES:
 
@@ -9551,7 +9551,7 @@ This release fixes the following CRITICAL SECURITY VULNERABILITIES:
   [Part 3](https://github.com/wekan/wekan/commit/99f68f36b028d6c75acf2e5b83585b1acee65f97),
   [Part 4](https://github.com/wekan/wekan/commit/8a622ec7c3043bf8f34399ef34563e6a9a19dcd8).
   Logged in users could run javascript in input fields. This was partially fixed at v3.85,
-  but at some fields XSS was still possible. This affects at least Wekan versions v3.12-v4.12.
+  but at some fields XSS was still possible. This affects at least wekan versions v3.12-v4.12.
   After this fix, Javascript in input fields is not executed.
   Thanks to swsjona, marc1006 and xet7.
 
@@ -9581,7 +9581,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.11 2020-06-04 Wekan release
+# v4.11 2020-06-04 wekan release
 
 This release adds the following new platforms:
 
@@ -9609,7 +9609,7 @@ and adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.10 2020-05-30 Wekan release
+# v4.10 2020-05-30 wekan release
 
 This release adds the following new features:
 
@@ -9631,7 +9631,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.09 2020-05-27 Wekan release
+# v4.09 2020-05-27 wekan release
 
 This release fixes the following bugs:
 
@@ -9640,7 +9640,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.08 2020-05-26 Wekan release
+# v4.08 2020-05-26 wekan release
 
 This release adds the following new features:
 
@@ -9659,7 +9659,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.07 2020-05-26 Wekan release
+# v4.07 2020-05-26 wekan release
 
 This release fixes the following bugs:
 
@@ -9672,7 +9672,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.06 2020-05-25 Wekan release
+# v4.06 2020-05-25 wekan release
 
 This release fixes the following bugs:
 
@@ -9682,7 +9682,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.05 2020-05-25 Wekan release
+# v4.05 2020-05-25 wekan release
 
 This release adds the following new features:
 
@@ -9721,13 +9721,13 @@ attachment](https://github.com/wekan/wekan/commit/66d35a15280795b76a81c3e59cebbd
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.04 2020-05-24 Wekan release
+# v4.04 2020-05-24 wekan release
 
 Please use v4.05 or newer instead, that works better.
 
 This release adds the following features:
 
-- [Found Time Tracking GPLv3 software "Titra" with integration to Wekan](https://github.com/wekan/wekan/wiki/Time-Tracking).
+- [Found Time Tracking GPLv3 software "Titra" with integration to wekan](https://github.com/wekan/wekan/wiki/Time-Tracking).
   Thanks to willhseitz.
 - [Theme: Natural](https://github.com/wekan/wekan/pull/3098).
   You can select it from Board Settings / Change color / natural.
@@ -9746,7 +9746,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.03 2020-05-16 Wekan release
+# v4.03 2020-05-16 wekan release
 
 This release adds the following features:
 
@@ -9758,12 +9758,12 @@ and fixes the following bugs:
 
 - [Fix Can't Scroll on All Boards on mobile phone. Added drag handles](https://github.com/wekan/wekan/issues/3096).
   Thanks to xet7.
-- [Try to fix Sandstorm Wekan Export menu](https://github.com/wekan/wekan/commit/1ac11d92ba8f38981c87db25e5b5e1fa2adb6968).
+- [Try to fix Sandstorm wekan Export menu](https://github.com/wekan/wekan/commit/1ac11d92ba8f38981c87db25e5b5e1fa2adb6968).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.02 2020-05-15 Wekan release
+# v4.02 2020-05-15 wekan release
 
 This release adds the following server platforms:
 
@@ -9772,7 +9772,7 @@ This release adds the following server platforms:
 
 and adds the following features:
 
-- [Install Wekan to mobile homescreen icon and use fullscreen
+- [Install wekan to mobile homescreen icon and use fullscreen
   PWA](https://github.com/wekan/wekan/commit/8d5adc04645e3e71423f16869f39b8d79969bccd).
   [Docs for iOS and Android at wiki PWA page](https://github.com/wekan/wekan/wiki/PWA).
   Thanks to xet7.
@@ -9812,7 +9812,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.01 2020-04-28 Wekan release
+# v4.01 2020-04-28 wekan release
 
 This release adds the following updates:
 
@@ -9825,9 +9825,9 @@ and fixes the following bugs:
   Thanks to xet7.
 - [Fix Cards and Users API docs at https://wekan.github.io/api/ not generated because of
   syntax error and new Javascript syntax](https://github.com/wekan/wekan/commit/9ae20a3f51e63c29f536e2f5b3e66a2c7d88c691).
-  Wekan uses wekan/releases/generate-docs*.sh Python code to generate OpenAPI docs,
+  wekan uses wekan/releases/generate-docs*.sh Python code to generate OpenAPI docs,
   it did not show any errors while generating docs, only left out parts of API docs.
-  This affected Wekan versions v3.94-v4.00.
+  This affected wekan versions v3.94-v4.00.
   Thanks to pvcon13 and xet7.
 - [Fix list header height when cards count is shown](https://github.com/wekan/wekan/pull/3056).
   Thanks to marc1006.
@@ -9836,7 +9836,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v4.00 2020-04-27 Wekan release
+# v4.00 2020-04-27 wekan release
 
 This release fixes the following bugs:
 
@@ -9846,7 +9846,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.99 2020-04-27 Wekan release
+# v3.99 2020-04-27 wekan release
 
 This release fixes the following bugs:
 
@@ -9855,7 +9855,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.98 2020-04-25 Wekan release
+# v3.98 2020-04-25 wekan release
 
 News:
 
@@ -9901,14 +9901,14 @@ and fixes the following bugs:
   Thanks to marc1006 and boeserwolf.
 - Improve mobile devices support [Part1](https://github.com/wekan/wekan/pull/3040) and [Part2](https://github.com/wekan/wekan/pull/3045).
   Thanks to marc1006.
-- [Fix Wekan not load at all in Firefox v.68 for Android](https://github.com/wekan/wekan/commit/1235363465b824d26129d4aa74a4445f362c1a73).
+- [Fix wekan not load at all in Firefox v.68 for Android](https://github.com/wekan/wekan/commit/1235363465b824d26129d4aa74a4445f362c1a73).
   Thanks to xet7.
 - [Fix comment typo in docker-compose.yml](https://github.com/wekan/wekan/pull/3044).
   Thanks to VictorioBerra.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.97 2020-04-19 Wekan release
+# v3.97 2020-04-19 wekan release
 
 This release adds the following new features:
 
@@ -9934,12 +9934,12 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.96 2020-04-15 Wekan release
+# v3.96 2020-04-15 wekan release
 
 This release adds the following Sandstorm updates:
 
-- This is the first Sandstorm Wekan release that uses newest Meteor 1.10.1 and Node 12.x.
-  Now all Wekan platforms use newest Meteor and Node 12.x LTS.
+- This is the first Sandstorm wekan release that uses newest Meteor 1.10.1 and Node 12.x.
+  Now all wekan platforms use newest Meteor and Node 12.x LTS.
   Thanks to kentonv and xet7.
 - [Fix capnp workaround to work with newest Meteor and
   Node 12.x](https://github.com/wekan/wekan/commit/b2d546579c4957352c29b36c0c8a4a08b944dbb4).
@@ -9947,7 +9947,7 @@ This release adds the following Sandstorm updates:
 - [Update Sandstorm release script for newest Meteor and
   Node 12.x](https://github.com/wekan/wekan/commit/c5f782976b971fa3f2323e80a013bbf6a49c0596).
   Thanks to xet7.
-- [Remove Meteor 1.8.x files because Sandstorm Wekan now uses newest
+- [Remove Meteor 1.8.x files because Sandstorm wekan now uses newest
   Meteor](https://github.com/wekan/wekan/commit/1a836969e10215bad47ac56a9b0d9de801b66fd2).
   Thanks to xet7.
 
@@ -9967,7 +9967,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.95 2020-04-12 Wekan release
+# v3.95 2020-04-12 wekan release
 
 This release adds the following new features:
 
@@ -9989,7 +9989,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.94 2020-04-12 Wekan release
+# v3.94 2020-04-12 wekan release
 
 This release adds the following new features:
 
@@ -10000,7 +10000,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.93 2020-04-10 Wekan release
+# v3.93 2020-04-10 wekan release
 
 This release adds the following new features:
 
@@ -10025,7 +10025,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.92 2020-04-09 Wekan release
+# v3.92 2020-04-09 wekan release
 
 This release adds the following new features:
 
@@ -10035,12 +10035,12 @@ This release adds the following new features:
   Thanks to jtbairdsr.
 - [Add setting](https://github.com/wekan/wekan/commit/5ebb47cb0ec7272894a37d99579ede872251f55c)
   default [NOTIFICATION_TRAY_AFTER_READ_DAYS_BEFORE_REMOVE=2](https://github.com/wekan/wekan/pull/2998)
-  to all Wekan platforms.
+  to all wekan platforms.
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.91 2020-04-08 Wekan release
+# v3.91 2020-04-08 wekan release
 
 This release adds the following new features:
 
@@ -10054,7 +10054,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.90 2020-04-06 Wekan release
+# v3.90 2020-04-06 wekan release
 
 This release makes the following updates:
 
@@ -10067,7 +10067,7 @@ and updates the following translations:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.89 2020-04-05 Wekan release
+# v3.89 2020-04-05 wekan release
 
 This release adds the following new features:
 
@@ -10078,7 +10078,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.88 2020-04-02 Wekan release
+# v3.88 2020-04-02 wekan release
 
 This release adds the following new features:
 
@@ -10097,7 +10097,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.87 2020-04-01 Wekan release
+# v3.87 2020-04-01 wekan release
 
 This release makes the following UI changes:
 
@@ -10114,18 +10114,18 @@ and fixes the following bugs:
 - [Fix Browser always reload the whole page when I change one of the card
   color](https://github.com/wekan/wekan/commit/3546d7aa02bc65cf1183cb493adeb543ba51945d).
   Fixed by making label colors and text again editable.
-  Regression from [Wekan v3.86 2)](https://github.com/wekan/wekan/commit/b9099a8b7ea6f63c79bdcbb871cb993b2cb7e325).
+  Regression from [wekan v3.86 2)](https://github.com/wekan/wekan/commit/b9099a8b7ea6f63c79bdcbb871cb993b2cb7e325).
   Thanks to javen9881 and xet7.
 - [Fix richer editor submit did not clear edit area](https://github.com/wekan/wekan/commit/033d6710470b2ecd7a0ec0b2f0741ff459e68b32).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.86 2020-03-24 Wekan release
+# v3.86 2020-03-24 wekan release
 
 This release fixes the following bugs:
 
-- [Fix Rich editor can not be disabled, regression from changes yesterday at Wekan v3.85](https://github.com/wekan/wekan/commit/12ab8fac5db9c5ac8069d0ca2bca340d6004a25b).
+- [Fix Rich editor can not be disabled, regression from changes yesterday at wekan v3.85](https://github.com/wekan/wekan/commit/12ab8fac5db9c5ac8069d0ca2bca340d6004a25b).
   Thanks to uusijani, vjrj and xet7.
 - [1) Fix Pasting text into a card is adding a line before and after
       (and multiplies by pasting more) by changing paste "p" to "br".
@@ -10137,14 +10137,14 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.85 2020-03-23 Wekan release
+# v3.85 2020-03-23 wekan release
 
 This release fixes the following CRITICAL SECURITY VULNERABILITIES:
 
 - [Fix XSS bug reported today 4 hours ago by Cyb3rjunky](https://github.com/wekan/wekan/commit/482682e50079d70c5113169020d6834013b57c11).
   Logged in users could run javascript in input fields.
-  This affects Wekan versions v3.12-v3.84.
-  In [Wekan v3.12](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v312-2019-08-09-wekan-release)
+  This affects wekan versions v3.12-v3.84.
+  In [wekan v3.12](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v312-2019-08-09-wekan-release)
   there was [changes for XSS filter to allow inserting images, videos etc
   on comment WYSIWYG editor](https://github.com/wekan/wekan/pull/2593)
   so features related to that are now removed.
@@ -10153,7 +10153,7 @@ This release fixes the following CRITICAL SECURITY VULNERABILITIES:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.84 2020-03-16 Wekan release
+# v3.84 2020-03-16 wekan release
 
 This release adds the following features:
 
@@ -10182,8 +10182,8 @@ and adds the following updates:
 
 and fixes the following bugs:
 
-- [Downgrade stylus to v1.1.0 to speed up building Wekan](https://github.com/wekan/wekan/commit/fca4cdcebf1cc6642aefeb78b911cb5b95ebe473).
-  This is because building newer stylus v2 takes 52 minutes. After this change, building Wekan takes 3 minutes.
+- [Downgrade stylus to v1.1.0 to speed up building wekan](https://github.com/wekan/wekan/commit/fca4cdcebf1cc6642aefeb78b911cb5b95ebe473).
+  This is because building newer stylus v2 takes 52 minutes. After this change, building wekan takes 3 minutes.
   Thanks to zodern.
 - [Fix: Error when retrieve token from some OIDC due to not necessary scope
   parameter](https://github.com/wekan/wekan/pull/2955).
@@ -10194,11 +10194,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.83 2020-03-01 Wekan release
+# v3.83 2020-03-01 wekan release
 
 This release tries to revert remaining the following changes:
 
-- [Revert](https://github.com/wekan/wekan/88573ad2cdb8596b795a82ef40a0662180e8a7d7) change made at Wekan v3.81,
+- [Revert](https://github.com/wekan/wekan/88573ad2cdb8596b795a82ef40a0662180e8a7d7) change made at wekan v3.81,
   because building did not work: [Try to make Meteor build time shorter
   by excluding legacy and cordova. This was made possible by
   Meteor 1.10-rc.2](https://github.com/wekan/wekan/commit/0d3002f69d97e646fa7368bfdade4f78c51e9884).
@@ -10206,18 +10206,18 @@ This release tries to revert remaining the following changes:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.82 2020-03-01 Wekan release
+# v3.82 2020-03-01 wekan release
 
 This release reverts the following changes:
 
-- Revert change made at Wekan v3.81, because building did not work: [Try to make Meteor build time shorter
+- Revert change made at wekan v3.81, because building did not work: [Try to make Meteor build time shorter
   by excluding legacy and cordova. This was made possible by
   Meteor 1.10-rc.2](https://github.com/wekan/wekan/commit/0d3002f69d97e646fa7368bfdade4f78c51e9884).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.81 2020-03-01 Wekan release
+# v3.81 2020-03-01 wekan release
 
 This release [fixes](https://github.com/wekan/wekan/commit/aac7c380c8c389b0683b2bd64e2cc856993f0e30) the following CRITICAL SECURITY VULNERABILITIES and other bugs:
 
@@ -10251,7 +10251,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.80 2020-02-22 Wekan release
+# v3.80 2020-02-22 wekan release
 
 This release adds the following features:
 
@@ -10273,13 +10273,13 @@ and fixes the following bugs:
 - [Fix docker-compose link](https://github.com/wekan/wekan/pull/2937).
   Thanks to pbek.
 - [Remove alethes:pages package, that had some indentation error.
-  Package is about pagination, but I did not find any pagination related code in Wekan
+  Package is about pagination, but I did not find any pagination related code in wekan
   yet](https://github.com/wekan/wekan/commit/ec012060305bc16fbf8d2ac218f5c847e02c4301).
   Thanks to xet7 !
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.79 2020-02-13 Wekan release
+# v3.79 2020-02-13 wekan release
 
 This release fixes the following bugs:
 
@@ -10288,7 +10288,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.78 2020-02-12 Wekan release
+# v3.78 2020-02-12 wekan release
 
 This release adds the following features:
 
@@ -10302,7 +10302,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.77 2020-02-10 Wekan release
+# v3.77 2020-02-10 wekan release
 
 This release removes the following features:
 
@@ -10318,7 +10318,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.76 2020-02-07 Wekan release
+# v3.76 2020-02-07 wekan release
 
 This release adds the following updates:
 
@@ -10336,7 +10336,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.75 2020-02-05 Wekan release
+# v3.75 2020-02-05 wekan release
 
 This release adds the following new features:
 
@@ -10356,7 +10356,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.74 2020-02-05 Wekan release
+# v3.74 2020-02-05 wekan release
 
 This release adds the following new features:
 
@@ -10368,11 +10368,11 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.73 2020-01-29 Wekan release
+# v3.73 2020-01-29 wekan release
 
 This release adds the following new features:
 
-- [Login to Wekan with Nextcloud](https://github.com/wekan/wekan/pull/2897).
+- [Login to wekan with Nextcloud](https://github.com/wekan/wekan/pull/2897).
   Thanks to bogie.
 - [Add rule action to move cards to other boards](https://github.com/wekan/wekan/pull/2899).
   Thanks to peterverraedt.
@@ -10381,30 +10381,30 @@ and fixes the following bugs:
 
 - [Show System Wide Announcement in one line](https://github.com/wekan/wekan/pull/2891).
   Thanks to tsia.
-- [Fixed board export with attachment in Wekan Meteor 1.9.x version](https://github.com/wekan/wekan/pull/2898).
+- [Fixed board export with attachment in wekan Meteor 1.9.x version](https://github.com/wekan/wekan/pull/2898).
   Thanks to izadpoor.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.72 2020-01-19 Sandstorm-only Wekan release
+# v3.72 2020-01-19 Sandstorm-only wekan release
 
 This release fixes the following bugs:
 
-- Try to fix Wekan at Sandstorm.
+- Try to fix wekan at Sandstorm.
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.71 2020-01-18 Sandstorm-only Wekan release
+# v3.71 2020-01-18 Sandstorm-only wekan release
 
 This release fixes the following bugs:
 
-- [Try to fix Wekan at Sandstorm by using Meteor 1.8.x and Node 8.17.0 at Sandstorm](https://github.com/wekan/wekan/commit/5e5ab95410c715a4379631456fc5547c497898b0).
+- [Try to fix wekan at Sandstorm by using Meteor 1.8.x and Node 8.17.0 at Sandstorm](https://github.com/wekan/wekan/commit/5e5ab95410c715a4379631456fc5547c497898b0).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.70 2020-01-18 Wekan release
+# v3.70 2020-01-18 wekan release
 
 This release fixes the following bugs:
 
@@ -10422,7 +10422,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.69 2020-01-10 Wekan release
+# v3.69 2020-01-10 wekan release
 
 This release fixes the following bugs:
 
@@ -10432,7 +10432,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.68 2020-01-10 Wekan release
+# v3.68 2020-01-10 wekan release
 
 This release tries to fix the following bugs:
 
@@ -10442,7 +10442,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.67 2020-01-10 Wekan release
+# v3.67 2020-01-10 wekan release
 
 This release tries to fix the following bugs:
 
@@ -10451,7 +10451,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.66 2020-01-10 Wekan release
+# v3.66 2020-01-10 wekan release
 
 This release tries to fix the following bugs:
 
@@ -10460,7 +10460,7 @@ This release tries to fix the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.65 2020-01-10 Wekan release
+# v3.65 2020-01-10 wekan release
 
 This release adds the following features:
 
@@ -10476,7 +10476,7 @@ and adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.64 2020-01-06 Wekan release
+# v3.64 2020-01-06 wekan release
 
 This release adds the following warning for CentOS 7 users:
 
@@ -10495,7 +10495,7 @@ and removes the following features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.63 2020-01-06 Wekan release
+# v3.63 2020-01-06 wekan release
 
 This release fixes the following bugs:
 
@@ -10505,46 +10505,46 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.62 2020-01-05 Wekan release
+# v3.62 2020-01-05 wekan release
 
 This release adds the following features:
 
 - [Add Worker role](https://github.com/wekan/wekan/issues/2788).
-  This was originally added at Wekan v3.58, reverted at Wekan v3.60 because of bugs,
+  This was originally added at wekan v3.58, reverted at wekan v3.60 because of bugs,
   and now after fixes added back.
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.61 2020-01-03 Wekan release
+# v3.61 2020-01-03 wekan release
 
 This release adds the following features:
 
 - [Add more Font Awesome icons. This was originally added
-  at Wekan v3.58, removed at Wekan v3.60, and now
-  added back at Wekan v3.61](https://github.com/wekan/wekan/commit/cd253522a305523e3e36bb73313e8c4db500a717).
+  at wekan v3.58, removed at wekan v3.60, and now
+  added back at wekan v3.61](https://github.com/wekan/wekan/commit/cd253522a305523e3e36bb73313e8c4db500a717).
   Thanks to xet7.
 
 and fixes the following bugs:
 
 - [Fix browser javascript console errors when editing profile. This was originally added
-  at Wekan v3.58, removed at Wekan v3.60, and now added back at
-  Wekan v3.61](https://github.com/wekan/wekan/commit/cd253522a305523e3e36bb73313e8c4db500a717).
+  at wekan v3.58, removed at wekan v3.60, and now added back at
+  wekan v3.61](https://github.com/wekan/wekan/commit/cd253522a305523e3e36bb73313e8c4db500a717).
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.60 2020-01-03 Wekan release
+# v3.60 2020-01-03 wekan release
 
 This release fixes the following bugs:
 
-- [Revert to Wekan v3.57 version of client and models directories,
+- [Revert to wekan v3.57 version of client and models directories,
   removing Worker role temporarily, because Worker role changes
   broke saving card](https://github.com/wekan/wekan/commit/27943796ade78ca3c503637a1340918bf06a1267).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.59 2020-01-03 Wekan release
+# v3.59 2020-01-03 wekan release
 
 This release fixes the following bugs:
 
@@ -10553,7 +10553,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.58 2020-01-03 Wekan release
+# v3.58 2020-01-03 wekan release
 
 This release adds the following features:
 
@@ -10573,7 +10573,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.57 2019-12-22 Wekan release
+# v3.57 2019-12-22 wekan release
 
 This release adds the following features:
 
@@ -10601,7 +10601,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.56 2019-11-21 Wekan release
+# v3.56 2019-11-21 wekan release
 
 This release adds the following updates:
 
@@ -10631,7 +10631,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.55 2019-11-19 Wekan release
+# v3.55 2019-11-19 wekan release
 
 This release fixes the following bugs:
 
@@ -10645,7 +10645,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.54 2019-11-18 Wekan release
+# v3.54 2019-11-18 wekan release
 
 This release adds the following new features:
 
@@ -10671,17 +10671,17 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.53 2019-11-14 Wekan release
+# v3.53 2019-11-14 wekan release
 
 This release fixes the following bugs:
 
-- [Revert list sorting change of Wekan v3.51 because it reversed alphabetical sorting of
+- [Revert list sorting change of wekan v3.51 because it reversed alphabetical sorting of
   lists](https://github.com/wekan/wekan/commit/ab2a721a1443b903cdbbbe275f41ffd3269012c6).
   Thanks to Dalisay and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.52 2019-11-14 Wekan release
+# v3.52 2019-11-14 wekan release
 
 This release fixes the following bugs:
 
@@ -10690,7 +10690,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.51 2019-11-14 Wekan release
+# v3.51 2019-11-14 wekan release
 
 This release fixes the following bugs:
 
@@ -10700,7 +10700,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.50 2019-11-13 Wekan release
+# v3.50 2019-11-13 wekan release
 
 This release adds the following new features:
 
@@ -10777,7 +10777,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.49 2019-10-09 Wekan release
+# v3.49 2019-10-09 wekan release
 
 This release fixes the following bugs:
 
@@ -10786,7 +10786,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.48 2019-10-09 Wekan release
+# v3.48 2019-10-09 wekan release
 
 This release fixes the following bugs:
 
@@ -10795,7 +10795,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.47 2019-10-09 Wekan release
+# v3.47 2019-10-09 wekan release
 
 This release fixes the following bugs:
 
@@ -10803,7 +10803,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.46 2019-10-07 Wekan release
+# v3.46 2019-10-07 wekan release
 
 This release fixes the following bugs:
 
@@ -10814,7 +10814,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.45 2019-10-03 Wekan release
+# v3.45 2019-10-03 wekan release
 
 This release adds the following new features:
 
@@ -10834,7 +10834,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.44 2019-09-17 Wekan release
+# v3.44 2019-09-17 wekan release
 
 This release adds the following languages:
 
@@ -10848,7 +10848,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.43 2019-09-17 Wekan release
+# v3.43 2019-09-17 wekan release
 
 This release fixes the following bugs:
 
@@ -10861,16 +10861,16 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.42 2019-09-14 Wekan release
+# v3.42 2019-09-14 wekan release
 
 This release removed the following new features:
 
-- [Revert drag handle changes of Wekan v3.41](https://github.com/wekan/wekan/commit/57119868bbb49f47c7d0b51b9952df9bd83d46f5).
+- [Revert drag handle changes of wekan v3.41](https://github.com/wekan/wekan/commit/57119868bbb49f47c7d0b51b9952df9bd83d46f5).
   Thanks to Keelan.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.41 2019-09-13 Wekan release
+# v3.41 2019-09-13 wekan release
 
 This release adds the following new features:
 
@@ -10879,7 +10879,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.40 2019-09-11 Wekan release
+# v3.40 2019-09-11 wekan release
 
 This release fixes the following bugs:
 
@@ -10888,20 +10888,20 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.39 2019-09-11 Wekan release
+# v3.39 2019-09-11 wekan release
 
 This release fixes the following bugs:
 
-- [To load all boards, revert Wekan v3.37 Fix Linked cards make load all cards of database](https://github.com/wekan/wekan/commit/6ce8eeee6c477cd39b684c47bf122b5872818ada).
+- [To load all boards, revert wekan v3.37 Fix Linked cards make load all cards of database](https://github.com/wekan/wekan/commit/6ce8eeee6c477cd39b684c47bf122b5872818ada).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.38 2019-09-11 Wekan release
+# v3.38 2019-09-11 wekan release
 
 - Update translations. Thanks to translators.
 
-# v3.37 2019-09-07 Wekan release
+# v3.37 2019-09-07 wekan release
 
 This release fixes the following bugs:
 
@@ -10915,7 +10915,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.36 2019-09-05 Wekan release
+# v3.36 2019-09-05 wekan release
 
 This release adds the following new features:
 
@@ -10942,7 +10942,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.35 2019-08-29 Wekan release
+# v3.35 2019-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -10950,7 +10950,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.34 2019-08-29 Wekan release
+# v3.34 2019-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -10959,7 +10959,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.33 2019-08-29 Wekan release
+# v3.33 2019-08-29 wekan release
 
 This release adds the following new features:
 
@@ -10969,7 +10969,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.32 2019-08-29 Wekan release
+# v3.32 2019-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -10978,7 +10978,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.31 2019-08-29 Wekan release
+# v3.31 2019-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -10988,7 +10988,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.30 2019-08-29 Wekan release
+# v3.30 2019-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -11000,7 +11000,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.29 2019-08-29 Wekan release
+# v3.29 2019-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -11009,7 +11009,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.28 2019-08-29 Wekan release
+# v3.28 2019-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -11018,7 +11018,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.27 2019-08-29 Wekan release
+# v3.27 2019-08-29 wekan release
 
 This release adds the following upgrades:
 
@@ -11027,7 +11027,7 @@ This release adds the following upgrades:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.26 2019-08-28 Wekan release
+# v3.26 2019-08-28 wekan release
 
 This release adds the following new features:
 
@@ -11042,14 +11042,14 @@ and fixes the following bugs:
   Thanks to GhassenRjab and xet7.
 - [Fix last label undefined](https://github.com/wekan/wekan/pull/2657).
   Thanks to justinr1234.
-- [Default to BIGEVENTS_PATTERN=NONE so that Wekan sends less email notifications](https://github.com/wekan/wekan/commit/0083215ea3955a950d345d44a8663e5b05e8f00f).
+- [Default to BIGEVENTS_PATTERN=NONE so that wekan sends less email notifications](https://github.com/wekan/wekan/commit/0083215ea3955a950d345d44a8663e5b05e8f00f).
   Thanks to rinnaz and xet7.
 - [Fix app hang when Meteor.user() is null and list spinner is loaded bug](https://github.com/wekan/wekan/pull/2654).
   Thanks to urakagi.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.25 2019-08-23 Wekan release
+# v3.25 2019-08-23 wekan release
 
 This release adds the following new features:
 
@@ -11063,7 +11063,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.24 2019-08-22 Wekan release
+# v3.24 2019-08-22 wekan release
 
 This release fixes the following bugs:
 
@@ -11073,7 +11073,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.23 2019-08-20 Wekan release
+# v3.23 2019-08-20 wekan release
 
 This release fixes the following bugs:
 
@@ -11082,7 +11082,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.22 2019-08-20 Wekan release
+# v3.22 2019-08-20 wekan release
 
 This release adds the following new features:
 
@@ -11096,7 +11096,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.21 2019-08-16 Wekan release
+# v3.21 2019-08-16 wekan release
 
 This release adds the following new features:
 
@@ -11113,7 +11113,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.20 2019-08-15 Wekan release
+# v3.20 2019-08-15 wekan release
 
 This release fixes the following security issues:
 
@@ -11138,7 +11138,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.18 2019-08-15 Wekan release
+# v3.18 2019-08-15 wekan release
 
 This release adds the following new features:
 
@@ -11163,7 +11163,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.17 2019-08-13 Wekan release
+# v3.17 2019-08-13 wekan release
 
 This release fixes the following bugs:
 
@@ -11173,7 +11173,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.16 2019-08-13 Wekan release
+# v3.16 2019-08-13 wekan release
 
 This release adds the following new features:
 
@@ -11200,7 +11200,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.15 2019-08-11 Wekan release
+# v3.15 2019-08-11 wekan release
 
 This release fixes the following bugs:
 
@@ -11209,7 +11209,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.14 2019-08-11 Wekan release
+# v3.14 2019-08-11 wekan release
 
 This release adds the following new features:
 
@@ -11231,11 +11231,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.13 2019-08-09 Wekan release
+# v3.13 2019-08-09 wekan release
 
 Update translations. Thanks to translators.
 
-# v3.12 2019-08-09 Wekan release
+# v3.12 2019-08-09 wekan release
 
 This release adds the following new features:
 
@@ -11270,7 +11270,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.11 2019-08-07 Wekan release
+# v3.11 2019-08-07 wekan release
 
 This release fixes the following bugs:
 
@@ -11279,7 +11279,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.10 2019-08-07 Wekan release
+# v3.10 2019-08-07 wekan release
 
 This release fixes the following bugs:
 
@@ -11288,7 +11288,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.09 2019-08-07 Wekan release
+# v3.09 2019-08-07 wekan release
 
 This release adds the following features:
 
@@ -11304,7 +11304,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.08 2019-08-07 Wekan release
+# v3.08 2019-08-07 wekan release
 
 This release fixes the following bugs:
 
@@ -11314,7 +11314,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.07 2019-08-07 Wekan release
+# v3.07 2019-08-07 wekan release
 
 This release fixes the following bugs:
 
@@ -11323,7 +11323,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.06 2019-08-07 Wekan release
+# v3.06 2019-08-07 wekan release
 
 This release fixes the following bugs:
 
@@ -11332,7 +11332,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.05 2019-08-07 Wekan release
+# v3.05 2019-08-07 wekan release
 
 This release fixes the following bugs:
 
@@ -11341,7 +11341,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.04 2019-08-06 Wekan release
+# v3.04 2019-08-06 wekan release
 
 This release fixes the following bugs:
 
@@ -11352,7 +11352,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.03 2019-08-04 Wekan release
+# v3.03 2019-08-04 wekan release
 
 This release adds the following new features:
 
@@ -11362,7 +11362,7 @@ This release adds the following new features:
   Thanks to Akuket.
 - [Add admin setting to prevent users to self deleting their account](https://github.com/wekan/wekan/pull/2573).
   Thanks to Akuket.
-- [Add Packager.io DEB/RPM Wekan packages for Debian/Ubuntu/CentOS/SLES](https://packager.io/gh/wekan/wekan).
+- [Add Packager.io DEB/RPM wekan packages for Debian/Ubuntu/CentOS/SLES](https://packager.io/gh/wekan/wekan).
   Does not work yet, [debugging in progress here](https://github.com/wekan/wekan/issues/2582).
   Thanks to xet7 and sfahrenholz.
 - [Add setting field LDAP_USER_AUTHENTICATION_FIELD=uid](https://github.com/wekan/wekan/pull/2581).
@@ -11375,7 +11375,7 @@ and adds the following upgrades:
 
 and fixes the following bugs:
 
-- [Remove mixmax:smart-disconnect, previously it did disconnect Wekan when
+- [Remove mixmax:smart-disconnect, previously it did disconnect wekan when
   browser tab was not active, but because now users are working on multiple
   boards at different browser tabs and switching all time time, there was
   constant loading, so now after removing all tabs keeps active. This can
@@ -11384,11 +11384,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.02 2019-07-26 Wekan release
+# v3.02 2019-07-26 wekan release
 
 This release adds the following updates:
 
-- [Updated Wekan on OpenShift](https://github.com/wekan/wekan/commit/85ca2b1363ed0bad8639ba7ed65c55e445816947).
+- [Updated wekan on OpenShift](https://github.com/wekan/wekan/commit/85ca2b1363ed0bad8639ba7ed65c55e445816947).
   Thanks to xet7.
 
 and fixes the following bugs:
@@ -11407,7 +11407,7 @@ and tries to fix following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.01 2019-07-26 Wekan release
+# v3.01 2019-07-26 wekan release
 
 This release adds the following new features:
 
@@ -11420,7 +11420,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v3.00 2019-07-25 Wekan release
+# v3.00 2019-07-25 wekan release
 
 This release:
 
@@ -11453,7 +11453,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.99 2019-07-17 Wekan release
+# v2.99 2019-07-17 wekan release
 
 This release adds the following new features:
 
@@ -11473,7 +11473,7 @@ This release adds the following new features:
   sent out no matter this user is watching the board or not](https://github.com/wekan/wekan/pull/2541).
   Introduced a system env var BIGEVENTS_PATTERN default as "due", so any activityType matches the pattern,
   system will send out notifications to all board members no matter they are watching or tracking
-  the board or not. Owner of the Wekan server can disable the feature by setting this variable to "NONE"
+  the board or not. Owner of the wekan server can disable the feature by setting this variable to "NONE"
   or change the pattern to any valid regex. i.e. '|' delimited activityType names.
   Thanks to whowillcare.
 - [Add BIGEVENTS_PATTERN to Source/Snap/Docker](https://github.com/wekan/wekan/commit/d7c09df7d2649bf2d2b61772c251f81793a6ed77).
@@ -11501,7 +11501,7 @@ and fixes the following bugs:
   Still missing: custom field value, list name, swimlane name.
   Thanks to xet7.
 - [Don't remove boardoverlay when mouse leaves carddetails](https://github.com/wekan/wekan/pull/2540).
-  This reduces Wekan board flashiness.
+  This reduces wekan board flashiness.
   Thanks to newhinton.
 - [Limit the board list to 2 or 1 for mobile clients](https://github.com/wekan/wekan/pull/2542).
   As a mobile user, the board size of in the home page too small, so the user is easily to
@@ -11519,15 +11519,15 @@ and has the following features in progress, not anything visible yet:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.98 2019-07-02 Wekan release
+# v2.98 2019-07-02 wekan release
 
 This release adds the following new features, thanks to xet7:
 
-- [Add Wekan v2.95-v2.97 master branch features and fixes to meteor-1.8 branch](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446).
+- [Add wekan v2.95-v2.97 master branch features and fixes to meteor-1.8 branch](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446).
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.97 2019-07-01 Wekan release
+# v2.97 2019-07-01 wekan release
 
 This release [adds the following new features](https://github.com/wekan/wekan/commit/3e8cb8c6e1617ef03ebce045d3b93aeb2cf91228), thanks to xet7:
 
@@ -11539,19 +11539,19 @@ Note: Due Date etc on cards is visible on all background colors and themes. Hidi
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.96 2019-07-01 Wekan release
+# v2.96 2019-07-01 wekan release
 
-This release removes the following features, that were added at Wekan v2.95:
+This release removes the following features, that were added at wekan v2.95:
 
 - [Remove RELAX MODE and DARK MODE](https://github.com/wekan/wekan/commit/8477e94f3b8f531a4209f49758200009d274c1cf),
   because [they changed look of all existing boards](https://github.com/wekan/wekan/issues/1149#issuecomment-507255114).
-  At some later Wekan release they will be added back as separate themes
+  At some later wekan release they will be added back as separate themes
   that can be selected, without changing existing boards.
   Thanks to chirrut2 and xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.95 2019-07-01 Wekan release
+# v2.95 2019-07-01 wekan release
 
 This release adds the following new features, thanks to xet7:
 
@@ -11568,7 +11568,7 @@ and adds the following [themes to board background colors](https://github.com/we
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.94 2019-06-29 Wekan release
+# v2.94 2019-06-29 wekan release
 
 This release adds the following updates:
 
@@ -11577,7 +11577,7 @@ This release adds the following updates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.93 2019-06-28 Wekan release
+# v2.93 2019-06-28 wekan release
 
 This release fixes the following bugs:
 
@@ -11586,7 +11586,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.92 2019-06-27 Wekan release
+# v2.92 2019-06-27 wekan release
 
 This release fixes the following bugs:
 
@@ -11596,7 +11596,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.91 2019-06-27 Wekan release
+# v2.91 2019-06-27 wekan release
 
 This release fixes the following bugs:
 
@@ -11605,31 +11605,31 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.90 2019-06-21 Wekan release
+# v2.90 2019-06-21 wekan release
 
 This release reverts the following Sandstorm changes:
 
-- [Revert v2.89 setting every Sandstorm Wekan user as admin](https://github.com/wekan/wekan/commit/e5c0d0ea18fe74a47afdfe101160280854e2c74f).
+- [Revert v2.89 setting every Sandstorm wekan user as admin](https://github.com/wekan/wekan/commit/e5c0d0ea18fe74a47afdfe101160280854e2c74f).
   Thanks to xet7. [Related #2405](https://github.com/wekan/wekan/issues/2405).
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.89 2019-06-21 Wekan release
+# v2.89 2019-06-21 wekan release
 
 This release adds the following Sandstorm features:
 
-- [Sandstorm Wekan: Set everyone as Admin](https://github.com/wekan/wekan/commit/60d62a6ae3a79059e68b2cd1d554d67b7d50b6aa).
+- [Sandstorm wekan: Set everyone as Admin](https://github.com/wekan/wekan/commit/60d62a6ae3a79059e68b2cd1d554d67b7d50b6aa).
   Please test does this help with [Problem with the user management: can't add users or give wekan admin rights](https://github.com/wekan/wekan/issues/2405).
   Thanks to xet7.
-- [If board does not exist, redirect to All Boards page, at all Wekan platforms](https://github.com/wekan/wekan/commit/4f46adc389126597266d71110f9754841f86857c).
-  So now at Sandstorm when loading Wekan grain, if first Sandstorm board is found,
+- [If board does not exist, redirect to All Boards page, at all wekan platforms](https://github.com/wekan/wekan/commit/4f46adc389126597266d71110f9754841f86857c).
+  So now at Sandstorm when loading wekan grain, if first Sandstorm board is found,
   it is opened. If first Sandstorm board is not found (it's deleted or archived),
   then redirect automatically to All Boards page. [Closes #3132](https://github.com/wekan/wekan/issues/3132).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.88 2019-06-21 Wekan release
+# v2.88 2019-06-21 wekan release
 
 This release adds the following updates:
 
@@ -11637,7 +11637,7 @@ This release adds the following updates:
 
 Thanks to translators for their translations.
 
-# v2.87 2019-06-21 Wekan release
+# v2.87 2019-06-21 wekan release
 
 This release adds the following new features:
 
@@ -11653,11 +11653,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.86 2019-06-19 Wekan release
+# v2.86 2019-06-19 wekan release
 
 This release fixes the following bugs:
 
-- [Fix Wekan unable to Select Text from Description edit box](https://github.com/wekan/wekan/issues/2451)
+- [Fix wekan unable to Select Text from Description edit box](https://github.com/wekan/wekan/issues/2451)
   by removing feature of card description submit on click outside. This is because when selecting text
   and dragging up did trigger submit of description, so description was closed and selecting text failed.
   This did affect all Chromium-based browsers: Chrome, Chromium, Chromium Edge.
@@ -11665,7 +11665,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.85 2019-06-19 Wekan release
+# v2.85 2019-06-19 wekan release
 
 This release fixes the following bugs:
 
@@ -11674,7 +11674,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.84 2019-06-18 Wekan release
+# v2.84 2019-06-18 wekan release
 
 This release fixes the following bugs:
 
@@ -11683,7 +11683,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.83 2019-06-17 Wekan release
+# v2.83 2019-06-17 wekan release
 
 This release fixes the following bugs:
 
@@ -11692,7 +11692,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.82 2019-06-14 Wekan release
+# v2.82 2019-06-14 wekan release
 
 This release fixes the following bugs:
 
@@ -11701,7 +11701,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.81 2019-06-13 Wekan release
+# v2.81 2019-06-13 wekan release
 
 This release fixes the following bugs:
 
@@ -11711,7 +11711,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.80 2019-06-13 Wekan release
+# v2.80 2019-06-13 wekan release
 
 This release fixes the following bugs:
 
@@ -11720,7 +11720,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.79 2019-06-13 Wekan release
+# v2.79 2019-06-13 wekan release
 
 This release fixes the following bugs:
 
@@ -11729,7 +11729,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.78 2019-06-12 Wekan release
+# v2.78 2019-06-12 wekan release
 
 This release fixes the following bugs:
 
@@ -11738,7 +11738,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.77 2019-06-11 Wekan release
+# v2.77 2019-06-11 wekan release
 
 This release fixes the following bugs:
 
@@ -11747,7 +11747,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.76 2019-06-11 Wekan release
+# v2.76 2019-06-11 wekan release
 
 This release adds the following new features:
 
@@ -11772,7 +11772,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.75 2019-05-22 Wekan release
+# v2.75 2019-05-22 wekan release
 
 This release adds the following new features:
 
@@ -11787,7 +11787,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.74 2019-05-14 Wekan release
+# v2.74 2019-05-14 wekan release
 
 This release fixes the following bugs:
 
@@ -11797,7 +11797,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.73 2019-05-14 Wekan release
+# v2.73 2019-05-14 wekan release
 
 This release fixes the following bugs with Apache I-CLA:
 
@@ -11809,12 +11809,12 @@ This release fixes the following bugs with Apache I-CLA:
 and fixes the following bugs:
 
 - Fixed [#2338](https://github.com/wekan/wekan/issues/2338) -> [Slow opening of big boards with too many archived items](https://github.com/wekan/wekan/pull/2402).
-  If some Wekan users see errors with this, please empty your browser cache.
+  If some wekan users see errors with this, please empty your browser cache.
   Thanks to nerminator.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.72 2019-05-13 Wekan release
+# v2.72 2019-05-13 wekan release
 
 This release adds the following new features:
 
@@ -11824,7 +11824,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.71 2019-05-12 Wekan release
+# v2.71 2019-05-12 wekan release
 
 This release adds the following new features:
 
@@ -11833,7 +11833,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.70 2019-05-11 Wekan release
+# v2.70 2019-05-11 wekan release
 
 This release adds the following new features:
 
@@ -11844,16 +11844,16 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.69 2019-05-11 Wekan release
+# v2.69 2019-05-11 wekan release
 
 This release fixes the following translation names:
 
-- [Fix translation name in Wekan menu: oc to Occitan](https://github.com/wekan/wekan/commit/db40ca25ac5df17fcc8b7c93f12b7e2bffc349d2).
+- [Fix translation name in wekan menu: oc to Occitan](https://github.com/wekan/wekan/commit/db40ca25ac5df17fcc8b7c93f12b7e2bffc349d2).
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.68 2019-05-10 Wekan release
+# v2.68 2019-05-10 wekan release
 
 This release adds the following new features:
 
@@ -11866,7 +11866,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.67 2019-05-10 Wekan release
+# v2.67 2019-05-10 wekan release
 
 This release adds the following new features:
 
@@ -11877,7 +11877,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.66 2019-05-09 Wekan release
+# v2.66 2019-05-09 wekan release
 
 This release adds the following new features:
 
@@ -11903,7 +11903,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.65 2019-04-24 Wekan release
+# v2.65 2019-04-24 wekan release
 
 This release adds the following new features:
 
@@ -11919,7 +11919,7 @@ and removes the following UI duplicates:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.64 2019-04-23 Wekan release
+# v2.64 2019-04-23 wekan release
 
 This release adds the following new features:
 
@@ -11928,17 +11928,17 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.63 2019-04-23 Wekan release
+# v2.63 2019-04-23 wekan release
 
 This release removes the following Caddy plugins:
 
 - [Remove Caddy plugins http.filter, http.ipfilter and http.realip from Caddy](https://github.com/wekan/wekan/commot/6a94500170509d2d82bd9a0fdc94a7ce66215b3d)
-  because they are currently broken, preventing download of Caddy during Wekan Snap build.
+  because they are currently broken, preventing download of Caddy during wekan Snap build.
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.62 2019-04-23 Wekan release
+# v2.62 2019-04-23 wekan release
 
 This release fixes the following bugs:
 
@@ -11947,7 +11947,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.61 2019-04-20 Wekan release
+# v2.61 2019-04-20 wekan release
 
 This release adds the following new features:
 
@@ -11980,7 +11980,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.60 2019-04-08 Wekan release
+# v2.60 2019-04-08 wekan release
 
 This release fixes the following bugs:
 
@@ -11989,7 +11989,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.59 2019-04-06 Wekan release
+# v2.59 2019-04-06 wekan release
 
 This release fixes the following bugs:
 
@@ -11998,7 +11998,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.58 2019-04-06 Wekan release
+# v2.58 2019-04-06 wekan release
 
 This release adds the following new features:
 
@@ -12020,7 +12020,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.57 2019-04-02 Wekan release
+# v2.57 2019-04-02 wekan release
 
 This release fixes the following bugs, thanks to justinr1234:
 
@@ -12033,7 +12033,7 @@ and fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.56 2019-03-27 Wekan release
+# v2.56 2019-03-27 wekan release
 
 This release [fixes the following bugs](https://github.com/wekan/wekan/pull/2287), thanks to bentiss with Apache I-CLA:
 
@@ -12044,7 +12044,7 @@ This release [fixes the following bugs](https://github.com/wekan/wekan/pull/2287
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.55 2019-03-25 Wekan release
+# v2.55 2019-03-25 wekan release
 
 This release fixes the following bugs, thanks to bentiss with Apache I-CLA:
 
@@ -12056,7 +12056,7 @@ This release fixes the following bugs, thanks to bentiss with Apache I-CLA:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.54 2019-03-25 Wekan release
+# v2.54 2019-03-25 wekan release
 
 This release fixes the following bugs:
 
@@ -12065,7 +12065,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.53 2019-03-23 Wekan release
+# v2.53 2019-03-23 wekan release
 
 This release fixes the following bugs:
 
@@ -12074,11 +12074,11 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.52 2019-03-22 Wekan release
+# v2.52 2019-03-22 wekan release
 
 This release adds the following new features:
 
-- [More whitelabeling: Hide Wekan logo and title by default, and don't show separate option to hide logo at
+- [More whitelabeling: Hide wekan logo and title by default, and don't show separate option to hide logo at
   Admin Panel/Layout](https://github.com/wekan/wekan/commit/2969161afbe60a1aa2e7da6cedc3ab48941faf3e).
   Thanks to xet7.
 - Added and then reverted option to redirect OIDC OAuth2 login [part1](https://github.com/wekan/wekan-ldap/commit/82a894ac20ba9e7c6fdf053cff1721cab709bf8a),
@@ -12096,7 +12096,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v2.51 2019-03-21 Wekan release
+# v2.51 2019-03-21 wekan release
 
 This release fixes the following bugs:
 
@@ -12106,7 +12106,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v2.50 2019-03-21 Wekan release
+# v2.50 2019-03-21 wekan release
 
 This release fixes the following bugs:
 
@@ -12116,7 +12116,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v2.49 2019-03-21 Wekan release
+# v2.49 2019-03-21 wekan release
 
 This release fixes the following bugs:
 
@@ -12132,7 +12132,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.48 2019-03-15 Wekan release
+# v2.48 2019-03-15 wekan release
 
 This release fixes the following bugs, thanks to GitHub user xet7:
 
@@ -12140,32 +12140,32 @@ This release fixes the following bugs, thanks to GitHub user xet7:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.47 2019-03-14 Wekan release
+# v2.47 2019-03-14 wekan release
 
 This release fixes the following bugs, thanks to GitHub user xet7:
 
 - [Remove ordering of cards by starred/color/description, so that cards would not reorder all the time](https://github.com/wekan/wekan/issues/2241).
 - Try to fix [LDAP Login: "Login forbidden", ReferenceError: req is not defined](https://github.com/wekan/wekan-ldap/44).
 
-# v2.46 2019-03-13 Wekan release
+# v2.46 2019-03-13 wekan release
 
 This release fixes the following bugs:
 
 - [Fix watchers undefined](https://github.com/wekan/wekan/pull/2253).
   Thanks to justinr1234.
 - [Revert hiding of Subtask boards](https://github.com/wekan/wekan/commit/1968b7da31d75757fd6383417d729ff6af6bbc5b)
-  because of feedback from Wekan users, that need Subtask boards to be visible.
+  because of feedback from wekan users, that need Subtask boards to be visible.
   Thanks to xet7.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.45 2019-03-11 Wekan release
+# v2.45 2019-03-11 wekan release
 
 This release fixes the following bugs, thanks to andresmanelli:
 
 - [Rename circular card migration to re run the fix](https://github.com/wekan/wekan/commit/a347ae367654258b7768e7571831ed8f75fb5b84).
 
-# v2.44 2019-03-11 Wekan release
+# v2.44 2019-03-11 wekan release
 
 This release adds the following new features and fixes with Apache I-CLA, thanks to bentiss:
 
@@ -12185,21 +12185,21 @@ and fixes the following bugs:
 - [Avoid set self as parent card to cause circular reference, for real](https://github.com/wekan/commit/97822f35fd6365e5631c5488e8ee595f76ab4e34).
   Thanks to andresmanelli.
 - Try to fix [Order All Boards by starred, color, board name and board description. Part 2](https://github.com/wekan/wekan/commit/8f337f17e45f8af8d96b6043d54466e5878b7e0b).
-  Works on new Wekan install. Could still have boards keeping reording happening all the time on old Wekan installs.
-  Thanks to xet7. Note: Ordering by starred/color/description was removed at Wekan v2.47.
+  Works on new wekan install. Could still have boards keeping reording happening all the time on old wekan installs.
+  Thanks to xet7. Note: Ordering by starred/color/description was removed at wekan v2.47.
 - [Changed brute force protection package from eluck:accounts-lockout to lucasantoniassi:accounts-lockout that is maintained and works.
   Added Snap/Docker/Source settings](https://github.com/wekan/wekan/commit/b7c000b78b9af253fb115bbfa5ef0d4c0681abbb).
   Thanks to xet7.
 
-Thanks to above Wekan contributors for their contributions.
+Thanks to above wekan contributors for their contributions.
 
-# v2.43 2019-03-08 Wekan release
+# v2.43 2019-03-08 wekan release
 
 This release adds the following new features, thanks to xet7:
 
-- [Hide Subtask boards from All Boards](https://github.com/wekan/wekan/issues/1990). This was reverted in Wekan v2.46 to make Subtask boards visible again.
+- [Hide Subtask boards from All Boards](https://github.com/wekan/wekan/issues/1990). This was reverted in wekan v2.46 to make Subtask boards visible again.
 - [Order All Boards by Starred, Color, Title and Description](https://github.com/wekan/wekan/commit/856872815292590e0c4eff2848ea1b857a318dc4).
-  This was removed at Wekan v2.47.
+  This was removed at wekan v2.47.
 - [HTTP header automatic login](https://github.com/wekan/wekan/commit/ff825d6123ecfd033ccb08ce97c11cefee676104)
   for [3rd party authentication server method](https://github.com/wekan/wekan/issues/2019) like siteminder, and any webserver that
   handles authentication and based on it adds HTTP headers to be used for login. Please test.
@@ -12216,7 +12216,7 @@ and reverts the following change of v2.42, because they did not fix anything, th
 
 Thanks to above GitHub users for their contributions, and translators for their translations.
 
-# v2.42 2019-03-07 Wekan release
+# v2.42 2019-03-07 wekan release
 
 This release tried to fix the following bugs:
 
@@ -12225,7 +12225,7 @@ This release tried to fix the following bugs:
 
 Thanks to xet7 and qurqar[m] at IRC #wekan.
 
-# v2.41 2019-03-07 Wekan release
+# v2.41 2019-03-07 wekan release
 
 This release tried to fix the following bugs:
 
@@ -12236,7 +12236,7 @@ This release tried to fix the following bugs:
 
 Thanks to above GitHub users for their contributions, and translators for their translations.
 
-# v2.40 2019-03-06 Wekan release
+# v2.40 2019-03-06 wekan release
 
 This release fixes the following bugs:
 
@@ -12246,7 +12246,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions, and translators for their translations.
 
-# v2.39 2019-03-06 Wekan release
+# v2.39 2019-03-06 wekan release
 
 This release fixes the following bugs:
 
@@ -12256,7 +12256,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions, and translators for their translations.
 
-# v2.38 2019-03-06 Wekan release
+# v2.38 2019-03-06 wekan release
 
 This release adds the following new features:
 
@@ -12276,7 +12276,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions, and translators for their translations.
 
-# v2.37 2019-03-04 Wekan release
+# v2.37 2019-03-04 wekan release
 
 This release fixes the following bugs:
 
@@ -12284,7 +12284,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.36 2019-03-03 Wekan release
+# v2.36 2019-03-03 wekan release
 
 This release adds the following UI changes:
 
@@ -12306,7 +12306,7 @@ and moved the following code around:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.35 2019-03-01 Wekan release
+# v2.35 2019-03-01 wekan release
 
 This release fixes the following bugs:
 
@@ -12315,17 +12315,17 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.34 2019-03-01 Wekan release
+# v2.34 2019-03-01 wekan release
 
 This release tried to fix following bugs, but did not fix anything:
 
 - Revert [Filter fix](https://github.com/wekan/wekan/issues/2213) because of
   [mongodb data tampered](https://github.com/wekan/wekan-snap/issues/83).
-  This was added back at Wekan v2.35.
+  This was added back at wekan v2.35.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.33 2019-02-28 Wekan release
+# v2.33 2019-02-28 wekan release
 
 This release adds the following upgrades:
 
@@ -12333,7 +12333,7 @@ This release adds the following upgrades:
 
 Thanks to Node.js developers and GitHub user xet7 for contributions.
 
-# v2.32 2019-02-28 Wekan release
+# v2.32 2019-02-28 wekan release
 
 This release adds the following [performance improvements](https://github.com/wekan/wekan/pull/2214), thanks to justinr1234:
 
@@ -12347,13 +12347,13 @@ and fixes the following bugs related to [Template features](https://github.com/w
 
 Thanks to above GitHub users for their contributions.
 
-# v2.31 2019-02-28 Wekan release
+# v2.31 2019-02-28 wekan release
 
 This release fixes the following bugs related to [Template features](https://github.com/wekan/wekan/issues/2209), thanks to GitHub user andresmanelli:
 
 - [Fix copy card](https://github.com/wekan/wekan/issues/2210).
 
-# v2.30 2019-02-28 Wekan release
+# v2.30 2019-02-28 wekan release
 
 This release adds the following new [Template features](https://github.com/wekan/wekan/issues/2209), thanks to GitHub user andresmanelli:
 
@@ -12361,20 +12361,20 @@ This release adds the following new [Template features](https://github.com/wekan
 - [Copy template attachments](https://github.com/wekan/wekan/commit/abb71083215462d91b084c4de13af0b130638e4d);
 - [Standarize copy functions. Match labels by name](https://github.com/wekan/wekan/commit/da21a2a410c9b905de89d66236748e0c8f5357ea).
 
-# v2.29 2019-02-27 Wekan release
+# v2.29 2019-02-27 wekan release
 
 This release adds the following new features:
 
 - Swimlane/List/Board/Card templates. In Progress, please test and [add comment if you find not listed bugs](https://github.com/wekan/wekan/issues/2165).
   Thanks to GitHub user andresmanelli.
 
-# v2.28 2019-02-27 Wekan release
+# v2.28 2019-02-27 wekan release
 
 This release adds the following new Sandstorm features and fixes:
 
 - All Boards page [so it's possible to go back from subtask board](https://github.com/wekan/wekan/issues/2082).
 - Board favorites.
-- New Sandstorm board first user is Admin and [has IFTTT Rules](https://github.com/wekan/wekan/issues/2125) and Standalone Wekan Admin Panel.
+- New Sandstorm board first user is Admin and [has IFTTT Rules](https://github.com/wekan/wekan/issues/2125) and Standalone wekan Admin Panel.
   Probably some Admin Panel features do not work yet. Please keep backup of your grains before testing Admin Panel.
 - Linked Cards and Linked Boards.
 - Some not needed options like Logout etc have been hidden from top bar right menu.
@@ -12382,21 +12382,21 @@ This release adds the following new Sandstorm features and fixes:
 
 and removes the following features:
 
-- Remove Welcome Board from Standalone Wekan, [to fix Welcome board not translated](https://github.com/wekan/wekan/issues/1601).
-  Sandstorm Wekan does not have Welcome Board.
+- Remove Welcome Board from Standalone wekan, [to fix Welcome board not translated](https://github.com/wekan/wekan/issues/1601).
+  Sandstorm wekan does not have Welcome Board.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.27 2019-02-27 Wekan release
+# v2.27 2019-02-27 wekan release
 
 This release fixes the following bugs:
 
 - [Fix OIDC error "a.join is not a function"](https://github.com/wekan/wekan/issues/2206)
   by reverting configurable OAUTH2_ID_TOKEN_WHITELIST_FIELDS and
-  OAUTH2_REQUEST_PERMISSIONS from Wekan v2.22-2.26.
+  OAUTH2_REQUEST_PERMISSIONS from wekan v2.22-2.26.
   Thanks to GitHub user xet7.
 
-# v2.26 2019-02-25 Wekan release
+# v2.26 2019-02-25 wekan release
 
 This release adds the following new features:
 
@@ -12410,7 +12410,7 @@ and fixes the following bugs:
   with [OIDC](https://github.com/wekan/wekan/wiki/OAuth2#auth0). Needs testing.
   Thanks to GitHub user xet7.)
 
-# v2.25 2019-02-23 Wekan release
+# v2.25 2019-02-23 wekan release
 
 This release fixes the following bugs:
 
@@ -12419,7 +12419,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.24 2019-02-23 Wekan release
+# v2.24 2019-02-23 wekan release
 
 This release adds the following new features:
 
@@ -12434,7 +12434,7 @@ and fixes the following bugs:
 
 Thanks to above contributors, and translators for their translation.
 
-# v2.23 2019-02-17 Wekan relase
+# v2.23 2019-02-17 wekan relase
 
 This release fixes the following bugs:
 
@@ -12443,7 +12443,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions, and translators for their translations.
 
-# v2.22 2019-02-13 Wekan release
+# v2.22 2019-02-13 wekan release
 
 This release adds the following new features:
 
@@ -12460,7 +12460,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions, and translators for their translations.
 
-# v2.21 2019-02-12 Wekan release
+# v2.21 2019-02-12 wekan release
 
 This release adds the following new features:
 
@@ -12473,7 +12473,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions.
 
-# v2.20 2019-02-11 Wekan release
+# v2.20 2019-02-11 wekan release
 
 This release adds the following new features:
 
@@ -12484,7 +12484,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
-# v2.19 2019-02-09 Wekan release
+# v2.19 2019-02-09 wekan release
 
 This release removes the following new features:
 
@@ -12492,7 +12492,7 @@ This release removes the following new features:
 
 Thanks to GitHub user xet7 for conrtibutions.
 
-# v2.18 2019-02-08 Wekan release
+# v2.18 2019-02-08 wekan release
 
 This release adds the folloging new features:
 
@@ -12526,7 +12526,7 @@ and fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
 Thanks to above GitHub users and translators for contributions.
 
-# v2.17 2019-02-04 Wekan release
+# v2.17 2019-02-04 wekan release
 
 This release fixes the following bugs:
 
@@ -12534,40 +12534,40 @@ This release fixes the following bugs:
 
 Thanks to GitHub gil0109 for contributions, and translator for their translations.
 
-# v2.16 2019-02-03 Wekan release
+# v2.16 2019-02-03 wekan release
 
 This release fixes the following bugs:
 
 - [Part 2](https://github.com/ChronikEwok/wekan/commit/9a6ac544dd5618e58ce107352124fd9b495e5c30):
-  [Fix: Not displaying card content of public board: Snap, Docker and Sandstorm Shared Wekan Board
+  [Fix: Not displaying card content of public board: Snap, Docker and Sandstorm Shared wekan Board
   Link](https://github.com/wekan/wekan/issues/1623) with
   [code from ChronikEwok](https://github.com/ChronikEwok/wekan/commit/cad9b20451bb6149bfb527a99b5001873b06c3de).
 
 Thanks to GitHub user ChronikEwok for contributions.
 
-# v2.15 2019-02-03 Wekan release
+# v2.15 2019-02-03 wekan release
 
 This release fixes the following bugs:
 
-- [Fix: Not displaying card content of public board: Snap, Docker and Sandstorm Shared Wekan Board
+- [Fix: Not displaying card content of public board: Snap, Docker and Sandstorm Shared wekan Board
   Link](https://github.com/wekan/wekan/issues/1623) with
   [code from ChronikEwok](https://github.com/ChronikEwok/wekan/commit/cad9b20451bb6149bfb527a99b5001873b06c3de).
 
 Thanks to GitHub user ChronikEwok for contributions.
 
-# v2.14 2019-02-02 Wekan release
+# v2.14 2019-02-02 wekan release
 
 This release fixes the following bugs:
 
 - [Fix Sandstorm export board from web](https://github.com/wekan/wekan/issues/2157).
-- [Fix Error when logging in to Wekan REST API when using Sandstorm Wekan](https://github.com/wekan/wekan/issues/1279).
-  Sandstorm API works this way: Make API key, and from that key copy API URL and API KEY to below. It saves Wekan board to file.
+- [Fix Error when logging in to wekan REST API when using Sandstorm wekan](https://github.com/wekan/wekan/issues/1279).
+  Sandstorm API works this way: Make API key, and from that key copy API URL and API KEY to below. It saves wekan board to file.
   `curl http://Bearer:APIKEY@api-12345.local.sandstorm.io:6080/api/boards/sandstorm/export?authToken=#APIKEY > wekanboard.json`
   If later API key does not work, you need to remove it and make a new one.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.13 2019-02-01 Wekan release
+# v2.13 2019-02-01 wekan release
 
 This release adds the following new features with Apache I-CLA, thanks to bentiss:
 
@@ -12584,7 +12584,7 @@ This release adds the following new features with Apache I-CLA, thanks to bentis
 
 Thanks to GitHub user bentiss for contributions.
 
-# v2.12 2019-01-31 Wekan release
+# v2.12 2019-01-31 wekan release
 
 This release fixes the following bugs:
 
@@ -12592,7 +12592,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user danpatdav for contributions.
 
-# v2.11 2019-01-31 Wekan release
+# v2.11 2019-01-31 wekan release
 
 This release fixes the following bugs:
 
@@ -12600,7 +12600,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users and translators for contributions.
 
-# v2.10 2019-01-30 Wekan release
+# v2.10 2019-01-30 wekan release
 
 This release adds the following new features:
 
@@ -12610,12 +12610,12 @@ This release adds the following new features:
 and fixes the following bugs:
 
 - Revert [Sandstorm API changes](https://github.com/wekan/wekan/commit/be03a191c4321c2f80116c0ee1ae6c826d882535)
-  that were done at [Wekan v2.05](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v205-2019-01-27-wekan-release)
+  that were done at [wekan v2.05](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v205-2019-01-27-wekan-release)
   to fix #2143. Thanks to pantraining and xet7.
 
 Thanks to above GitHub users and translators for contributions.
 
-# v2.09 2019-01-28 Wekan release
+# v2.09 2019-01-28 wekan release
 
 This release fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
@@ -12623,7 +12623,7 @@ This release fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
 Thanks to GitHub user bentiss for contributions.
 
-# v2.08 2019-01-28 Wekan release
+# v2.08 2019-01-28 wekan release
 
 This release fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
@@ -12645,7 +12645,7 @@ This release fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
 Thanks to GitHub user bentiss for contributions, and translators for their translations.
 
-# v2.07 2019-01-28 Wekan release
+# v2.07 2019-01-28 wekan release
 
 This release fixes the following bugs:
 
@@ -12653,7 +12653,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.06 2019-01-27 Wekan release
+# v2.06 2019-01-27 wekan release
 
 This release fixes the following bugs:
 
@@ -12663,20 +12663,20 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.05 2019-01-27 Wekan release
+# v2.05 2019-01-27 wekan release
 
 This release fixes the following bugs partially:
 
 - Add back scrollbars that [were hidden when trying to fix another
   bug](https://github.com/wekan/wekan/pull/2132/commits/f7c6b7fce237a6dbdbbd6d728cfb11ad3f4378eb).
   This makes scrollbars work in Chromium/Chrome, but adds back bug to Firefox
-  that cards are below of swimlane title - this Firefox bug is fixed in Wekan v2.06.
-- [Try to have some progress on Wekan Sandstorm API](https://github.com/wekan/wekan/commit/be03a191c4321c2f80116c0ee1ae6c826d882535).
+  that cards are below of swimlane title - this Firefox bug is fixed in wekan v2.06.
+- [Try to have some progress on wekan Sandstorm API](https://github.com/wekan/wekan/commit/be03a191c4321c2f80116c0ee1ae6c826d882535).
   I did not get it fully working yet.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v2.04 2019-01-26 Wekan release
+# v2.04 2019-01-26 wekan release
 
 This release fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
@@ -12684,7 +12684,7 @@ This release fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
 Thanks to GitHub user bentiss for contributions, and translators for their translations.
 
-# v2.03 2019-01-25 Wekan NOT RELEASED because of [bug](https://github.com/wekan/wekan/pull/2126#issuecomment-457723923) that was fixed in v2.04 above
+# v2.03 2019-01-25 wekan NOT RELEASED because of [bug](https://github.com/wekan/wekan/pull/2126#issuecomment-457723923) that was fixed in v2.04 above
 
 This release adds the following new features with Apache I-CLA, thanks to bentiss:
 
@@ -12717,7 +12717,7 @@ and fixes the following bugs with Apache I-CLA, thanks to bentiss:
 
 Thanks to GitHub user bentiss for contributions, and translators for their translations.
 
-# v2.02 2019-01-22 Wekan release
+# v2.02 2019-01-22 wekan release
 
 This release adds the following new features with Apache I-CLA, thanks to bentiss:
 
@@ -12744,15 +12744,15 @@ and fixes these typos;
 
 Thanks to above GitHub users for their contributions.
 
-# v2.01 2019-01-06 Wekan release
+# v2.01 2019-01-06 wekan release
 
 Update translations. Thanks to translators.
 
-# v2.00 2019-01-04 Wekan release
+# v2.00 2019-01-04 wekan release
 
 Update translations. Thanks to translators.
 
-# v1.99 2019-01-04 Wekan release
+# v1.99 2019-01-04 wekan release
 
 This release adds the following new features:
 
@@ -12762,7 +12762,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.98 2019-01-01 Wekan release
+# v1.98 2019-01-01 wekan release
 
 This release adds the following new features:
 
@@ -12779,16 +12779,16 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.97 2018-12-26 Wekan release
+# v1.97 2018-12-26 wekan release
 
 This release adds the following new features:
 
 - Upgrade to Node 8.15.0 and MongoDB 3.2.22.
-- Stacksmith: back to Meteor 1.6.x based Wekan, because Meteor 1.8.x based is currently broken.
+- Stacksmith: back to Meteor 1.6.x based wekan, because Meteor 1.8.x based is currently broken.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.96 2018-12-24 Wekan release
+# v1.96 2018-12-24 wekan release
 
 This release adds the following new features:
 
@@ -12797,21 +12797,21 @@ This release adds the following new features:
 and tries to fix following bugs:
 
 - Revert "Improve authentication", remove login dropdown and "Default Authentication Method" that were added
-  in Wekan v1.95 because login did not work with email address.
+  in wekan v1.95 because login did not work with email address.
   It was later found that login did work with username, so later this could be fixed and added back.
-- Fixes to docker-compose.yml so that Wekan Meteor 1.6.x version would work.
+- Fixes to docker-compose.yml so that wekan Meteor 1.6.x version would work.
   Most likely Meteor 1.8.x version is still broken.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.95 2018-12-21 Wekan release
+# v1.95 2018-12-21 wekan release
 
 This release adds the following new features:
 
 - [Improve authentication](https://github.com/wekan/wekan/pull/2065): remove login dropdown,
   and add setting `DEFAULT_AUTHENTICATION_METHOD=ldap` or
   `sudo snap set wekan default-authentication-method='ldap'`. Thanks to Akuket. Closes wekan/wekan-ldap#31
-  NOTE: This was reverted in Wekan v1.96 because login did not work with email address.
+  NOTE: This was reverted in wekan v1.96 because login did not work with email address.
   It was later found that login did work with username, so later this could be fixed and added back.
 - [Drag handles and long press on mobile when using desktop mode of mobile
   browser](https://github.com/wekan/wekan/pull/2067). Thanks to hupptechnologies.
@@ -12819,7 +12819,7 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.94 2018-12-18 Wekan release
+# v1.94 2018-12-18 wekan release
 
 This release adds the following new features:
 
@@ -12829,16 +12829,16 @@ This release adds the following new features:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.93 2018-12-16 Wekan release
+# v1.93 2018-12-16 wekan release
 
 This release adds the following new features:
 
-- In translations, only show name "Wekan" in Admin Panel Wekan version.
+- In translations, only show name "wekan" in Admin Panel wekan version.
   Elsewhere use general descriptions for whitelabeling.
 
 Thanks to GitHub user xet7 and translators for their contributions.
 
-# v1.92 2018-12-16 Wekan release
+# v1.92 2018-12-16 wekan release
 
 This release fixes the following bugs:
 
@@ -12848,7 +12848,7 @@ This release fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.91 2018-12-15 Wekan release
+# v1.91 2018-12-15 wekan release
 
 This release fixes the following bugs:
 
@@ -12857,7 +12857,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users uusijani and xet7 for their contributions.
 
-# v1.90 2018-12-15 Wekan release
+# v1.90 2018-12-15 wekan release
 
 This release fixes the following bugs:
 
@@ -12866,7 +12866,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.89 2018-12-15 Wekan release
+# v1.89 2018-12-15 wekan release
 
 This release adds the following new features:
 
@@ -12875,19 +12875,19 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.88 2018-12-14 Wekan release
+# v1.88 2018-12-14 wekan release
 
 This release fixes the following bugs:
 
 - Fix: [Scrollbar used](https://github.com/wekan/wekan/issues/2056) [remote file from CDN](https://github.com/MaazAli/Meteor-Malihu-Custom-Scrollbar/blob/master/jquery.mCustomScrollbar.js#L50),
   so forked package to https://github.com/wekan/wekan-scrollbar and included
-  non-minified file locally to Wekan, so that using scrollbar works without direct connection
-  to Internet. Wekan should not load any external files by default, as was case before
+  non-minified file locally to wekan, so that using scrollbar works without direct connection
+  to Internet. wekan should not load any external files by default, as was case before
   new scrollbar, and is again now [after this fix](https://github.com/wekan/wekan/commit/c546464d9f56117a8bf580512cd62fc1102559c3).
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.87 2018-12-13 Wekan release
+# v1.87 2018-12-13 wekan release
 
 This release fixes the following bugs:
 
@@ -12895,7 +12895,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user Akuket for contributions.
 
-# v1.86 2018-12-13 Wekan release
+# v1.86 2018-12-13 wekan release
 
 This release fixes the following bugs:
 
@@ -12904,7 +12904,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user Akuket for contributions.
 
-# v1.85 2018-12-09 Wekan release
+# v1.85 2018-12-09 wekan release
 
 This release fixes the following bugs:
 
@@ -12914,7 +12914,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users hupptechnologies and xet7 for their contributions.
 
-# v1.84 2018-12-07 Wekan release
+# v1.84 2018-12-07 wekan release
 
 This release fixes the following bugs:
 
@@ -12922,7 +12922,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user BurakTuran9 for contributions.
 
-# v1.83 2018-12-06 Wekan release
+# v1.83 2018-12-06 wekan release
 
 This release fixes the following bugs:
 
@@ -12931,7 +12931,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users BurakTuran9 and xet7 for their contributions.
 
-# v1.82 2018-12-05 Wekan release
+# v1.82 2018-12-05 wekan release
 
 This release fixes the following bugs:
 
@@ -12943,7 +12943,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.81 2018-12-04 Wekan release
+# v1.81 2018-12-04 wekan release
 
 This release fixes the following bugs:
 
@@ -12955,7 +12955,7 @@ Thanks to GitHub user xet7 for contributions.
 Related #2045,
 related wekan/wekan-snap#69
 
-# v1.80 2018-12-03 Wekan release
+# v1.80 2018-12-03 wekan release
 
 This release adds the following new features:
 
@@ -12963,11 +12963,11 @@ This release adds the following new features:
 
 and fixes the following bugs:
 
-- Revert non-working architectures that were added at v1.79, so now Wekan is just amd64 as before.
+- Revert non-working architectures that were added at v1.79, so now wekan is just amd64 as before.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.79 2018-12-03 Wekan release
+# v1.79 2018-12-03 wekan release
 
 This release adds the following new features:
 
@@ -12976,7 +12976,7 @@ This release adds the following new features:
   Thanks to Akuket.
 - Thanks to xet7:
   - Build snap also on i386, armhf and arm64. Ignore if it fails. More fixes will be added later.
-  - Add CORS https://enable-cors.org/server_meteor.html to Standalone Wekan settings.
+  - Add CORS https://enable-cors.org/server_meteor.html to Standalone wekan settings.
   - Add missing LDAP and TIMER environment variables.
 
 and fixes the following bugs:
@@ -12987,16 +12987,16 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.78 2018-11-20 Wekan release
+# v1.78 2018-11-20 wekan release
 
 - Update translations (de).
 
-# v1.77 2018-11-20 Wekan release
+# v1.77 2018-11-20 wekan release
 
 - Update version number. Trying to get Snap automatic review working, so that
-  it would accept new Wekan release.
+  it would accept new wekan release.
 
-# v1.76 2018-11-20 Wekan release
+# v1.76 2018-11-20 wekan release
 
 This release adds the following new features:
 
@@ -13010,11 +13010,11 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.75 2018-11-20 Wekan release
+# v1.75 2018-11-20 wekan release
 
 This release adds the following new features:
 
-- Admin Panel / Layout: Hide Logo: Yes / No. This does hide Wekan logo on Login page and Board page. Thanks to xet7.
+- Admin Panel / Layout: Hide Logo: Yes / No. This does hide wekan logo on Login page and Board page. Thanks to xet7.
 
 and fixes the following bugs:
 
@@ -13022,7 +13022,7 @@ and fixes the following bugs:
 
 Thanks to above GitHub users for their contributions.
 
-# v1.74.1 2018-11-18 Wekan Edge release
+# v1.74.1 2018-11-18 wekan Edge release
 
 This release adds the following new features:
 
@@ -13030,11 +13030,11 @@ This release adds the following new features:
 
 Thanks to GitHub user alkemyst for contributions.
 
-# v1.74 2018-11-17 Wekan release
+# v1.74 2018-11-17 wekan release
 
 - Update version number to get this released to snap. Thanks to xet7.
 
-# v1.73 2018-11-17 Wekan release
+# v1.73 2018-11-17 wekan release
 
 This release fixes the following bugs:
 
@@ -13043,11 +13043,11 @@ This release fixes the following bugs:
 
 Thanks to GitHub users Broxxx3 and xet7 for their contributions.
 
-# v1.72 2018-11-17 Wekan release
+# v1.72 2018-11-17 wekan release
 
 - Update translations (fi).
 
-# v1.71 2018-11-17 Wekan release
+# v1.71 2018-11-17 wekan release
 
 This release adds the following new features and bugfixes:
 
@@ -13066,7 +13066,7 @@ This release adds the following new features and bugfixes:
 
 Thanks to above GitHub users and translators for their contributions.
 
-# v1.70 2018-11-09 Wekan release
+# v1.70 2018-11-09 wekan release
 
 This release adds the following new features:
 
@@ -13075,26 +13075,26 @@ This release adds the following new features:
 
 and fixes the following bugs:
 
-- Some fixes to Wekan import, thanks to xet7:
+- Some fixes to wekan import, thanks to xet7:
   - isCommentOnly and isNoComments are now optional
   - Turn off import error checking, so something is imported anyway, and import does not stop at error.
-  - Now most of Sandstorm export do import to Standalone Wekan, but some of imported cards, dates etc are missing.
-  - Sandstorm Import Wekan board warning messages are now translateable. But bug "Board not found" still exists.
+  - Now most of Sandstorm export do import to Standalone wekan, but some of imported cards, dates etc are missing.
+  - Sandstorm Import wekan board warning messages are now translateable. But bug "Board not found" still exists.
 - LDAP: Added INTERNAL_LOG_LEVEL. Fix lint and ldap group filter options. Thanks to Akuket.
 
 Thanks to above mentioned GitHub users for their contributions.
 
-# v1.69 2018-11-03 Wekan release
+# v1.69 2018-11-03 wekan release
 
 - Update translations.
 
-# v1.68 2018-11-03 Wekan release
+# v1.68 2018-11-03 wekan release
 
 - Update translations.
 
-# v1.67 2018-11-03 Wekan release
+# v1.67 2018-11-03 wekan release
 
-This release adds the following new features to all Wekan platforms:
+This release adds the following new features to all wekan platforms:
 
 - Add Hindi language. Thanks to saurabharch.
 
@@ -13106,7 +13106,7 @@ and hides the following features at Sandstorm:
 
 Thanks to above mentioned GitHub users for their contributions.
 
-# v1.66 2018-10-31 Wekan release
+# v1.66 2018-10-31 wekan release
 
 This release fixes the following bugs:
 
@@ -13121,7 +13121,7 @@ This release fixes the following bugs:
 
 Thanks to above mentioned GitHub users for their contributions.
 
-# v1.65 2018-10-25 Wekan release
+# v1.65 2018-10-25 wekan release
 
 This release adds the [following new features](https://github.com/wekan/wekan/pull/1967), with Apache I-CLA:
 
@@ -13130,7 +13130,7 @@ This release adds the [following new features](https://github.com/wekan/wekan/pu
 
 Thanks to GitHub user bentiss for contributions.
 
-# v1.64.2 2018-10-25 Wekan Edge release
+# v1.64.2 2018-10-25 wekan Edge release
 
 This release fixes the following bugs:
 
@@ -13138,7 +13138,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users Akuket and xet7 for their contributions.
 
-# v1.64.1 2018-10-25 Wekan Edge release
+# v1.64.1 2018-10-25 wekan Edge release
 
 This release fixes the following bugs:
 
@@ -13146,11 +13146,11 @@ This release fixes the following bugs:
 
 Thanks to GitHub users Akuket and xet7 for their contributions.
 
-# v1.64 2018-10-24 Wekan release
+# v1.64 2018-10-24 wekan release
 
 - Update translations.
 
-# v1.63 2018-10-24 Wekan release
+# v1.63 2018-10-24 wekan release
 
 This release adds the following new features:
 
@@ -13167,19 +13167,19 @@ REST API: [Allow to remove the full list of labels/members through the API](http
 
 Thanks to GitHub user bentiss for contributions.
 
-# v1.62 2018-10-24 Wekan release
+# v1.62 2018-10-24 wekan release
 
 - Fix missing dropdown arrow on Chrome. Thanks to xet7. Closes #1964
 
-# v1.61 2018-10-24 Wekan release
+# v1.61 2018-10-24 wekan release
 
 - Fix lint error. Thanks to xet7.
 
-# v1.60 2018-10-24 Wekan release
+# v1.60 2018-10-24 wekan release
 
 - Update translations.
 
-# v1.59 2018-10-24 Wekan release
+# v1.59 2018-10-24 wekan release
 
 This release adds the beginning of following new features:
 
@@ -13192,7 +13192,7 @@ and fixes the following bugs:
 
 Thanks to above mentioned GitHub users for contributions.
 
-# v1.58 2018-10-23 Wekan release
+# v1.58 2018-10-23 wekan release
 
 This release adds the [following new features and fixes](https://github.com/wekan/wekan/pull/1962), with Apache I-CLA:
 
@@ -13203,7 +13203,7 @@ This release adds the [following new features and fixes](https://github.com/weka
 
 Thanks to GitHub user bentiss for contributions.
 
-# v1.57 2018-10-23 Wekan release
+# v1.57 2018-10-23 wekan release
 
 This release adds the following new features:
 
@@ -13212,7 +13212,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.55.1 2018-10-16 Wekan Edge release
+# v1.55.1 2018-10-16 wekan Edge release
 
 This release adds the following new features:
 
@@ -13228,16 +13228,16 @@ and fixes the following bugs:
 
 Thanks to GitHub users Akuket, Clement87 and tomodwyer for their contributions.
 
-# v1.53.9 2018-10-11 Wekan Edge release
+# v1.53.9 2018-10-11 wekan Edge release
 
 This release adds the following new features:
 
-- docker-compose.yml in this Edge branch now works with Wekan Edge + Meteor 1.8.1-beta.0 + MongoDB 4.0.3;
+- docker-compose.yml in this Edge branch now works with wekan Edge + Meteor 1.8.1-beta.0 + MongoDB 4.0.3;
 - [Snap is still broken](https://forum.snapcraft.io/t/how-to-connect-to-localhost-mongodb-in-snap-apparmor-prevents/7793/2). Please use latest Snap release on Edge branch, until this is fixed.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.53.8 2018-10-10 Wekan Edge release
+# v1.53.8 2018-10-10 wekan Edge release
 
 This release tries to fix the following bugs:
 
@@ -13245,7 +13245,7 @@ This release tries to fix the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.53.7 2018-10-10 Wekan Edge release
+# v1.53.7 2018-10-10 wekan Edge release
 
 This release adds the following new features:
 
@@ -13253,7 +13253,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.53.6 2018-10-10 Wekan Edge release
+# v1.53.6 2018-10-10 wekan Edge release
 
 This release adds the following new features:
 
@@ -13265,7 +13265,7 @@ and tries to fix the following bugs:
 
 Thanks to GitHub users Akuket and xet7 for their contributions.
 
-# v1.53.5 2018-10-10 Wekan Edge relase
+# v1.53.5 2018-10-10 wekan Edge relase
 
 This release tries to fix the following bugs:
 
@@ -13273,7 +13273,7 @@ This release tries to fix the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.53.4 2018-10-10 Wekan Edge release
+# v1.53.4 2018-10-10 wekan Edge release
 
 This release adds the following new features:
 
@@ -13281,7 +13281,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.53.3 2018-10-10 Wekan Edge release
+# v1.53.3 2018-10-10 wekan Edge release
 
 This release adds the following new features:
 
@@ -13291,7 +13291,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.53.2 2018-10-10 Wekan Edge release
+# v1.53.2 2018-10-10 wekan Edge release
 
 This release adds the following new features:
 
@@ -13299,7 +13299,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.53.1 2018-10-10 Wekan Edge release
+# v1.53.1 2018-10-10 wekan Edge release
 
 This release adds the following new features:
 
@@ -13310,14 +13310,14 @@ This release adds the following new features:
 
 and fixes the following bugs:
 
-- [OpenShift: Drop default namespace value and duplicate WEKAN_SERVICE_NAME parameter.commit](https://github.com/wekan/wekan/commit/fcc3560df4dbcc418c63470776376238af4f6ddc);
+- [OpenShift: Drop default namespace value and duplicate wekan_SERVICE_NAME parameter.commit](https://github.com/wekan/wekan/commit/fcc3560df4dbcc418c63470776376238af4f6ddc);
 - [Fix Card URL](https://github.com/wekan/wekan/pull/1932);
 - [Add info about root-url to GitHub issue template](https://github.com/wekan/wekan/commit/4c0eb7dcc19ca9ae8c5d2d0276e0d024269de236);
 - [Feature rules: fixes and enhancements](https://github.com/wekan/wekan/pull/1936).
 
 Thanks to GitHub users Akuket, Angtrim, dcmcand, lberk, maximest-pierre, InfoSec812, schulz and xet7 for their contributions.
 
-# v1.52.1 2018-10-02 Wekan Edge release
+# v1.52.1 2018-10-02 wekan Edge release
 
 This release adds the following new features:
 
@@ -13332,7 +13332,7 @@ and reverts previous change:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.51.2 2018-09-30 Wekan Edge release
+# v1.51.2 2018-09-30 wekan Edge release
 
 This release adds the following new features:
 
@@ -13341,7 +13341,7 @@ This release adds the following new features:
 
 Thanks to GitHub users entrptaher and xet7 for their contributions.
 
-# v1.51.1 2018-09-28 Wekan Edge release
+# v1.51.1 2018-09-28 wekan Edge release
 
 This release adds the following new features:
 
@@ -13350,24 +13350,24 @@ This release adds the following new features:
 
 Thanks to GitHub users ppoulard and xet7 for their contributions.
 
-# v1.50.3 2018-09-23 Wekan Edge release
+# v1.50.3 2018-09-23 wekan Edge release
 
 This release tries to fix the following bugs:
 
 - [Remove "Fix Cannot setup mail server via snap variables"](https://github.com/wekan/wekan/commit/6d88baebc7e297ffdbbd5bb6971190b18f79d21f)
-  to see does Wekan Snap start correctly after removing it.
+  to see does wekan Snap start correctly after removing it.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.50.2 2018-09-23 Wekan Edge release
+# v1.50.2 2018-09-23 wekan Edge release
 
 This release tries to fix the following bugs:
 
-- Build Wekan and release again, to see does it work.
+- Build wekan and release again, to see does it work.
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.50.1 2018-09-22 Wekan Edge release
+# v1.50.1 2018-09-22 wekan Edge release
 
 This release adds the following new features:
 
@@ -13378,14 +13378,14 @@ and fixes the following bugs:
 - [Fix Dockerfile Meteor install by changing tar to bsdtar](https://github.com/wekan/wekan/commit/1bad81ca86ca87c02148764cc03a3070882a8a33);
 - Add [npm-debug.log and .DS_Store](https://github.com/wekan/wekan/commit/44f4a1c3bf8033b6b658703a0ccaed5fdb183ab4) to .gitignore;
 - [Add more debug log requirements to GitHub issue template](https://github.com/wekan/wekan/commit/1c4ce56b0f18e00e01b54c7059cbbf8d3e196154);
-- [Add default Wekan Snap MongoDB bind IP 127.0.0.1](https://github.com/wekan/wekan/commit/6ac726e198933ee41c129d22a7118fcfbf4ca9a2);
+- [Add default wekan Snap MongoDB bind IP 127.0.0.1](https://github.com/wekan/wekan/commit/6ac726e198933ee41c129d22a7118fcfbf4ca9a2);
 - [Fix Feature Rules](https://github.com/wekan/wekan/pull/1909);
 - [Fix Cannot setup mail server via snap variables](https://github.com/wekan/wekan/issues/1906);
 - [Try to fix OAuth2: Change oidc username to preferred_username](https://github.com/wekan/wekan/commit/734e4e5f3ff2c3dabf94c0fbfca561db066c4565).
 
 Thanks to GitHub users Angtrim, maurice-schleussinger, suprovsky and xet7 for their contributions.
 
-# v1.49.1 2018-09-17 Wekan Edge release
+# v1.49.1 2018-09-17 wekan Edge release
 
 This release adds the following new features:
 
@@ -13393,7 +13393,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.49 2018-09-17 Wekan release
+# v1.49 2018-09-17 wekan release
 
 This release fixes the following bugs:
 
@@ -13401,7 +13401,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.48 2018-09-17 Wekan release
+# v1.48 2018-09-17 wekan release
 
 This release removes the following new features:
 
@@ -13410,7 +13410,7 @@ This release removes the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.47 2018-09-16 Wekan release
+# v1.47 2018-09-16 wekan release
 
 This release adds the following new features:
 
@@ -13420,7 +13420,7 @@ This release adds the following new features:
 
 Thanks to GitHub users Angtrim and xet7 for their contributions.
 
-# v1.46 2018-09-15 Wekan release
+# v1.46 2018-09-15 wekan release
 
 This release adds the following new features:
 
@@ -13441,7 +13441,7 @@ and fixes the following bugs:
 
 Thanks to GitHub users andresmanelli, HLFH and xet7 for their contributions.
 
-# v1.45 2018-09-09 Wekan release
+# v1.45 2018-09-09 wekan release
 
 This release fixes the following bugs:
 
@@ -13449,7 +13449,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.44 2018-09-09 Wekan release
+# v1.44 2018-09-09 wekan release
 
 This release adds the following new features:
 
@@ -13459,15 +13459,15 @@ This release adds the following new features:
 
 Thanks to GitHub users ymeramees and xet7 for their contributions.
 
-# v1.43 2018-09-06 Wekan release
+# v1.43 2018-09-06 wekan release
 
 This release fixes the following bugs:
 
-- [Fix "No Comments" permission on Wekan and Trello import](https://github.com/wekan/wekan/commit/0a001d505d81961e6bd6715d885fffee0adb702d).
+- [Fix "No Comments" permission on wekan and Trello import](https://github.com/wekan/wekan/commit/0a001d505d81961e6bd6715d885fffee0adb702d).
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.42 2018-09-06 Wekan release
+# v1.42 2018-09-06 wekan release
 
 This release adds the following new features:
 
@@ -13479,15 +13479,15 @@ This release adds the following new features:
 
 Thanks to GitHub users andresmanelli and xet7 for their contributions.
 
-# v1.41 2018-09-05 Wekan release
+# v1.41 2018-09-05 wekan release
 
 This release tries to fix the following bugs:
 
-- [Try to fix Wekan Sandstorm API](https://github.com/wekan/wekan/issues/1279#issuecomment-418440401).
+- [Try to fix wekan Sandstorm API](https://github.com/wekan/wekan/issues/1279#issuecomment-418440401).
 
 Thanks to GitHub users ocdtrekkie and xet7 for their contributions.
 
-# v1.40 2018-09-04 Wekan release
+# v1.40 2018-09-04 wekan release
 
 This release adds the following new features:
 
@@ -13496,7 +13496,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.39 2018-08-29 Wekan release
+# v1.39 2018-08-29 wekan release
 
 This release fixes the following bugs:
 
@@ -13504,11 +13504,11 @@ This release fixes the following bugs:
 
 Thanks to GitHub user rjevnikar for contributions.
 
-# v1.38 2018-08-29 Wekan release
+# v1.38 2018-08-29 wekan release
 
 This release adds the following new features:
 
-- Add [msavin:userCache](https://github.com/msavin/userCache) to speedup Wekan.
+- Add [msavin:userCache](https://github.com/msavin/userCache) to speedup wekan.
   See [meteor forums post](https://forums.meteor.com/t/introducing-a-new-approach-to-meteor-user-this-simple-trick-can-save-you-millions-of-database-requests/45336/7).
 
 and fixes the following bugs:
@@ -13517,24 +13517,24 @@ and fixes the following bugs:
 
 Thanks to GitHub users msavin, rjevnikar and xet7 for their contributions.
 
-# v1.37 2018-08-28 Wekan release
+# v1.37 2018-08-28 wekan release
 
 This release fixes the following bugs:
 
 - [Add Missing Index on cards.parentId since Swimlane integration
-  to speedup Wekan](https://github.com/wekan/wekan/issues/1863);
+  to speedup wekan](https://github.com/wekan/wekan/issues/1863);
 - [Update OpenShift template to add Route and parameterize](https://github.com/wekan/wekan/pull/1865);
-- [Fix typos in Wekan snap help](https://github.com/wekan/wekan/commit/0c5fc6d7fd899a6bc67a446ab43e53290d8571e4).
+- [Fix typos in wekan snap help](https://github.com/wekan/wekan/commit/0c5fc6d7fd899a6bc67a446ab43e53290d8571e4).
 
 Thanks to GitHub users Clement87, InfoSec812 and xet7 for their contributions.
 
-# v1.36 2018-08-25 Wekan release
+# v1.36 2018-08-25 wekan release
 
 This release adds the following new features:
 
-- [OAuth2 Login on Standalone Wekan](https://github.com/wekan/wekan/wiki/OAuth2). For example, Rocket.Chat can provide OAuth2 login to Wekan.
-  Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when
-  Rocket.Chat is providing OAuth2 login to Wekan.
+- [OAuth2 Login on Standalone wekan](https://github.com/wekan/wekan/wiki/OAuth2). For example, Rocket.Chat can provide OAuth2 login to wekan.
+  Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to wekan when
+  Rocket.Chat is providing OAuth2 login to wekan.
 
 and fixes the following bugs:
 
@@ -13543,13 +13543,13 @@ and fixes the following bugs:
 
 Thanks to GitHub users hever, salleman33, tlevine and xet7 for their contributions.
 
-# v1.35 2018-08-23 Wekan release
+# v1.35 2018-08-23 wekan release
 
 This release adds the following new features:
 
 Add Caddy plugins:
 - [http.filter](https://caddyserver.com/docs/http.filter)
-  for changing Wekan UI on the fly, for example custom logo,
+  for changing wekan UI on the fly, for example custom logo,
   or changing to all different CSS file to have custom theme;
 - [http.ipfilter](https://caddyserver.com/docs/http.ipfilter)
   to block requests by ip address;
@@ -13562,7 +13562,7 @@ Add configuring webhooks:
 
 Thanks to Caddy contributors, and Github users omarsy and xet7 for their contributions.
 
-# v1.34 2018-08-22 Wekan release
+# v1.34 2018-08-22 wekan release
 
 This release add the following new features:
 
@@ -13573,11 +13573,11 @@ and fixes the following bugs:
 - [Restored SMTP settings at Admin Panel, and disabled showing password](https://github.com/wekan/wekan/issues/1790);
 - [Move color labels on minicard to bottom of minicard](https://github.com/wekan/wekan/issues/1842);
 - [Fix and improve linked cards](https://github.com/wekan/wekan/pull/1849);
-- [Allow Sandstorm to serve Wekan HTTP API](https://github.com/wekan/wekan/pull/1851);
+- [Allow Sandstorm to serve wekan HTTP API](https://github.com/wekan/wekan/pull/1851);
 
 Thanks to GitHub users andresmanelli, ocdtrekkie, therampagerado, woodyart and xet7 for their contributions.
 
-# v1.33 2018-08-16 Wekan release
+# v1.33 2018-08-16 wekan release
 
 This release fixes the following bugs:
 
@@ -13585,7 +13585,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user omarsy for contributions.
 
-# v1.32 2018-08-16 Wekan release
+# v1.32 2018-08-16 wekan release
 
 This release fixes the following bugs:
 
@@ -13600,7 +13600,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users andresmanelli and xet7 for their contributions.
 
-# v1.31 2018-08-14 Wekan release
+# v1.31 2018-08-14 wekan release
 
 This release fixes the following bugs:
 
@@ -13608,13 +13608,13 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.30 2018-08-14 Wekan release
+# v1.30 2018-08-14 wekan release
 
 This release add the following new features:
 
-- [When Content Policy is enabled, allow one URL to have iframe that embeds Wekan](https://github.com/wekan/wekan/commit/b9929dc68297539a94d21950995e26e06745a263);
+- [When Content Policy is enabled, allow one URL to have iframe that embeds wekan](https://github.com/wekan/wekan/commit/b9929dc68297539a94d21950995e26e06745a263);
 - [Add option to turn off Content Policy](https://github.com/wekan/wekan/commit/b9929dc68297539a94d21950995e26e06745a263);
-- [Allow always in Wekan markdown `<img src="any-image-url-here">`](https://github.com/wekan/wekan/commit/b9929dc68297539a94d21950995e26e06745a263).
+- [Allow always in wekan markdown `<img src="any-image-url-here">`](https://github.com/wekan/wekan/commit/b9929dc68297539a94d21950995e26e06745a263).
 
 and fixes the following bugs:
 
@@ -13622,7 +13622,7 @@ and fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.29 2018-08-12 Wekan release
+# v1.29 2018-08-12 wekan release
 
 This release fixes the following bugs:
 
@@ -13630,7 +13630,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.28 2018-08-12 Wekan release
+# v1.28 2018-08-12 wekan release
 
 This release fixes the following bugs:
 
@@ -13638,7 +13638,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.27 2018-08-12 Wekan release
+# v1.27 2018-08-12 wekan release
 
 This release add the following new features:
 
@@ -13646,7 +13646,7 @@ This release add the following new features:
 
 Thanks to GitHub user andresmanelli for contributions.
 
-# v1.26 2018-08-09 Wekan release
+# v1.26 2018-08-09 wekan release
 
 This release fixes the following bugs:
 
@@ -13655,7 +13655,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.25 2018-08-09 Wekan release
+# v1.25 2018-08-09 wekan release
 
 This release fixes the following bugs:
 
@@ -13663,7 +13663,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user Yanonix for contributions.
 
-# v1.24 2018-08-09 Wekan release
+# v1.24 2018-08-09 wekan release
 
 This release add the following new features:
 
@@ -13671,7 +13671,7 @@ This release add the following new features:
 
 and fixes the following bugs:
 
-- [Enable Wekan API by default, so that Export Board to JSON works](https://github.com/wekan/wekan/commit/b2eeff96977592deaeb23a8171fc3b13f8c6c5dc);
+- [Enable wekan API by default, so that Export Board to JSON works](https://github.com/wekan/wekan/commit/b2eeff96977592deaeb23a8171fc3b13f8c6c5dc);
 - [Fix the flagging of dates](https://github.com/wekan/wekan/pull/1814);
 - [Use new WITH_API and Matomo env variables at Dockerfile](https://github.com/wekan/wekan/issues/1820);
 - For OpenShift compliance, [change](https://github.com/wekan/wekan/commit/53d545eeef7e796bd910f7cce666686ca05de544)
@@ -13680,7 +13680,7 @@ and fixes the following bugs:
 
 Thanks to GitHub users rjevnikar, tdemaret, xadagaras and xet7 for their contributions.
 
-# v1.23 2018-07-30 Wekan release
+# v1.23 2018-07-30 wekan release
 
 This release tries to fix the following bugs:
 
@@ -13691,7 +13691,7 @@ This release tries to fix the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.22 2018-07-30 Wekan release
+# v1.22 2018-07-30 wekan release
 
 This release adds the following new features:
 
@@ -13702,11 +13702,11 @@ This release adds the following new features:
 
 Thanks to GitHub user Akuket and xet7 for their contributions.
 
-# v1.21 2018-07-18 Wekan release
+# v1.21 2018-07-18 wekan release
 
 This release adds the following new features:
 
-- [Add logo from Wekan website to login logo](https://github.com/wekan/wekan/commit/4eed23afe06d5fab8d45ba3decc7c1d3b85efbd8).
+- [Add logo from wekan website to login logo](https://github.com/wekan/wekan/commit/4eed23afe06d5fab8d45ba3decc7c1d3b85efbd8).
 
 and fixes the following bugs:
 
@@ -13714,7 +13714,7 @@ and fixes the following bugs:
 
 Thanks to GitHub users Akuket and xet7 for their contributions.
 
-# v1.20 2018-07-18 Wekan release
+# v1.20 2018-07-18 wekan release
 
 This release fixes the following bugs:
 
@@ -13727,12 +13727,12 @@ This release fixes the following bugs:
 
 Thanks to GitHub users jnso, LyR33x and xet7 for their contributions.
 
-# v1.19 2018-07-16 Wekan release
+# v1.19 2018-07-16 wekan release
 
 This release adds the following new features:
 
 - [Build from source on macOS](https://github.com/wekan/wekan/wiki/Mac);
-- [Wekan integration with OpenShift](https://github.com/wekan/wekan/pull/1765);
+- [wekan integration with OpenShift](https://github.com/wekan/wekan/pull/1765);
 - [Snap Caddy: set -agree flag for Let's Encrypt](https://github.com/wekan/wekan-snap/issues/54).
 
 and fixes the following mobile bugs:
@@ -13748,7 +13748,7 @@ and fixes the following bugs:
 
 Thanks to GitHub users adyachok, Akuket, halunk3, Haocen and xet7 for their contributions.
 
-# v1.18 2018-07-06 Wekan release
+# v1.18 2018-07-06 wekan release
 
 This release fixes the following bugs:
 
@@ -13757,7 +13757,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users centigrade-kdk and xet7 for their contributions.
 
-# v1.17 2018-07-06 Wekan release
+# v1.17 2018-07-06 wekan release
 
 This release adds the following new features:
 
@@ -13765,7 +13765,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.16 2018-07-06 Wekan release
+# v1.16 2018-07-06 wekan release
 
 This release fixes the following bugs:
 
@@ -13773,7 +13773,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.15 2018-07-06 Wekan release
+# v1.15 2018-07-06 wekan release
 
 This release fixes the following bugs:
 
@@ -13782,7 +13782,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users centigrade-kdk and xet7 for their contributions.
 
-# v1.14 2018-07-06 Wekan release
+# v1.14 2018-07-06 wekan release
 
 This release fixes the following bugs:
 
@@ -13790,7 +13790,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub user xet7 for contributions.
 
-# v1.13 2018-07-06 Wekan release
+# v1.13 2018-07-06 wekan release
 
 This release adds the following new features:
 
@@ -13798,7 +13798,7 @@ This release adds the following new features:
 
 Thanks to GitHub user xet7 for contibutions.
 
-# v1.12 2018-07-06 Wekan release
+# v1.12 2018-07-06 wekan release
 
 This release adds the following new features:
 
@@ -13817,17 +13817,17 @@ and fixes the following bugs:
 
 Thanks to GitHub users dagomar, ppoulard, pravdomil, TNick and xet7 for their contributions.
 
-# v1.11 2018-06-30 Wekan release
+# v1.11 2018-06-30 wekan release
 
 This release fixes the following bugs:
 
-* [Remove card shadow](https://github.com/wekan/wekan/pull/1726), Wekan users now prefer not to have it;
+* [Remove card shadow](https://github.com/wekan/wekan/pull/1726), wekan users now prefer not to have it;
 * [Revert](https://github.com/wekan/wekan/commit/928d88cfe1da4187797519c929cd2fdd9ffe9c2e) previous
   [Less margin-bottom after minicard](https://github.com/wekan/wekan/pull/1713).
 
 Thanks to GitHub users pravdomil and xet7 for their contributions.
 
-# v1.10 2018-06-28 Wekan release
+# v1.10 2018-06-28 wekan release
 
 This release fixes the following bugs:
 
@@ -13836,7 +13836,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users Jubi94, kestrelhawk and xet7 for their contributions.
 
-# v1.09 2018-06-28 Wekan release
+# v1.09 2018-06-28 wekan release
 
 This release adds the following new features:
 
@@ -13851,13 +13851,13 @@ and fixes the following bugs:
 
 Thanks to GitHub users TNick and xet7 for their contributions.
 
-# v1.08 2018-06-27 Wekan release
+# v1.08 2018-06-27 wekan release
 
 This release adds the following new features:
 
 * [Add more card inner shadow](https://github.com/wekan/wekan/commit/6a587299b80a49fce0789628ff65885b5ed2c837);
 * [Less margin-bottom after minicard](https://github.com/wekan/wekan/pull/1713);
-* Updated newest node fork binary from Sandstorm to Wekan, see https://releases.wekan.team/node.txt
+* Updated newest node fork binary from Sandstorm to wekan, see https://releases.wekan.team/node.txt
 * Add Georgian language.
 
 and fixes the following bugs:
@@ -13870,7 +13870,7 @@ and fixes the following bugs:
 
 Thanks to GitHub users pravdomil, xet7 and zypA13510 for their contributions.
 
-# v1.07 2018-06-14 Wekan release
+# v1.07 2018-06-14 wekan release
 
 This release adds the following new features:
 
@@ -13880,7 +13880,7 @@ This release adds the following new features:
 
 Thanks to GitHub users feuerball11 and xet7 for their contributions.
 
-# v1.06 2018-06-14 Wekan release
+# v1.06 2018-06-14 wekan release
 
 This release fixes the following bugs:
 
@@ -13888,7 +13888,7 @@ This release fixes the following bugs:
 
 Thanks to GitHub users feuerball11 and xet7 for their contributions.
 
-# v1.05 2018-06-14 Wekan release
+# v1.05 2018-06-14 wekan release
 
 This release adds the following new features:
 
@@ -13900,7 +13900,7 @@ and fixes the following bugs:
 
 * [Fix data colour changes on cards](https://github.com/wekan/wekan/pull/1698);
 * [Fix for migration error "title is required" and breaking of Standalone and
-   Sandstorm Wekan](https://github.com/wekan/wekan/commit/8d5cbf1e6c2b6d467fe1c0708cd794fd11b98a2e#commitcomment-29362180);
+   Sandstorm wekan](https://github.com/wekan/wekan/commit/8d5cbf1e6c2b6d467fe1c0708cd794fd11b98a2e#commitcomment-29362180);
 * [Fix Issue with custom fields shown on card](https://github.com/wekan/wekan/issues/1659);
 * [Fix showing public board in list mode](https://github.com/wekan/wekan/issues/1623);
 * [Fix for not able to remove Custom Field "Show on Card"](https://github.com/wekan/wekan/pull/1699);
@@ -13909,7 +13909,7 @@ and fixes the following bugs:
 
 Thanks to GitHub users feuerball11, Fran-KTA, oec, rjevnikar and xet7 for their contributions.
 
-# v1.04 2018-06-12 Wekan release
+# v1.04 2018-06-12 wekan release
 
 This release adds the following new features:
 
@@ -13928,7 +13928,7 @@ Thanks to GitHub users rjevnikar and xet7 for their contributions.
 Thanks to Adrian Genaid for security fix, he's now added to [Hall of Fame](https://wekan.github.io/hall-of-fame/).
 Thanks to translators.
 
-# v1.03 2018-06-08 Wekan release
+# v1.03 2018-06-08 wekan release
 
 This release adds the following new features:
 
@@ -13940,1409 +13940,6 @@ This release adds the following new features:
 and possibly fixes the following bugs, please test:
 
 * [Try to fix: Missing board-view-lists Field after DB updated to
-   Wekan 1.02](https://github.com/wekan/wekan/issues/1675).
+   wekan 1.02](https://github.com/wekan/wekan/issues/1675).
 
-Thanks to GitHub users JamesLavin, rjevnikar and xet7 for their contributions.
-
-# v1.02 2018-05-26 Wekan release
-
-This release fixes the following bugs:
-
-* [Remove binary version of bcrypt](https://github.com/wekan/wekan/commit/4b2010213907c61b0e0482ab55abb06f6a668eac)
-  because of [vulnerability](https://nodesecurity.io/advisories/612) that has [issue that is not fixed
-  yet](https://github.com/kelektiv/node.bcrypt.js/issues/604)
-  and [not yet merged pull request](https://github.com/kelektiv/node.bcrypt.js/pull/606).
-  This may cause some slowdown;
-* [Snap: Filtering out swap file created at build time, adding stage package](https://github.com/wekan/wekan/pull/1660);
-* [Fix Received Date and End Date on Cards](https://github.com/wekan/wekan/issues/1654).
-
-Thanks to GitHub users kubiko, xadagaras and xet7 for their contributions.
-
-# v1.01 2018-05-23 Wekan release
-
-This release possibly fixes the following bugs, please test:
-
-* [Possible quickfix for all customFields Import errors, please test](https://github.com/wekan/wekan/pull/1653).
-
-Thanks to GitHub users feuerball11 and xet7 for their contributions.
-
-# v1.00 2018-05-21 Wekan release
-
-This release fixes the following bugs:
-
-* [Typo in English translation: brakets to brackets](https://github.com/wekan/wekan/issues/1647).
-
-Thanks to GitHub user yarons for contributions.
-
-# v0.99 2018-05-21 Wekan release
-
-This release adds the following new features:
-
-* [Advanced Filter for Custom Fields](https://github.com/wekan/wekan/pull/1646).
-
-Thanks to GitHub users feuerball11 and xet7 for their contributions.
-
-# v0.98 2018-05-19 Wekan release
-
-This release adds the following new features:
-
-* [Filtering by Custom Field](https://github.com/wekan/wekan/pull/1645);
-* Update to NPM 6.0.1 and MongoDB 3.2.20.
-
-Thanks to GitHub users feuerball11 and xet7 for their contributions.
-
-# v0.97 2018-05-19 Wekan release
-
-Updated translations.
-
-# v0.96 2018-05-19 Wekan release
-
-This release adds the following new features:
-
-* [Custom Fields](https://github.com/wekan/wekan/issues/807). Note: Import/Export is not implemented yet.
-
-and fixes the following bugs:
-
-* [Fix: checklistItems broken after upgrade](https://github.com/wekan/wekan/issues/1636).
-
-Thanks to GitHub users feuerball11, franksiler, papoola and xet7 for their contributions.
-
-# v0.95 2018-05-08 Wekan release
-
-This release adds the following new features:
-
-* [REST API Edit Card Labels](https://github.com/wekan/wekan/pull/1626);
-* [Add a new API route to create a new label in a given board](https://github.com/wekan/wekan/pull/1630);
-* [Admin Panel: Option to block username change](https://github.com/wekan/wekan/pull/1627).
-
-and fixes the following bugs:
-
-* [Error: title is required](https://github.com/wekan/wekan/issues/1576).
-
-Thanks to GitHub users Shahar-Y, thiagofernando and ThisNeko for their contributions.
-
-# v0.94 2018-05-03 Wekan release
-
-This release adds the following new features:
-
-* [REST API POST /cards: allow setting card members](https://github.com/wekan/wekan/pull/1622).
-
-Thanks to GitHub user couscous3 for contributions.
-
-# v0.93 2018-05-02 Wekan release
-
-This release adds the following new features:
-
-* [Checklist items lineheight to 18px, and positioning
-   improvements](https://github.com/wekan/wekan/issues/1619).
-
-Thanks to GitHub user lichtamberg for contributions.
-
-# v0.92 2018-05-01 Wekan release
-
-This release tries to fix the following bugs, please test:
-
-* [Users who register with an invitation code can't see lists/cards](https://github.com/wekan/wekan/issues/1610).
-
-Thanks to GitHub user andresmanelli for contributions.
-
-# v0.91 2018-05-01 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix Wekan Import / Export lists not being sortable](https://github.com/wekan/wekan/commit/539c1ab87a098a7ddfd23cdbd663441bd609b73d).
-
-Thanks to GitHub user zebby76 for contributions.
-
-# v0.90 2018-05-01 Wekan release
-
-This release adds the following new features:
-
-- [Remove space from between checklist items, so longer checklists can be seen
-   at once](https://github.com/wekan/wekan/commit/1124f4120cd77622c0a6313e228e1a00690ff566).
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.89 2018-04-29 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix Wekan import / Export for ChecklistItems](https://github.com/wekan/wekan/pull/1613).
-
-Thanks to GitHub user zebby76 for contributions.
-
-# v0.88 2018-04-27 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix Trello import of ChecklistItems](https://github.com/wekan/wekan/pull/1611).
-
-Thanks to GitHub user zebby76 for contributions.
-
-# v0.87 2018-04-27 Wekan release
-
-This release fixes the following bugs:
-
-- [Sandstorm: Copy Card, Move Card and Copy Checklist Template to Many Cards - No longer works in
-   menu](https://github.com/wekan/wekan/commit/db80e738048e2729917c5e8fc18cf8ee44df7992);
-- [Snap: Use override-build instead of old deprecated
-   prepare/build/install](https://github.com/wekan/wekan/commit/075ea1c43d827099e0030c750a4c156bd3340fed);
-- [Removed not-used plugins part of Caddy download
-   URL](https://github.com/wekan/wekan/commit/7b91b341fe9c0cde42f91bf14d228820653c883d).
-
-Thanks to GitHub users kyrofa and xet7 for their contributions.
-
-# v0.86 2018-04-20 Wekan release
-
-This release adds the following new features:
-
-- Updated translations: German and Turkish;
-- Updated Caddy to newest version for Snap.
-
-Thanks to translators and Caddy developers.
-
-# v0.85 2018-04-18 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix Switch List/swimlane view only working with admin privileges](https://github.com/wekan/wekan/issues/1567);
-- [Fix Wekan logo positioning](https://github.com/wekan/wekan/issues/1378);
-- [Tried to fix, but fix did not work: Fix checklists items migration error "title is required"](https://github.com/wekan/wekan/issues/1576);
-- [Removed paxctl alpine fix #1303 , because it did not work anymore, so Docker container
-   did not build correctly](https://github.com/wekan/wekan/commit/ce659632174ba25ca9b5e85b053fde02fd9c3928);
-- [Use curl to download 100% CPU fibers fixed node in snap, and remove paxctl from
-   snap package](https://github.com/wekan/wekan/commit/179ff7a12457be1592f04e1bdc15a5bb4fe9d398).
-
-Thanks to GitHub users andresmanelli, iwkse and xet7 for their contributions.
-
-# v0.84 2018-04-16 Wekan release
-
-This release adds the following new features:
-
-- [Add Checklist Items REST API](https://github.com/wekan/wekan/commit/9eef5112dc1c1c30590d19fbfd2f615714112a3f).
-
-and fixes the following bugs:
-
-- [Fix Node Fibers 100% CPU issue](https://github.com/wekan/wekan/commit/e26a4824cfb119a15767c4827190a6b9ab65b904);
-- [Plus button on a Swimlane row, always add an element on the first row](https://github.com/wekan/wekan/issues/1577);
-- [Fix Checklist REST API](https://github.com/wekan/wekan/commit/9eef5112dc1c1c30590d19fbfd2f615714112a3f);
-- [Fix Disabling "show cards count" not possible, now zero means disable](https://github.com/wekan/wekan/issues/1570);
-- [Fix Checklist not copied when copied a card and Copy Checklist Template to Many Cards](https://github.com/wekan/wekan/issues/1565);
-- [Fix Filter cards hides checklist items](https://github.com/wekan/wekan/issues/1561).
-
-Thanks to GitHub users andresmanelli, kentonv and xet7 for their contributions.
-
-# v0.83 2018-04-12 Wekan release
-
-- Updated translations: Czech and French.
-
-Thanks to translators!
-
-# v0.82 2018-04-11 Wekan release
-
-- [Restore original font and font sizes. Admin panel people and version texts
-  to darker](https://github.com/wekan/wekan/commit/db74c86e555f45a5aaaef84d2f3d4128cec77782).
-
-Thanks to GitHub users apn3a and xet7 for their contributions.
-
-# v0.81 2018-04-10 Wekan release
-
-This release adds the following new features:
-
-- [Removed checkbox from checklist name to have more of material design look](https://github.com/wekan/wekan/issues/1568);
-- [Renamed Archives to Recycle Bin](https://github.com/wekan/wekan/issues/1429);
-- [Separate translations for cards in Recycle Bin and cards count](https://github.com/wekan/wekan/commit/49c7a6c223061b9c1769143fea32fecc7d0f3c3e);
-- [Use lighter and smaller font sizes](https://github.com/wekan/wekan/commit/7b94b0470198bc22b6a52db6661f35076f7c6388);
-- [Board title as markdown in board view](https://github.com/wekan/wekan/commit/7b94b0470198bc22b6a52db6661f35076f7c6388).
-
-and fixes the following bugs:
-
-- [Removed forcing "cards" translations to lowercase in count of cards](https://github.com/wekan/wekan/issues/1571).
-
-Thanks to GitHub users BruceZCQ, Chartman123, quantazelle and xet7 for their contributions.
-
-# v0.80 2018-04-04 Wekan release
-
-This release adds the following new features:
-
-- [Changed icon of checklist name to unchecked](https://github.com/wekan/wekan/pull/1559/commits/f9539aa2a8d806e5a158d1c32f74788d051d40cb);
-- [Added meteor packages](https://github.com/wekan/wekan/commit/40d438a517f0d807894e04873358aecf44fa7c4d)
-  for security: [browser-policy](https://atmospherejs.com/meteor/browser-policy) and
-  [eluck:accounts-lockout](https://atmospherejs.com/eluck/accounts-lockout).
-
-Thanks to GitHub users quantazelle and xet7 for their contributions.
-
-# v0.79 2018-03-31 Wekan release
-
-This release adds the following new features:
-
-- [Checklist items sort fix, and checklist sort capability](https://github.com/wekan/wekan/pull/1543);
-- [Add Received Date and End Date. Between them is already existing Start and Due Date](https://github.com/wekan/wekan/pull/1550).
-
-and fixes the following bugs:
-
-- [Fix drag in lists view](https://github.com/wekan/wekan/pull/1559/commits/679e50af6449a680f958256570e8b9f1944a3a92);
-- [Set fixed width for swimlane header](https://github.com/wekan/wekan/pull/1559/commits/2e8f8924dd0d985ae4634450cfbef04e88e5d954).
-
-Thanks to GitHub users andresmanelli, rjevnikar and xet7 for their contributions.
-
-# v0.78 2018-03-17 Wekan release
-
-This release adds the following new features:
-
-- [Allow swimlanes reordering](https://github.com/wekan/wekan/commit/37c94622e476f50bf2387bc8b140454d66200e78);
-- [Import missing card fields: isOvertime, startAt and spentTime](https://github.com/wekan/wekan/commit/b475127c53031fa498da139a7d16f3e54d43b90d);
-- [Lists view is the default view when creating boards](https://github.com/wekan/wekan/commit/1ca9e96f35389c0eec2290e8e1207801ee25f907);
-- [Enabled import at Sandtorm. Keep there big DANGER warning about data loss bug.](https://github.com/wekan/wekan/commit/22923d08af4f1a63ded1d92fe6918436b598592b);
-- [Add language: Armenian](https://github.com/wekan/wekan/commit/75693d16e2a0f3d201c1036ab06e6d40eb1c0adc).
-
-and fixes the following bugs:
-
-- [Fix lint errors related to sandstorm](https://github.com/wekan/wekan/commit/0a16147470246c8f49bb918f5ddc7bb2e54fba14);
-- [Add Swimlanes to globals](https://github.com/wekan/wekan/commit/373e9782dcf87a9c1169b5d1f8175ce14e4898c9);
-- [Fix lint errors related to trello creator](https://github.com/wekan/wekan/commit/951a0db380d60f3d948ae38d50b85a54983a51de);
-- [Fix lint errors related to language names](https://github.com/wekan/wekan/commit/c0d33d97f2c8d4e9371a03d4ad3022df3ed64d3d);
-- [Avoid swimlane title overlap](https://github.com/wekan/wekan/commit/c4fa9010f34966b633c7bf7e46ad49fc101127c9);
-- [Fix scrollbar inside list and outer scroll](https://github.com/wekan/wekan/commit/a033c35a3411902b9bf8f62a40cd68f641e573d3);
-- [Remove list max-height 350px](https://github.com/wekan/wekan/commit/b6d3e79548d1e88c93fa2965a936595176a95565);
-- [Snap: Adding network hooks for configure hook to fix security denials](https://github.com/wekan/wekan/commit/9084158aece8a642dc49bf7ecc2196bf9d1af63e);
-- [Snap: Fixing problem when mongodb was not started at install/refresh](https://github.com/wekan/wekan/commit/1be8e5625fd20797910009a8221ca706fd52ab11);
-- [Fix Add Card Button dissapearing when dragging](https://github.com/wekan/wekan/commit/58e5e9b308113e5a8af5166328a68a0aafcc2558);
-- [Fix Scrollbar near top of screen when using internet explorer on Win7](https://github.com/wekan/wekan/commit/128a356b9222fa0ed824b477c2d0e1e6a0368021);
-- [Fix scroll when dragging elements. Remove scrollbars from swimlanes.](https://github.com/wekan/wekan/commit/ed8471be9b79243b016a275e5b11a6912717fbb9);
-- [Partial fix for scroll bar inside cardDetails](https://github.com/wekan/wekan/commit/ac7d44f8a8d809cd94ed5ef3640473f34c72403b);
-- [Fix swimlane header rotation on Google Chrome. After this change both Firefox 58 and Google Chrome 64
-   have properly rotated swimlane header.](https://github.com/wekan/wekan/commit/9a1b1a5bedbe44827de109731a3c3b1a07790d3e);
-- [Fix card copy and move with swimlanes](https://github.com/wekan/wekan/commit/4b53b0c90a57593c0fe2d808d2298e85f488bfa9).
-- [Fix scroll board when opening cardDetails](https://github.com/wekan/wekan/commit/454523dd4744b2bccb6805dad59abd664fdacb31);
-- [Fix swimlane info not displayed in activities](https://github.com/wekan/wekan/commit/bb37d8fa964c0d03721a664387e74300fde09eef);
-- [Fix sandstorm default swimlane creation](https://github.com/wekan/wekan/commit/f470323ee746c4e79f07d166d511867408194eb6);
-- [Extend lists to bottom of frame in lists view](https://github.com/wekan/wekan/commit/c62a2ee11febf7f98456c97dc3973509b4bfe119);
-- [Fix drag and drop issues when re-enter board](https://github.com/wekan/wekan/commit/5b0f7f8aef115b202aaff6bc25bb514426dc2009).
-
-Thanks to GitHub users andresmanelli, GhassenRjab, kubiko, lumatijev, lunatic4ever and xet7 for their contributions.
-
-# v0.77 2018-02-23 Wekan release
-
-This release adds the following new features:
-
-- [Search from card titles and descriptions on this board](https://github.com/wekan/wekan/pull/1503).
-- Add Bulgarian language.
-
-and adds the following [Snap updates](https://github.com/wekan/wekan/pull/1495):
-
-- Cleanup of snap helper scripts
-- Cleanup and snapctl settings handling
-- Fix for snap store auto review refusal
-- Adding support for automatic restart of services when setting(s) are changed.
-  No need to call systemctl restart anymore
-- Fixing snap set functionality
-- Adding optional caddy service support (by default caddy service is disabled),
-  it can be enabled by calling: snap set wekan caddy-enabled=true
-- [Service life cycle improvements](https://github.com/wekan/wekan/pull/1495)
-- [Wekan help text changes and tweaks](https://github.com/wekan/wekan/pull/1495).
-
-and fixes the following bugs:
-
-- [Fix: card-shadow no longer covered the page if you scroll down](https://github.com/wekan/wekan/pull/1496).
-
-Thanks to GitHub users GhassenRjab, kubiko and stefano-pogliani for their contributions.
-
-# v0.76 2018-02-21 Wekan release
-
-This release adds the following new features:
-
-- [Add swimlaneId to POST /api/boards/:boardId/lists/:listId/cards route](https://github.com/wekan/wekan/commit/ee0f42eeb1b10107bd8fc38cdefbdbc4f3fde108);
-- [Added path to capnp.js to make Wekan work on Sandstorm](https://github.com/wekan/wekan/commit/11e9811f82858a3d98036e142b0da69d867adebc).
-
-Known bugs:
-
-- [Disabled Import temporarily on Sandstorm because of data loss bug](https://github.com/wekan/wekan/commit/e30f6515c623de7a48f25e0b2fc75313ae5d187c);
-- [Swimlane not visible at Sandstorm](https://github.com/wekan/wekan/issues/1494).
-
-Thanks to GitHub users couscous3 and xet7 for their contributions.
-
-# v0.75 2018-02-16 Wekan release
-
-This release adds the following new features:
-
-- [Checklist templates](https://github.com/wekan/wekan/pull/1470);
-- Added [Finnish language changelog](https://github.com/wekan/wekan/tree/devel/meta/t9n-changelog)
-  and [more Finnish traslations](https://github.com/wekan/wekan/blob/main/sandstorm-pkgdef.capnp)
-  to Sandstorm.
-
-Thanks to GitHub users erikturk and xet7 for their contributions.
-
-# v0.74 2018-02-13 Wekan release
-
-This release fixes the following bugs:
-
-- [Remove Emoji support, so MAC addresses etc show correctly](https://github.com/wekan/wekan/commit/056843d66c361594d5d4478cfe86e2e405333b91).
-  NOTE: You can still add Unicode Emojis, this only removes broken autoconversion to Emojis.
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.73 2018-02-08 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix Ubuntu snap build](https://github.com/wekan/wekan/pull/1469).
-
-Thanks to GitHub user kubiko for contributions.
-
-# v0.72 2018-02-07 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix card sorting](https://github.com/wekan/wekan/pull/1465);
-- [Fix import Trello board without swimlanes](https://github.com/wekan/wekan/commit/5871a478e1280818f12fcb7250b7cbccf6907cf0);
-- [Fix swimlane move parameters](https://github.com/wekan/wekan/commit/fcebb2a5373d6dea41b98b530c176cbee31bee4b).
-
-Thanks to GitHub users andresmanelli and ViViDboarder for their contributions.
-
-# v0.71 2018-02-03 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix Welcome board is not editable: Added default swimlane to Welcome board](https://github.com/wekan/wekan/commit/9df3e3d26bffb2268cdcc7fa768eda60e4f0975c);
-- [Fix Import Wekan board with swimlanes](https://github.com/wekan/wekan/commit/ec0a8449ba98aea708e484d386e5a209e2be8fff).
-
-Thanks to GitHub user andresmanelli for contributions.
-
-# v0.70 2018-02-02 Wekan release
-
-This release adds the following new features:
-
-- [Add ability to edit swimlane name](https://github.com/wekan/wekan/commit/3414cb84ad8ac800e23bbda6ce12822f40d1bd19);
-- [Add swimlane popup menu and archive icon](https://github.com/wekan/wekan/commit/5953fb8a44a3582ed0d8816ffb32a5b7f41f50a3).
-
-and fixes the following bugs:
-
-- [Two empty columns in swimlane view](https://github.com/wekan/wekan/issues/1459).
-
-Thanks to GitHub user andresmanelli for contributions.
-
-# v0.69 2018-02-01 Wekan release
-
-This release fixes the following bugs:
-
-- [Fix swimlanes card details bug](https://github.com/wekan/wekan/commit/f6fb05d3f49c656e9890351f5d7c0827bf2605c1);
-- [Workaround to avoid swimlanes drag bug](https://github.com/wekan/wekan/commit/d3c110cd8f3ad16a4ced5520c27ab542cc79b548);
-- [Fix swimlanes details view in lists only mode](https://github.com/wekan/wekan/commit/ff9ca755f338e3c45a1bd726dfbce1c607f2ff4c).
-- [Fix typo in issue template](https://github.com/wekan/wekan/pull/1451).
-
-Thanks to GitHub users andresmanelli and d-Rickyy-b for their contributions.
-
-# v0.68 2018-01-30 Wekan release
-
-This release fixes the following bugs:
-
-* [Partial fix: Trello board import fails because of missing "Swimlane id"](https://github.com/wekan/wekan/issues/1442), still needs some work.
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.67 2018-01-28 Wekan release
-
-This release fixes the following bugs:
-
-* [Fix Igbo language name at menu](https://github.com/wekan/wekan/commit/9d7ff75d3fed1285273245fbe6f6a757b6180039).
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.66 2018-01-28 Wekan release
-
-This release fixes the following bugs:
-
-* [Fix Dockerfile for Debian](https://github.com/wekan/wekan/pull/1439).
-
-Thanks to GitHub user soohwa for contributions.
-
-# v0.65 2018-01-28 Wekan release
-
-This release adds the following new features:
-
-* [Swimlanes, part 1](https://github.com/wekan/wekan/issues/955);
-* Added new language: Igbo.
-
-Thanks to GitHub user andresmanelli for contributions.
-
-# v0.64 2018-01-22 Wekan release
-
-This release adds the following new features:
-
-* [Different icons for start and due date](https://github.com/wekan/wekan/pull/1420).
-* Added new languages: Mongolian and Portuguese;
-* Upgraded to Meteor 1.6.0.1, Node 8.9.3, NPM 5.5.1 and fibers 2.0.0.
-
-and fixes the following bugs:
-
-* [Fix for dragging into scrolled-down list](https://github.com/wekan/wekan/pull/1424).
-* [Fix double slash bug on snap](https://github.com/wekan/wekan/issues/962#issuecomment-357785748).
-
-Thanks to GitHub users dpoznyak, mmarschall and xet7 for their contributions.
-
-# v0.63 2017-12-20 Wekan release
-
-This release adds the following new features:
-
-* [Auto update card cover with new image uploaded via drag&drop](https://github.com/wekan/wekan/pull/1401);
-* Update to Node 4.8.7.
-
-Thanks to GitHub users thuanpq and xet7 for their contributions.
-
-# v0.62 2017-12-12 Wekan release
-
-This release fixes the following bugs:
-
-* Added missing packages to build script.
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.61 2017-12-12 Wekan release
-
-This release adds the following new features:
-
-* [Change password of any user in Standalone Wekan Admin Panel](https://github.com/wekan/wekan/pull/1372);
-* [Performance optimization: Move more global subscriptions to template subscription](https://github.com/wekan/wekan/pull/1373);
-* [Auto update card cover with latest uploaded image attachment](https://github.com/wekan/wekan/pull/1387);
-* [Always display attachment section for uploading file quickly](https://github.com/wekan/wekan/pull/1391);
-* [Make it easier to see the Add Card button at top of list](https://github.com/wekan/wekan/pull/1392);
-* [Add mixmax:smart-disconnect to lower CPU usage when browser tab is not selected](https://github.com/wekan/wekan-mongodb/issues/2);
-* Update tranlations. Add Latvian language;
-* Update to Node 4.8.6 and MongoDB 3.2.18.
-
-and fixes the following bugs:
-
-* [Bug on not being able to see Admin Panel if not having access to Board List](https://github.com/wekan/wekan/pull/1371);
-* [Bug on not able to see member avatar on sidebar activity](https://github.com/wekan/wekan/pull/1380);
-* [Don't open swipebox on update card cover / download file / delete file](https://github.com/wekan/wekan/pull/1386);
-* [Boards subscription should be placed at header for all other component can be used](https://github.com/wekan/wekan/pull/1381);
-* [Bug on long url of attachment in card activity log](https://github.com/wekan/wekan/pull/1388).
-
-Thanks to GitHub users mfshiu, thuanpq and xet7 for their contributions.
-Thanks to translators for their translations.
-
-# v0.60 2017-11-29 Wekan release
-
-This release adds the following new features:
-
-* [Add SMTP test email button to Standalone Wekan Admin Panel](https://github.com/wekan/wekan/pull/1359);
-* [Optimize for mobile web, show single list per page with navigate bar](https://github.com/wekan/wekan/pull/1365).
-
-and fixes the following bugs:
-
-* [User with comment only permissions can remove another user from a card](https://github.com/wekan/wekan/pull/1352);
-* [Frequent Subscriptions problem that make Excessive CPU usage](https://github.com/wekan/wekan/pull/1363).
-
-Thanks to GitHub users floatinghotpot, mfshiu and nztqa for their contributions.
-
-# v0.59 2017-11-23 Wekan release.
-
-This release fixes the following bugs:
-
-* [Remove incomplete logger fix](https://github.com/wekan/wekan/pull/1352).
-
-Thanks to GitHub user pierreozoux for contributions.
-
-# v0.58 2017-11-23 Wekan release
-
-This release adds the following new features:
-
-* Updated translations.
-
-Thanks to all translators.
-
-# v0.57 2017-11-23 Wekan release
-
-This release adds the following new features:
-
-* [Gogs Integration](https://github.com/wekan/wekan-gogs) as separate project. Please test and submit issues and pull requests to that project.
-
-and fixes the following bugs:
-
-* [Fix Winston logger](https://github.com/wekan/wekan/pull/1350).
-
-Thanks to GitHub users andresmanelli and pierreozoux for their contributions.
-
-# v0.56 2017-11-21 Wekan release
-
-This release adds the following new features:
-
-* [Copy/Move cards to other board in Standalone Wekan](https://github.com/wekan/wekan/pull/1330);
-* [Spent time/Overtime on card](https://github.com/wekan/wekan/pull/1344);
-* New translation: Greek.
-
-and fixes the following bugs:
-
-* [Board list with long-description boards not visible](https://github.com/wekan/wekan/pull/1346);
-* [Remove erroneous minicard title whitespace](https://github.com/wekan/wekan/pull/1347);
-* [Fix title editing with shift key at card details](https://github.com/wekan/wekan/pull/1348).
-
-Thanks to GitHub users couscous3, GhassenRjab, thuanpq and xet7 for their contributions.
-
-# v0.55 2017-11-19 Wekan release
-
-This release adds the following new features:
-
-* [Markdown in card/minicard/checlist titles and checklist items. Next line: Shift+Enter. Submit: Enter.](https://github.com/wekan/wekan/pull/1334);
-* [User Admin to Admin Panel: List users. Change: is user admin, name, fullname, email address, is user active. Not changing password yet.](https://github.com/wekan/wekan/pull/1325);
-* [REST API better error output](https://github.com/wekan/wekan/pull/1323).
-
-and fixes the following bugs:
-
-* [Emoji detection breaks MAC addresses](https://github.com/wekan/wekan/issues/1248); - this has not yet fixed all cases.
-* [Codeblocks should not be scanned for emoji](https://github.com/wekan/wekan/issues/643);
-* [Whitespace trimming breaks Markdown code block indentation](https://github.com/wekan/wekan/issues/1288):
-* [Helper to list boards for user](https://github.com/wekan/wekan/pull/1327);
-* [Error after sending invitation and joining board: Exception while invoking method 'login' TypeError: Cannot read property 'loginDisabled' of undefined](https://github.com/wekan/wekan/issues/1331);
-* [Invitation /sign-up page did not show input for invitation code](https://github.com/wekan/wekan/commit/99be745f0299b32a8a7b30204b43bff7fd5ba638).
-
-Thanks to Github users brooksbecton, milesibastos, nztqa, soohwa, thuanpq and xet7 for their contributions.
-
-# v0.54 2017-11-02 Wekan release
-
-This release adds the following new features:
-
-* [Soft WIP Limit](https://github.com/wekan/wekan/pull/1319).
-
-Thanks to GitHub users amadilsons and xet7 for their contributions.
-
-# v0.53 2017-11-02 Wekan release
-
-(This was canceled, it had some missing version numbers).
-
-# v0.52 2017-10-31 Wekan release
-
-This release adds the following new features:
-
-* [Permit editing WIP limit](https://github.com/wekan/wekan/pull/1312);
-* [Image attachment resize on smaller screens and swipebox](https://github.com/wekan/wekan/pull/1315);
-* [Add iPhone favicon for Wekan](https://github.com/wekan/wekan/issues/1317).
-
-and fixes the following bugs:
-
-* [Members do not get included on board import from Wekan](https://github.com/wekan/wekan/pull/1316).
-
-Thanks to GitHub users brooksbecton, guillaumebriday, nztqa, ocdtrekkie and Tentoe for their contributions.
-
-# v0.51 2017-10-25 Wekan release
-
-This release adds the following new features:
-
-* [REST API: Disable and enable user login. Take ownership boards of a user. List boards of user.](https://github.com/wekan/wekan/pull/1296);
-* [Add translation: Spanish of Argentina](https://github.com/wekan/wekan/commit/b105f0e2e72c49a2f1ba3f6c87532a5418192386);
-* [Add more languages to Roboto font](https://github.com/wekan/wekan/issues/1299).
-
-and fixes the following bugs:
-
-* [Segfault on Alpine Linux](https://github.com/wekan/wekan/issues/1303);
-* [Change invitation link from sign-in to sign-up](https://github.com/wekan/wekan/issues/1300);
-* [User with comment only permission can add cards](https://github.com/wekan/wekan/issues/1301).
-
-Thanks to GitHub users chromas-cro, soohwa, wenerme and xet7 for their contributions.
-
-# v0.50 2017-10-10 Wekan release
-
-This release fixes the following bugs:
-
-* [Fix and update translations](https://github.com/wekan/wekan/issues/1286).
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.49 2017-10-09 Wekan release
-
-This release fixes the following bugs:
-
-* [When WIP limit in use, hide also add card + button at top of list](https://github.com/wekan/wekan/commit/a5daf5dc29278b82e133fbe4db09a91ffc0c0d3b).
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.48 2017-10-09 Wekan release
-
-This release adds the following new features:
-
-* [WIP Limits](https://github.com/wekan/wekan/pull/1278);
-* [REST API: Create user despite disabling registration](https://github.com/wekan/wekan/issues/1232);
-* [User can leave board on Standalone Wekan](https://github.com/wekan/wekan/pull/1283).
-
-and fixes the following bugs:
-
-* [Admin announcement can be viewed without signing in](https://github.com/wekan/wekan/issues/1281).
-
-Thanks to GitHub users amadilsons, nztqa and soohwa for their contributions.
-
-# v0.47 2017-10-04 Wekan release
-
-This release adds the following new features:
-
-* [Use theme color for Slider for Comments only](https://github.com/wekan/wekan/pull/1275).
-
-Thanks to GitHub user nztqa for contributions.
-
-# v0.46 2017-10-03 Wekan release
-
-This release adds the following new features:
-
-* [Webhook parameters and response order](https://github.com/wekan/wekan/pull/1263).
-
-and fixes the following bugs:
-
-* SECURITY FIX: [Meteor allow/deny](https://blog.meteor.com/meteor-allow-deny-vulnerability-disclosure-baf398f47b25) fixed
-  [here](https://github.com/wekan/wekan/commit/c3804dc0fad0817285460d86dc1b3bdc96361f49);
-* [Fix: Slider for Comments only does not work correctly with over 21 activities](https://github.com/wekan/wekan/pull/1247).
-
-Thanks to GitHub users andresmanelli and nztqa for their contributions.
-
-# v0.45 2017-10-01 Wekan release
-
-This release adds the following new features:
-
-* [Slider for Comments only in activity feed](https://github.com/wekan/wekan/issues/1247);
-* [Site Wide Announcement](https://github.com/wekan/wekan/pull/1260).
-
-and fixes the following bugs:
-
-* [Data inconsistency when copying card](https://github.com/wekan/wekan/pull/1246). Note: There is no feature for copying card attachment yet;
-* [Hide create label from normal users, because only board admin can create labels](https://github.com/wekan/wekan/pull/1261).
-
-Thanks to GitHub user nztqa for contributions.
-
-# v0.44 2017-09-30 Wekan release
-
-This release adds the following new features:
-
-* [Confirm popup appears before Checklist Delete](https://github.com/wekan/wekan/pull/1257).
-
-and fixes the following bugs:
-
-* [Fix errors when importing from Trello](https://github.com/wekan/wekan/pull/1259).
-
-Thanks to GitHub users amadilsons and GhassenRjab for their contributions.
-
-# v0.43 2017-09-25 Wekan release
-
-This release fixes the following bugs:
-
-* [Add emojis back, because removing them broke local dev Sandstorm](https://github.com/wekan/wekan/issues/1248).
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.42 2017-09-25 Wekan release
-
-This release fixes the following bugs:
-
-* [Remove emoji support, because it breaks MAC addresses, urls, code etc](https://github.com/wekan/wekan/issues/1248).
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.41 2017-09-25 Wekan release
-
-This release fixes the following bugs:
-
-* [Can't create user and login after install. Reverting REST API: Create user despite disabling registration](https://github.com/wekan/wekan/issues/1249).
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.40 2017-09-25 Wekan release
-
-This release adds the following new features:
-
-* [Add translations (en/de/fi) for email notifications regarding checklists and checklist
-   items](https://github.com/wekan/wekan/pull/1238);
-* [Added plus button to add card on top of the list](https://github.com/wekan/wekan/pull/1244);
-* [REST API: Create user despite disabling registration](https://github.com/wekan/wekan/issues/1232).
-
-and fixes the following bugs:
-
-* [Checklist items are lost when moving items to another checklist](https://github.com/wekan/wekan/pull/1240);
-* [Keep state of checklist items when moved to another checklist](https://github.com/wekan/wekan/pull/1242).
-
-Thanks to GitHub users GhassenRjab, mario-orlicky, soohwa, umbertooo and xet7 for their contributions.
-
-# v0.39 2017-09-18 Wekan release
-
-This release adds the following new features:
-
-* [Import checklist sort attributes from Wekan and Trello](https://github.com/wekan/wekan/pull/1226).
-
-Thanks to GitHub user GhassenRjab for contributions.
-
-# v0.38 2017-09-14 Wekan release
-
-This release adds the following new features:
-
-* [Reorder checklists. Move checklist item to another checklist.](https://github.com/wekan/wekan/pull/1215);
-* [Card title is now pre-filled in copy card dialog](https://github.com/wekan/wekan/pull/1214).
-
-Thanks to GitHub user frmwrk123 for contributions.
-
-# v0.37 2017-09-09 Wekan release
-
-This release adds the following new features:
-
-* [Copy card within one board](https://github.com/wekan/wekan/pull/1204).
-
-Thanks to GitHub user frmwrk123 for contributions.
-
-# v0.36 2017-09-02 Wekan release
-
-This release adds the following new features:
-
-* [Import attachments related activities from Wekan and
-   Trello](https://github.com/wekan/wekan/pull/1202).
-
-Thanks to GitHub user GhassenRjab for contributions.
-
-# v0.35 2017-09-02 Wekan release
-
-This release adds the following new features:
-
-* [Add more than one Outgoing Webhook](https://github.com/wekan/wekan/pull/1199).
-
-and fixes the following bugs:
-
-* [Fix errors caused by checklist items activities](https://github.com/wekan/wekan/pull/1200).
-
-Thanks to GitHub users andresmanelli, GhassenRjab and nztqa for contributions.
-
-# v0.34 2017-08-30 Wekan release
-
-This release adds the following new features:
-
-* [Import Trello and Wekan board times of creation of activities](https://github.com/wekan/wekan/pull/1187);
-* Newest Wekan is available at Sandstorm App Market.
-
-Known issues:
-
-* [Attachment creation times are not imported to Trello and Wekan](https://github.com/wekan/wekan/issues/1157).
-  - This is fixed in v0.36.
-
-Thanks to GitHub user GhassenRjab for contributions.
-
-# v0.33 2017-08-29 Wekan release
-
-This release adds the following new features:
-
-* [Add Bounties and Commercial Support to wiki](https://github.com/wekan/wekan/wiki);
-* [Add display Wekan version number and runtime
-   environment to Admin Panel](https://github.com/wekan/wekan/pull/1156);
-* [Change Email address](https://github.com/wekan/wekan/pull/1161);
-* [Ubuntu snap: Use version scriptlet](https://github.com/wekan/wekan/pull/1164);
-* [Gogs integration part 1](https://github.com/wekan/wekan/pull/1189);
-* [Add web manifest so Wekan can be used like standalone app on Desktop
-   with Chrome or Firefox](https://github.com/wekan/wekan/pull/1184);
-* [Copy card link to clipboard](https://github.com/wekan/wekan/issues/1188);
-* [Usernames can now include dots (.)](https://github.com/wekan/wekan/pull/1194).
-
-and fixes the following bugs:
-
-* [Fix Squeezed tickbox in Card](https://github.com/wekan/wekan/pull/1171);
-* [Percent-encode SMTP password to prevent URI malformed
-   errors](https://github.com/wekan/wekan/pull/1190);
-* [Fix Wekan Import Export on Standalone and Sandstorm](https://github.com/wekan/wekan/pull/1197).
-
-Thanks to GitHub users andresmanelli, danhawkes, GhassenRjab, jonasob, kubiko, nztqa,
-pkuhner and xet7 for their contributions.
-
-# v0.32 2017-07-30 Wekan release
-
-This release adds the following new features:
-
-* [Add dwrensha's Sandstorm patch to Wekan so it does not need to be maintained
-   separately](https://github.com/wekan/wekan/commit/bda15daa78556223117a5846941aafd1212f14d3).
-
-and fixes the following bugs:
-
-* [FIX SECURITY ISSUE Files accessible without authentication](https://github.com/wekan/wekan/issues/1105);
-* [Fix showing card activity history in IE11](https://github.com/wekan/wekan/pull/1152).
-
-Thanks to GitHub users dwrensha, GhassenRjab and nztqa for their contributions.
-
-# v0.31 2017-07-30 Wekan release
-
-* This was broken, having lint errors.
-
-# v0.30 2017-07-27 Wekan release
-
-SECURITY ISSUE [Files accessible without authentication](https://github.com/wekan/wekan/issues/1105)
-IS NOT FIXED YET.
-
-This release adds the following new features:
-
-* [More screenshots at Features page](https://github.com/wekan/wekan/wiki/Features);
-* [Export and import boards in Sandstorm](https://github.com/wekan/wekan/pull/1144);
-* [GitHub Issue template](https://github.com/wekan/wekan/pull/1146);
-* [Add checklist items to activity log](https://github.com/wekan/wekan/pull/1148).
-
-and fixes the following bugs:
-
-* [Double shashes on ROOT_URL](https://github.com/wekan/wekan/issues/962).
-
-Thanks to GitHub users GhassenRjab, nztqa and xet7 for their contributions.
-
-# v0.29 2017-07-21 Wekan release
-
-SECURITY ISSUE [Files accessible without authentication](https://github.com/wekan/wekan/issues/1105)
-IS NOT FIXED YET.
-
-This release adds the following new features:
-
-* [Export and import attachments as base64 encoded files](https://github.com/wekan/wekan/pull/1134);
-* [Export and import checklists](https://github.com/wekan/wekan/pull/1140).
-
-and fixes the following bugs:
-
-* [Activity user messed up when creating a card using the REST-API](https://github.com/wekan/wekan/pull/1116).
-
-Thanks to GitHub users GhassenRjab and zarnifoulette for their contributions.
-
-# v0.28 2017-07-15 Wekan release
-
-SECURITY ISSUE [Files accessible without authentication](https://github.com/wekan/wekan/issues/1105)
-IS NOT FIXED YET.
-
-This release adds the following new features:
-
-* [REST API: Add PUT method to update a card](https://github.com/wekan/wekan/pull/1095) and
-  [related fix](https://github.com/wekan/wekan/pull/1097);
-* [When finished input of checklist item, open new checklist
-  item](https://github.com/wekan/wekan/pull/1099);
-* [Improve UI design of checklist items](https://github.com/wekan/wekan/pull/1108);
-* [Import Wekan board](https://github.com/wekan/wekan/pull/1117);
-* [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119);
-* [Wekan wiki now has menu with categories](https://github.com/wekan/wekan/wiki).
-
-and fixes the following bugs:
-
-* [SECURITY: Upgrade Node.js, MongoDB and Debian on Docker and Ubuntu snap edge](https://github.com/wekan/wekan/pull/1132);
-* [Possible to add empty item to checklist](https://github.com/wekan/wekan/pull/1107);
-* [Double-slash issue](https://github.com/wekan/wekan/pull/1114);
-* [Node.js crash when adding new user to board](https://github.com/wekan/wekan/issues/1131).
-
-Thanks to GitHub users GhassenRjab, johnleeming, jtickle, nztqa, xet7 and zarnifoulette
-for their contributions.
-
-# v0.27 2017-06-28 Wekan release
-
-This release adds the following new features:
-
-* [Snapcraft build support from source](https://github.com/wekan/wekan/pull/1091).
-
-and fixes the following bugs:
-
-* [Fix incorrect attachment link with subfolder in the url](https://github.com/wekan/wekan/pull/1086);
-* [Fix link to card](https://github.com/wekan/wekan/pull/1087);
-* [Fix duplicate id generation](https://github.com/wekan/wekan/pull/1093).
-
-Thanks to GitHub users kubiko and nztqa for their contributions.
-
-# v0.26 2017-06-26 Wekan release
-
-This release fixes the following bugs:
-
-* [Fix admin panel route for subfolder](https://github.com/wekan/wekan/pull/1084);
-* [Fix i18n route for subfolder](https://github.com/wekan/wekan/pull/1085).
-
-Thanks to GitHub user nztqa for contributions.
-
-# v0.25 2017-06-24 Wekan release
-
-This release adds the following new features:
-
-* [Import due date from Trello](https://github.com/wekan/wekan/pull/1082).
-
-and fixes the following bugs:
-
-* [Fix importing Trello board: Attribute correct members to their
-   comments](https://github.com/wekan/wekan/pull/1080);
-* [Fix Case-sensitive email handling](https://github.com/wekan/wekan/issues/675);
-* [Use fibers 1.0.15 because 2.0.0 is broken](https://github.com/wekan/wekan/commit/86e2744c24149c0eacf725b68a186d0bcfae5100);
-* [Remove git submodules, so that git clone of Wekan repo works now on Windows](https://github.com/wekan/wekan/issues/977).
-
-Thanks to GitHub users GhassenRjab, nztqa and xet7 for their contributions.
-
-# v0.24 2017-06-21 Wekan release
-
-This release adds the following new features:
-
-* [Change the way to delete a list (card-like)](https://github.com/wekan/wekan/pull/1050), fixes
-  [missing undo button](https://github.com/wekan/wekan/issues/1023);
-* [When deleting list, delete list's cards too](https://github.com/wekan/wekan/pull/1054);
-* [Re-enable Export Wekan Board](https://github.com/wekan/wekan/pull/1059);
-* [Sort languages by their translated names](https://github.com/wekan/wekan/pull/1070);
-* [Add Breton language name](https://github.com/wekan/wekan/pull/1071).
-
-and fixes the following bugs:
-
-* [Fix Admin Panel link available to all users, only link is hidden](https://github.com/wekan/wekan/pull/1076);
-* [Fix IE 11 drag board to scroll](https://github.com/wekan/wekan/pull/1052);
-* [Fix Export Wekan board](https://github.com/wekan/wekan/pull/1067);
-* [Fix "W" shortcut binding](https://github.com/wekan/wekan/pull/1066);
-* [Fix login url in invitation email](https://github.com/wekan/wekan/issues/993);
-* [Edit card description with invalid markdown](https://github.com/wekan/wekan/pull/1073);
-* [Fix filter reset on moving between starred boards](https://github.com/wekan/wekan/pull/1074).
-
-Thanks to GitHub users BaobabCoder, GhassenRjab, nebulade, nztqa and xet7
-for their contributions.
-
-# v0.23 2017-05-21 Wekan release
-
-This release adds the following new features:
-
-* [Add checklist and card comment to REST API](https://github.com/wekan/wekan/pull/1033);
-* [Add token authentication to REST API](https://github.com/wekan/wekan/pull/1033), this fixes
-  [Security flaws introduced by REST API](https://github.com/wekan/wekan/issues/1032);
-* [Authorization improvements etc to REST API](https://github.com/wekan/wekan/pull/1041);
-* [IE 11 support in unicode filename downloads](https://github.com/wekan/wekan/issues/1031).
-
-and fixes the following bugs:
-
-* [When Wekan starts, there's "here1 false" messages in
-  console](https://github.com/wekan/wekan/issues/1028);
-* [IE11 problem when closing cards, sidebar etc](https://github.com/wekan/wekan/pull/1042).
-
-Thanks to GitHub users huneau, mayjs and nztqa for their contributions.
-
-# v0.22 2017-05-07 Wekan release
-
-This release fixes the following bugs:
-
-* [Download file(unicode filename) cause crash with exception](https://github.com/wekan/wekan/issues/784)
-
-Thanks to GitHub user yatusiter for contributions.
-
-# v0.21 2017-05-07 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/784
-
-This release fixes the following bugs:
-
-* Update release version number to package.json.
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.20 2017-05-07 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/784
-
-This release fixes the following bugs:
-
-* Docker images missing latest Debian updates.
-
-Thanks to GitHub user xet7 for contributions.
-
-# v0.19 2017-05-06 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/784
-
-This release adds the following new features:
-
-* Set first user as admin, it there is no existing
-  users and Wekan is not running at Sandstorm;
-* New Docker Compose [Wekan-MongoDB](https://github.com/wekan/wekan-mongodb)
-  and [Wekan-PostgreSQL](https://github.com/wekan/wekan-postgresql)
-  that use Meteor v1.4 and Node v4 based Wekan's meteor-1.4 branch;
-* [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010);
-* [REST API first step](https://github.com/wekan/wekan/pull/1003);
-* [Install from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source)
-  has been updated to new meteor 1.4 version;
-* meteor-1.4 branch has been merged to devel and master branches,
-  where development continues from now on. Previous code has been moved to
-  meteor-1.3-2017-04-27 branch;
-* [VirtualBox image updated](https://wekan.xet7.org).
-
-and fixes the following bugs:
-
-* isCommentOnly false fix for Trello import;
-* Node version to 4.8.1 to solve 100% CPU issue;
-* Fix bson error on Docker and install from source;
-* Try other key servers on Dockerfile if ha.pool.sks-keyservers.net is unreachable.
-
-Thanks to GitHub users brylie, huneau, johnniesong, rhelsing, stephenmoloney,
-xet7 and Zokormazo for contributions.
-
-# v0.18 2017-04-02 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/784
-
-This release adds the following new features:
-
-* Add TLS toggle option to smtp configuration;
-* [Comment permissions](https://github.com/wekan/wekan/issues/870);
-* Add bigger screenshots for Sandstorm.
-
-and fixes the following bugs:
-
-* Fix email settings loading:
-  MAIL_URL was overriden with database info all the time.
-  Now if MAIL_URL exists is not overwritten and if neither MAIL_URL nor
-  exists valid admin panel data MAIL_URL is not set.
-  MAIL_FROM was ignored. Same behaviour, env variable has bigger priority
-  than database configuration.
-  On both cases, althought environment variable is set, updating admin-panel
-  mail settings will load new info and ignore the environment variable;
-* Dockerfile fix for local packages;
-* Don't send emails if missing smtp host;
-* Remove invitation code if email sending failed;
-* Show customized error msg while invitation code is wrong during registration;
-* Fix "internal error" while registration is done;
-* Fix "cannot access disableRegistration of undefined" error;
-* Add high available server for getting the gpg keys - suppose it should lead
-  to fewer failures on getting the gpg keys leading to some rare build failures;
-* Add a docker build to the .travis.yml - this will help determine if pull
-  requests need further review before merging into devel;
-* Use navigator language by default instead of English.
-
-Thanks to GitHub users JamborJan, lkisme, rhelsing, Serubin, stephenmoloney,
-umbertooo and Zokormazo for their contributions.
-
-# v0.17 2017-03-25 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/784
-
-This release fixes the following bugs:
-
-* Double slash problem on card pop-ups;
-* No need for Array.prototype if using rest operator;
-* Fix default font so Chinese is shown correctly.
-  Still looking for better solution for #914 although
-  commit had wrong number #707.
-
-Thanks to GitHub users mo-han, Serubin and vuxor for
-their contributions.
-
-# v0.16 2017-03-15 Wekan release
-
-Added missing changelog updates.
-
-# v0.15 2017-03-15 Wekan release
-
-Updated translations.
-
-# v0.14 2017-03-15 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/785
-* https://github.com/wekan/wekan/issues/784
-
-This release fixes the following bug:
-
-* Set IE compatibility mode to Edge to so that
-  Wekan board loads correctly.
-
-Thanks to GitHub users immertroll and REJack for
-their contributions.
-
-# v0.13 2017-03-12 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/785
-* https://github.com/wekan/wekan/issues/784
-
-This release fixes the following bug:
-
-* Admin Panel: Set mail-from to environment immediately after changed,
-  allow user set a blank username and password pair in SMTP setting.
-
-Thanks to GitHub user lkisme for contributions.
-
-# v0.12 2017-03-05 Wekan release
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/785
-* https://github.com/wekan/wekan/issues/784
-
-This release adds the following new features:
-
-* Import Checklists from Trello;
-* Simplified release numbers of Wekan.
-
-Thanks to GitHub users whodafly and xet7 for
-their contributions.
-
-# v0.11.1-rc2 2017-03-05 Wekan prerelease
-
-Known bugs:
-
-* https://github.com/wekan/wekan/issues/785
-* https://github.com/wekan/wekan/issues/784
-
-This release adds the following supported platforms:
-
-* [Docker environment for Wekan development](https://github.com/wekan/wekan-dev);
-* [Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only
-  mirroring](https://github.com/wekan/wekan-postgresql)
-  for SQL access with any programming language
-  or Office package that has PostgreSQL support, like
-  newest LibreOffice 3.5;
-* [Install from source on
-  Windows](https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows).
-
-and adds the following new features:
-
-* Admin Panel:
-```
-  1) Disable Self-Registration and invite users
-  2) SMTP settings.
-
-  Adding Admin user in mongo cli:
-  1) Use database that has wekan data, for example:
-     use admin;
-  2) Add Admin rights to some Wekan username:
-     db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
-  Hiding Admin panel by removing Admin rights:
-     use admin;
-     db.settings.remove({});
-```
-* Make Due Date layout nicer on minicard;
-* Added tooltip for board menu and sidebar buttons;
-* [Wekan database cleanup script](https://github.com/wekan/wekan-cleanup);
-* [Daily export script of Wekan changes as JSON to Logstash and
-  ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash);
-* [Wekan stats script](https://github.com/wekan/wekan-stats).
-
-and fixes the following bugs:
-
-* Dockerfile was missing EXPOSE $PORT;
-* Bug when removing user from board that generate activity for
-  all cards of the board. Add check before user is one owner
-  of the card before adding activity;
-* All new boards are automatically starred. Fixed to
-  only star header-bar new-boards;
-* Orphan documents were created when cards were deleted;
-* Improve Wekan performance by adding indexes to MongoDB;
-* Invite user with lower case email;
-* Typos.
-
-Thanks to GitHub users eemeli, entrptaher, fmonthel, jLouzado, lkisme,
-maulal, pra85, vuxor, whittssg2 and xet7 for their contributions.
-
-# v0.11.1-rc1 2017-02-10 Wekan prerelease
-
-2017-01-29 mquandalle gave Wekan access to xet7,
-so at 2017-01-31 xet7 started merging Wefork back to Wekan.
-At 2017-02-03 all Wefork code and pull requests are now
-merged back to Wekan.
-
-Known bugs:
-* https://github.com/wekan/wekan/issues/785
-* https://github.com/wekan/wekan/issues/784
-
-This release adds the following supported platforms:
-
-* Docker;
-* Docker on SLES12SP1;
-* Install from source.
-
-and adds the following new features:
-
-* Checklists;
-* Remove a list;
-* Admin of board can leave board if he/she
-  is not last admin in the board;
-* Shortcuts popup, link to it on
-  bottom right corner;
-* Links are now underlined and change
-  link color on hover;
-* Added YuGothic and Meiryo fonts to show
-  non-English text correctly.
-
-and fixes the following bugs:
-
-* Update xss to v0.3.3;
-* Typos in boards.js and boardHeader.js;
-* Build warning in jade template;
-* New MongoDB version breaks uploading files
-  and avatars, so using older version;
-* Tweaked .gitignore to exclude .build/*;
-* Fix executeUpTo label when dragging cards,
-  popup was not in the predefined hierarchy.
-
-and adds the following new documentation:
-
-* Developer Documentation;
-* Docker;
-* and others.
-
-Thanks to GitHub users AlexanderR, BaobabCoder, jLouzado, kamijin-fanta,
-lkisme, mario-orlicky, martingabelmann, mquandalle, stephenmoloney,
-umbertooo, xet7 and qge for their contributions.
-
-# v0.11.0 2016-12-16 Wekan fork first release
-
-This release adds the following new features:
-
-* Start- and Duedate for cards;
-* Allow IE 11 to work;
-* Option to hide system messages in the card;
-* Option to setup minimum limit to show cards count
-  for each list in board;
-* Option 'filter by empty' to filter by cards by 'no member'
-  and 'no label' properties;
-* Speedup: Added MongoDB index on CardId into Comments collection.
-* Translation updates
-
-and fixes the following bugs:
-
-* Sandstorm: username handling, restore identity, eslint regressions,
-  board not found;
-* Failure to load when navigator.language is Chinese or Finnish;
-* Hover background for labels in filter sidebar. Now correctly
-  centered;
-* Display message when user wants to choose existing username;
-* Client sometimes fails to receive current user's profile;
-* Old users could see broken presence indicators on new users.
-
-Thanks to GitHub users dwrencha, fmonthel, mario-orlicky, pierreozoux,
-shoetten, and xet7 for their contributions.
-
-# v0.11.0-rc2 2016-07-21
-
-This release adds the following new features:
-
-* Notification system with email notifications of the changes in a board,
-  a list or on a card;
-* Show the exact time when hovering the activity time;
-* Allow to edit more easily longer card titles by resizing the input box;
-* Add shortcuts to move cards to the top or the bottom of a list;
-* Add a warning indicator when the application is offline;
-* A new log-in button on the public board view to sign in, even if the board
-  is published;
-* New link to the keyboard shortcuts in the board sidebar;
-
-and fixes the following bugs:
-
-* Fix the syntax of the `docker-compose.yml`;
-* Use the correct pluralization of emoji;
-* Only publish required user data and keep the hashed passwords confidential;
-* Fix the generation and alignment of the initials avatars;
-* Fix the “welcome board” feature;
-* Only display the buttons in the board header, if the data is available
-  and the user is able to use it;
-* Fix the scaling of cover images;
-* Fix bugs on Internet Explorer v11 that blocked card creation and activity feed
-  visualization.
-
-Thanks to GitHub users alayek, AlexanderS, choclin, floatinghotpot, ForNeVeR,
-PeterDaveHello, seschwar, and TheElf for their contributions.
-
-# v0.10.1 2015-12-30
-
-This patch release fixes two bugs on Sandstorm:
-
-* Drag and drop was broken;
-* Avatars weren’t working.
-
-# v0.10 2015-12-22
-
-This release features:
-
-* Trello boards importation, including card history, assigned members, labels,
-  comments, and attachments;
-* Invite new users to a board using an email address;
-* Autocompletion in the minicard editor. Start with <kbd>@</kbd> to start a
-  board member autocompletion, or <kbd>#</kbd> for a label;
-* Improve the user interface on small screens so that Wekan could be used on the
-  mobile web;
-* Accelerate the initial page rendering by sending the data on the initial HTTP
-  response instead of waiting for the DDP connection to open;
-* Support images attachments copy pasting;
-* On Sandstorm, expose the Wekan grain title and URL to the Sandstorm shell;
-* Support Wekan deployment under a sub-path of a domain name.
-
-New languages supported: Arabic, Catalan, Italian, and Russian.
-
-Thanks to GitHub users AlexanderS, fisle, floatinghotpot, FuzzyWuzzie, mnutt,
-ndarilek, SirCmpwn, and xavierpriour for their contributions.
-
-# v0.9 2015-09-10
-
-This release is a large re-write of the previous code base. This release marks
-the beginning of our new user interface and continues to improve the overall
-performance and security. It also features the following improvements:
-
-* A new user account system, including the possibility to reset a forgotten
-  password, to change the password, or to enable email confirmation (all of
-  which were previously impossible);
-* Avatar customization, including the possibility to upload images and to choose
-  one from Gravatar or the user initials (on Sandstorm we use the avatar exposed
-  by Sandstorm);
-* Cards multi-selection to facilitate batch actions such as moving all the cards
-  of selection, or attaching a label or a member to them;
-* Automatic drafts saving synced with the server;
-* Keyboard navigation, press `?` to read the list of available shortcuts;
-* The possibility to restore archived boards, lists, and cards.
-
-Starting from this release we will also distribute official docker images on
-both the [GitHub release page](https://github.com/wekan/wekan/releases) and on
-the [DockerHub](https://hub.docker.com/r/mquandalle/wekan). We also configured
-Heroku one-click install and improved Sandstorm integration with the integration
-of its build-in sharing model.
-
-New languages supported: Chinese, Finnish, Spanish, Korean, and Russian.
-
-Special thanks to GitHub users ePirat, nata-goddanti, ocdtrekkie, and others who
-have supportive during this *traversée du desert*, and to neynah for the Wekan
-icons.
-
-# v0.8
-
-This release continues the implementation of basic features of a “kanban”
-software, especially:
-
-* Basic card attachments. If the attached file is an image we generate and
-  display a thumbnail that can be used as a card “cover” (visible in the board
-  general view);
-* User names mentions and auto-completion in card description and comments
-  (though we don’t have any notification system for now, making this feature a
-  less useful that it should);
-* Filter views, current filtering options are based on labels and assigned
-  members;
-* Labels creation and suppression at the board level (previously we had a fixed
-  list of labels);
-* Customization of the board background color.
-
-This release is also the first one to introduce localization of the user
-interface.
-
-New languages supported: French, German, Japanese, Portuguese, and Turkish.
-
-# v0.7.1
-
-This release fixes the following bugs:
-
-* Unexpected lost of the card sorting on the server side;
-* Fix a bug during board creation;
-* Focus the new list form if the board is empty.
-
-# v0.7
-
-This release starts the transition from a toy project to something useful. Along
-with some security and performance improvements (for instance, opening a card
-used to take a long time because it was re-generated the entire DOM whereas only
-the popover was new). New features includes:
-
-* Add and remove labels to cards;
-* Assign and unassign members to cards;
-* Archive cards (though restoration is not yet possible);
-* Board stars;
-* Markdown and emoji support in comments and card description;
-* Emoji auto-completion in the text editor;
-* Some keyboard shortcuts (eg `Ctrl`+`Enter` to submit a multi-line input).
-
-We also introduced basic support for the [Sandstorm](https://sandstorm.io)
-platform, and distribute a `spk` (Sandstorm PacKage) for this release and
-subsequent.
+Thanks to GitHub users JamesLavin, rjevnikar and xet7 for

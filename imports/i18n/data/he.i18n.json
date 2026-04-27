@@ -553,7 +553,7 @@
   "import-members-map": "הלוחות המיובאים שלך מכילים חברים. נא למפות את החברים שברצונך לייבא למשתמשים שלך",
   "import-members-map-note": "לתשומת לבך: חברים שאינם ממופים יוקצו למשתמש הנוכחי.",
   "import-show-user-mapping": "סקירת מיפוי חברים",
-  "import-user-select": "נא לבחור את המשתמש ב־Wekan אותו ברצונך למפות אל חבר זה",
+  "import-user-select": "נא לבחור את המשתמש ב־wekan אותו ברצונך למפות אל חבר זה",
   "importMapMembersAddPopup-title": "בחירת משתמש",
   "info": "גרסה",
   "initials": "ראשי תיבות",

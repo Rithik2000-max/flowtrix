@@ -1,6 +1,6 @@
 # Adding language support for new language
 
-You are encouraged to translate (or improve the translation of) Wekan in your
+You are encouraged to translate (or improve the translation of) wekan in your
 locale language. For that purpose we rely on
 [Transifex](https://app.transifex.com/wekan/). So the first step is to
 create a Transifex account if you don’t have one already. You can then send a
@@ -25,7 +25,7 @@ Then in your JADE files, use the string like so:
 
 `h3.card-details-item-title {{_ 'members'}}`
 
-We pull all translations from Transifex before every new Wekan release
+We pull all translations from Transifex before every new wekan release
 candidate, ask the translators to review the app, and pull all translations
 again for the final release.
 

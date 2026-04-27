@@ -19,7 +19,7 @@ at `/etc/hosts` by adding a line:
 ```
 ## No schedule set
 
-Automatic upgrades happen sometime after Wekan is released, usually quite soon. 
+Automatic upgrades happen sometime after wekan is released, usually quite soon. 
 
 ## Manual update immediately
 

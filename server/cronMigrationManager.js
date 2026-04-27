@@ -470,10 +470,10 @@ class CronMigrationManager {
           ]
         }, { fields: { _id: 1 }, limit: 1 }));
       case 'migrate-attachments-collectionFS-to-ostrioFiles':
-        // In fresh WeKan installations (Meteor-Files only), no CollectionFS migration needed
+        // In fresh wekan installations (Meteor-Files only), no CollectionFS migration needed
         return false;
       case 'migrate-avatars-collectionFS-to-ostrioFiles':
-        // In fresh WeKan installations (Meteor-Files only), no CollectionFS migration needed
+        // In fresh wekan installations (Meteor-Files only), no CollectionFS migration needed
         return false;
       case 'migrate-lists-to-per-swimlane': {
         const boards = await Boards.find({}, { fields: { _id: 1 }, limit: 100 }).fetchAsync();
@@ -1273,7 +1273,7 @@ class CronMigrationManager {
 
   /**
    * Execute attachment migration from CollectionFS to Meteor-Files
-   * In fresh WeKan installations, this migration is not needed as they use Meteor-Files only
+   * In fresh wekan installations, this migration is not needed as they use Meteor-Files only
    */
   async executeAttachmentMigration(jobId, stepIndex, stepData) {
     try {

@@ -30,17 +30,17 @@ curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
 
 Required:
 - "title":"Board title here"
-- "owner":"ABCDE12345"   <= User ID in Wekan. Not username or email.
+- "owner":"ABCDE12345"   <= User ID in wekan. Not username or email.
 
 Optional, and defaults:
 - "isAdmin":"true"
 - "isActive":"true"
 - "isNoComments":"false"
 - "isCommentOnly":"false"
-- "permission":"private"   <== Set to "public" if you want public Wekan board
+- "permission":"private"   <== Set to "public" if you want public wekan board
 - "color":"belize"        <== Board color: belize, nephritis, pomegranate, pumpkin, wisteria, midnight.
 
-<img src="https://wekan.fi/board-colors.png" width="40%" alt="Wekan logo" />
+<img src="https://wekan.fi/board-colors.png" width="40%" alt="wekan logo" />
 
 Example:
 ```
@@ -51,6 +51,6 @@ curl  -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
       -d '{"title":"Board title here","owner":"ABCDE12345","permission":"private","color":"nephritis"}'
 ```
 
-## In Wekan code
+## In wekan code
 
 If you believe that code is the best documentation, be our guest: [models/cards.js](https://github.com/wekan/wekan/blob/main/models/boards.js "Board API code")

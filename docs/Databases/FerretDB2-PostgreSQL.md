@@ -1,8 +1,8 @@
-# Install WeKan, FerretDB 2, PostgreSQL
+# Install wekan, FerretDB 2, PostgreSQL
 
 - https://blog.ferretdb.io/building-project-management-stack-wekan-ferretdb/
 
-## WeKan
+## wekan
 
 - Alternatively, use wekan-app Docker container from https://raw.githubusercontent.com/wekan/wekan/refs/heads/main/docker-compose.yml
 
@@ -83,7 +83,7 @@ GRANT INSERT ON TABLE documentdb_api_catalog.collections to ferret;
 GRANT ALL ON SCHEMA documentdb_data to ferret;
 GRANT documentdb_admin_role to ferret;
 ```
-## Launching WeKan
+## Launching wekan
 
 a) At screen:
 
@@ -103,7 +103,7 @@ b) SystemD Service:
 /etc/default/wekan:
 ```
 NODE_ENV=production
-MAIL_FROM="WeKan kanban <boards@example.com>"
+MAIL_FROM="wekan kanban <boards@example.com>"
 MAIL_URL=smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false
 OAUTH2_AUTH_ENDPOINT=https://accounts.google.com/o/oauth2/v2/auth
 OAUTH2_CLIENT_ID=example.apps.googleusercontent.com
@@ -135,7 +135,7 @@ LDAP_BACKGROUND_SYNC_INTERVAL=''
 with `sudo chown boards:boards /home/boards -R` 
 ```
 [Unit]
-Description=The Wekan Service
+Description=The wekan Service
 After=syslog.target network.target
 
 [Service]

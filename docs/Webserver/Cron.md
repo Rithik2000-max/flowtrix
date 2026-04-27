@@ -1,6 +1,6 @@
-(TODO: Try to integrate this inside WeKan Snap Candidate, or change code so that these would not be needed.)
+(TODO: Try to integrate this inside wekan Snap Candidate, or change code so that these would not be needed.)
 
-WeKan has some memory leaks. To prevent WeKan becoming slow, this Cron script restarts WeKan Snap once every hour.
+wekan has some memory leaks. To prevent wekan becoming slow, this Cron script restarts wekan Snap once every hour.
 
 1) Edit /root/hourly.sh
 
@@ -29,7 +29,7 @@ sleep 10
 --eval 'db.adminCommand({ setParameter: 1, diagnosticDataCollectionEnabled: false});' \
 --port 27019
 
-# Delete incomplete uploads so that they would not prevent starting WeKan
+# Delete incomplete uploads so that they would not prevent starting wekan
 /snap/wekan/current/usr/bin/mongosh wekan \
 --eval 'db.getCollection("cfs.attachments.filerecord").find( { "uploadedAt": { "$exists": true }, "copies.attachments" : null,"failures.copies.attachments.doneTrying" : {"$ne" : true}});' \
 --port 27019
@@ -44,7 +44,7 @@ export EDITOR=nano
 
 crontab -e
 ```
-There at bottom, add this line, that will restart WeKan hourly, and log to textfile:
+There at bottom, add this line, that will restart wekan hourly, and log to textfile:
 ```
 0 * * * * /root/hourly.sh >> /root/hourly-log.txt 2>&1
 ```

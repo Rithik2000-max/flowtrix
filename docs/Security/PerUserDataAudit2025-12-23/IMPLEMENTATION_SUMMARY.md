@@ -1,4 +1,4 @@
-# Wekan Architecture Improvements - Implementation Summary
+# wekan Architecture Improvements - Implementation Summary
 
 ## Status: ✅ Complete and Ready for Testing
 

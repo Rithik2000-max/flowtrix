@@ -1,4 +1,4 @@
-[Docker, Wekan and MongoDB on OpenShift](README.md)
+[Docker, wekan and MongoDB on OpenShift](README.md)
 
 [OpenShift config issue](https://github.com/wekan/wekan/issues/1778)
 

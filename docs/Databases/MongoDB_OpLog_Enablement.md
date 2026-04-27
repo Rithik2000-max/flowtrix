@@ -2,7 +2,7 @@
 
 ## Summary
 
-MongoDB oplog has been documented and configured across all Wekan deployment platforms. Oplog is essential for pub/sub performance and enables all the UI optimizations implemented in this session.
+MongoDB oplog has been documented and configured across all wekan deployment platforms. Oplog is essential for pub/sub performance and enables all the UI optimizations implemented in this session.
 
 ## Platforms Updated
 
@@ -21,7 +21,7 @@ export MONGO_OPLOG_URL=mongodb://127.0.0.1:27017/local?replicaSet=rs0
 **Setup Required:**
 1. Initialize MongoDB replica set: `mongosh > rs.initiate()`
 2. Uncomment and set MONGO_OPLOG_URL in script
-3. Restart Wekan
+3. Restart wekan
 
 ### ✅ Docker & Docker Compose
 
@@ -108,11 +108,11 @@ For Users to Enable Oplog:
 - [ ] **Local Development:**
   - [ ] Run `mongosh > rs.initiate()` to initialize replica set
   - [ ] Uncomment `MONGO_OPLOG_URL` in `start-wekan.sh` or `start-wekan.bat`
-  - [ ] Restart Wekan
+  - [ ] Restart wekan
 
 - [ ] **Docker Compose:**
   - [ ] Update MongoDB service command: `mongod --replSet rs0`
-  - [ ] Add `MONGO_OPLOG_URL` to Wekan service environment
+  - [ ] Add `MONGO_OPLOG_URL` to wekan service environment
   - [ ] Run `docker-compose up --build`
 
 - [ ] **Snap:**
@@ -121,7 +121,7 @@ For Users to Enable Oplog:
 
 - [ ] **Production:**
   - [ ] Verify MongoDB replica set is configured
-  - [ ] Set environment variable before starting Wekan
+  - [ ] Set environment variable before starting wekan
   - [ ] Monitor CPU usage (should drop 80%)
 
 ## Verification
@@ -135,7 +135,7 @@ mongosh
 # Should show replica set members
 ```
 
-2. Check Wekan logs:
+2. Check wekan logs:
 ```bash
 tail -f wekan.log | grep -i oplog
 ```
@@ -179,7 +179,7 @@ top -p $(pgrep node)
 1. Read `MongoDB-Oplog-Configuration.md` for detailed setup
 2. Enable oplog on your MongoDB instance
 3. Set `MONGO_OPLOG_URL` environment variable
-4. Restart Wekan and verify with logs
+4. Restart wekan and verify with logs
 5. Monitor CPU usage (should drop significantly)
 
 All pub/sub optimizations from this session will perform at their peak with oplog enabled.

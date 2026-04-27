@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * WeKan snap: GridFS / CollectionFS binary files → filesystem
+ * wekan snap: GridFS / CollectionFS binary files → filesystem
  *
  * Reads GridFS chunks from the running FerretDB (MongoDB wire protocol),
  * writes files to $SNAP_COMMON/files/attachments/ and

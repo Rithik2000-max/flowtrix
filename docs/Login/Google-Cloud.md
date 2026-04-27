@@ -1,1 +1,1 @@
-Needs info how to enable websockets. Wekan requires working websockets support.
+Needs info how to enable websockets. wekan requires working websockets support.

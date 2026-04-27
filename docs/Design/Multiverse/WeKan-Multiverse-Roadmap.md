@@ -1,7 +1,7 @@
 ## About AVX
 
-If CPU does not have AVX, Snap Candidate Meteor 2 WeKan now uses qemu-user to run MongoDB, using Qemu AVX support.
-This was added at [WeKan v7.93](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v793-2025-07-18-wekan--release).
+If CPU does not have AVX, Snap Candidate Meteor 2 wekan now uses qemu-user to run MongoDB, using Qemu AVX support.
+This was added at [wekan v7.93](https://github.com/wekan/wekan/blob/main/CHANGELOG.md#v793-2025-07-18-wekan--release).
 
 ## What is not Cross-Platform
 
@@ -29,7 +29,7 @@ This was added at [WeKan v7.93](https://github.com/wekan/wekan/blob/main/CHANGEL
     - Gambas https://github.com/wekan/hx/tree/main/prototypes/ui/gambas
     - Python Py4Web https://py4web.com
     - Ruby on Rails https://github.com/werot
-    - WeKan Studio  https://github.com/wekan/wekanstudio
+    - wekan Studio  https://github.com/wekan/wekanstudio
 - Works at AmigaOS 3.x/4.x/MorphOS/AROS, Win/Mac/Linux
   - Web frameworks
     - FreePascal https://github.com/wekan/wami
@@ -104,17 +104,17 @@ This was added at [WeKan v7.93](https://github.com/wekan/wekan/blob/main/CHANGEL
 
 ## Screenshot
 
-Supporting many more webbrowsers. This is now part of WeKan Wami: https://github.com/wekan/wami .
+Supporting many more webbrowsers. This is now part of wekan Wami: https://github.com/wekan/wami .
 Also mentioned at https://wekan.fi/upgrade/ .
 
-<img src="manybrowser.png" width="100%" alt="Multiverse WeKan screenshot" />
+<img src="manybrowser.png" width="100%" alt="Multiverse wekan screenshot" />
 
 ## Talks
 
-- Maintainer of WeKan since December 2016, xet7 (Lauri Ojansivu), about WeKan Multiverse at EU NGI Dapsi https://www.youtube.com/watch?v=BPPjiZHVeyM
+- Maintainer of wekan since December 2016, xet7 (Lauri Ojansivu), about wekan Multiverse at EU NGI Dapsi https://www.youtube.com/watch?v=BPPjiZHVeyM
 - https://dapsi.ngi.eu/20-new-solutions-to-bring-the-power-of-data-back-to-peoples-hands/
 - https://dapsi.ngi.eu/hall-of-fame/multiverse/
-- WeKan Open Source kanban: add multiple Import/Export/Sync options and UI Designer, making it possible to create any app.
+- wekan Open Source kanban: add multiple Import/Export/Sync options and UI Designer, making it possible to create any app.
 
 ## Roadmap
 
@@ -217,11 +217,11 @@ or have Javascript disabled for security reasons.
 - https://www.techempower.com/benchmarks/
 - https://github.com/TechEmpower/FrameworkBenchmarks/tree/master/frameworks
 
-## Screenshot of Multiverse WeKan at FreeDOS Dillo
+## Screenshot of Multiverse wekan at FreeDOS Dillo
 
 ![freedos-dillo](https://user-images.githubusercontent.com/15545/190492967-f2770d0e-86a1-4822-93e7-68c65b23d6c4.png)
 
-## Screenshot of Multiverse WeKan at Netsurf
+## Screenshot of Multiverse wekan at Netsurf
 
 ### Group and count by first character of board names
 
@@ -318,8 +318,8 @@ https://github.com/wekan/php/blob/main/page/allboardschar.php
 
 - Repo https://github.com/wekan/wedos
 - Features:
-  - DOS: .bat script, that shows menu, and uses SQLite DOS version to make queries to WeKan SQLite database
-  - Bash: .sh script, that shows menu, and uses SQLite CLI to make queris to WeKan SQLite database
+  - DOS: .bat script, that shows menu, and uses SQLite DOS version to make queries to wekan SQLite database
+  - Bash: .sh script, that shows menu, and uses SQLite CLI to make queris to wekan SQLite database
 
 ### Minio
 

@@ -27,7 +27,7 @@ Meteor.startup(async () => {
       }
 
       // Always set title tag based on productName
-      const productName = (setting && setting.productName) ? setting.productName : 'Wekan';
+      const productName = (setting && setting.productName) ? setting.productName : 'wekan';
       data.head += `\n  <title>${productName}</title>\n`;
 
       // Only add custom head tags if enabled

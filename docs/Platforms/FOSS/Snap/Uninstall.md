@@ -6,7 +6,7 @@ List what snap services are running:
 ```
 sudo snap services
 ```
-Uninstall Wekan snap and delete all Wekan data. If you have other snaps installed, you can remove them too. Don't remove core, it's part of snap itself.
+Uninstall wekan snap and delete all wekan data. If you have other snaps installed, you can remove them too. Don't remove core, it's part of snap itself.
 ```
 sudo snap stop wekan
 

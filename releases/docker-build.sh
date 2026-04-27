@@ -2,7 +2,7 @@
 
 if [ $# -ne 1 ]
   then
-    echo "Syntax with Wekan version number:"
+    echo "Syntax with wekan version number:"
     echo "  ./releases/docker-build.sh 8.24"
     exit 1
 fi

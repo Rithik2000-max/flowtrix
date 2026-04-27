@@ -1,23 +1,23 @@
 [Browser compatibility matrix](../Browser/Browser-compatibility-matrix)
 
-## Install your Wekan server as an app
+## Install your wekan server as an app
 
-- At below info, `Navigate to login page of Wekan` is your Wekan server, example https://wekan.yourcompany.com/sign-in
+- At below info, `Navigate to login page of wekan` is your wekan server, example https://wekan.yourcompany.com/sign-in
 - App icon at Windows desktop, mobile etc
 - App does not have webbrowser buttons like address bar
-- Works in Wekan v4.02 and newer
+- Works in wekan v4.02 and newer
 
 ### Windows desktop: Windows Chromium Edge
 
 1. Open Chromium Edge.
 
-2. Navigate to login page of Wekan
+2. Navigate to login page of wekan
 
 3. From Edge menu, install site as app, by clicking top right `⋮` and this menu, that can be used to install and manage/remove apps:
 
 <img src="chromium-edge-install-pwa.png" width="60%" alt="Install PWA at Chromium Edge" />
 
-4. In next popup, give name to app, like `YourCompany WeKan`, and click `Add`
+4. In next popup, give name to app, like `YourCompany wekan`, and click `Add`
 
 5. Now new app is in your Windows Start menu. 
 
@@ -25,7 +25,7 @@
 
 1. Open Safari.
 
-2. Navigate to login page of Wekan.
+2. Navigate to login page of wekan.
 
 3. At middle bottom click Share button that is box with arrow up.
 
@@ -35,7 +35,7 @@
 
 1. Open Chrome
 
-2. Navigate to login page of Wekan.
+2. Navigate to login page of wekan.
 
 3. Click top right menu `⋮` / Add to home screen.
 
@@ -45,7 +45,7 @@
 
 1. Open Firefox.
 
-2. Navigate to login page of Wekan.
+2. Navigate to login page of wekan.
 
 3. At right side of URL address, click button that has + inside of home icon.
 
@@ -55,7 +55,7 @@
 
 1. Open Brave.
 
-2. Navigate to login page of Wekan.
+2. Navigate to login page of wekan.
 
 3. Click bottom right menu `⋮` / Add to home screen.
 
@@ -65,7 +65,7 @@
 
 1. Open Opera.
 
-2. Navigate to login page of Wekan.
+2. Navigate to login page of wekan.
 
 3. Click top right menu `⋮` / Add to / Home screen.
 
@@ -75,15 +75,15 @@
 
 1. Open Vivaldi.
 
-2. Navigate to login page of Wekan.
+2. Navigate to login page of wekan.
 
 3. At right side of URL address, click [V] / Add to home screen.
 
 4. Follow the onscreen instructions to install.
 
-## Fullscreen Android app with Caddy and WeKan Server
+## Fullscreen Android app with Caddy and wekan Server
 
-These are mostly just notes to WeKan maintainer xet7 itself, how xet7 did get official WeKan Android Play Store app working at fullscreen of Android phone and Android tablet. Requires a lot time to setup, not recommended.
+These are mostly just notes to wekan maintainer xet7 itself, how xet7 did get official wekan Android Play Store app working at fullscreen of Android phone and Android tablet. Requires a lot time to setup, not recommended.
 
 Related, for creating apps to other appstores: https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix
 
@@ -91,7 +91,7 @@ Related, for creating apps to other appstores: https://github.com/wekan/wekan/wi
 
 2. PWABuilder has about 100+ downloadable icons etc webmanifest requirements like is at https://github.com/wekan/wekan/tree/main/public
 
-3. Clone WeKan repo, add favicons etc from step 2 to wekan/public/ , and build WeKan bundle from source like at https://github.com/wekan/wekan/wiki/Emoji . Note: Currently WeKan does not have feature for custom favicons, it would require a lot of work for 100+ favicons etc customizations.
+3. Clone wekan repo, add favicons etc from step 2 to wekan/public/ , and build wekan bundle from source like at https://github.com/wekan/wekan/wiki/Emoji . Note: Currently wekan does not have feature for custom favicons, it would require a lot of work for 100+ favicons etc customizations.
 
 4. Run bundle at server like https://github.com/wekan/wekan/wiki/Offline or https://github.com/wekan/wekan/wiki/Raspberry-Pi
 

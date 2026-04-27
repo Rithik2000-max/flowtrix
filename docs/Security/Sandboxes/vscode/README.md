@@ -4,7 +4,7 @@ Related files at this repo `.vscode` at [this commit](https://github.com/wekan/w
 
 ## 1) Install Debian
 
-Install Debian with username `wekan`, so that WeKan repo here, only directory where VSCode will have access:
+Install Debian with username `wekan`, so that wekan repo here, only directory where VSCode will have access:
 ```
 /home/wekan/repos/wekan
 ```
@@ -31,8 +31,8 @@ nano ~/.local/share/applications/wekan-vscode.desktop
 Content:
 ```
 [Desktop Entry]
-Name=VS Code - WeKan
-Comment=Open the WeKan project with Flatpak
+Name=VS Code - wekan
+Comment=Open the wekan project with Flatpak
 Exec=flatpak run com.visualstudio.code /home/wekan/repos/wekan
 Icon=com.visualstudio.code
 Terminal=false

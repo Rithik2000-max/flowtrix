@@ -5,7 +5,7 @@
 
 ----
 
-[Caddy 2 .well-known/assetlinks.json config for WeKan Android Play Store app](../PWA#fullscreen-android-app-with-caddy-and-wekan-server)
+[Caddy 2 .well-known/assetlinks.json config for wekan Android Play Store app](../PWA#fullscreen-android-app-with-caddy-and-wekan-server)
 
 # CloudFlare DNS
 
@@ -26,7 +26,7 @@ https://github.com/wekan/wekan/wiki/Sandstorm
 
 ## Caddy 2
 
-WeKan Snap Candidate for any Snap distros: https://github.com/wekan/wekan/wiki/OpenSuse , disable internal old Caddy 1, when using Caddy 2:
+wekan Snap Candidate for any Snap distros: https://github.com/wekan/wekan/wiki/OpenSuse , disable internal old Caddy 1, when using Caddy 2:
 ```
 sudo snap set wekan caddy-enabled='false'
 sudo snap set wekan port='3001'
@@ -68,7 +68,7 @@ Example:
         redir @http https://{host}{uri}
 }
 
-# WeKan board, proxy to localhost port, or IP-ADDRESS:PORT
+# wekan board, proxy to localhost port, or IP-ADDRESS:PORT
 boards.example.com {
         tls {
                 load /var/snap/wekan/common/certs
@@ -136,10 +136,10 @@ boards.wekan.team {
 	header /site.webmanifest/* Content-Type application/json
 	header /site.webmanifest/* Access-Control-Allow-Origin *
 	respond /site.webmanifest ` {
-		"name": "Wekan",
-		"short_name": "Wekan",
+		"name": "wekan",
+		"short_name": "wekan",
 		"icons": [ {
-			"src": "svg-etc/wekan-logo-512.svg",
+			"src": "svg-etc/Flowtrix-logo-512.svg",
 			"sizes": "any",
 			"type": "image/svg"
 		}		, {

@@ -75,7 +75,7 @@ meteor=/home/wekan/.meteor/meteor
 sudo -u wekan ${meteor} npm install
 sudo -u wekan ${meteor} build --directory /home/wekan/app_build
 sudo rm /home/wekan/app_build/bundle/programs/server/npm/node_modules/meteor/rajit_bootstrap3-datepicker/lib/bootstrap-datepicker/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
-# Remove legacy webbroser bundle, so that Wekan works also at Android Firefox, iOS Safari, etc.
+# Remove legacy webbroser bundle, so that wekan works also at Android Firefox, iOS Safari, etc.
 rm -rf /home/wekan/app_build/bundle/programs/web.browser.legacy
 cd /home/wekan/app_build/bundle/programs/server/
 sudo npm install

@@ -1,30 +1,30 @@
 # Upgrading
 
-Newest WeKan uses MongoDB 6.0.3.
+Newest wekan uses MongoDB 6.0.3.
 
 Current working way to upgrade is:
 
 ## Docker
 
 1. Create Mongodump of your database like at [Backup page](https://github.com/wekan/wekan/wiki/Backup)
-2. Use newest WeKan docker-compose.yml from https://github.com/wekan/wekan with WRITABLE_PATH setup to Rclone/MinIO like below this page
+2. Use newest wekan docker-compose.yml from https://github.com/wekan/wekan with WRITABLE_PATH setup to Rclone/MinIO like below this page
 3. Mongorestore to MongoDB 6.0.3 database
-4. Use WeKan Admin Panel `Move all attachments to filesystem` button to move all attachments to MinIO.
+4. Use wekan Admin Panel `Move all attachments to filesystem` button to move all attachments to MinIO.
 5. Create Mongodump, that this time does not have any attachments, and is much smaller.
 6. Mongorestore to MongoDB 6.0.3 database.
-7. Start WeKan.
+7. Start wekan.
 
 ## Snap
 
 Similar Mongodump and Mongorestore above, with these info:
-- https://github.com/wekan/wekan-snap/wiki/Candidate-WeKan-Snap-Manual-Upgrade
+- https://github.com/wekan/wekan-snap/wiki/Candidate-wekan-Snap-Manual-Upgrade
 - https://github.com/wekan/wekan/issues/4780
 
 # Introduction
 
 With Rclone https://rclone.org , it's possible to use many cloud filesystems, like AWS S3, MinIO https://min.io , etc.
 
-Newest WeKan has features to move files between MongoDB GridFS and filesystem.
+Newest wekan has features to move files between MongoDB GridFS and filesystem.
 
 Instead of filesystem, Rclone mounted cloud filesystem directory can be used, like MinIO.
 
@@ -32,7 +32,7 @@ Instead of filesystem, Rclone mounted cloud filesystem directory can be used, li
 
 Note: In some cases, only buttons `Move all attachments` at top are visible. In some other cases, there is more visible, like moving all attachments of board, etc, maybe when some have been already moved.
 
-<img src="https://wekan.fi/rclone/wekan-admin-panel.png" width="100%" alt="Wekan Admin Panel file move" />
+<img src="https://wekan.fi/rclone/wekan-admin-panel.png" width="100%" alt="wekan Admin Panel file move" />
 
 ## Screenshot 2: Files at MinIO after moving all to filesystem
 
@@ -147,7 +147,7 @@ Related RocketChat docs about MinIO:
 - https://github.com/RocketChat/Rocket.Chat/tree/develop/apps/meteor/app/file-upload
 - https://github.com/RocketChat/Rocket.Chat/pulls?q=is%3Apr+minio+is%3Aclosed
 
-Storage path during developing WeKan, for example:
+Storage path during developing wekan, for example:
 ```
 ./rebuild-wekan.sh
 

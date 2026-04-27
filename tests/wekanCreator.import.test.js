@@ -1,5 +1,5 @@
 /**
- * Test: WekanCreator import with swimlane preservation
+ * Test: wekanCreator import with swimlane preservation
  *
  * Simulates exporting a board with swimlanes and importing it back,
  * verifying that:
@@ -144,7 +144,7 @@ const mockExportedBoardWithIdField = {
 function testIdNormalization() {
   console.log('\n=== Test: ID Normalization (id → _id) ===');
 
-  // Simulate the normalization logic from WekanCreator constructor
+  // Simulate the normalization logic from wekanCreator constructor
   const normalizeIds = arr => {
     if (!arr) return;
     arr.forEach(item => {
@@ -188,7 +188,7 @@ function testIdNormalization() {
 function testSwimlaneMapping() {
   console.log('\n=== Test: Swimlane Mapping (export → import) ===');
 
-  // Simulate WekanCreator swimlane mapping
+  // Simulate wekanCreator swimlane mapping
   const swimlanes = {};
   const swimlaneIndexMap = {}; // Track old → new ID mappings
 
@@ -228,7 +228,7 @@ function testDefaultSwimlaneCreation() {
     swimlanes: [],
   };
 
-  // Simulate the default swimlane logic from WekanCreator
+  // Simulate the default swimlane logic from wekanCreator
   let swimlanes = {};
   let defaultSwimlaneId = null;
 
@@ -299,7 +299,7 @@ function testFullImportCycle() {
 if (typeof describe === 'undefined') {
   // Running in Node.js or standalone (not Mocha)
   console.log('====================================');
-  console.log('WekanCreator Import Tests');
+  console.log('wekanCreator Import Tests');
   console.log('====================================');
 
   testIdNormalization();

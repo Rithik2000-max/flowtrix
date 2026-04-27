@@ -15,14 +15,14 @@ template(name="main")
       link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
       link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
       link(rel="manifest" crossOrigin="use-credentials" href="/site.webmanifest")
-      link(rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5")
-      meta(name="apple-mobile-web-app-title" content="Wekan")
-      meta(name="application-name" content="Wekan")
-      meta(name="msapplication-TileColor" content="#00aba9")
+      link(rel="mask-icon" href="/safari-pinned-tab.svg" color="#fbab21")
+      meta(name="apple-mobile-web-app-title" content="board")
+      meta(name="application-name" content="board")
+      meta(name="msapplication-TileColor" content="#0e53d4")
       meta(name="theme-color" content="#ffffff")
       //link(rel="stylesheet" type="text/css" class="__meteor-css__" href="css/html5-default-theme.css")
 
-template(name="userFormsLayout")
+//- template(name="userFormsLayout")
   section.auth-layout
     if currentSetting.hideLogo
       h1.at-form-landing-logo
@@ -39,7 +39,9 @@ template(name="userFormsLayout")
           img(src="{{currentSetting.customLoginLogoImageUrl}}" width="300" height="auto")
           br
       else
-        img(src="{{pathFor '/wekan-logo.svg'}}" alt="" width="300" height="auto")
+        a(href="{{pathFor '/'}}")
+       img(src="{{pathFor '/Flowtrix-logo.png'}}" alt="" width="300" height="auto")
+       img(src="/Flowtrix-logo.png" alt="Flowtrix" width="300")
         br
   if currentSetting.textBelowCustomLoginLogo
     hr
@@ -78,7 +80,59 @@ template(name="userFormsLayout")
                   option(value="{{tag}}") {{name}} (RTL)
                 else
                   option(value="{{tag}}") {{name}}
+template(name="userFormsLayout")
+  section.auth-layout
 
+    // 🔥 FORCE FLOWTRIX LOGO (no conditions)
+    h1.at-form-landing-logo
+      img(src="/Flowtrix-logo.png" alt="Flowtrix" width="300")
+      br
+
+  if currentSetting.textBelowCustomLoginLogo
+    hr
+    section.textBelowCustomLoginLogo
+      +viewer
+        | {{currentSetting.textBelowCustomLoginLogo}}
+    hr
+
+  section.auth-layout
+    section.auth-dialog
+      if isLoading
+        +loader
+      else
+        // Error message
+        div#login-error-message(
+          role="alert"
+          aria-live="assertive"
+          style="color: #d32f2f; margin-bottom: 1em;"
+        )
+
+        +Template.dynamic(template=content)
+
+        if currentSetting.displayAuthenticationMethod
+          +connectionMethod(authenticationMethod=currentSetting.defaultAuthenticationMethod)
+
+        if isLegalNoticeLinkExist
+          div#legalNoticeDiv
+            span#legalNoticeSpan {{_ 'acceptance_of_our_legalNotice'}}
+            a#legalNoticeAtLink.at-link(
+              href="{{currentSetting.legalNotice}}"
+              target="_blank"
+              rel="noopener noreferrer"
+            )
+              | {{_ 'legalNotice'}}
+
+        div.at-form-lang
+          label(for="userform-set-language-select") {{_ 'changeLanguagePopup-title'}}
+          select.select-lang.js-userform-set-language#userform-set-language-select(
+            aria-label="{{_ 'changeLanguagePopup-title'}}"
+          )
+            each languages
+              if isCurrentLanguage
+                option(value="{{tag}}" selected="selected") {{name}}
+              else
+                option(value="{{tag}}") {{name}}
+                
 template(name="defaultLayout")
   +header
   #content

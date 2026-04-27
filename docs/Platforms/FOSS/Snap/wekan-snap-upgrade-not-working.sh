@@ -24,7 +24,7 @@ fi
 
 #cpuavx=$(cat /proc/cpuinfo | grep avx)
 #if [ -z "${cpuavx}" ]; then
-#  echo "Your CPU does not support AVX. WeKan will add support for AVX soon, by running MongoDB 6 at Qemu."
+#  echo "Your CPU does not support AVX. wekan will add support for AVX soon, by running MongoDB 6 at Qemu."
 #  exit 1
 #fi
 
@@ -36,12 +36,12 @@ echo "Backups will be stored to $BACKUPDIR . Change it at top of this script, to
 echo "Backup directory requires a lot of disk space. It will have copy of /var/snap/wekan/common and mongodump."
 
 PS3='Please enter your choice: '
-options=("Upgrade WeKan Snap from 6.09 to newest" "Downgrade WeKan Snap from newest to 6.09" "Quit")
+options=("Upgrade wekan Snap from 6.09 to newest" "Downgrade wekan Snap from newest to 6.09" "Quit")
 
 select opt in "${options[@]}"
 do
     case $opt in
-        "Upgrade WeKan Snap from 6.09 to newest")
+        "Upgrade wekan Snap from 6.09 to newest")
 
               echo "STEP 1: BACKUP"
 
@@ -53,7 +53,7 @@ do
               export LD_LIBRARY_PATH=/snap/$SNAPNAME/current/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
               export PATH=/snap/$SNAPNAME/current/bin:/snap/$SNAPNAME/current/usr/bin:$PATH
 
-              # Stop Wekan
+              # Stop wekan
               snap stop $SNAPNAME.wekan
               snap start $SNAPNAME.mongodb
 
@@ -70,9 +70,9 @@ do
               cp -pR /var/snap/$SNAPNAME/common $BACKUPDIR/
               snap get $SNAPNAME > $BACKUPDIR/snap.sh
 
-              echo "STEP 2: UPGRADE WeKan"
+              echo "STEP 2: UPGRADE wekan"
 
-              # Stop WeKan
+              # Stop wekan
               snap stop $SNAPNAME
 
               # Remove old files (after backup)
@@ -217,8 +217,8 @@ do
               break
               ;;
 
-    "Downgrade WeKan Snap from newest to 6.09")
-              echo "Downgrading WeKan Snap from newest to 6.09."
+    "Downgrade wekan Snap from newest to 6.09")
+              echo "Downgrading wekan Snap from newest to 6.09."
 
               snap stop $SNAPNAME
 

@@ -4,7 +4,7 @@
 
 MIT:
 
-- WeKan (MIT, Node.js/Meteor/MongoDB) https://github.com/wekan/wekan is maintained, major features being added, see https://github.com/wekan/wekan/wiki/Deep-Dive-Into-WeKan
+- wekan (MIT, Node.js/Meteor/MongoDB) https://github.com/wekan/wekan is maintained, major features being added, see https://github.com/wekan/wekan/wiki/Deep-Dive-Into-wekan
 - Kanboard (MIT, PHP) https://github.com/kanboard/kanboard is at maintenance mode, no major new feature development. There is still security fixes etc.
 - 4gaBoards (MIT, Node.js/Sails.js/PostgreSQL) https://github.com/RARgames/4gaBoards is maintained fork of Planka
 - Godello (MIT, Godot) https://github.com/alfredbaudisch/Godello can save locally, maybe no multi-user support yet
@@ -31,13 +31,13 @@ Other kanbans maybe listed at https://github.com/KanRule
 
 ## Please [search from ChangeLog page](https://github.com/wekan/wekan/blob/main/CHANGELOG.md) instead
 
-Please [search from ChangeLog page](https://github.com/wekan/wekan/blob/main/CHANGELOG.md) instead about does Wekan have some feature.
+Please [search from ChangeLog page](https://github.com/wekan/wekan/blob/main/CHANGELOG.md) instead about does wekan have some feature.
 
-This comparison below is over one year old and very outdated. All of Wekan/Trello/Restyaboard have changed very much and have many new features and fixes.
+This comparison below is over one year old and very outdated. All of wekan/Trello/Restyaboard have changed very much and have many new features and fixes.
 
 ## Basic features
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Price | Free and Open Source, [MIT license](https://github.com/wekan/wekan/blob/main/LICENSE). Free for Commercial Use. | Free with limitations, Monthly payment, Annual Subscription, Quote-based | Open Core
 Whitelabeling | Yes. Admin Panel/Layout: Hide Logo, Custom Product Name. | No | $ Yes
@@ -47,7 +47,7 @@ Hosting | [Self-host or SaaS provider](Platforms) | SaaS | Self-host
 
 ## Basic features: Board
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Activities fetch | WebSocket | WebSocket | Polling (Better, for easy scaling)
 Multiple language | Yes 70 | Yes 29 | Yes 38
@@ -55,7 +55,7 @@ Keyboard shortcuts | Yes | Yes | Yes
 Boards | Yes | Yes | Yes
 Closed boards listing | Yes, at Archive | Yes | Yes
 Starred boards listing | No, starred and non-starred at All Boards | No | Yes
-Add board with predefined templates | Personal templates, Import Board from Trello or Wekan | No | Yes
+Add board with predefined templates | Personal templates, Import Board from Trello or wekan | No | Yes
 Board stats | [Yes](Features#stats) | No | Yes
 Board - Add members | Yes | Yes | Yes
 Board - Remove members | Yes | Yes | Yes
@@ -71,14 +71,14 @@ Board sync with google calendar | No | Yes | Yes
 
 ## Basic features: Swimlanes
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Swimlanes | Yes | External [Chrome Add-On](https://chrome.google.com/webstore/detail/swimlanes-for-trello/lhgcmlaedabaaaihmfdkldejjjmialgl) and [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/swimlanes-for-trello/) | No
 Change Swimlane Color | Yes | ? | ?
 
 ## Basic features: Lists
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Create list | Yes | Yes | Yes
 List color | Yes | No | Yes
@@ -93,7 +93,7 @@ Show attachments in list | No. Only on card. | No | Yes
 
 ## Basic features: Cards
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Map card | [Not yet](https://github.com/wekan/wekan/issues/755) | No | ?
 Filter cards | Yes, also with Regex | Yes | Yes
@@ -137,7 +137,7 @@ Button to delete all archived items | [Not yet](https://github.com/wekan/wekan/i
 
 ## Basic features: Checklists
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Checklist - Add item | Yes | Yes | Yes
 Copy multiple lines from Excel/Project and paste as one or many checklist items | [Not yet](https://github.com/wekan/wekan/issues/1846) | Yes | ?
@@ -148,14 +148,14 @@ Checklist - Select emoji | [No](https://github.com/wekan/wekan/issues/1537) | Ye
 
 ## Basic features: Search
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Search | Only on one board, also with regex. And add linked card search from any board. | Yes | $ Yes
 Save search | No | Yes | No
 
 ## Basic features: Organizations
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Organizations list on profile | Yes, at All Boards page | Yes | Yes
 Organizations | [Yes](https://github.com/wekan/wekan/issues/802) | Yes | Yes
@@ -174,19 +174,19 @@ Remove organization | No | Yes | Yes
 
 ## Basic features: Offline
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
-Offline sync - use without internet | No. You can install Wekan to your own computer and use it locally. | No | Yes
+Offline sync - use without internet | No. You can install wekan to your own computer and use it locally. | No | Yes
 
 ## Basic features: Diff, Revisions and Undo
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Undo from activities | No | No | Yes
 
 ## Basic features: JSON API
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 API explorer | No | No | Yes
 OpenAPI | [Yes](https://github.com/wekan/wekan/tree/main/openapi) [here](https://wekan.fi/api/) | ? | ?
@@ -198,7 +198,7 @@ Integrated IFTTT | [Yes](IFTTT) | No | No
 
 ## Basic features: Email and Notifications
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Email-to-board settings | No, requires your code to use REST API | Yes | Yes
 Email templates management | No | No | Yes
@@ -210,7 +210,7 @@ Notification for card overdue | Yes, see snap/docker-compose.yml email settings 
 
 ## Basic features: Settings
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Additional settings | No in Web UI, most settings at CLI | Yes | Yes (Basic only)
 Profile	| Yes | Yes | Yes
@@ -222,7 +222,7 @@ Permanently delete your entire account forever?	| No | Yes | Yes (Admin can dele
 
 ## Apps for productivity: Login
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Login with username or email | Yes | Yes | Yes
 LDAP login | Standalone: [Yes](LDAP). Sandstorm: Yes. | No | $ Yes
@@ -233,12 +233,12 @@ Passwordless email login | Standalone: No. Sandstorm: Yes. | No | No
 
 ## Apps for productivity: Import / Export
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Import board from Trello | Yes | No | Yes
-Import board from Wekan | Yes | No | Yes
+Import board from wekan | Yes | No | Yes
 Import from GitHub | No | No | $ Yes
-Export board to Wekan JSON, includes attachments | Yes | No | ?
+Export board to wekan JSON, includes attachments | Yes | No | ?
 Export board to CSV | Yes | $ Yes | $ Yes
 Export board to Excel | Yes | ? | ?
 Export JSON card | No | Yes | No
@@ -254,7 +254,7 @@ Show attachments in board | No, only at each card | No | Yes
 
 ## Apps for productivity
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Apps (Power-ups) | All integrated in, no separate plugin/app  install | Yes | Yes
 Custom Field App | [Yes](Custom-Fields) | Yes | $ Yes
@@ -287,14 +287,14 @@ Print board | No | No | $ Yes
 
 ## Apps for productivity: Checklist Templates
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Website QA Checklist | No | No | $ Yes
 SEO Checklist | No | No | $ Yes
 
 ## Apps for productivity: Mobile Apps
 
-Features | Wekan | Trello | Restyaboard
+Features | wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 iOS Mobile App | [Not yet](Friend). Mobile Chrome browser works. | Yes | Yes
 Android Mobile App | [Yes](Browser-compatibility-matrix) | Yes | Yes

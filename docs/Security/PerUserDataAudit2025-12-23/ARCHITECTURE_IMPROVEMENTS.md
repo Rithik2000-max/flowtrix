@@ -1,8 +1,8 @@
-# Wekan Persistence Architecture Improvements
+# wekan Persistence Architecture Improvements
 
 ## Changes Implemented
 
-This document describes the architectural improvements made to Wekan's persistence layer to ensure proper separation between board-level data and per-user UI preferences.
+This document describes the architectural improvements made to wekan's persistence layer to ensure proper separation between board-level data and per-user UI preferences.
 
 ---
 

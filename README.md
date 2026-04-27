@@ -1,4 +1,4 @@
-# WeKan ® - Open Source kanban
+# wekan ® - Open Source kanban
 
 ## Downloads
 
@@ -14,8 +14,8 @@ docker-compose.yml at https://github.com/wekan/wekan/blob/main/docker-compose.ym
 
 ## Standards
 
-- [WeKan and Standard for Public Code](https://wekan.fi/standard-for-public-code/) assessment was made at 2023-11.
-  Currently Wekan meets 8 out of 16 criteria out of the box.
+- [wekan and Standard for Public Code](https://wekan.fi/standard-for-public-code/) assessment was made at 2023-11.
+  Currently wekan meets 8 out of 16 criteria out of the box.
   Some others could be met with small changes.
 
 ## Code stats
@@ -25,14 +25,14 @@ docker-compose.yml at https://github.com/wekan/wekan/blob/main/docker-compose.ym
 - [Open Hub](https://www.openhub.net/p/wekan)
 - [OSS Insight](https://ossinsight.io/analyze/wekan/wekan)
 
-## Translate WeKan ® at Transifex
+## Translate wekan ® at Transifex
 
 Translations to non-English languages are accepted only at [Transifex](https://app.transifex.com/wekan/wekan) using webbrowser.
 New English strings of new features can be added as PRs to master branch file wekan/imports/i18n/data/en.i18n.json .
 
-## WeKan ® feature requests and bugs
+## wekan ® feature requests and bugs
 
-Please add most of your questions as GitHub issue: [WeKan ® Feature Requests and Bugs](https://github.com/wekan/wekan/issues).
+Please add most of your questions as GitHub issue: [wekan ® Feature Requests and Bugs](https://github.com/wekan/wekan/issues).
 It's better than at chat where details get lost when chat scrolls up.
 
 ## Discussions
@@ -51,9 +51,9 @@ See bottom of https://github.com/wekan/wekan/issues/3874
 - Please read the [FAQ](https://github.com/wekan/wekan/blob/main/docs/FAQ/FAQ.md) first
 - Please don't feed the [trolls](https://github.com/wekan/wekan/blob/main/docs/FAQ/FAQ.md#why-am-i-called-a-troll) and [spammers](https://github.com/wekan/wekan/blob/main/docs/FAQ/FAQ.md#why-am-i-called-a-spammer) that are mentioned in the FAQ :)
 
-## About WeKan ®
+## About wekan ®
 
-WeKan ® is a completely [Open Source][open_source] and [Free software][free_software]
+wekan ® is a completely [Open Source][open_source] and [Free software][free_software]
 collaborative kanban board application with MIT license.
 
 Whether you’re maintaining a personal todo list, planning your holidays with some friends,
@@ -61,45 +61,45 @@ or working in a team on your next revolutionary idea, Kanban boards are an unbea
 to keep your things organized. They give you a visual overview of the current state of your project,
 and make you productive by allowing you to focus on the few items that matter the most.
 
-Since WeKan ® is a free software, you don’t have to trust us with your data and can
-install Wekan on your own computer or server. In fact we encourage you to do
+Since wekan ® is a free software, you don’t have to trust us with your data and can
+install wekan on your own computer or server. In fact we encourage you to do
 that by providing one-click installation on various platforms.
 
-- WeKan ® is used in [most countries of the world](https://snapcraft.io/wekan).
-- WeKan ® largest user has 30k users using WeKan ® in their company.
-- WeKan ® has been [translated](https://app.transifex.com/wekan/) to about 105 languages.
-- [Features][features]: WeKan ® has real-time user interface.
-- [Platforms](https://wekan.fi/install/): WeKan ® supports many platforms.
-  WeKan ® is critical part of new platforms Wekan is currently being integrated to.
+- wekan ® is used in [most countries of the world](https://snapcraft.io/wekan).
+- wekan ® largest user has 30k users using wekan ® in their company.
+- wekan ® has been [translated](https://app.transifex.com/wekan/) to about 105 languages.
+- [Features][features]: wekan ® has real-time user interface.
+- [Platforms](https://wekan.fi/install/): wekan ® supports many platforms.
+  wekan ® is critical part of new platforms wekan is currently being integrated to.
 
 ## Requirements
 
-- 1 GB RAM minimum free for WeKan ®. Production server should have minimum total 4 GB RAM.
+- 1 GB RAM minimum free for wekan ®. Production server should have minimum total 4 GB RAM.
   For thousands of users, for example with [Docker](https://github.com/wekan/wekan/blob/main/docker-compose.yml): 3 frontend servers,
   each having 2 CPU and 2 wekan-app containers. One backend wekan-db server with many CPUs.
 - Enough disk space and alerts about low disk space. If you run out of disk space, MongoDB database gets corrupted.
-- SECURITY: Updating to newest WeKan ® version very often. Please check you do not have automatic updates of Sandstorm or Snap turned off.
-  Old versions have security issues because of old versions Node.js etc. Only newest WeKan ® is supported.
-  WeKan ® on Sandstorm is not usually affected by any Standalone WeKan ® (Snap/Docker/Source) security issues.
+- SECURITY: Updating to newest wekan ® version very often. Please check you do not have automatic updates of Sandstorm or Snap turned off.
+  Old versions have security issues because of old versions Node.js etc. Only newest wekan ® is supported.
+  wekan ® on Sandstorm is not usually affected by any Standalone wekan ® (Snap/Docker/Source) security issues.
 - [Reporting all new bugs immediately](https://github.com/wekan/wekan/issues).
-  New features and fixes are added to WeKan ® [many times a day](https://github.com/wekan/wekan/blob/main/CHANGELOG.md).
-- [Backups](https://github.com/wekan/wekan/blob/main/docs/Backup/Backup.md) of WeKan ® database once a day minimum.
+  New features and fixes are added to wekan ® [many times a day](https://github.com/wekan/wekan/blob/main/CHANGELOG.md).
+- [Backups](https://github.com/wekan/wekan/blob/main/docs/Backup/Backup.md) of wekan ® database once a day minimum.
   Bugs, updates, users deleting list or card, harddrive full, harddrive crash etc can eat your data. There is no undo yet.
-  Some bugs can cause WeKan ® board to not load at all, requiring manual fixing of database content.
+  Some bugs can cause wekan ® board to not load at all, requiring manual fixing of database content.
 
 ## Roadmap and Demo
 
-[Roadmap][roadmap_wekan] - Public read-only board at WeKan ® demo.
+[Roadmap][roadmap_wekan] - Public read-only board at wekan ® demo.
 
 [Developer Documentation][dev_docs]
 
-- There are many companies and individuals contributing code to WeKan ®, to add features and bugfixes
+- There are many companies and individuals contributing code to wekan ®, to add features and bugfixes
   [many times a day](https://github.com/wekan/wekan/blob/main/CHANGELOG.md).
 - [Please add Add new Feature Requests and Bug Reports immediately](https://github.com/wekan/wekan/issues).
 - [Commercial Support](https://wekan.fi/commercial-support/).
 
 We also welcome sponsors for features and bugfixes.
-By working directly with WeKan ® you get the benefit of active maintenance and new features added by growing WeKan ® developer community.
+By working directly with wekan ® you get the benefit of active maintenance and new features added by growing wekan ® developer community.
 
 ## Getting Started with Development
 
@@ -114,11 +114,11 @@ Please refer to the [developer documentation](https://github.com/wekan/wekan/blo
 
 ### Prerequisites
 
-Before building WeKan from source, ensure you have:
+Before building wekan from source, ensure you have:
 
 - **Git** - for cloning the repository
-- **Node.js 24.x** - WeKan requires Node.js 24.x
-- **Meteor** - the JavaScript framework WeKan is built with
+- **Node.js 24.x** - wekan requires Node.js 24.x
+- **Meteor** - the JavaScript framework wekan is built with
 
 ### Installing Node.js 24.x
 
@@ -136,13 +136,13 @@ nvm use 24
 curl https://install.meteor.com/ | sh
 ```
 
-### Building WeKan
+### Building wekan
 
 The `rebuild-wekan.sh` script guides you through a three-stage process:
 
 1. **Install dependencies (Option 1)** - Downloads all required Meteor packages and npm modules
-2. **Build WeKan (Option 2)** - Compiles the application
-3. **Run WeKan (Option 3)** - Starts the development server at http://localhost:4000
+2. **Build wekan (Option 2)** - Compiles the application
+3. **Run wekan (Option 3)** - Starts the development server at http://localhost:4000
 
 ```bash
 # Clone your fork
@@ -156,11 +156,11 @@ chmod +x rebuild-wekan.sh
 ./rebuild-wekan.sh
 # Press 1 and Enter
 
-# Step 2: Build WeKan (after dependencies complete)
+# Step 2: Build wekan (after dependencies complete)
 ./rebuild-wekan.sh
 # Press 2 and Enter
 
-# Step 3: Run WeKan in development mode
+# Step 3: Run wekan in development mode
 ./rebuild-wekan.sh
 # Press 3 and Enter
 ```
@@ -176,11 +176,11 @@ The development server will start at http://localhost:4000. Any changes you make
 
 [More screenshots at Features page](https://github.com/wekan/wekan/tree/main/docs/Features)
 
-[![Screenshot of WeKan ®][screenshot_wekan]][roadmap_wekan]
+[![Screenshot of wekan ®][screenshot_wekan]][roadmap_wekan]
 
 ## License
 
-WeKan ® is released under the very permissive [MIT license](LICENSE), and made
+wekan ® is released under the very permissive [MIT license](LICENSE), and made
 with [Meteor](https://www.meteor.com).
 
 [dev_docs]: https://github.com/wekan/wekan/blob/main/docs/DeveloperDocs/Developer-Documentation.md

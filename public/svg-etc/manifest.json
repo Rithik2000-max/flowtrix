@@ -1,35 +1,35 @@
 {
-  "name": "Wekan",
-  "short_name": "Wekan",
+  "name": "Flowtrix",
+  "short_name": "Flowtrix",
   "description": "Open-Source kanban",
   "icons": [
     {
-      "src": "wekan-logo-150.png",
+      "src": "Flowtrix-logo-150.png",
       "sizes": "150x150",
       "type": "image/png"
     },
     {
-      "src": "wekan-logo-150.svg",
+      "src": "Flowtrix-logo-150.svg",
       "sizes": "150x150",
       "type": "image/svg+xml"
     },
     {
-      "src": "wekan-logo-256.png",
+      "src": "Flowtrix-logo-256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "wekan-logo-256.svg",
+      "src": "Flowtrix-logo-256.svg",
       "sizes": "256x256",
       "type": "image/svg+xml"
     },
     {
-      "src": "wekan-logo-512.png",
+      "src": "Flowtrix-logo-512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "wekan-logo-512.svg",
+      "src": "Flowtrix-logo-512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml"
     }

@@ -1,16 +1,16 @@
 This is totally oversimplified TLDR comparison that leaves out a lot of details.
 
-## Both Wekan and Sandstorm
+## Both wekan and Sandstorm
 
 * Authentication
 * Admin Panel
-* Wekan kanban board
+* wekan kanban board
 * Can be installed to Ubuntu 16.04 64bit without Docker
 * Can run inside Docker, see [Sandstorm within Docker](https://docs.sandstorm.io/en/latest/install/#option-6-using-sandstorm-within-docker)
 
 ## Difference: User interface
 
-### Wekan
+### wekan
 
 [Themes feature](https://github.com/wekan/wekan/issues/781), pull requests welcome.
 
@@ -24,10 +24,10 @@ The user interface in Sandstorm is one of Sandstorm's [long list of high-end sec
 
 ## Difference: Hardware requirements
 
-### Wekan
+### wekan
 
 * Can run on less powerful hardware than Sandstorm
-* Could potentially run on ARM, if there is Meteor.js port for ARM. Some platform running on Raspberry Pi could already have Wekan, someone needs to do more research about it.
+* Could potentially run on ARM, if there is Meteor.js port for ARM. Some platform running on Raspberry Pi could already have wekan, someone needs to do more research about it.
 
 ### Sandstorm
 

@@ -20,7 +20,7 @@ else
 fi
 
 # If uploads directory does not exist, create it.
-# Wekan will store attachments there.
+# wekan will store attachments there.
 export WRITABLE_PATH=$SNAP_COMMON/files
 if [ ! -d $WRITABLE_PATH ]; then
   mkdir $WRITABLE_PATH

@@ -162,7 +162,7 @@ Meteor.methods({
         const fetchHeaders = {
           'Content-Type': 'application/json',
         };
-        if (token) fetchHeaders['X-Wekan-Token'] = token;
+        if (token) fetchHeaders['X-wekan-Token'] = token;
 
         if (!(await ReactiveCache.getIntegration({ url: integration.url }))) return;
 

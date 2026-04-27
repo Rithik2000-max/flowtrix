@@ -39,9 +39,9 @@ Vivaldi | Android Yes | Android Newest | Newest | Win/Mac/Linux
 Opera | Android Yes | Android Newest | Newest | Win/Mac/Linux
 Credge, Chromium Edge | Android Yes | Android | Newest | Win/Mac/Linux/Mobile
 Morph Browser | No | Yes | Yes | [Ubuntu Touch](https://ubports.com) based on Ubuntu 16.04 and 20.04 at all Ubuntu Touch devices, [RasPi3](https://ci.ubports.com/job/rootfs/job/rootfs-rpi/) (not RasPi4 yet). [Repo](https://gitlab.com/ubports/development/core/morph-browser)
-[OpenStore App](https://open-store.io/app/wekan.wekanteam) | Yes | Yes | Yes |  [Ubuntu Touch](https://ubports.com) app at [OpenStore](https://open-store.io/app/wekan.wekanteam) using Morph browser with Wekan demo & development server https://boards.wekan.team . App source code for Ubuntu 16.04 at https://github.com/wekan/wekan-openstore and Ubuntu 20.04 at https://github.com/wekan/wekan-openstore2
-[Microsoft Store App](https://www.microsoft.com/fi-fi/p/wekan/9p2mrxvd087r#activetab=pivot:overviewtab) | Yes | Yes | Yes | At Microsoft Store of Windows 10/11 desktop, made with [PWABuilder](https://www.pwabuilder.com/). Based on [Wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), changed app from EdgeHTML to Credge based with Wekan demo & development server https://boards.wekan.team
-[Android Play Store App](https://play.google.com/store/apps/details?id=team.wekan.boards.twa) | Yes | Yes | Yes | Based on [Wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), made with [PWABuilder](https://www.pwabuilder.com/), uses Android Chrome browser with Wekan demo & development server https://boards.wekan.team
+[OpenStore App](https://open-store.io/app/wekan.wekanteam) | Yes | Yes | Yes |  [Ubuntu Touch](https://ubports.com) app at [OpenStore](https://open-store.io/app/wekan.wekanteam) using Morph browser with wekan demo & development server https://boards.wekan.team . App source code for Ubuntu 16.04 at https://github.com/wekan/wekan-openstore and Ubuntu 20.04 at https://github.com/wekan/wekan-openstore2
+[Microsoft Store App](https://www.microsoft.com/fi-fi/p/wekan/9p2mrxvd087r#activetab=pivot:overviewtab) | Yes | Yes | Yes | At Microsoft Store of Windows 10/11 desktop, made with [PWABuilder](https://www.pwabuilder.com/). Based on [wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), changed app from EdgeHTML to Credge based with wekan demo & development server https://boards.wekan.team
+[Android Play Store App](https://play.google.com/store/apps/details?id=team.wekan.boards.twa) | Yes | Yes | Yes | Based on [wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), made with [PWABuilder](https://www.pwabuilder.com/), uses Android Chrome browser with wekan demo & development server https://boards.wekan.team
 [Thorium](https://thorium.rocks) | No | Yes | Yes | [Win/Win7/Mac/Linux/Android/RasPi](https://thorium.rocks), speed optimized
 [Supermium](https://github.com/win32ss/supermium) | No | No | Yes | 32bit: Windows XP, Windows 2003
 
@@ -49,7 +49,7 @@ Morph Browser | No | Yes | Yes | [Ubuntu Touch](https://ubports.com) based on Ub
 
 Browser | [PWA](PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
-Legacy Edge | No | No | Not | Not compatible with newest WeKan. Worked with Wekan v4.19 and before.
+Legacy Edge | No | No | Not | Not compatible with newest wekan. Worked with wekan v4.19 and before.
 
 ## MSHTML based
 
@@ -66,7 +66,7 @@ Internet Explorer | No | No | No | No | No
   - MPL-2.0 license
   - https://servo.org
   - Repo: https://github.com/servo/servo
-  - At https://www.youtube.com/watch?v=g9hzWXxUgiU was said, that Gmail works, so maybe WeKan could also work
+  - At https://www.youtube.com/watch?v=g9hzWXxUgiU was said, that Gmail works, so maybe wekan could also work
   - This month in Servo: color inputs, SVG, embedder JavaScript, and more
     - https://servo.org/blog/2025/06/18/this-month-in-servo/
     - https://news.ycombinator.com/item?id=44382451
@@ -78,7 +78,7 @@ Browser | [PWA](PWA) | Mobile | Desktop | OS
 [Chawan](https://chawan.net) | No | No | Yes | Linux/BSD. [Release 0.2.0](https://chawan.net/news/chawan-0-2-0.html), [HN](https://news.ycombinator.com/item?id=44293260)
 Elinks | No | No | Yes | Win/Mac/Linux/BSD/DOS TUI.
 
-## Ladybird based, not yet compatible with WeKan
+## Ladybird based, not yet compatible with wekan
 
 - BSD-2-Clause license
 - Website: https://ladybird.org

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Build WeKan ppc64le bundle - Meteor 3 style (no fibers needed).
+# Build wekan ppc64le bundle - Meteor 3 style (no fibers needed).
 #
 # This script rebuilds only the native Node.js modules for ppc64le.
 # Run on a ppc64le machine (e.g. IBM Power), or use a QEMU ppc64le environment.
@@ -9,7 +9,7 @@
 #   ./releases/build-bundle-ppc64le.sh 8.43
 
 if [ $# -ne 1 ]; then
-  echo "Syntax with Wekan version number:"
+  echo "Syntax with wekan version number:"
   echo "  ./releases/build-bundle-ppc64le.sh 8.43"
   exit 1
 fi

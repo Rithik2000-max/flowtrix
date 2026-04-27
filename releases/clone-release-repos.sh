@@ -42,7 +42,7 @@ git remote add upstream https://github.com/wekan/wekan
 cd ../wekan-gantt-gpl
 git remote add upstream https://github.com/wekan/wekan
 
-# 4) Go back to Wekan repo directory
+# 4) Go back to wekan repo directory
 cd ../wekan
 
 echo "Release repos ondra, gantt-gpl, and website cloned and upstreams set."

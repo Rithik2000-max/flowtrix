@@ -1,12 +1,12 @@
 ## TODO
 
-WeKan:
+wekan:
 - integration to Friend TODO list https://github.com/FriendUPCloud/friendup/issues/114
 - timezone https://github.com/wekan/wekan/wiki/Timezone
 
 Friend Desktop Cloud OS:
 - Secure encrypted skinnable fast Open Source desktop in webbrowser/mobile/desktop app
-- WeKan as app at Friend
+- wekan as app at Friend
 
 ## Chat
 
@@ -24,18 +24,18 @@ https://www.youtube.com/watch?v=SB4dNC7u2MU
 
 ## Roadmap
 
-- It's possible to use Wekan with Friend. At 2019-06-30 Wekan also works at [Raspberry Pi](Raspberry-Pi) like Friend already works, it makes possible local RasPi-only network.
+- It's possible to use wekan with Friend. At 2019-06-30 wekan also works at [Raspberry Pi](Raspberry-Pi) like Friend already works, it makes possible local RasPi-only network.
 - Then on local network you can use RasPi Cromium or Friend mobile/tablet Android/iOS app to connect to local network Friend desktop, also possible without connection to Internet.
-- If using RasPi4 with 4 GB RAM or more, it's possible to run Wekan+Friend+Desktop etc on same RasPi4, servers+client webbrowser.
+- If using RasPi4 with 4 GB RAM or more, it's possible to run wekan+Friend+Desktop etc on same RasPi4, servers+client webbrowser.
 - Alternative to RasPi is Orange Pi 5 that can have 16 GB RAM http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html
 
 ## Screenshot
 
-Wekan Friend development version at Friend Desktop. Not released to Friend Store yet.
+wekan Friend development version at Friend Desktop. Not released to Friend Store yet.
 
-![Wekan Friend development version screenshot](wekan-friend-dev.png)
+![wekan Friend development version screenshot](wekan-friend-dev.png)
 
-More Screenshots of Wekan and Friend at https://wekan.fi/blog/2018/05/upcoming-wekan-v1-00-and-platforms/
+More Screenshots of wekan and Friend at https://wekan.fi/blog/2018/05/upcoming-wekan-v1-00-and-platforms/
 
 ## Source code
 
@@ -43,7 +43,7 @@ Friend Server source code at GitHub https://github.com/FriendUPCloud/friendup . 
 
 Friend Apps source code at GitHub https://github.com/FriendUPCloud/friend-applications
 
-Wekan FriendUPApp source code at GitHub https://github.com/wekan/FriendUPApp
+wekan FriendUPApp source code at GitHub https://github.com/wekan/FriendUPApp
 
 Friend repos:
 
@@ -65,10 +65,10 @@ Other Web Desktops:
 - Win11 Svelte https://github.com/xet7/win11-svelte
 
 
-## News about Wekan at Friend
+## News about wekan at Friend
 
 - Friend Software Labs Releases FriendUP v1.2 Release Candidate https://medium.com/friendupcloud/friend-software-labs-releases-friendup-v1-2-release-candidate-637d7bf800d4
-- Medium 2018-01-26: With Friend Wekan! https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f , you can discuss at Hacker News https://news.ycombinator.com/item?id=16240639
+- Medium 2018-01-26: With Friend wekan! https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f , you can discuss at Hacker News https://news.ycombinator.com/item?id=16240639
 
 ## News about Friend
 
@@ -109,7 +109,7 @@ git clone https://github.com/FriendUPCloud/friend-applications
 ```
 git clone https://github.com/FriendSoftwareLabs/friendchat
 ```
-### 6. Clone Wekan App repo
+### 6. Clone wekan App repo
 ```
 git clone https://github.com/wekan/FriendUPApp
 ```
@@ -125,10 +125,10 @@ This will install:
 cd friendup
 ./install.sh
 ```
-### 9. Add Wekan app
+### 9. Add wekan app
 ```
 cd ~/repos/friendup/build/resources/webclient/apps
-ln -s ~/repos/FriendUPApp/Wekan Wekan
+ln -s ~/repos/FriendUPApp/wekan wekan
 ```
 ### 10. Add other apps
 ```
@@ -153,7 +153,7 @@ ln -s ~/repos/FriendUPCloud/friend-applications/TED TED
 cd ~/repos/friendup/build/modules
 ln -s ~/repos/mysupermodule mysupermodule
 ```
-### 12. Install [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
+### 12. Install [wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
 ```
 sudo apt-get -y install snapd
 sudo snap install wekan --channel=latest/candidate
@@ -163,7 +163,7 @@ sudo snap install wekan --channel=latest/candidate
 sudo snap set wekan root-url='http://192.168.0.100:5000'
 sudo snap set wekan port='5000'
 ```
-### 14. Start Wekan
+### 14. Start wekan
 ```
 sudo snap start wekan
 sudo snap enable wekan

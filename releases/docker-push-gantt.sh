@@ -3,11 +3,11 @@
 # Push locally built docker images to Quay.io and Docker Hub.
 
 # Check that there is 2 parameters of
-# of Wekan version number:
+# of wekan version number:
 
 if [ $# -ne 2 ]
   then
-    echo "Usage: ./push-docker.sh DOCKERBUILDTAG WEKANVERSION"
+    echo "Usage: ./push-docker.sh DOCKERBUILDTAG wekanVERSION"
     echo "Example: ./push-docker.sh 12345 5.70"
     exit 1
 fi

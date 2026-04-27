@@ -242,7 +242,7 @@ async executeMigrationStep(jobId, stepIndex, stepData, stepId) {
 ```javascript
 /**
  * Execute avatar migration from CollectionFS to Meteor-Files
- * In fresh WeKan installations, this migration is not needed
+ * In fresh wekan installations, this migration is not needed
  */
 async executeAvatarMigration(jobId, stepIndex, stepData) {
   try {
@@ -251,7 +251,7 @@ async executeAvatarMigration(jobId, stepIndex, stepData) {
       currentAction: 'Checking for legacy avatars...'
     });
 
-    // In fresh WeKan installations, avatars use Meteor-Files only
+    // In fresh wekan installations, avatars use Meteor-Files only
     // No CollectionFS avatars exist to migrate
     cronJobStorage.saveJobStep(jobId, stepIndex, {
       progress: 100,

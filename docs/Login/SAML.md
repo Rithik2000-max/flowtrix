@@ -1,9 +1,9 @@
-Related Meteor SAML code, not in WeKan yet: 
+Related Meteor SAML code, not in wekan yet: 
 
 - New: https://forums.meteor.com/t/meteor-and-saml/61561
 - Old link: https://forums.meteor.com/t/what-are-you-working-on/59187
 
-Sandstorm has SAML login, and old WeKan that will be updated someday:
+Sandstorm has SAML login, and old wekan that will be updated someday:
 
 - https://github.com/wekan/wekan/wiki/Sandstorm
 
@@ -42,9 +42,9 @@ Does not yet have [fixes from RocketChat SAML](https://github.com/RocketChat/Roc
 
 Please add pull requests if it does not work.
 
-Wekan clientside code is at `wekan/client/components/main/layouts.*`
+wekan clientside code is at `wekan/client/components/main/layouts.*`
 
-Wekan serverside code is at:
+wekan serverside code is at:
 - `wekan/server/authentication.js` at bottom
 - `wekan/packages/meteor-accounts-saml/*`
 

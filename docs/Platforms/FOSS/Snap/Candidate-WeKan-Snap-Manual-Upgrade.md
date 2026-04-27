@@ -4,13 +4,13 @@ Required time: If your database size is 500 GB, maybe 4 to 8 hours, or more. So 
 
 Warning: If you don't have enough disk space, you could get data loss.
 
-Warning2: When starting WeKan Candidate, it could temporarily save all attachments to `/var/snap/wekan/common/files/` or other directory below `common`. That's why xet7 is working on trying to create separate migration app that moves attachments to S3, and that WeKan could upload to S3. This upgrade experience could be improved later. It's just that there are some unknown unknows if there would be automatic upgrade, could it handle all upgrade and migration cases.
+Warning2: When starting wekan Candidate, it could temporarily save all attachments to `/var/snap/wekan/common/files/` or other directory below `common`. That's why xet7 is working on trying to create separate migration app that moves attachments to S3, and that wekan could upload to S3. This upgrade experience could be improved later. It's just that there are some unknown unknows if there would be automatic upgrade, could it handle all upgrade and migration cases.
 
-If you are have time to try tro update Snap from WeKan Stable to newest WeKan Candidate, to see does update work or not.
+If you are have time to try tro update Snap from wekan Stable to newest wekan Candidate, to see does update work or not.
 
 If you have problems, add comment to issue https://github.com/wekan/wekan/issues/4780
 
-## From WeKan Stable to Candidate
+## From wekan Stable to Candidate
 
 ### Preparation
 
@@ -22,7 +22,7 @@ sudo du -sh /var/snap/wekan/common
 
 df -h
 ```
-For example, if your database size is 500 GB, and disk is nearly full, you need to stop WeKan and move to bigger disk. If disk gets full, there is possibility to MongoDB database corruption. Making mongodump could maybe take 2x of current size, or more.
+For example, if your database size is 500 GB, and disk is nearly full, you need to stop wekan and move to bigger disk. If disk gets full, there is possibility to MongoDB database corruption. Making mongodump could maybe take 2x of current size, or more.
 
 Some external disk related steps are at https://github.com/wekan/wekan/wiki/Repair-MongoDB
 
@@ -32,7 +32,7 @@ Optional steps:
 
 a) Optionally, you could use [nosqlbooster](https://github.com/wekan/wekan/wiki/Backup#using-nosqlbooster-closed-source-mongodb-gui-with-wekan-snap-to-edit-mongodb-database) to save attachments to files, and export JSON to textfiles, before trying to update. There could also be files at `/var/snap/wekan/common/files` or other subdirectories. When saving attachments, note that there could be many files with same filename.
 
-b) Optinally, you can also save [all database content to JSON](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file#11b-dump-database-to-json-text-files), but if your database is about 500 GB then it could be too much disk space required, because attachments are at base64 encoded text in JSON files. It's better ot save attachments with [nosqlbooster](https://github.com/wekan/wekan/wiki/Backup#using-nosqlbooster-closed-source-mongodb-gui-with-wekan-snap-to-edit-mongodb-database).
+b) Optinally, you can also save [all database content to JSON](https://github.com/wekan/wekan/wiki/Export-from-wekan-Sandstorm-grain-.zip-file#11b-dump-database-to-json-text-files), but if your database is about 500 GB then it could be too much disk space required, because attachments are at base64 encoded text in JSON files. It's better ot save attachments with [nosqlbooster](https://github.com/wekan/wekan/wiki/Backup#using-nosqlbooster-closed-source-mongodb-gui-with-wekan-snap-to-edit-mongodb-database).
 
 #### 4. ssh to your server
 ```
@@ -129,7 +129,7 @@ sudo apt -y autoremove
 ```
 sudo snap stop wekan.wekan
 ```
-#### 10. Use WeKan Stable Snap mongodump version for dumping database
+#### 10. Use wekan Stable Snap mongodump version for dumping database
 ```
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
 
@@ -197,7 +197,7 @@ mongorestore --drop --port 27019 --noIndexRestore
 ```
 #### 16. Add back settings
 
-Recommended is to use [Caddy 2](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config) instead of Caddy1 that is included in WeKan Snap currently at 2022-12-21. Caddy 2 maybe will be included to WeKan Snap later.
+Recommended is to use [Caddy 2](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config) instead of Caddy1 that is included in wekan Snap currently at 2022-12-21. Caddy 2 maybe will be included to wekan Snap later.
 
 See if in your `snap-settings.sh` is this kind of command, are you using Caddy1 ?
 ```
@@ -216,13 +216,13 @@ You could also copy that file to common directory, if you like, or just keep it 
 ```
 sudo cp snap-settings.sh /var/snap/wekan/common/
 ```
-#### 17. Start WeKan
+#### 17. Start wekan
 ```
 sudo snap start wekan
 ```
-#### 18. Test are WeKan attachments visible
+#### 18. Test are wekan attachments visible
 
-#### 19. If you are using WeKan Snap Caddy1, if it does not work, change to Caddy2 https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config
+#### 19. If you are using wekan Snap Caddy1, if it does not work, change to Caddy2 https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config
 
 #### 20. Backup and cleanup
 
@@ -247,7 +247,7 @@ rm -rf common dump
 Also, keep [Daily Backups](https://github.com/wekan/wekan/wiki/Backup)
 
 
-## Oops it did not work. From WeKan Candidate back to Stable
+## Oops it did not work. From wekan Candidate back to Stable
 
 ```
 sudo snap stop wekan
@@ -269,8 +269,8 @@ sudo snap start wekan
 
 If you have problems, add comment to issue https://github.com/wekan/wekan/issues/4780
 
-## From WeKan Gantt GPL to WeKan Candidate
+## From wekan Gantt GPL to wekan Candidate
 
-- This is discontinued, Gantt features will be later added to WeKan MIT version.
+- This is discontinued, Gantt features will be later added to wekan MIT version.
 - Gantt version files are instead at `/var/snap/wekan-gantt-gpl/`
 - Gantt snap name is wekan-gantt-gpl

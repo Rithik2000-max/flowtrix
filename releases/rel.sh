@@ -2,7 +2,7 @@
 
 if [ $# -ne 1 ]
   then
-    echo "Syntax with Wekan version number:"
+    echo "Syntax with wekan version number:"
     echo "  ./rel.sh 6.61"
     exit 1
 fi

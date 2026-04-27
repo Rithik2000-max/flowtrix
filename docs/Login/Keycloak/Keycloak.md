@@ -16,7 +16,7 @@ Keycloak settings: [realm-export.zip](https://wekan.fi/keycloak/realm-export.zip
 
 [Keycloak at Docker Hub](https://hub.docker.com/r/jboss/keycloak)
 
-Environment Variables that need to be set in your Wekan environment:
+Environment Variables that need to be set in your wekan environment:
 
 > When creating a Client in keycloak, ensure the access type is confidential under the settings tab.  After clicking save, you will have a Credentials tab.  You can retrieve the secret from that location.
 

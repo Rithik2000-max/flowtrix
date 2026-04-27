@@ -41,12 +41,12 @@ const DateString = Match.Where(function(dateAsString) {
   return isValidDate(new Date(dateAsString));
 });
 
-export class WekanCreator {
+export class wekanCreator {
   constructor(data) {
     // we log current date, to use the same timestamp for all our actions.
     // this helps to retrieve all elements performed by the same import.
     this._nowDate = new Date();
-    // The object creation dates, indexed by Wekan id
+    // The object creation dates, indexed by wekan id
     // (so we only parse actions once!)
     this.createdAt = {
       board: null,
@@ -55,39 +55,39 @@ export class WekanCreator {
       swimlanes: {},
       customFields: {},
     };
-    // The object creator Wekan Id, indexed by the object Wekan id
+    // The object creator wekan Id, indexed by the object wekan id
     // (so we only parse actions once!)
     this.createdBy = {
       cards: {}, // only cards have a field for that
     };
 
-    // Map of labels Wekan ID => Wekan ID
+    // Map of labels wekan ID => wekan ID
     this.labels = {};
-    // Map of swimlanes Wekan ID => Wekan ID
+    // Map of swimlanes wekan ID => wekan ID
     this.swimlanes = {};
-    // Map of lists Wekan ID => Wekan ID
+    // Map of lists wekan ID => wekan ID
     this.lists = {};
-    // Map of cards Wekan ID => Wekan ID
+    // Map of cards wekan ID => wekan ID
     this.cards = {};
-    // Map of custom fields Wekan ID => Wekan ID
+    // Map of custom fields wekan ID => wekan ID
     this.customFields = {};
-    // Map of comments Wekan ID => Wekan ID
+    // Map of comments wekan ID => wekan ID
     this.commentIds = {};
-    // Map of attachments Wekan ID => Wekan ID
+    // Map of attachments wekan ID => wekan ID
     this.attachmentIds = {};
-    // Map of checklists Wekan ID => Wekan ID
+    // Map of checklists wekan ID => wekan ID
     this.checklists = {};
-    // Map of checklistItems Wekan ID => Wekan ID
+    // Map of checklistItems wekan ID => wekan ID
     this.checklistItems = {};
-    // The comments, indexed by Wekan card id (to map when importing cards)
+    // The comments, indexed by wekan card id (to map when importing cards)
     this.comments = {};
-    // Map of rules Wekan ID => Wekan ID
+    // Map of rules wekan ID => wekan ID
     this.rules = {};
-    // the members, indexed by Wekan member id => Wekan user ID
+    // the members, indexed by wekan member id => wekan user ID
     this.members = data.membersMapping ? data.membersMapping : {};
-    // Map of triggers Wekan ID => Wekan ID
+    // Map of triggers wekan ID => wekan ID
     this.triggers = {};
-    // Map of actions Wekan ID => Wekan ID
+    // Map of actions wekan ID => wekan ID
     this.actions = {};
 
     // maps a wekanCardId to an array of wekanAttachments
@@ -344,7 +344,7 @@ export class WekanCreator {
           color: label.color,
           name: label.name,
         };
-        // We need to remember them by Wekan ID, as this is the only ref we have
+        // We need to remember them by wekan ID, as this is the only ref we have
         // when importing cards.
         this.labels[label._id] = labelToCreate._id;
         boardToCreate.labels.push(labelToCreate);
@@ -364,7 +364,7 @@ export class WekanCreator {
       createdAt: this._now(),
       source: {
         id: boardToImport.id,
-        system: 'Wekan',
+        system: 'wekan',
       },
       // We attribute the import to current user,
       // not the author from the original object.
@@ -374,7 +374,7 @@ export class WekanCreator {
   }
 
   /**
-   * Create the Wekan cards corresponding to the supplied Wekan cards,
+   * Create the wekan cards corresponding to the supplied wekan cards,
    * as well as all linked data: activities, comments, and attachments
    * @param wekanCards
    * @param boardId
@@ -414,7 +414,7 @@ export class WekanCreator {
         card.members.forEach(sourceMemberId => {
           if (this.members[sourceMemberId]) {
             const wekanId = this.members[sourceMemberId];
-            // we may map multiple Wekan members to the same wekan user
+            // we may map multiple wekan members to the same wekan user
             // in which case we risk adding the same user multiple times
             if (!wekanMembers.find(wId => wId === wekanId)) {
               wekanMembers.push(wekanId);
@@ -433,7 +433,7 @@ export class WekanCreator {
         card.assignees.forEach(sourceMemberId => {
           if (this.members[sourceMemberId]) {
             const wekanId = this.members[sourceMemberId];
-            // we may map multiple Wekan members to the same wekan user
+            // we may map multiple wekan members to the same wekan user
             // in which case we risk adding the same user multiple times
             if (!wekanAssignees.find(wId => wId === wekanId)) {
               wekanAssignees.push(wekanId);
@@ -462,7 +462,7 @@ export class WekanCreator {
 
       // insert card
       const cardId = await Cards.direct.insertAsync(cardToCreate);
-      // keep track of Wekan id => Wekan id
+      // keep track of wekan id => wekan id
       this.cards[card._id] = cardId;
       // // log activity
       // Activities.direct.insert({
@@ -473,7 +473,7 @@ export class WekanCreator {
       //   listId: cardToCreate.listId,
       //   source: {
       //     id: card._id,
-      //     system: 'Wekan',
+      //     system: 'wekan',
       //   },
       //   // we attribute the import to current user,
       //   // not the author of the original card
@@ -537,7 +537,7 @@ export class WekanCreator {
             if (!validation.valid) {
               if (process.env.DEBUG === 'true') {
                 console.warn(
-                  'Blocked attachment URL during Wekan import:',
+                  'Blocked attachment URL during wekan import:',
                   validation.reason,
                   att.url,
                 );
@@ -556,7 +556,7 @@ export class WekanCreator {
   }
 
   /**
-   * Create the Wekan custom fields corresponding to the supplied Wekan
+   * Create the wekan custom fields corresponding to the supplied wekan
    * custom fields.
    * @param wekanCustomFields
    * @param boardId
@@ -611,7 +611,7 @@ export class WekanCreator {
         boardId,
         // We are being defensing here by providing a default date (now) if the
         // creation date wasn't found on the action log. This happen on old
-        // Wekan boards (eg from 2013) that didn't log the 'createList' action
+        // wekan boards (eg from 2013) that didn't log the 'createList' action
         // we require.
         createdAt: this._now(this.createdAt.lists[list.id]),
         title: list.title,
@@ -632,7 +632,7 @@ export class WekanCreator {
       //   listId,
       //   source: {
       //     id: list._id,
-      //     system: 'Wekan',
+      //     system: 'wekan',
       //   },
       //   // We attribute the import to current user,
       //   // not the creator of the original object
@@ -667,7 +667,7 @@ export class WekanCreator {
         boardId,
         // We are being defensing here by providing a default date (now) if the
         // creation date wasn't found on the action log. This happen on old
-        // Wekan boards (eg from 2013) that didn't log the 'createList' action
+        // wekan boards (eg from 2013) that didn't log the 'createList' action
         // we require.
         createdAt: this._now(this.createdAt.swimlanes[swimlane._id]),
         title: swimlane.title,
@@ -805,7 +805,7 @@ export class WekanCreator {
       switch (activity.activityType) {
         case 'addAttachment': {
           // We have to be cautious, because the attachment could have been removed later.
-          // In that case Wekan still reports its addition, but removes its 'url' field.
+          // In that case wekan still reports its addition, but removes its 'url' field.
           // So we test for that
           const wekanAttachment = wekanBoard.attachments.filter(attachment => {
             return attachment._id === activity.attachmentId;
@@ -813,7 +813,7 @@ export class WekanCreator {
 
           if (typeof wekanAttachment !== 'undefined' && wekanAttachment) {
             if (wekanAttachment.url || wekanAttachment.file) {
-              // we cannot actually create the Wekan attachment, because we don't yet
+              // we cannot actually create the wekan attachment, because we don't yet
               // have the cards to attach it to, so we store it in the instance variable.
               const wekanCardId = activity.cardId;
               if (!this.attachments[wekanCardId]) {

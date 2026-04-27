@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Build WeKan armhf (arm/v7) bundle - Meteor 3 style (no fibers needed).
+# Build wekan armhf (arm/v7) bundle - Meteor 3 style (no fibers needed).
 #
 # This script rebuilds only the native Node.js modules for arm/v7 (armhf).
 # Note: MongoDB Community Edition has no prebuilt armhf binaries.
-# The WeKan snap bundles qemu-x86_64-static to run the MongoDB amd64 binary on armhf.
+# The wekan snap bundles qemu-x86_64-static to run the MongoDB amd64 binary on armhf.
 #
 # Run on an armhf machine, or use a QEMU arm/v7 environment.
 #
@@ -12,7 +12,7 @@
 #   ./releases/build-bundle-armhf.sh 8.43
 
 if [ $# -ne 1 ]; then
-  echo "Syntax with Wekan version number:"
+  echo "Syntax with wekan version number:"
   echo "  ./releases/build-bundle-armhf.sh 8.43"
   exit 1
 fi
@@ -54,4 +54,4 @@ zip -r wekan-${VERSION}-armhf.zip bundle
 
 echo "Done: wekan-${VERSION}-armhf.zip"
 echo "Note: MongoDB Community has no prebuilt armhf binaries."
-echo "      The WeKan snap bundles qemu-x86_64-static to run the MongoDB amd64 binary on armhf."
+echo "      The wekan snap bundles qemu-x86_64-static to run the MongoDB amd64 binary on armhf."

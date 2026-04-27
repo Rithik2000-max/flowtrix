@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# WeKan full release script.
+# wekan full release script.
 #
 # Usage:
 #   ./releases/release-all.sh PREVIOUS-VERSION NEW-VERSION
@@ -14,7 +14,7 @@
 # What this script does:
 #   0. Updates Node.js to the latest 24.x release across all files
 #   1. Rebuilds OpenAPI docs (wekan.yml + wekan.html) from current source
-#   2. Updates all WeKan version numbers in release files
+#   2. Updates all wekan version numbers in release files
 #   3. Commits and pushes the version bump
 #   4. Creates and pushes the git tag  <-- this triggers GitHub Actions
 #   5. Updates the website repo if ~/repos/w/wekan.fi exists
@@ -58,7 +58,7 @@ set -e
 
 cd "$REPO_DIR"
 
-echo "=== WeKan release: v$OLD  ->  v$NEW ==="
+echo "=== wekan release: v$OLD  ->  v$NEW ==="
 echo ""
 
 # ── Check if this is a resume from a previous interrupted run ────────────────
@@ -98,8 +98,8 @@ echo "--- Step 1: Rebuilding API docs ---"
 echo "Done."
 echo ""
 
-# ── Step 2: Update WeKan version numbers in all release files ────────────────
-echo "--- Step 2: Updating WeKan version numbers ---"
+# ── Step 2: Update wekan version numbers in all release files ────────────────
+echo "--- Step 2: Updating wekan version numbers ---"
 "$RELEASES_DIR/sed-release-versions.sh" "$OLD" "$NEW"
 echo "Done."
 echo ""

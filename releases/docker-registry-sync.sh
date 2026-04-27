@@ -2,7 +2,7 @@
 
 #sudo apt -y install skopeo
 
-# WeKan
+# wekan
 #skopeo copy docker://ghcr.io/wekan/wekan docker://quay.io/wekan/wekan
 #skopeo copy docker://ghcr.io/wekan/wekan docker://wekanteam/wekan
 
@@ -23,7 +23,7 @@
 
 ## OLD
 
-# Wekan Gantt GPL
+# wekan Gantt GPL
 #skopeo copy docker://ghcr.io/wekan/wekan-gantt-gpl docker://quay.io/wekan/wekan-gantt-gpl
 #skopeo copy docker://ghcr.io/wekan/wekan-gantt-gpl docker://wekanteam/wekan-gantt-gpl
 

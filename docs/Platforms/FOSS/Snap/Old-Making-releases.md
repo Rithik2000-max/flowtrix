@@ -19,7 +19,7 @@ https://code.launchpad.net/~wekan-team/wekan/+git/wekan
 
 kubiko created launchpad wekan project and wekan team where xet7 is admin in and contributor. xet7 can feel free to add other people on the list.
 
-Wekan project has wekan-snap repo mirrored from github one:
+wekan project has wekan-snap repo mirrored from github one:
 
 https://code.launchpad.net/~wekan-team/wekan/+git/wekan-snap
 
@@ -41,7 +41,7 @@ For the future once xet7 makes change in wekan-snap build and upload should happ
 
 Next thing for kubiko would be to move people from wekan-ondra to wekan, not quite sure how to announce this though….. From stats kubiko did see there are ~320 downloads/installs of version 0.23.
 
-kubiko also created pull request to wekan repo, which enabled continuous integration from master, typically this would be pushing builds to edge channel, from where xet7 can do testing, or more adventures users can use edge channel to track Wekan master branch….
+kubiko also created pull request to wekan repo, which enabled continuous integration from master, typically this would be pushing builds to edge channel, from where xet7 can do testing, or more adventures users can use edge channel to track wekan master branch….
 
 ## Snapcraft build support from source
 

@@ -1,8 +1,8 @@
-Running Wekan Mongodb with Traefik as a reverse proxy with a self-signed cert as containers on a single docker host.
+Running wekan Mongodb with Traefik as a reverse proxy with a self-signed cert as containers on a single docker host.
 
 ## Background
 
-Craig had been using nginx as a reverse proxy for a restyaboard install, but it was a bit opaque (at least to him) as to how to configure it to reverse proxy for multiple services, so he thought he'd try traefik and use Wekan as the service as a learning exercise and compare the two.
+Craig had been using nginx as a reverse proxy for a restyaboard install, but it was a bit opaque (at least to him) as to how to configure it to reverse proxy for multiple services, so he thought he'd try traefik and use wekan as the service as a learning exercise and compare the two.
 
 This was done to demo using containers as services (he works in an older style org and they're still stuck in a vmware/vm mentality).
 
@@ -37,7 +37,7 @@ Create a docker network web to use for traefik - this config doesn't require any
 docker network create web
 ```
 
-Created an internal dns entry wekan.myinternaldomain.org that is a cname for the docker host (i.e. Wekan resolves to the ip address of the docker host) - note that this config assumes that ports 80 and 443 don't have any processes from the docker host listening on those ports. If you don't have internal dns - put this in the relevant hosts file on the systems that will access the app, including the docker host.
+Created an internal dns entry wekan.myinternaldomain.org that is a cname for the docker host (i.e. wekan resolves to the ip address of the docker host) - note that this config assumes that ports 80 and 443 don't have any processes from the docker host listening on those ports. If you don't have internal dns - put this in the relevant hosts file on the systems that will access the app, including the docker host.
 
 ## Traefik config
 
@@ -129,7 +129,7 @@ endpoint under `[docker]` is where changes are read from.
 - watch = true - watch docker changes.
 - exposedbydefault = false - If set to false, containers that don't have `traefik.enable=true` will be ignored. (I haven't tried it with other containers yet so I've set it to false).
 
-Now for Wekan:
+Now for wekan:
 
 This fairly standard with the addition of some labels(handy notes have been removed for brevity)
 
@@ -173,7 +173,7 @@ services:
       - MONGO_URL=mongodb://172.xx.xx.2:27017/wekan
       - ROOT_URL=http://wekan.myinternaldomain.org
       - MAIL_URL=smtp://172.17.0.1:25/
-      - MAIL_FROM='Wekan Support - <unix.admin@myinternaldomain.org>'
+      - MAIL_FROM='wekan Support - <unix.admin@myinternaldomain.org>'
     # newer environment variables:
       - BROWSER_POLICY_ENABLED=true
       - TRUSTED_URL=''

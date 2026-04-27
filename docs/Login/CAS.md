@@ -4,9 +4,9 @@
 
 Please send pull requests if CAS login does not work.
 
-Wekan clientside code is at `wekan/client/components/main/layouts.*`
+wekan clientside code is at `wekan/client/components/main/layouts.*`
 
-Wekan serverside code is at:
+wekan serverside code is at:
 - `wekan/server/authentication.js` at bottom
 - `wekan/packages/*cas*/*`
 

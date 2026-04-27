@@ -1,4 +1,4 @@
-## Wekan release scripts
+## wekan release scripts
 
 Release process, for example version 4.94:
 
@@ -35,5 +35,5 @@ cd /var/snap/wekan/common
 
 https://github.com/wekan/wekan-snap/wiki/Making-releases-from-source
 
-https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm
+https://github.com/wekan/wekan-maintainer/wiki/Building-wekan-for-Sandstorm
 

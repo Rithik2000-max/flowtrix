@@ -3,16 +3,16 @@
 
 # OAuth2 providers
 
-You can use some OAuth2 providers for logging into Wekan, for example:
+You can use some OAuth2 providers for logging into wekan, for example:
 - [Auth0](OAuth2#auth0) - works
 - [Rocket.Chat](OAuth2#rocketchat-providing-oauth2-login-to-wekan) - works
 - [GitLab](OAuth2#gitlab-providing-oauth2-login-to-wekan) - works
 - Google - not tested yet
 - [LemonLDAP::NG](OAuth2#lemonldapng) - works
 
-You can ask your identity provider (LDAP, SAML etc) do they support adding OAuth2 application like Wekan.
+You can ask your identity provider (LDAP, SAML etc) do they support adding OAuth2 application like wekan.
 
-## GitLab providing OAuth2 login to Wekan
+## GitLab providing OAuth2 login to wekan
 
 [Thanks to derhelge who figured out GitLab login](https://github.com/wekan/wekan/issues/3156).
 
@@ -40,7 +40,7 @@ And in GitLab you have to set the same scopes inside the created Application:
 
 The redirect URL is described in the wekan wiki: https://wekan.example.com/_oauth/oidc
 
-## Rocket.Chat providing OAuth2 login to Wekan
+## Rocket.Chat providing OAuth2 login to wekan
 
 - [More RocketChat fixes here](https://github.com/wekan/wekan/wiki/RocketChat)
 - [RocketChat Skip Install Registration Wizard Fix](https://github.com/RocketChat/Rocket.Chat/issues/31163#issuecomment-1848364117)
@@ -51,9 +51,9 @@ The redirect URL is described in the wekan wiki: https://wekan.example.com/_oaut
 
 - [RocketChat Webhook workaround](https://github.com/wekan/univention/issues/15)
 
-Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when Rocket.Chat is providing OAuth2 login to Wekan.
+Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to wekan when Rocket.Chat is providing OAuth2 login to wekan.
 
-If there is existing username/password account in Wekan, OAuth2 merges both logins.
+If there is existing username/password account in wekan, OAuth2 merges both logins.
 
 Source: [OAuth2 Pull Request](https://github.com/wekan/wekan/pull/1578)
 
@@ -72,9 +72,9 @@ sudo systemctl disable rocketchat-server.rocketchat-caddy
 sudo systemctl stop rocketchat-server.rocketchat-caddy
 ```
 
-### 2) Install Wekan
+### 2) Install wekan
 
-[Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install) has Node at port 3001 and MongoDB at port 27019.
+[wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install) has Node at port 3001 and MongoDB at port 27019.
 ```
 sudo snap install wekan
 sudo snap set wekan root-url='https://BOARDS.YOURDOMAIN.COM'
@@ -82,10 +82,10 @@ sudo snap set wekan port='3001'
 sudo snap set core refresh.schedule=02:00-04:00
 sudo snap set wekan with-api='true'
 ```
-Email settings [ARE NOT REQUIRED](Troubleshooting-Mail), Wekan works without setting up Email.
+Email settings [ARE NOT REQUIRED](Troubleshooting-Mail), wekan works without setting up Email.
 ```
 sudo snap set wekan mail-url='smtps://user:pass@MAILSERVER.YOURDOMAIN.COM:453'
-sudo snap set wekan mail-from='Wekan Boards <support@YOURDOMAIN.COM>'
+sudo snap set wekan mail-from='wekan Boards <support@YOURDOMAIN.COM>'
 ```
 Edit Caddyfile:
 ```
@@ -107,7 +107,7 @@ chat.yourdomain.com {
         }
 }
 ```
-Enable Wekan's Caddy:
+Enable wekan's Caddy:
 ```
 sudo snap set wekan caddy-enabled='true'
 ```
@@ -126,7 +126,7 @@ Add settings:
 
 ```
 Active: [X] True
-Application Name: WEKAN
+Application Name: wekan
 Redirect URI: https://BOARDS.YOURDOMAIN.COM/_oauth/oidc
 Client ID: abcde12345         <=== Rocket.Chat generates random text to here
 Client Secret: 54321abcde     <=== Rocket.Chat generates random text to here
@@ -135,7 +135,7 @@ Access Token URL: https://CHAT.YOURDOMAIN.COM/oauth/token
 ```
 Save Changes.
 
-### 4) Add Wekan settings
+### 4) Add wekan settings
 Copy below commands to `auth.sh` textfile, make it executeable `chmod +x auth.sh` and run it with `./auth.sh`.
 
 CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE, AND URLs TO LOWER CASE.
@@ -162,15 +162,15 @@ sudo snap logs wekan.wekan
 sudo systemctl status snap.wekan.wekan
 ```
 
-### 5) Login to Wekan
+### 5) Login to wekan
 
 1) Go to https://boards.example.com
 
 2) Click `Sign in with Oidc`
 
-3) Click `Authorize` . This is asked only first time when logging in to Wekan with Rocket.Chat.
+3) Click `Authorize` . This is asked only first time when logging in to wekan with Rocket.Chat.
 
-<img src="https://wekan.fi/oauth2-login.png" width="60%" alt="Wekan login to Rocket.Chat" />
+<img src="https://wekan.fi/oauth2-login.png" width="60%" alt="wekan login to Rocket.Chat" />
 
 ### 6) Set your Full Name
 
@@ -180,7 +180,7 @@ Currently Full Name is not preserved, so you need to change it.
 
 2) Add info and Save.
 
-<img src="https://wekan.fi/oauth2-profile-settings.png" width="60%" alt="Wekan login to Rocket.Chat" />
+<img src="https://wekan.fi/oauth2-profile-settings.png" width="60%" alt="wekan login to Rocket.Chat" />
 
 ### 7) Add more login options to Rocket.Chat
 
@@ -188,11 +188,11 @@ Currently Full Name is not preserved, so you need to change it.
 
 2) There are many options at OAuth menu. Above and below of OAuth are also CAS, LDAP and SAML.
 
-<img src="https://wekan.fi/oauth-rocketchat-options.png" width="100%" alt="Wekan login to Rocket.Chat" />
+<img src="https://wekan.fi/oauth-rocketchat-options.png" width="100%" alt="wekan login to Rocket.Chat" />
 
 # Auth0
 
-[Auth0](https://auth0.com) can provide PasswordlessEmail/Google/Facebook/LinkedIn etc login options to Wekan.
+[Auth0](https://auth0.com) can provide PasswordlessEmail/Google/Facebook/LinkedIn etc login options to wekan.
 
 ### 1) Auth0 / Applications / Add / Regular Web Application / Auth0 Settings
 
@@ -204,8 +204,8 @@ Account url: YOURACCOUNT.eu.auth0.com      <== Copy to below snap settings
 Application Logo:                          <== Add your logo
 Application Type: Single Page Application
 Token Endpoint Authentication Method: Post
-Allowed Callback URLs: https://BOARDS.YOURDOMAIN.COM/_oauth/oidc  <== Change your Wekan address
-Allowed Web Origins: https://BOARDS.YOURDOMAIN.COM                <== Change your Wekan address
+Allowed Callback URLs: https://BOARDS.YOURDOMAIN.COM/_oauth/oidc  <== Change your wekan address
+Allowed Web Origins: https://BOARDS.YOURDOMAIN.COM                <== Change your wekan address
 Use Auth0 instead of the IdP to do Single Sign On: [X]
 ```
 If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
@@ -214,10 +214,10 @@ If you  need more info, they are at bottom of the page Advanced Settings / Endpo
 
 CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE, AND URLs TO LOWER CASE.
 
-Rule Name: Encrich Wekan login
+Rule Name: Encrich wekan login
 ```
   function (user, context, callback) {
-    // Only use this rule for Auth0 Dashboard / Applications / WekanApplication
+    // Only use this rule for Auth0 Dashboard / Applications / wekanApplication
     if(context.clientName !== 'YOUR-APPLICATION-NAME'){
       return callback(null, user, context);
     }
@@ -287,7 +287,7 @@ Merge users: [X] True
 
 Official documentation : https://lemonldap-ng.org/documentation/latest/applications/wekan
 
-## Wekan Config
+## wekan Config
 
 Basically, you need to set theses variables to your wekan env : 
 
@@ -306,8 +306,8 @@ OAUTH2_ID_MAP: sub
 
 You need to set a new OpenID Connect Relay Party (RP) with theses parameters : 
 
-* Client ID: the same you set in Wekan configuration (same as OAUTH2_CLIENT_ID)
-* Client Secret: the same you set in Wekan configuration (same as OAUTH2_SECRET)
+* Client ID: the same you set in wekan configuration (same as OAUTH2_CLIENT_ID)
+* Client Secret: the same you set in wekan configuration (same as OAUTH2_SECRET)
 * Add the following exported attributes
     * name: session attribute containing the user's full name
     * email: session attribute containing the user's email or _singleMail

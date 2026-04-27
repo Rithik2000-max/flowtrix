@@ -1,7 +1,7 @@
-# Caddy 2 configuration for Wekan
+# Caddy 2 configuration for wekan
 
 :8080 {
-  # Reverse proxy to Wekan
+  # Reverse proxy to wekan
   reverse_proxy localhost:3001 {
     # Enable WebSocket support
     header_up Connection {>Connection}
@@ -19,7 +19,7 @@
 #  # Force HTTP/1.1
 #  protocols h1
 #
-#  # Reverse proxy to Wekan
+#  # Reverse proxy to wekan
 #  reverse_proxy localhost:3001 {
 #    # Enable WebSocket support
 #    header_up Connection {>Connection}

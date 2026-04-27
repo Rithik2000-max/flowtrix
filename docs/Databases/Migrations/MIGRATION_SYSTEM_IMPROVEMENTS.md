@@ -1,12 +1,12 @@
 # Migration System Improvements Summary
 
 ## Overview
-Comprehensive improvements to the WeKan migration system to ensure migrations only run when needed and show real progress, not simulated progress.
+Comprehensive improvements to the wekan migration system to ensure migrations only run when needed and show real progress, not simulated progress.
 
 ## Problem Statement
 The previous migration system had several issues:
 1. **Simulated Progress**: Many migrations were showing simulated progress instead of tracking actual database changes
-2. **False Positives**: Fresh WeKan installations were running migrations unnecessarily (no old data to migrate)
+2. **False Positives**: Fresh wekan installations were running migrations unnecessarily (no old data to migrate)
 3. **Missing Checks**: Some migration types didn't have explicit "needs migration" checks
 
 ## Solutions Implemented
@@ -121,7 +121,7 @@ import Checklists from '/models/checklists';
 
 ## Migration Behavior on Fresh Install
 
-When WeKan is freshly installed:
+When wekan is freshly installed:
 1. Each migration's `isMigrationNeeded()` is called
 2. Checks run for actual old data structures
 3. No old structures found → `isMigrationNeeded()` returns `false`
@@ -130,7 +130,7 @@ When WeKan is freshly installed:
 
 ## Migration Behavior on Old Database
 
-When WeKan starts with an existing database containing old structures:
+When wekan starts with an existing database containing old structures:
 1. Each migration's `isMigrationNeeded()` is called
 2. Checks find old data structures present
 3. `isMigrationNeeded()` returns `true`
@@ -149,7 +149,7 @@ When WeKan starts with an existing database containing old structures:
 
 ## Testing Checklist
 
-- [ ] Fresh WeKan install shows all migrations as "not needed"
+- [ ] Fresh wekan install shows all migrations as "not needed"
 - [ ] No migrations execute on fresh database
 - [ ] Old database with legacy data triggers migrations
 - [ ] Migration progress shows real record counts
@@ -164,7 +164,7 @@ When WeKan starts with an existing database containing old structures:
 
 ## Migration Types Summary
 
-The WeKan migration system now properly manages 13 migration types:
+The wekan migration system now properly manages 13 migration types:
 
 | # | Type | Purpose | Real Progress |
 |---|------|---------|---|

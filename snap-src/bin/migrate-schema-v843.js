@@ -1,5 +1,5 @@
 /**
- * WeKan schema migration v8.43 — mongosh script
+ * wekan schema migration v8.43 — mongosh script
  *
  * Run with:
  *   mongosh --port 27017 --file migrate-schema-v843.js
@@ -30,7 +30,7 @@ if (marker && marker.completedAt) {
     quit(0);
 }
 
-print('=== Applying WeKan schema v8.43 ===');
+print('=== Applying wekan schema v8.43 ===');
 
 // ── 1. Build per-board default-swimlane map ────────────────────────────────
 print('Step 1: Building default swimlane map...');

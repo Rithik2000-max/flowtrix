@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # 1) Check that there is only one parameter
-#    of Wekan version number
+#    of wekan version number
 
 if [ $# -ne 1 ]
   then
-    echo "Syntax with Wekan version number:"
+    echo "Syntax with wekan version number:"
     echo "  ./up-a.sh 5.10"
     exit 1
 fi

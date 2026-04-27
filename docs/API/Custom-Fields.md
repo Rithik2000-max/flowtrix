@@ -11,10 +11,10 @@ https://wekan.fi/api/v4.42/#put_board_list_card
 ```
 -d '{ "customFields" : [ { "_id" : "oZHkpcaxDHnbkbqGo", "value" : "foobar" } ] }'
 ```
-5) For other types of Custom Fields, you can look at Custom Field structure from MongoDB database with [nosqlbooster](https://nosqlbooster.com/downloads) that can also login through ssh to server Wekan snap MongoDB port 27019
+5) For other types of Custom Fields, you can look at Custom Field structure from MongoDB database with [nosqlbooster](https://nosqlbooster.com/downloads) that can also login through ssh to server wekan snap MongoDB port 27019
 
 
-## In Wekan code (old)
+## In wekan code (old)
 
 wekan/models/customFields.js , at bottom
 

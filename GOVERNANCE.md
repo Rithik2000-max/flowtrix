@@ -1,7 +1,7 @@
 # Governance
 
 Anyone can send pull request to https://github.com/wekan/wekan/wiki/pulls ,
-if there is permission to add code to WeKan with MIT license.
+if there is permission to add code to wekan with MIT license.
 
 As maintainer, xet7 checks all pull requests and merges them.
 

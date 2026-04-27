@@ -1,4 +1,4 @@
-# Wekan Persistence Improvements - Quick Reference
+# wekan Persistence Improvements - Quick Reference
 
 ## What Was Changed?
 

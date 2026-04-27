@@ -3,7 +3,7 @@
 # Find text from all subdirectories
 # and ignore all temporary directories:
 # - node-modules = installed node modules
-# - .build = Wekan bundle that is combined from source. Do not edit these, these are deleted and recreated.
+# - .build = wekan bundle that is combined from source. Do not edit these, these are deleted and recreated.
 # - .meteor = Meteor version, packages etc at .meteor/local
 # - .git = git history
 

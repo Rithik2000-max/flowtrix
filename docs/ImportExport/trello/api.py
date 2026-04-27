@@ -3,7 +3,7 @@
 # vi:ts=4:et
 
 # Trello API Python CLI
-# License: MIT / WeKan Team
+# License: MIT / wekan Team
 
 try:
     # python 3
@@ -30,9 +30,9 @@ import sys
 #   https://developer.atlassian.com/cloud/trello/rest/api-group-batch/#api-batch-get
 # - Add rate limits with delays:
 #   https://developer.atlassian.com/cloud/trello/guides/rest-api/rate-limits/
-# - Use webhooks to receive data from Trello to WeKan, so that there would not be
+# - Use webhooks to receive data from Trello to wekan, so that there would not be
 #   need to repeatedly get same data again (no polling data), but instead get
-#   changes pushed to WeKan with webhooks when they happen
+#   changes pushed to wekan with webhooks when they happen
 #   https://developer.atlassian.com/cloud/trello/guides/rest-api/webhooks/
 #   https://developer.atlassian.com/cloud/trello/rest/api-group-webhooks/#api-webhooks-post
 #
@@ -59,7 +59,7 @@ arguments = len(sys.argv) - 1
 
 if arguments == 0:
     print("=== Trello API Python CLI ===")
-    print("License: MIT / WeKan Team")
+    print("License: MIT / wekan Team")
     print("See settings in this api.py script for api key and token.")
     print("If *nix:  chmod +x api.py => ./api.py users")
     print("Syntax:")

@@ -25,7 +25,7 @@ echo "Backup is also archived to .zip file backups/${now}.zip"
 
 # Manual Backup
 
-## Stop Wekan and Backup to directory called dump
+## Stop wekan and Backup to directory called dump
 
 ```
 sudo snap stop wekan.wekan
@@ -34,7 +34,7 @@ mongodump --port 27019
 
 sudo snap start wekan.wekan
 ```
-## Stop Wekan and Restore
+## Stop wekan and Restore
 
 ```
 sudo snap stop wekan.wekan

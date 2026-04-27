@@ -1,8 +1,8 @@
 # Code of Conduct
 
-For all code at WeKan GitHub Organization https://github.com/wekan
+For all code at wekan GitHub Organization https://github.com/wekan
 
-- All code in pull requests need to have permission already to add it to WeKan with MIT license, and will become MIT license.
+- All code in pull requests need to have permission already to add it to wekan with MIT license, and will become MIT license.
 - All code xet7 add is MIT license.
 - For any dependencies, permissive licenses like https://copyfree.org are preferred
 - For anything currently that is non-permissive (like GPL, AGPL, SSPL), those will be replaced with permissive-licensed alternatives
@@ -19,4 +19,4 @@ For all code at WeKan GitHub Organization https://github.com/wekan
 ## Public
 
 - Feature Requests and Bug Reports https://github.com/wekan/wekan/issues
-- Anything happy, positive, encouraging, helping, at friendly WeKan Global FOSS Community
+- Anything happy, positive, encouraging, helping, at friendly wekan Global FOSS Community

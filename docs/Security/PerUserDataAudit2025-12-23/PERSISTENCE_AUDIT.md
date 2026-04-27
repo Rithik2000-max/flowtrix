@@ -1,7 +1,7 @@
-# Wekan Persistence Audit Report
+# wekan Persistence Audit Report
 
 ## Overview
-This document audits the persistence mechanisms for Wekan board data, including swimlanes, lists, cards, checklists, and their properties (order, color, background, titles, etc.), as well as per-user settings.
+This document audits the persistence mechanisms for wekan board data, including swimlanes, lists, cards, checklists, and their properties (order, color, background, titles, etc.), as well as per-user settings.
 
 ---
 

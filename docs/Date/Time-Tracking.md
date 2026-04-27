@@ -1,13 +1,13 @@
 ## Time Tracking
 
-This was found 2020-05-20 at [Time Tracking Wekan issue](https://github.com/wekan/wekan/issues/812#issuecomment-631111730), thanks! 
+This was found 2020-05-20 at [Time Tracking wekan issue](https://github.com/wekan/wekan/issues/812#issuecomment-631111730), thanks! 
 
 Titra Time Tracking, GPLv3
 - https://titra.io/en/free-time-tracking-online/
 - https://github.com/kromitgmbh/titra/
 
-Wekan Integration:
-- https://github.com/kromitgmbh/titra/wiki/Wekan-integration
+wekan Integration:
+- https://github.com/kromitgmbh/titra/wiki/wekan-integration
 
 
 ***

@@ -19,7 +19,7 @@ const pkgdef :Spk.PackageDefinition = (
     # This manifest is included in our app package to tell Sandstorm about our
     # app.
 
-    appTitle = (defaultText = "Wekan"),
+    appTitle = (defaultText = "wekan"),
     # The name of the app as it is displayed to the user.
 
     appVersion = 882,

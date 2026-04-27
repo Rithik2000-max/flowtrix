@@ -262,7 +262,7 @@ class ExporterCardPDF {
     );
 
     const lines = [
-      'Wekan Card Export',
+      'wekan Card Export',
       '',
       `Title: ${card.title || '-'}`,
       `Board: ${board.title || '-'}`,

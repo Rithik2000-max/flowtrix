@@ -4,8 +4,8 @@
 # ---------
 # 2022-10-29:
 #   LDAP sync script added, thanks to hpvb:
-#   - syncs LDAP teams and avatars to WeKan MongoDB database
-#   - removes or disables WeKan users that are also disabled at LDAP
+#   - syncs LDAP teams and avatars to wekan MongoDB database
+#   - removes or disables wekan users that are also disabled at LDAP
 #   TODO:
 #   - There is hardcoded value of avatar URL example.com .
 #     Try to change it to use existing environment variables.
@@ -181,10 +181,10 @@ def create_wekan_user(ldap_user):
 
     try:
         mongodb_database["users"].insert_one(user)
-        print(f"Creating new Wekan user {ldap_user['username']}")
+        print(f"Creating new wekan user {ldap_user['username']}")
         stats['created'] += 1
     except DuplicateKeyError:
-        print(f"Wekan user {ldap_user['username']} already exists.")
+        print(f"wekan user {ldap_user['username']} already exists.")
         update_wekan_user(ldap_user)
 
 def update_wekan_user(ldap_user):
@@ -232,17 +232,17 @@ def update_wekan_user(ldap_user):
         user["services"]["oidc"]["email"] = ldap_user['email']
 
     if updated:
-        print(f"Updated Wekan user {ldap_user['username']}")
+        print(f"Updated wekan user {ldap_user['username']}")
         stats['updated'] += 1
         mongodb_database["users"].update_one({"username": ldap_user['username']}, {"$set": user})
 
 def disable_wekan_user(username):
-    print(f"Disabling Wekan user {username}")
+    print(f"Disabling wekan user {username}")
     stats['disabled'] += 1
     mongodb_database["users"].update_one({"username": username}, {"$set": {"loginDisabled": True}})
 
 def create_wekan_team(ldap_group):
-    print(f"Creating new Wekan team {ldap_group['name']}")
+    print(f"Creating new wekan team {ldap_group['name']}")
     stats['team_created'] += 1
     
     team = { "_id": ldap_group['uuid'],
@@ -275,12 +275,12 @@ def update_wekan_team(ldap_group):
             updated = True
 
     if updated:
-        print(f"Updated Wekan team {ldap_group['name']}")
+        print(f"Updated wekan team {ldap_group['name']}")
         stats['team_updated'] += 1
         mongodb_database["team"].update_one({"_id": ldap_group['uuid']}, {"$set": team_tmp})
 
 def disable_wekan_team(teamname):
-    print(f"Disabling Wekan team {teamname}")
+    print(f"Disabling wekan team {teamname}")
     stats['team_disabled'] += 1
     mongodb_database["team"].update_one({"teamShortName": teamname}, {"$set": {"teamIsActive": False}})
 
@@ -305,7 +305,7 @@ def update_wekan_team_memberships(ldap_user):
         updated = True
 
     if updated:
-        print(f"Updated Wekan team memberships for {ldap_user['username']}")
+        print(f"Updated wekan team memberships for {ldap_user['username']}")
         stats['team_membership_update'] += 1
         mongodb_database["users"].update_one({"username": ldap_user['username']}, {"$set": { "teams" : teams_tmp }})
 
@@ -365,7 +365,7 @@ def update_wekan_board_memberships(ldap_users):
                 members_tmp.append(user_tmp.copy())
 
         if members != members_tmp:
-            print(f"Updated Wekan board membership for {board['title']}")
+            print(f"Updated wekan board membership for {board['title']}")
             stats['board_membership_update'] += 1
             mongodb_database["boards"].update_one({"_id": board["_id"]}, {"$set": { "members" : members_tmp }})
     
@@ -375,7 +375,7 @@ def ldap_sync():
     ldap_users = ldap.get_users()
     ldap_username_list = ldap_users.keys()
 
-    print("Fetching users from Wekan")
+    print("Fetching users from wekan")
     wekan_username_list = []
     for user in mongodb_database["users"].find():
         if not user['loginDisabled']:
@@ -399,7 +399,7 @@ def ldap_sync():
     ldap_groups = ldap.get_groups()
     ldap_groupname_list = ldap_groups.keys()
 
-    print("Fetching teams from Wekan")
+    print("Fetching teams from wekan")
     wekan_teamname_list = []
     for team in mongodb_database["team"].find():
         if team['teamIsActive']:

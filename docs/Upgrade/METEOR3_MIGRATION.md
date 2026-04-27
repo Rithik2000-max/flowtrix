@@ -1,12 +1,12 @@
 # Meteor 3.0 Migration Guide
 
-Reference document capturing patterns, constraints, and lessons learned during the async migration of WeKan from Meteor 2.16 toward Meteor 3.0 readiness.
+Reference document capturing patterns, constraints, and lessons learned during the async migration of wekan from Meteor 2.16 toward Meteor 3.0 readiness.
 
 ---
 
 ## 1. Dual-Compatibility Strategy
 
-WeKan runs on **Meteor 2.16 with Blaze 2.x**. The goal is dual compatibility: changes must work on 2.16 now and remain compatible with a future Meteor 3.0 upgrade.
+wekan runs on **Meteor 2.16 with Blaze 2.x**. The goal is dual compatibility: changes must work on 2.16 now and remain compatible with a future Meteor 3.0 upgrade.
 
 **Key constraint:** Blaze 2.x does NOT support async template helpers. Client-side code must receive synchronous data.
 

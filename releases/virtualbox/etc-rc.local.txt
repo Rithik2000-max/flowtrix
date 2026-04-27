@@ -14,7 +14,7 @@
 # node-allow-port-80.sh
 sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
 
-# Start Wekan at boot at Ubuntu 14.04
+# Start wekan at boot at Ubuntu 14.04
 sudo -H -u wekan bash -c '/home/wekan/repos/wekan/releases/virtualbox/start-wekan.sh'
 
 exit 0

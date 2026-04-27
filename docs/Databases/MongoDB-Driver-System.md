@@ -53,7 +53,7 @@ The MongoDB Driver System provides automatic MongoDB version detection and drive
 
 ## Installation
 
-The MongoDB driver system is automatically installed when you install Wekan dependencies:
+The MongoDB driver system is automatically installed when you install wekan dependencies:
 
 ```bash
 npm install
@@ -80,7 +80,7 @@ All required driver packages are included in `package.json`:
 
 The system works automatically without any configuration required:
 
-1. **Startup**: The system initializes automatically when Wekan starts
+1. **Startup**: The system initializes automatically when wekan starts
 2. **Connection**: When connecting to MongoDB, the system detects the server version
 3. **Driver Selection**: The appropriate driver is selected based on the detected version
 4. **Fallback**: If the first driver fails, fallback drivers are tried automatically
@@ -278,4 +278,4 @@ For issues or questions:
 
 ## License
 
-This MongoDB Driver System is part of Wekan and is licensed under the MIT License.
+This MongoDB Driver System is part of wekan and is licensed under the MIT License.

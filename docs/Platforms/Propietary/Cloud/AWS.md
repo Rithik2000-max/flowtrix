@@ -12,8 +12,8 @@ To improve scalability even more, add [Redis Oplog support](https://github.com/c
 ### Mongo URL AND Oplog settings
 From [comment at issue](https://github.com/wekan/wekan-mongodb/issues/2#issuecomment-378343587):
 We've fixed our CPU usage problem today with an environment
-change around Wekan. I wasn't aware during implementation
-that if you're using more than 1 instance of Wekan
+change around wekan. I wasn't aware during implementation
+that if you're using more than 1 instance of wekan
 (or any MeteorJS based tool) you're supposed to set
 MONGO_OPLOG_URL as an environment variable.
 Without setting it, Meteor will perform a pull-and-diff
@@ -23,19 +23,19 @@ https://blog.meteor.com/tuning-meteor-mongo-livedata-for-scalability-13fe9deb890
 
 After setting in [docker-compose.yml](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml):
 ```
-MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rsWekan
+MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rswekan
 ```
-the CPU usage for all Wekan instances dropped to an average
+the CPU usage for all wekan instances dropped to an average
 of less than 10% with only occasional spikes to high usage
 (I guess when someone is doing a lot of work)
 ```
 - MONGO_URL=mongodb://wekandb:27017/wekan
-- MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rsWekan
+- MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rswekan
 ```
 
-If there is other ideas to improve scalability, add info to [existing scalability issue](https://github.com/wekan/wekan-mongodb/issues/2) or [scalability forum post](https://discourse.wekan.io/t/cpu-utilization-problems-with-large-userbase/579/15), there is also mentioned that smart-disconnect is already in Wekan.
+If there is other ideas to improve scalability, add info to [existing scalability issue](https://github.com/wekan/wekan-mongodb/issues/2) or [scalability forum post](https://discourse.wekan.io/t/cpu-utilization-problems-with-large-userbase/579/15), there is also mentioned that smart-disconnect is already in wekan.
 
-For Enterprises using Wekan xet7 recommends participating in Wekan development, see [Benefits of contributing your features to Upstream Wekan](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html), having your own developers working on Wekan daily, and using Commercial Support at https://wekan.fi , as Wekan Team [already has access to high performance bare metal servers at CNCF / Packet for running high load testing](https://wekan.fi/blog/2018/01/wekan-progress-on-x64-and-arm/index.html). With the benefits you get by using Wekan, it’s [time well spent](https://wekan.fi/blog/2018/02/time-well-spent/index.html). Some [DTrace and eBPF info here](https://news.ycombinator.com/item?id=16375938).
+For Enterprises using wekan xet7 recommends participating in wekan development, see [Benefits of contributing your features to Upstream wekan](https://wekan.fi/blog/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html), having your own developers working on wekan daily, and using Commercial Support at https://wekan.fi , as wekan Team [already has access to high performance bare metal servers at CNCF / Packet for running high load testing](https://wekan.fi/blog/2018/01/wekan-progress-on-x64-and-arm/index.html). With the benefits you get by using wekan, it’s [time well spent](https://wekan.fi/blog/2018/02/time-well-spent/index.html). Some [DTrace and eBPF info here](https://news.ycombinator.com/item?id=16375938).
 
 ## Single Server Install for small teams
 
@@ -43,7 +43,7 @@ For Enterprises using Wekan xet7 recommends participating in Wekan development, 
 
 2) Start Ubuntu 17.10 64bit EC2 instance that has at least 2 GB RAM, 30 GB diskspace, probably you need more when you add more customers. Add your SSH public key to instance or let it create new.
 
-3) Add new Elastic IP address pointing to your EC2 instance. That way IP address stays same, and you can also make snapshot of EC2 instance and start that as new EC2 instance with more RAM and change Elastic IP to point to new EC2 instance with minimal downtime, but prefer times when there is no active changes to Wekan.
+3) Add new Elastic IP address pointing to your EC2 instance. That way IP address stays same, and you can also make snapshot of EC2 instance and start that as new EC2 instance with more RAM and change Elastic IP to point to new EC2 instance with minimal downtime, but prefer times when there is no active changes to wekan.
 
 4) Set your subdomain.yourdomain.com address DNS pointing to your Elastic IP address as A record in Route 53, Namecheap or elsewhere where your domain control panel is. It will take max 24h for DNS to propagate globally.
 
@@ -94,7 +94,7 @@ sudo systemctl reload nginx
 
 11) Get latest wekan release info from https://github.com/wekan/wekan/releases ,  read docker-compose.yml file from https://github.com/wekan/wekan-mongodb where all settings are explained, so you setup ROOT_URL=https://sub.yourdomain.com/customer1 and for example the 8080:80 for local server port 8080 to go inside docker port 80. 
 
-For example Wekan v0.70, use in docker-compose.yml file:
+For example wekan v0.70, use in docker-compose.yml file:
 image: quay.io/wekan/wekan:v0.70
 Only use release version tags, because latest tag can be broken sometimes.
 
@@ -114,7 +114,7 @@ So it goes nginx SSL port 443 => proxy to localhost port 8080 or any other => we
 
 16) Register as user at https://subdomain.yourdomain.com/customer1/sign-up and login at https://subdomain.yourdomain.com/customer1/sign-in , first user will be admin. Click your username at top right corner / Admin Panel, and there chang settings to invite only.
 
-## Upgrading Wekan
+## Upgrading wekan
 
 1) Go to directory where docker-compose.yml is, as in install step 14) , and create directory for backup
 
@@ -126,20 +126,20 @@ cd backup-2018-02-03
 
 2) Make backup of database outside docker in that backup directory, as in install step 15)
 
-3) Edit docker-compose.yml to have new Wekan release number:
+3) Edit docker-compose.yml to have new wekan release number:
 
 ```
 image: quay.io/wekan/wekan:v0.71
 ```
 
-4) Restart Wekan:
+4) Restart wekan:
 
 ```
 docker-compose stop
 docker-compose start
 ```
 
-5) Login to Wekan and check at Admin Panel that Wekan version is updated.
+5) Login to wekan and check at Admin Panel that wekan version is updated.
 
 6) If version is not updated, you could also need some of these:
 

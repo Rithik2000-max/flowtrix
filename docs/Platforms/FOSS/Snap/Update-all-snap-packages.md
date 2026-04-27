@@ -1,4 +1,4 @@
-Update all snap packages, like Wekan and others, with commmand:
+Update all snap packages, like wekan and others, with commmand:
 
 ```
 sudo snap refresh

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Previously WeKan used Stylus, that is similar to CSS. Stylus has some additional features.
+Previously wekan used Stylus, that is similar to CSS. Stylus has some additional features.
 
 Stylus code was located at `wekan/client/components/*/*.styl`, for example `wekan/client/components/boards/boardsList.styl`.
 
@@ -24,7 +24,7 @@ sudo npm -g install stylus
 ```
 sed -i "s|@import 'nib'|//@import 'nib'|g" *.styl
 ```
-That code `@import 'nib'` is using [CSS imports](https://developer.mozilla.org/en-US/docs/Web/CSS/@import) that does [Eric Meyer's CSS reset of styles](https://github.com/stylus/nib/blob/master/lib/nib/reset.styl). xet7 [added that reset to separate CSS file](https://github.com/wekan/wekan/commit/985c2cdbfdb38eb43852f3aa257859bbd3f817b9). While in [original converting Stylus to CSS](https://github.com/wekan/wekan/commit/072778b9aaefd7fcaa7519b1ce1cafc1704d646d) that `@import 'nib'` was in many files, it seems it's enough to have it at [client/components/boards/boardsList.css](https://github.com/wekan/wekan/commit/985c2cdbfdb38eb43852f3aa257859bbd3f817b9#diff-c227ea7dd2df8f46604db81ce7c49902b7e8829266ab79bb1c80077b5ba2b5b0) that is used at all pages of WeKan.
+That code `@import 'nib'` is using [CSS imports](https://developer.mozilla.org/en-US/docs/Web/CSS/@import) that does [Eric Meyer's CSS reset of styles](https://github.com/stylus/nib/blob/master/lib/nib/reset.styl). xet7 [added that reset to separate CSS file](https://github.com/wekan/wekan/commit/985c2cdbfdb38eb43852f3aa257859bbd3f817b9). While in [original converting Stylus to CSS](https://github.com/wekan/wekan/commit/072778b9aaefd7fcaa7519b1ce1cafc1704d646d) that `@import 'nib'` was in many files, it seems it's enough to have it at [client/components/boards/boardsList.css](https://github.com/wekan/wekan/commit/985c2cdbfdb38eb43852f3aa257859bbd3f817b9#diff-c227ea7dd2df8f46604db81ce7c49902b7e8829266ab79bb1c80077b5ba2b5b0) that is used at all pages of wekan.
 
 Alternative to CSS imports would be to add that CSS code to beginning of that CSS file where it is needed.
 

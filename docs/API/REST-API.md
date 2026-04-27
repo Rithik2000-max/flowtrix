@@ -6,16 +6,16 @@ If you are in a hurry, you can use these to have more functionality:
 
 For workflows see [If-this-then-that issue](https://github.com/wekan/wekan/issues/1160) than mentions Huginn, Flogo etc.
 
-# Wekan REST API
+# wekan REST API
 
-The REST API allows you to control and extend Wekan with ease.
+The REST API allows you to control and extend wekan with ease.
 
 If you are an end-user and not a dev or a tester, [create an issue](https://github.com/wekan/wekan/issues/new) to request new APIs.
 
 > All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
 
 ## Production Security Concerns
-When calling a production Wekan server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login api over HTTPS. Also, few things to note:
+When calling a production wekan server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login api over HTTPS. Also, few things to note:
 
 * Only call via HTTPS
 * Implement a timed authorization token expiration strategy

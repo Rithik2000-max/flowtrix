@@ -11,15 +11,15 @@ snap set wekan root-url='http://localhost:8090'
 
 snap set wekan port='80'
 ```
-Then Wekan is visible at http://localhost:8090
+Then wekan is visible at http://localhost:8090
 
 [Adding users](Adding-users)
 
-List of Wekan Snap settings:
+List of wekan Snap settings:
 ```
 wekan.help | less
 ```
 
-More info about Wekan Snap [Snap Install page](https://github.com/wekan/wekan-snap/wiki/Install) and right menu on that page.
+More info about wekan Snap [Snap Install page](https://github.com/wekan/wekan-snap/wiki/Install) and right menu on that page.
 
 [Documentation](https://github.com/wekan/wekan/wiki)

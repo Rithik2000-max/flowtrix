@@ -1,5 +1,5 @@
 // ============================================================================
-// WeKan Client — All Imports
+// wekan Client — All Imports
 // Loaded by client/main.js after bootstrap (collectionHelpers) completes.
 // ============================================================================
 

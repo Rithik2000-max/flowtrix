@@ -1,6 +1,6 @@
 Development is usually done on Xubuntu 16.04 64bit. This could also work on other Ubuntu or Debian based distros, that are 64bit.
 
-Standalone and Sandstorm Wekan has same code. Only difference is, that at Sandstorm, some features are hidden from web UI by checking `isSandstorm` environment variable that is defined at `wekan/sandstorm*` code files. You see checking at webpage templates `wekan/client/components/*/*.jade` and `wekan/client/components/*/*.js` Javascript code that clicking triggers. See [Directory Structure](https://github.com/wekan/wekan/wiki/Directory-Structure). Also, at Sandstorm there is single SSO login, with code at `wekan/server/authentication.js` and `wekan/sandstorm*`. Sandstorm does not use username and passwords, instead Sandstorm saves sandstorm ID to MongoDB, so that database structure is different on Sandstorm. Database tables/collections are defined at `wekan/models/*`.
+Standalone and Sandstorm wekan has same code. Only difference is, that at Sandstorm, some features are hidden from web UI by checking `isSandstorm` environment variable that is defined at `wekan/sandstorm*` code files. You see checking at webpage templates `wekan/client/components/*/*.jade` and `wekan/client/components/*/*.js` Javascript code that clicking triggers. See [Directory Structure](https://github.com/wekan/wekan/wiki/Directory-Structure). Also, at Sandstorm there is single SSO login, with code at `wekan/server/authentication.js` and `wekan/sandstorm*`. Sandstorm does not use username and passwords, instead Sandstorm saves sandstorm ID to MongoDB, so that database structure is different on Sandstorm. Database tables/collections are defined at `wekan/models/*`.
 
 Read:
 - [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
@@ -42,14 +42,14 @@ curl https://dl.sandstorm.io/meteor-spk-0.4.0.tar.xz | tar Jxf -
 echo "export PATH=$PATH:~/repos/meteor-spk-0.4.0" >> ~/.bashrc
 ```
 
-## 3) Fork Wekan, and clone your fork
+## 3) Fork wekan, and clone your fork
 
 Fork repo https://github.com/wekan/wekan
 ```
 cd ~/repos
 git clone git@github.com:YOUR-USER-NAME-HERE/wekan.git
 ```
-Add Wekan as upstream repo:
+Add wekan as upstream repo:
 ```
 git remote add upstream https://github.com/wekan/wekan.git
 ```
@@ -63,7 +63,7 @@ git fetch upstream
 git merge upstream/master
 ```
 
-## 4) Install deps and build Wekan
+## 4) Install deps and build wekan
 
 ```
 cd ~/repos
@@ -71,17 +71,17 @@ cd ~/repos
 ```
 First with option 1, to install deps.
 
-Then same `./rebuild-wekan.sh` again with option 2, to build Wekan.
+Then same `./rebuild-wekan.sh` again with option 2, to build wekan.
 
-## 5) Developing with Standalone Wekan
+## 5) Developing with Standalone wekan
 
 ```
 cd ~/repos/wekan
 meteor --port 4000
 ```
-Wekan is at http://localhost:4000
+wekan is at http://localhost:4000
 
-When you make changes to files, Meteor automatically notices that, and rebuilds Wekan. If Meteor does not notice change, you need to Ctrl-c and `./rebuild-wekan.sh` option 2.
+When you make changes to files, Meteor automatically notices that, and rebuilds wekan. If Meteor does not notice change, you need to Ctrl-c and `./rebuild-wekan.sh` option 2.
 
 ## 6) Using MongoDB
 
@@ -104,19 +104,19 @@ https://www.nosqlbooster.com/downloads
 
 ## 7) Test feature at Sandstorm
 
-When your feature works at Standalone Wekan, you can also test it at Sandstorm.
+When your feature works at Standalone wekan, you can also test it at Sandstorm.
 
 First build wekan with option 2:
 ```
 cd ~/repos/wekan
 ./rebuild-wekan.sh
 ```
-Then build Sandstorm Wekan dev version
+Then build Sandstorm wekan dev version
 ```
 meteor-spk dev
 ```
 
-## 8) After building Wekan, last line of text should be:
+## 8) After building wekan, last line of text should be:
 
 `App in now available from Sandstorm server. Ctrl-C to disconnect.`
 
@@ -124,11 +124,11 @@ With Firefox/Chromium/Chrome/Edge/Chromium Edge browser, open http://local.sands
 
 Login with premade local dev account Alice.
 
-## 9) Go to Apps / Wekan. Wekan has grey "dev mode" background. Click Wekan.
+## 9) Go to Apps / wekan. wekan has grey "dev mode" background. Click wekan.
 
 ## 10) Click + (Dev) Create new board
 
-## 11) Check is everything working in Wekan.
+## 11) Check is everything working in wekan.
 
 ## 12) When it works: Commit, push, make pull request
 
@@ -137,8 +137,8 @@ git add --all
 git commit -a -m "Add Feature: ADD-YOUR-FEATURE-DESCRIPTION-HERE"
 git push
 ```
-Then at GitHub your fork of Wekan, click `Create Pull Request`
+Then at GitHub your fork of wekan, click `Create Pull Request`
 
-Then wait for comments or merge by xet7. You can see when your change is at Wekan new release at website https://wekan.fi click `Stable ChangeLog`, newest changes at top.
+Then wait for comments or merge by xet7. You can see when your change is at wekan new release at website https://wekan.fi click `Stable ChangeLog`, newest changes at top.
 
 Thanks for your contributions!

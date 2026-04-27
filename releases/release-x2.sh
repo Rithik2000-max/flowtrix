@@ -2,7 +2,7 @@
 
 if [ $# -ne 2 ]
   then
-    echo "Syntax with Wekan old and new version number:"
+    echo "Syntax with wekan old and new version number:"
     echo "  ./release-x2.sh 5.10 5.11"
     exit 1
 fi

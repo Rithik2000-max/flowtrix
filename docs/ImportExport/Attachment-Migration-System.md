@@ -298,9 +298,9 @@ For issues and questions:
 1. Check this documentation
 2. Review server logs
 3. Use the monitoring tools
-4. Consult the Wekan community
+4. Consult the wekan community
 5. Report issues with detailed information
 
 ## License
 
-This Enhanced Attachment Migration System is part of Wekan and is licensed under the MIT License.
+This Enhanced Attachment Migration System is part of wekan and is licensed under the MIT License.

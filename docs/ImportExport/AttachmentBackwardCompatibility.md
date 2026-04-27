@@ -1,10 +1,10 @@
 # Attachment Backward Compatibility
 
-This document describes the backward compatibility implementation for Wekan attachments, allowing the system to read attachments from both the old CollectionFS structure (Wekan v6.09 and earlier) and the new Meteor-Files structure (Wekan v7.x and later).
+This document describes the backward compatibility implementation for wekan attachments, allowing the system to read attachments from both the old CollectionFS structure (wekan v6.09 and earlier) and the new Meteor-Files structure (wekan v7.x and later).
 
 ## Overview
 
-When Wekan migrated from CollectionFS to Meteor-Files (ostrio-files), the database structure for attachments changed significantly. This backward compatibility layer ensures that:
+When wekan migrated from CollectionFS to Meteor-Files (ostrio-files), the database structure for attachments changed significantly. This backward compatibility layer ensures that:
 
 1. Old attachments can still be accessed and downloaded
 2. No database migration is required
@@ -116,8 +116,8 @@ Meteor.call('getAttachmentMigrationStatus', cardId);
 
 To test the backward compatibility:
 
-1. Ensure you have old Wekan v6.09 data with attachments
-2. Upgrade to Wekan v7.x
+1. Ensure you have old wekan v6.09 data with attachments
+2. Upgrade to wekan v7.x
 3. Verify that old attachments are visible in the UI
 4. Test downloading old attachments
 5. Verify that new attachments work normally

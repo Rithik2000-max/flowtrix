@@ -58,21 +58,21 @@ export class TrelloCreator {
       cards: {}, // only cards have a field for that
     };
 
-    // Map of labels Trello ID => Wekan ID
+    // Map of labels Trello ID => wekan ID
     this.labels = {};
     // Default swimlane
     this.swimlane = null;
-    // Map of lists Trello ID => Wekan ID
+    // Map of lists Trello ID => wekan ID
     this.lists = {};
-    // Map of cards Trello ID => Wekan ID
+    // Map of cards Trello ID => wekan ID
     this.cards = {};
-    // Map of attachments Wekan ID => Wekan ID
+    // Map of attachments wekan ID => wekan ID
     this.attachmentIds = {};
-    // Map of checklists Wekan ID => Wekan ID
+    // Map of checklists wekan ID => wekan ID
     this.checklists = {};
     // The comments, indexed by Trello card id (to map when importing cards)
     this.comments = {};
-    // the members, indexed by Trello member id => Wekan user ID
+    // the members, indexed by Trello member id => wekan user ID
     this.members = data.membersMapping ? data.membersMapping : {};
 
     // maps a trelloCardId to an array of trelloAttachments
@@ -314,7 +314,7 @@ export class TrelloCreator {
   }
 
   /**
-   * Create the Wekan cards corresponding to the supplied Trello cards,
+   * Create the wekan cards corresponding to the supplied Trello cards,
    * as well as all linked data: activities, comments, and attachments
    * @param trelloCards
    * @param boardId
@@ -410,7 +410,7 @@ export class TrelloCreator {
 
       // insert card
       const cardId = await Cards.direct.insertAsync(cardToCreate);
-      // keep track of Trello id => Wekan id
+      // keep track of Trello id => wekan id
       this.cards[card.id] = cardId;
       // log activity
       // Activities.direct.insert({
@@ -577,7 +577,7 @@ export class TrelloCreator {
       boardId,
       // We are being defensing here by providing a default date (now) if the
       // creation date wasn't found on the action log. This happen on old
-      // Wekan boards (eg from 2013) that didn't log the 'createList' action
+      // wekan boards (eg from 2013) that didn't log the 'createList' action
       // we require.
       createdAt: this._now(),
       title: 'Default',
@@ -599,7 +599,7 @@ export class TrelloCreator {
           sort: checklist.pos,
         };
         const checklistId = await Checklists.direct.insertAsync(checklistToCreate);
-        // keep track of Trello id => Wekan id
+        // keep track of Trello id => wekan id
         this.checklists[checklist.id] = checklistId;
         // Now add the items to the checklistItems
         let counter = 0;
@@ -644,7 +644,7 @@ export class TrelloCreator {
     if (trelloPermissionCode === 'public') {
       return 'public';
     }
-    // Wekan does NOT have organization level, so we default both 'private' and
+    // wekan does NOT have organization level, so we default both 'private' and
     // 'org' to private.
     return 'private';
   }
@@ -659,7 +659,7 @@ export class TrelloCreator {
         // We need the idMemberCreator
         trelloAttachment.idMemberCreator = action.idMemberCreator;
         if (trelloAttachment.url) {
-          // we cannot actually create the Wekan attachment, because we don't yet
+          // we cannot actually create the wekan attachment, because we don't yet
           // have the cards to attach it to, so we store it in the instance variable.
           const trelloCardId = action.data.card.id;
           if (!this.attachments[trelloCardId]) {

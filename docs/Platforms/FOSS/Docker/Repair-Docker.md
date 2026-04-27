@@ -11,13 +11,13 @@ Docker data is usually at `/var/lib/docker` or `/var/snap/docker/common/` (in Sn
 - Or add path to somewhere where mongod service has write access, like `--logpath=/var/lib/docker/mongodb.log` or `--logpath=/var/snap/docker/common/mongodb.log`.
 - If you remove `--quiet`, you get even more verbose logs.
 
-## 3) Errors of Wekan connecting to MongoDB ?
+## 3) Errors of wekan connecting to MongoDB ?
 
 Probably did upgrade your kernel. Please reboot.
 
 ## 4) Errors about too new or old version of MongoDB ?
 
-Check your docker-compose.yml . Did newer Wekan with newest docker-compose.yml from https://github.com/wekan/wekan have different version of MongoDB? If yes, you should change to that old version. For example:
+Check your docker-compose.yml . Did newer wekan with newest docker-compose.yml from https://github.com/wekan/wekan have different version of MongoDB? If yes, you should change to that old version. For example:
 ```
 docker-compose stop
 ```
@@ -33,9 +33,9 @@ docker-compose up -d
 
 a) [Repair MongoDB](Repair-MongoDB)
 
-b) [Using Meteor MongoDB to repair files](Export-from-Wekan-Sandstorm-grain-.zip-file)
+b) [Using Meteor MongoDB to repair files](Export-from-wekan-Sandstorm-grain-.zip-file)
 
-## 6) Trying to upgrade Wekan?
+## 6) Trying to upgrade wekan?
 
 ### 1) [Backup](Backup)
 
@@ -49,7 +49,7 @@ Then edit docker-compose.yml wekan-app version tag, for example:
 ```
 image: quay.io/wekan/wekan:v4.55
 ```
-And start Wekan:
+And start wekan:
 ```
 docker-compose up -d
 ```
@@ -69,7 +69,7 @@ If you have Snap version of Docker, you need to add to scripts path of docker co
 
 Get newest docker-compose.yml from https://github.com/wekan/wekan
 
-Start Wekan
+Start wekan
 ```
 docker-compose up -d
 ```

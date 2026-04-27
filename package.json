@@ -5,13 +5,13 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wekan/wekan.git"
+    "url": "git+https://github.com/trisentrix-com/board"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wekan/wekan/issues"
+    "url": "https://github.com/trisentrix-com/board/issues"
   },
-  "homepage": "https://wekan.fi",
+  "homepage": "https://github.com/trisentrix-com/board",
   "meteor": {
     "mainModule": {
       "client": "client/main.js",

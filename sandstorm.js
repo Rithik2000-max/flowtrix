@@ -14,7 +14,7 @@ const sandstormBoard = {
   _id: 'sandstorm',
 
   // XXX Should be shared with the grain instance name.
-  title: 'Wekan',
+  title: 'Flowtrix',
   slug: 'libreboard',
   members: [],
 
@@ -336,7 +336,7 @@ if (isSandstorm && Meteor.isServer) {
     });
   });
 
-  // Wekan v0.8 didn’t implement the Sandstorm sharing model and instead kept
+  // wekan v0.8 didn’t implement the Sandstorm sharing model and instead kept
   // the visibility setting (“public” or “private”) in the UI as does the main
   // Meteor application. We need to enforce “public” visibility as the sharing
   // is now handled by Sandstorm.
@@ -488,7 +488,7 @@ if (isSandstorm && Meteor.isClient) {
   Meteor.absoluteUrl.defaultOptions = _defaultOptions;
 
   // XXX Hack to fix https://github.com/wefork/wekan/issues/27
-  // Sandstorm Wekan instances only ever have a single board, so there is no need
+  // Sandstorm wekan instances only ever have a single board, so there is no need
   // to cache per-board subscriptions.
   //SubsManager.prototype.subscribe = function(...params) {
   //  return Meteor.subscribe(...params);

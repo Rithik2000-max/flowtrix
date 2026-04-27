@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# MongoDB Log Rotation Script for Wekan Snap
-# This script handles log rotation for MongoDB logs in the Wekan snap environment
+# MongoDB Log Rotation Script for wekan Snap
+# This script handles log rotation for MongoDB logs in the wekan snap environment
 
 set -e
 

@@ -1,4 +1,4 @@
-## In Wekan code
+## In wekan code
 
 wekan/models/integrations.js at bottom
 

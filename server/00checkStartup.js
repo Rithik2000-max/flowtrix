@@ -20,8 +20,8 @@ if (errors.length > 0) {
   console.error("\n\n");
   console.error(errors.join("\n"));
   console.error("\n");
-  console.error("Stopping Wekan");
-  console.error("Wekan isn't runnable. Please resolve the error's above and restart Wekan !");
+  console.error("Stopping wekan");
+  console.error("wekan isn't runnable. Please resolve the error's above and restart wekan !");
   console.error("\n\n");
   process.exit(1);
 }

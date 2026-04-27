@@ -112,7 +112,7 @@ fi
 echo "  Rendering public/api/wekan.html via @redocly/cli ..."
 npx --yes @redocly/cli@latest build-docs public/api/wekan.yml \
   --output public/api/wekan.html \
-  --title "WeKan REST API v$VERSION"
+  --title "wekan REST API v$VERSION"
 
 echo "  Done."
 echo "    public/api/wekan.yml"

@@ -2,13 +2,13 @@ Code originally by ertanalytics (Eric Thompson / AZero). Script has been used fo
 
 ***
 
-![Wekan Sandstorm cards to CSV using Python screenshot](https://wekan.fi/sandstorm-api-csv.png)
+![wekan Sandstorm cards to CSV using Python screenshot](https://wekan.fi/sandstorm-api-csv.png)
 
 ***
 
-## Exporting Wekan board to JSON with Bash script
+## Exporting wekan board to JSON with Bash script
 
-1) On Wekan grain, get Webkey like this:
+1) On wekan grain, get Webkey like this:
 
 ```
 https://api-URL.SUBDOMAIN.sandcats.io#APIKEY
@@ -31,7 +31,7 @@ curl http://Bearer:APIKEY@api-URL.local.sandstorm.io:6080/api/boards/sandstorm/e
 cards-to-csv.py
 
 ```
-#Sandstorm Wekan API Access Testing
+#Sandstorm wekan API Access Testing
 ##Does not seem to pull the redirected content
 import requests
 from requests.auth import HTTPBasicAuth

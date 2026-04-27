@@ -1,10 +1,10 @@
-# [Big Picture Roadmap](https://github.com/wekan/wekan/blob/main/FUTURE.md): Import/Export/Sync with WeKan
+# [Big Picture Roadmap](https://github.com/wekan/wekan/blob/main/FUTURE.md): Import/Export/Sync with wekan
 
 ## Partial
 
 [More](https://github.com/wekan/wekan/issues/4578)
 
-### WeKan kanban
+### wekan kanban
 
 From | Import | Export | Sync | In Progress
 ------------ | ------------- | ------------- | -------------  | -------------
@@ -17,7 +17,7 @@ Clipboard | [Markdown](https://github.com/wekan/wekan/issues/2142) | [Markdown](
 Text | [DragDrop](https://github.com/wekan/wekan/issues/1941) | [Boards/Swimlanes](https://github.com/wekan/wekan/issues/2185) | |
 Print | | [Board](https://github.com/wekan/wekan/issues/2794) | |
 CLI | [Sandstorm](https://github.com/wekan/wekan/issues/1695) | [Sandstorm](https://github.com/wekan/wekan/issues/1695) | |
-WeKan All Boards  | | [ZIP](https://github.com/wekan/wekan/issues/4902) | | 
+wekan All Boards  | | [ZIP](https://github.com/wekan/wekan/issues/4902) | | 
 
 ### Other kanban
 

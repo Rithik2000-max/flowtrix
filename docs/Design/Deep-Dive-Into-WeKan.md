@@ -1,36 +1,36 @@
-## WeKan Interview 2023-12-08 starts at 22min 22sec
+## wekan Interview 2023-12-08 starts at 22min 22sec
 
 https://www.youtube.com/watch?v=ke-mbnZM3zE
 
-## Screenshot of Meteor WeKan
+## Screenshot of Meteor wekan
 
-<img src="https://wekan.fi/wekan-dark-mode.png" width="100%" alt="Meteor WeKan screenshot" />
+<img src="https://wekan.fi/wekan-dark-mode.png" width="100%" alt="Meteor wekan screenshot" />
 
-## Description of Meteor WeKan
+## Description of Meteor wekan
 
-- WeKan Open Source kanban with MIT license.
+- wekan Open Source kanban with MIT license.
 - Translated to 70+ languages https://explore.transifex.com/wekan/wekan/
 - Used in most countries of the world https://snapcraft.io/wekan
 - Biggest user have about 30k users, using many pods at Kubernetes
 - Changelog https://github.com/wekan/wekan/blob/main/CHANGELOG.md
 - Commercial Support at https://wekan.fi/commercial-support/ . Currently looking who could sponsor more of maintenance and development.
 
-## How much effort to create Meteor WeKan, in COCOMO model
+## How much effort to create Meteor wekan, in COCOMO model
 
-- WeKan 134k lines of code: 34 years of effort, 316 contributors https://openhub.net/p/wekan
+- wekan 134k lines of code: 34 years of effort, 316 contributors https://openhub.net/p/wekan
 - Meteor.js, 224k lines of code: 59 years of effort, 819 contributors https://openhub.net/p/meteor-js
-- Since December 2016, WeKan maintainer https://github.com/xet7 :
+- Since December 2016, wekan maintainer https://github.com/xet7 :
   - has added and removed about 4M lines of code https://github.com/wekan/wekan/graphs/contributors
   - https://openhub.net/accounts/xet7
 
-## Meteor WeKan Browser support
+## Meteor wekan Browser support
 
 - Javascript enabled Desktop and Mobile Safari/Chromium/Firefox based browsers
 - Apps at Play Store, Windows Microsoft Store, Ubuntu Touch OpenStore https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix
-- Alternatively, for self-hosted WeKan, create PWA icon https://github.com/wekan/wekan/wiki/PWA
-- Using WeKan with big touchscreen https://github.com/wekan/wekan/wiki/Touch-Screen-support
+- Alternatively, for self-hosted wekan, create PWA icon https://github.com/wekan/wekan/wiki/PWA
+- Using wekan with big touchscreen https://github.com/wekan/wekan/wiki/Touch-Screen-support
 
-## Meteor WeKan Server
+## Meteor wekan Server
 
 - Meteor.js 2.x, Node.js 14.x https://github.com/wekan/node-v14-esm/releases/tag/v14.21.4 , MongoDB 6.x
 - CPU: amd64, arm64, s390x, Source Bundle at https://github.com/wekan/wekan/wiki/Raspberry-Pi
@@ -39,9 +39,9 @@ https://www.youtube.com/watch?v=ke-mbnZM3zE
 - Newest at platforms: Source Bundle, Snap Candidate, Docker, Kubernetes https://wekan.fi
 - Platforms that will be updated to be up-to-date: Snap Stable, Sandstorm, UCS https://wekan.fi
 
-## Meteor WeKan Features
+## Meteor wekan Features
 
-- [WeKan Design Principles](https://github.com/wekan/wekan/wiki/Design-Principles)
+- [wekan Design Principles](https://github.com/wekan/wekan/wiki/Design-Principles)
 - Realtime UI. When someone makes change, like drag card or add text, everyone will see changes immediately. This is because Meteor listens to MongoDB change stream, and updates UI. For some rare cases, there needs to be reload of page, those need to be fixed.
 - Whitelabel: Change product name and product image at login screen and board left top corner. Not changing favicon, because there are 100+ favicons for different devices.
 - Drag Drop at Desktop and Mobile:
@@ -51,7 +51,7 @@ https://www.youtube.com/watch?v=ke-mbnZM3zE
 - IFTTT Rules like Trello Butler https://github.com/wekan/wekan/wiki/IFTTT , translated to all supported languages. Trello Butler is only In English.
 - Many Assignees like in Jira.
 - Change background image and Card Cover. Change Theme. Change color of Boards, Swimlane, List, Card, Label.
-- Markdown at: Board name and description, Swimlane, List, Card title and description, Checklist and Checklist Item, Subtask title,  https://github.com/wekan/wekan/wiki/Wekan-Markdown
+- Markdown at: Board name and description, Swimlane, List, Card title and description, Checklist and Checklist Item, Subtask title,  https://github.com/wekan/wekan/wiki/wekan-Markdown
 - Emoji https://github.com/wekan/wekan/wiki/Emoji
 - MathML
 - Preview card attachment image and PDF
@@ -77,12 +77,12 @@ https://www.youtube.com/watch?v=ke-mbnZM3zE
 ## Technical details
 
 - Reactive Cache
-  - mfilser tested speed improvement for half a year, and finally made huge PR to WeKan v7.00 to make all of WeKan use Reactive cache https://github.com/wekan/wekan/pull/5014
+  - mfilser tested speed improvement for half a year, and finally made huge PR to wekan v7.00 to make all of wekan use Reactive cache https://github.com/wekan/wekan/pull/5014
   - Reactive Cache Repo https://github.com/wekan/meteor-reactive-cache , xet7 updated dependencies
   - Big performance improvements https://github.com/wekan/wekan/issues/5000
   - Using same style of API for client and serverside
   - Use more ReactiveCache than MiniMongo
-- Optimizing and Debugging Meteor, reducing size, links to WeKan dependencies https://github.com/wekan/wekan/wiki/Debugging
+- Optimizing and Debugging Meteor, reducing size, links to wekan dependencies https://github.com/wekan/wekan/wiki/Debugging
 - Custom OIDC/OAuth2 login
   - Repo https://github.com/wekan/wekan/tree/main/packages/wekan-oidc
   - Features:
@@ -111,9 +111,9 @@ https://www.youtube.com/watch?v=ke-mbnZM3zE
 
 ## Video
 
-- Creator of WeKan, mquandalle (Maxime Quandalle) https://www.youtube.com/watch?v=N3iMLwCNOro
+- Creator of wekan, mquandalle (Maxime Quandalle) https://www.youtube.com/watch?v=N3iMLwCNOro
 - https://github.com/wekan/wekan/wiki/FAQ#what-was-wekan-fork--wefork
-- Maintainer of WeKan since December 2016, xet7 (Lauri Ojansivu), about WeKan Multiverse at EU NGI Dapsi https://www.youtube.com/watch?v=BPPjiZHVeyM . More about Multiverse at https://github.com/wekan/wekan/wiki/WeKan-Multiverse-Roadmap
+- Maintainer of wekan since December 2016, xet7 (Lauri Ojansivu), about wekan Multiverse at EU NGI Dapsi https://www.youtube.com/watch?v=BPPjiZHVeyM . More about Multiverse at https://github.com/wekan/wekan/wiki/wekan-Multiverse-Roadmap
 
 ## Maybe?
 
@@ -122,7 +122,7 @@ https://www.youtube.com/watch?v=ke-mbnZM3zE
 ## Upcoming upgrades to Meteor 3.0
 
 - This Week in MeteorJS: 22 September 2023 https://www.youtube.com/watch?v=UWVL1xUP9r0
-- There Jan Dvorak IV https://github.com/StorytellerCZ commented chat: "We should do deep dive into WeKan!"
+- There Jan Dvorak IV https://github.com/StorytellerCZ commented chat: "We should do deep dive into wekan!"
 - So here is The Deep Dive!
 - Questions for upcoming "This Week in MeteorJS", some already mentioned to be upcoming:
   - How to upgrade dependencies to Meteor 3.0 ? Some answer was to mention Meteor version at package dependency:

@@ -37,4 +37,4 @@ sudo systemctl restart snap.wekan.wekan
 
 ## Deleting
 
-Once your done testing your Vagrantbox just go back to the cmd line and type `vagrant destroy` And it completely wipes any trace of the test environment from your system, however you can very very easily rebuild it by doing another `vagrant up` **Note: This will not save any data you may have put into Wekan!!!**
+Once your done testing your Vagrantbox just go back to the cmd line and type `vagrant destroy` And it completely wipes any trace of the test environment from your system, however you can very very easily rebuild it by doing another `vagrant up` **Note: This will not save any data you may have put into wekan!!!**

@@ -595,7 +595,7 @@ export const Utils = {
   windowResizeDep: new Tracker.Dependency(),
   // in fact, what we really care is screen size
   // large mobile device like iPad or android Pad has a big screen, it should also behave like a desktop
-  // in a small window (even on desktop), Wekan run in compact mode.
+  // in a small window (even on desktop), wekan run in compact mode.
   // we can easily debug with a small window of desktop browser. :-)
   isMiniScreen() {
     this.windowResizeDep.depend();
@@ -775,7 +775,7 @@ export const Utils = {
   },
 
   setCustomUI(data) {
-    const productName = (data && data.productName) ? data.productName : 'Wekan';
+    const productName = (data && data.productName) ? data.productName : 'wekan';
     const currentBoard = Utils.getCurrentBoard();
     if (currentBoard) {
       document.title = `${currentBoard.title} - ${productName}`;

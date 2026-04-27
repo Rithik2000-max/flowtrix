@@ -26,7 +26,7 @@ https://wekan.local {
 }
 ```
 
-Restart your Wekan snap service: `sudo snap restart wekan && sudo snap restart wekan.caddy` voila! 
+Restart your wekan snap service: `sudo snap restart wekan && sudo snap restart wekan.caddy` voila! 
 
 *Drawback:* There is a significant drawback in doing so, because the public docs of caddy stating that below caddyV2 (like in our snap) there's only a seven day life span given. Due to the origin intent of testing, not for production.
 
@@ -114,8 +114,8 @@ Finally, run `sudo ./runfiles.sh` and it should work at the address being recomm
 - https://linuxize.com/post/creating-a-self-signed-ssl-certificate/ (openssl cmd)
 - https://caddy.community/t/proper-way-to-utilize-self-signed-certificates/7264 (reading docs and issues of caddy)
 - https://caddy.community/t/tls-self-signed-not-working/5057
-- - https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config (Wekan Docs)
+- - https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config (wekan Docs)
 - https://github.com/wekan/wekan-snap/issues/118 
-- Snap Wekan Docs
+- Snap wekan Docs
 
 Greetings from Germany <3

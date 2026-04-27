@@ -1,16 +1,16 @@
 name: 🐛 Bug Report
-description: Report a bug to help improve WeKan
+description: Report a bug to help improve wekan
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug! Please ensure you are using the [latest version of WeKan](https://wekan.fi/install) and [Upgrade](https://wekan.fi/upgrade) before submitting.
+        Thanks for reporting a bug! Please ensure you are using the [latest version of wekan](https://wekan.fi/install) and [Upgrade](https://wekan.fi/upgrade) before submitting.
   - type: textarea
     id: description
     attributes:
       label: Bug Description
-      description: A clear and concise description of what the bug is. Mention versions of WeKan, Node.js, database name and version, frontend webserver version like Caddy etc.
+      description: A clear and concise description of what the bug is. Mention versions of wekan, Node.js, database name and version, frontend webserver version like Caddy etc.
     validations:
       required: true
   - type: textarea

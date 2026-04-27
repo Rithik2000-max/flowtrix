@@ -15,12 +15,12 @@ meteor run --exclude-archs web.browser.legacy,web.cordova --port 4000 --extra-pa
 ```
 3. Make dependencies smaller. For example, use only required files, and do not include all dependencies: https://github.com/wekan/wekan/commit/23e5e1e3bd081699ce39ce5887db7e612616014d . In that commit, package was forked to packages directory, then renamed, and added with `meteor add packagename`, where package name does not have character `:`
 4. Use Browserstack.com to see errors at browser / inspect / console, or use iOS or other device emulators, to see error messages. Testing at real device is more important, because they could work differently than emulators, emulators sometimes do not emulate all same features. Those error messages have file where error happened, and line number, like `something.js:301` . From there, scroll up a little, look at what function or what package dependency it is where it happened. If possible, try to move that package serverside, like at step 1. Or alternatively, look is it possible to remove or change to some other compatible dependency.
-5. See what are the dependencies at your Meteor based software, compared to WeKan dependencies that are usually already upgraded to newest Meteor, is there any differences where changing to correct dependencies could help you to upgrade to newest Meteor:
+5. See what are the dependencies at your Meteor based software, compared to wekan dependencies that are usually already upgraded to newest Meteor, is there any differences where changing to correct dependencies could help you to upgrade to newest Meteor:
   - https://github.com/wekan/wekan/blob/main/package.json
   - https://github.com/wekan/wekan/blob/main/.meteor/packages
   - https://github.com/wekan/wekan/blob/main/.meteor/versions
   - https://github.com/wekan/wekan/blob/main/.meteor/release
-5. If you get some errors, search are those same already fixed in WeKan/Meteor/RocketChat, could you fix them same way:
+5. If you get some errors, search are those same already fixed in wekan/Meteor/RocketChat, could you fix them same way:
   - https://github.com/wekan/wekan/blob/main/CHANGELOG.md
   - https://github.com/wekan/wekan/issues
   - https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aclosed
@@ -70,9 +70,9 @@ meteor run --exclude-archs web.browser.legacy,web.cordova --port 4000 --extra-pa
 
 1) Increase ulimit system wide to 100 000 in systemd config.
 
-2) Wekan Javascript code has [increaded fiber poolsize](https://github.com/wekan/wekan/blob/main/server/authentication.js#L5-L9).
+2) wekan Javascript code has [increaded fiber poolsize](https://github.com/wekan/wekan/blob/main/server/authentication.js#L5-L9).
 
-3) There is [on-going 100% CPU usage Meteor issue](https://github.com/meteor/meteor/issues/9796#issuecomment-400079380) and hopefully [fixes to Node.js will land in Node v8.12](https://github.com/nodejs/node/pull/21593#issuecomment-403636667) sometime. Node 8.12 is now released and official version included at Wekan.
+3) There is [on-going 100% CPU usage Meteor issue](https://github.com/meteor/meteor/issues/9796#issuecomment-400079380) and hopefully [fixes to Node.js will land in Node v8.12](https://github.com/nodejs/node/pull/21593#issuecomment-403636667) sometime. Node 8.12 is now released and official version included at wekan.
 
 ## Scaling to thousands of users
 
@@ -90,12 +90,12 @@ meteor run --exclude-archs web.browser.legacy,web.cordova --port 4000 --extra-pa
 
 ## Build from source
 
-Wekan:
+wekan:
 - On any x64 hardware that has Ubuntu 14.04 or Debian 9 or newer installed directly or in VM:
 [Build from source scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox)
 
-Wekan for Sandstorm:
-- Install above Wekan from source
+wekan for Sandstorm:
+- Install above wekan from source
 - Install [Sandstorm locally](https://sandstorm.io/install) with `curl https://install.sandstorm.io | bash`, select dev install
 - Install [meteor-spk](https://github.com/sandstorm-io/meteor-spk)
 - Get 100% CPU issue fibers fixed node, and copy it to spk directory:<br />
@@ -105,7 +105,7 @@ Wekan for Sandstorm:
 - Add to your /home/username/.bashrc : <br /> `export PATH=$PATH:$HOME/projects/meteor-spk/meteor-spk-0.4.0`
 - Close and open your terminal, or read settings from .bashrc with<br />`source ~/.bashrc`
 - `cd wekan && meteor-spk dev`
-- Then Wekan will be visible at local sandstorm at http://local.sandstorm.io:6080/
+- Then wekan will be visible at local sandstorm at http://local.sandstorm.io:6080/
 - Sandstorm commands: `sudo sandstorm`. [Release scripts](https://github.com/wekan/wekan-maintainer/tree/master/releases). Official releases require publishing key that only xet7 has.
 
 Docker:

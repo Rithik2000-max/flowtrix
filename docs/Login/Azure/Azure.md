@@ -6,7 +6,7 @@
 
 ### Redirect URL
 
-[About AZURE-NEW-APP-CLIENT-ID and AZURE-NEW-APP-SECRET](https://community.microfocus.com/t5/Identity-Manager-Tips/Creating-the-application-Client-ID-and-Client-Secret-from/ta-p/1776619). The redirect URL is your Wekan root-url+_oauth/oidc like this: https://boards.example.com/_oauth/oidc
+[About AZURE-NEW-APP-CLIENT-ID and AZURE-NEW-APP-SECRET](https://community.microfocus.com/t5/Identity-Manager-Tips/Creating-the-application-Client-ID-and-Client-Secret-from/ta-p/1776619). The redirect URL is your wekan root-url+_oauth/oidc like this: https://boards.example.com/_oauth/oidc
 
 <img src="azure-redirect.png" width="100%" alt="Azure Redirect" />
 
@@ -31,11 +31,11 @@ sudo snap set wekan oauth2-server-url='https://login.microsoftonline.com/AZURE_D
 
 ## Note: Mailjet is not available at Azure anymore
 
-Instead, use O365 at upcoming Wekan v5.38 or newer.
+Instead, use O365 at upcoming wekan v5.38 or newer.
 
 ### Mailjet: getaddrinfo ENOTFOUND
 
-With Wekan Snap and Mailjet, if you get getaddrinfo ENOTFOUND error when you try to send a test email from within Wekan, it can be something with networking for the snap. Fix can be found in [Ubuntu DNS resolution issue affecting other snap packages](https://github.com/nextcloud/nextcloud-snap/issues/881). Thanks to [peterk for info](https://github.com/wekan/wekan/issues/3184#issuecomment-699669350).
+With wekan Snap and Mailjet, if you get getaddrinfo ENOTFOUND error when you try to send a test email from within wekan, it can be something with networking for the snap. Fix can be found in [Ubuntu DNS resolution issue affecting other snap packages](https://github.com/nextcloud/nextcloud-snap/issues/881). Thanks to [peterk for info](https://github.com/wekan/wekan/issues/3184#issuecomment-699669350).
 
 ### Mailjet: mail-from
 
@@ -125,7 +125,7 @@ http://example.com {
   redir https://example.com
 }
 
-# Wekan redirect to SSL
+# wekan redirect to SSL
 http://boards.example.com {
   redir https://boards.example.com
 }
@@ -139,7 +139,7 @@ https://example.com {
   }
 }
 
-# Wekan
+# wekan
 https://boards.example.com {
   tls {
       load /var/snap/wekan/common/certs
@@ -153,7 +153,7 @@ https://boards.example.com {
 ```
 Optionally you can would like to [disable all Snap automatic updates](https://github.com/wekan/wekan-snap/wiki/Automatic-update-schedule#if-required-you-can-disable-all-snap-updates) (not recommended, only required by some clients).
 
-### There are two major steps for configuring Wekan to authenticate to Azure AD via OpenID Connect (OIDC)
+### There are two major steps for configuring wekan to authenticate to Azure AD via OpenID Connect (OIDC)
 
 Note: These old docs below don't have all settings listed that above new Snap settings have. Text case and _- is different, for example at Docker there is `OAUTH2_ENABLED=true` when at Snap same setting is `sudo snap set wekan oauth-enabled='true'`
 
@@ -177,4 +177,4 @@ You may also find it useful to look at the following configuration information:
 https://login.microsoftonline.com/**the-tenant-name-for-your-organization**/v2.0/.well-known/openid-configuration
 
 Some Azure links also at wiki page about moving from Sandstorm to Docker/Snap , and using Docker Swarm:
-- https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file#azure-links
+- https://github.com/wekan/wekan/wiki/Export-from-wekan-Sandstorm-grain-.zip-file#azure-links

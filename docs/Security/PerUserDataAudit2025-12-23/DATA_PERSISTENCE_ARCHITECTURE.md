@@ -1,4 +1,4 @@
-# Wekan Data Persistence Architecture - 2025-12-23
+# wekan Data Persistence Architecture - 2025-12-23
 
 **Status**: ✅ Latest Current  
 **Updated**: 2025-12-23  
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Wekan's data persistence architecture distinguishes between:
+wekan's data persistence architecture distinguishes between:
 - **Board-Level Data**: Shared across all users on a board (positions, widths, heights, order)
 - **Per-User Data**: Private to each user, not visible to others (collapse state, label visibility)
 

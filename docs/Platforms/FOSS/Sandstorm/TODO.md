@@ -5,6 +5,6 @@
 - Make automated builds for VirtualBox and Windows
 - Fix [wekan-autoinstall](https://github.com/wekan/wekan-autoinstall)
 - Integrate [Install source without sudo](https://github.com/wekan/wekan/wiki/Install-source-without-sudo-on-Linux) to other install instructions and install scripts
-- Try to combine duplicate Docker etc install instructions on [Wekan wiki](https://github.com/wekan/wekan/wiki) to make it easier to keep up-to-date
+- Try to combine duplicate Docker etc install instructions on [wekan wiki](https://github.com/wekan/wekan/wiki) to make it easier to keep up-to-date
 - Add more platforms
-- Add [Tests](https://github.com/wekan/wekan/issues/467) to Wekan. [Cloudron](https://github.com/wekan/wekan/issues/1065) has some selenium tests, check are they on [Cloudron repos](https://github.com/wekan/wekan/wiki/Platforms#cloudron) and could those tests be integrated to Wekan.
+- Add [Tests](https://github.com/wekan/wekan/issues/467) to wekan. [Cloudron](https://github.com/wekan/wekan/issues/1065) has some selenium tests, check are they on [Cloudron repos](https://github.com/wekan/wekan/wiki/Platforms#cloudron) and could those tests be integrated to wekan.

@@ -1,4 +1,4 @@
-[Sandstorm](Sandstorm) - [Sandstorm Backup](Export-from-Wekan-Sandstorm-grain-.zip-file)
+[Sandstorm](Sandstorm) - [Sandstorm Backup](Export-from-wekan-Sandstorm-grain-.zip-file)
 
 # Related
 
@@ -6,13 +6,13 @@
 
 # Backup Docker
 
-[Also see: Upgrading Synology with Wekan quay images](https://github.com/wekan/wekan/issues/3874#issuecomment-867526249)
+[Also see: Upgrading Synology with wekan quay images](https://github.com/wekan/wekan/issues/3874#issuecomment-867526249)
 
 Note: Do not run `docker compose down` because it could delete data. https://docs.docker.com/compose/reference/down/
 
 [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml)
 
-This presumes your Wekan Docker is currently running with:
+This presumes your wekan Docker is currently running with:
 ```bash
 docker compose up -d
 ```
@@ -34,7 +34,7 @@ docker cp dump wekan-db:/data/
 docker exec wekan-db mongorestore --drop --dir=/data/dump
 docker start wekan-app
 ```
-# Upgrade Docker Wekan version
+# Upgrade Docker wekan version
 
 1. Check that you use newest [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/refs/heads/main/docker-compose.yml)
    that has for example: `image: ghcr.io/wekan/wekan:latest` . If you have old docker-compose.yml, copy it's settings like ROOT_URL to newest docker-compose.yml.
@@ -51,7 +51,7 @@ docker compose up -d
 3. When you open board, if cards or attachments are not visible, click right sidebar / Board Settings / Migrations.
    From there, run most migrations, but not migration about `Restore all from archive`, because it would unarchive cards etc from archive.
 
-# Backup Wekan Snap to directory dump
+# Backup wekan Snap to directory dump
 ```bash
 sudo snap stop wekan.wekan
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
@@ -77,7 +77,7 @@ Set snap-settings.sh executeable:
 chmod +x snap-settings.sh
 ```
 
-# Restore Wekan Snap
+# Restore wekan Snap
 ```bash
 sudo snap stop wekan.wekan
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
@@ -87,11 +87,11 @@ sudo snap start wekan.wekan
 ./snap-settings.sh
 ```
 
-# Upgrade WeKan Snap Stable 6.x to newest WeKan Snap Candidate
+# Upgrade wekan Snap Stable 6.x to newest wekan Snap Candidate
 
 1. Check that you have enough disk space: `df -h` . Also check size of your data: `sudo du -sh /var/snap/wekan/common` .
 2. [Backup Snap](#backup-wekan-snap-to-directory-dump)
-3. Move WeKan database common directory content elsewhere:
+3. Move wekan database common directory content elsewhere:
 ```
 sudo su
 snap stop wekan
@@ -104,7 +104,7 @@ sudo snap refresh wekan --channel=latest/candidate --amend
 ```
 5. [Restore Snap](#restore-wekan-snap)
 6. Copy back files directory, if it is there: `sudo cp -pR /root/common/files /var/snap/wekan/common/`
-7. If you use [Caddy](https://github.com/wekan/wekan/blob/main/docs/Webserver/Caddy.md), that is included in WeKan, edit /var/snap/wekan/Caddyfile to new syntax:
+7. If you use [Caddy](https://github.com/wekan/wekan/blob/main/docs/Webserver/Caddy.md), that is included in wekan, edit /var/snap/wekan/Caddyfile to new syntax:
 ```
 wekan.yourcompany.com {
         tls {
@@ -114,7 +114,7 @@ wekan.yourcompany.com {
         reverse_proxy 127.0.0.1:2000
 }
 ```
-This is if you have WeKan Node.js running at port 2000, for example with these settings:
+This is if you have wekan Node.js running at port 2000, for example with these settings:
 ```
 sudo snap set wekan root-url='https://wekan.yourcompany.com'
 sudo snap set wekan port='2000'
@@ -126,7 +126,7 @@ You can check is caddy, wekan and mongodb running with:
 ```
 sudo snap services
 ```
-If you need to disable WeKan included Caddy, because you have system-wide installed Caddy or other webserver:
+If you need to disable wekan included Caddy, because you have system-wide installed Caddy or other webserver:
 ```
 sudo snap stop wekan.caddy
 sudo systemctl disable snap.wekan.caddy
@@ -135,7 +135,7 @@ sudo systemctl stop snap.wekan.caddy
 7. When you open board, if cards or attachments are not visible, click right sidebar / Board Settings / Migrations.
 From there, run most migrations, but not migration about `Restore all from archive`, because it would unarchive cards etc from archive.
 
-# If upgrade did not work, going back to WeKan Snap Stable 6.09
+# If upgrade did not work, going back to wekan Snap Stable 6.09
 
 This is only if you have old 6.09 common directory at /root/common .
 
@@ -159,7 +159,7 @@ snap start wekan
 sudo snap refresh
 ```
 
-# Backup Wekan Gantt GPLv2 Snap to directory dump
+# Backup wekan Gantt GPLv2 Snap to directory dump
 ```bash
 sudo snap stop wekan-gantt-gpl.wekan
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan-gantt-gpl/current/lib/x86_64-linux-gnu
@@ -181,7 +181,7 @@ Set snap-settings.sh executeable:
 chmod +x snap-settings.sh
 ```
 
-# Restore Wekan Gantt GPLv2 Snap
+# Restore wekan Gantt GPLv2 Snap
 ```bash
 sudo snap stop wekan-gantt-gpl.wekan
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan-gantt-gpl/current/lib/x86_64-linux-gnu
@@ -195,11 +195,11 @@ sudo snap start wekan-gantt-gpl.wekan
 
 https://dbgate.org - https://github.com/dbgate/dbgate
 
-# Using nosqlbooster closed source MongoDB GUI with Wekan Snap to edit MongoDB database
+# Using nosqlbooster closed source MongoDB GUI with wekan Snap to edit MongoDB database
 
 https://nosqlbooster.com/downloads
 
-### At server where Wekan Snap is installed, MongoDB is running at localhost port 27019
+### At server where wekan Snap is installed, MongoDB is running at localhost port 27019
 
 <img src="nosqlbooster-basic-connection.png" width="60%" alt="NoSQLBooster basic connection" />
 
@@ -211,7 +211,7 @@ https://nosqlbooster.com/downloads
 
 For below scheduled backup scripts, no info from above of this wiki page is required. Backup scripts below have the required settings.
 
-This does backup of [Wekan+RocketChat snap databases](OAuth2) and php website etc.
+This does backup of [wekan+RocketChat snap databases](OAuth2) and php website etc.
 
 If you need to backup some remote server or cloud, you can use scp, or read [rclone docs](https://rclone.org/docs/) about how to configure saving to some other remote server or cloud.
 
@@ -275,13 +275,13 @@ run backups as normal user, by exiting root user with `exit` and
 then as normal user editing cron with `crontab -e`.
 You can also list current cron with command `crontab -l`.
 
-If you like to backup Wekan snap settings with this command, then it
+If you like to backup wekan snap settings with this command, then it
 only works with sudo at front, or as a root user without sudo at front.
 ```bash
 sudo snap get wekan > snap-settings.txt
 ```
 
-This below is backup script for backing up Wekan.
+This below is backup script for backing up wekan.
 
 /root/backup-wekan.sh
 ```bash
@@ -499,32 +499,32 @@ Open Source solution for consistent backups of multi-shard MongoDB
 
 [Creating a backup while the grain is running could cause corruption](https://github.com/sandstorm-io/sandstorm/issues/3186).
 
-## Combining old and new Wekan version data
+## Combining old and new wekan version data
 
-Note: Do mongodump/mongorestore only when Wekan is stopped: wekan.wekan (Snap) or wekan-app (Docker).
+Note: Do mongodump/mongorestore only when wekan is stopped: wekan.wekan (Snap) or wekan-app (Docker).
 
-1. From new Wekan export all boards to Wekan JSON.
-2. Backup new Wekan with mongodump.
-3. Backup old Wekan with mongodump.
-4. Restore old Wekan data to new Wekan with mongorestore.
-5. Restore new Wekan JSON exported boards by importing them.
+1. From new wekan export all boards to wekan JSON.
+2. Backup new wekan with mongodump.
+3. Backup old wekan with mongodump.
+4. Restore old wekan data to new wekan with mongorestore.
+5. Restore new wekan JSON exported boards by importing them.
 
 ## Rescuing board that does not load
 
-Wekan web UI Import/Export JSON does not have all content currently. To upgrade from old Wekan version, use mongodump/mongorestore to newest Wekan, like described below.
+wekan web UI Import/Export JSON does not have all content currently. To upgrade from old wekan version, use mongodump/mongorestore to newest wekan, like described below.
 
 To import big JSON file, on Linux you can use xclip to copy textfile to clipboard:
 ```bash
 sudo apt-get install xclip
 cat board.json | xclip -se c
 ```
-Then paste to webbrowser Wekan Add Board / Import / From previous export.
+Then paste to webbrowser wekan Add Board / Import / From previous export.
 
-You can [save all MongoDB database content as JSON files](Export-from-Wekan-Sandstorm-grain-.zip-file). Files are base64 encoded in JSON files.
+You can [save all MongoDB database content as JSON files](Export-from-wekan-Sandstorm-grain-.zip-file). Files are base64 encoded in JSON files.
 
-Export board to Wekan JSON, and import as Wekan JSON can make some part of board to load, but you should check is some data missing.
+Export board to wekan JSON, and import as wekan JSON can make some part of board to load, but you should check is some data missing.
 
-With Wekan Snap, you can use [nosqlbooster GUI](https://nosqlbooster.com/downloads) to login through SSH to Wekan server localhost port 27019 and browse data.
+With wekan Snap, you can use [nosqlbooster GUI](https://nosqlbooster.com/downloads) to login through SSH to wekan server localhost port 27019 and browse data.
 
 You could use [daff](https://github.com/paulfitz/daff) to compare tables.
 
@@ -544,7 +544,7 @@ And restore:
 mongorestore --drop --port 27019
 ```
 
-## MongoDB shell on Wekan Snap
+## MongoDB shell on wekan Snap
 
 mongoshell.sh
 ```bash
@@ -598,7 +598,7 @@ take_backup () {
 }
 
 printf "\n======================================================================="
-printf "\nWekan Backup"
+printf "\nwekan Backup"
 printf "\n======================================================================="
 printf "\nBackup in progress..."
 
@@ -764,19 +764,19 @@ makesRestore $1
 
 [Docker Backup and Restore](Export-Docker-Mongo-Data)
 
-[Wekan Docker Upgrade](https://github.com/wekan/wekan-mongodb#backup-before-upgrading)
+[wekan Docker Upgrade](https://github.com/wekan/wekan-mongodb#backup-before-upgrading)
 
 ## Snap Backup
 
 [Snap Backup and Restore](https://github.com/wekan/wekan-snap/wiki/Backup-and-restore)
 
-[Wekan Snap upgrade](https://github.com/wekan/wekan-snap/wiki/Install#5-install-all-snap-updates-automatically-between-0200am-and-0400am)
+[wekan Snap upgrade](https://github.com/wekan/wekan-snap/wiki/Install#5-install-all-snap-updates-automatically-between-0200am-and-0400am)
 
 ## Sandstorm Backup
 
-Download Wekan grain with arrow down download button to .zip file. You can restore it later.
+Download wekan grain with arrow down download button to .zip file. You can restore it later.
 
-[Export data from Wekan Sandstorm grain .zip file](Export-from-Wekan-Sandstorm-grain-.zip-file)
+[Export data from wekan Sandstorm grain .zip file](Export-from-wekan-Sandstorm-grain-.zip-file)
 
 ## <a name="cloudron">Cloudron
 
@@ -841,8 +841,8 @@ but downloading with API script still works:
 
 7) Repeat steps 1-4 and 6 for every collection/table like boards,cards, etc
 
-8) Remove from downloaded .json files extra query related data, so that it is similar like [any other Wekan database backup JSON files](Export-from-Wekan-Sandstorm-grain-.zip-file)
+8) Remove from downloaded .json files extra query related data, so that it is similar like [any other wekan database backup JSON files](Export-from-wekan-Sandstorm-grain-.zip-file)
 
-9) Insert data to some other Wekan install with nosqlbooster like mentioned at page [Backup](Backup)
+9) Insert data to some other wekan install with nosqlbooster like mentioned at page [Backup](Backup)
 
 

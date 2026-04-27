@@ -6,7 +6,7 @@
 ```
 
 - [Original PR](https://github.com/wekan/wekan/pull/3909). Thanks to indika-dev.
-- [Added settings for all remainin Wekan Standalone (non-Sandstorm) platforms](https://github.com/wekan/wekan/commit/fe40f35d6d9b6293f3bdbf5bc0f3e8e708c59518) and Docs to this wiki page. Thanks to xet7.
+- [Added settings for all remainin wekan Standalone (non-Sandstorm) platforms](https://github.com/wekan/wekan/commit/fe40f35d6d9b6293f3bdbf5bc0f3e8e708c59518) and Docs to this wiki page. Thanks to xet7.
 - When enabled, LDAP_BASEDN is not needed. Example: `true`
 - Also change `mydomain.com` to your domain.
 - If you use LDAP Sync, also change those settings.
@@ -54,7 +54,7 @@ Uncomment settings lines this wasy at [docker-compose.yml](https://github.com/we
 
 ## Snap
 
-Wekan, enable:
+wekan, enable:
 ```
 sudo snap set wekan ldap-ad-simple-auth='true'
 
@@ -62,7 +62,7 @@ sudo snap set wekan ldap-user-authentication='true'
 
 sudo snap set wekan ldap-default-domain='mydomain.com'
 ```
-Wekan, disable:
+wekan, disable:
 ```
 sudo snap unset wekan ldap-ad-simple-auth
 
@@ -71,7 +71,7 @@ sudo snap unset wekan ldap-user-authentication
 sudo snap unset wekan ldap-default-domain
 ```
 
-[Wekan Gantt GPL](https://github.com/wekan/wekan/issues/2870#issuecomment-721364824), enable:
+[wekan Gantt GPL](https://github.com/wekan/wekan/issues/2870#issuecomment-721364824), enable:
 ```
 sudo snap set wekan-gantt-gpl ldap-ad-simple-auth='true'
 
@@ -79,7 +79,7 @@ sudo snap set wekan-gantt-gpl ldap-user-authentication='true'
 
 sudo snap set wekan-gantt-gpl ldap-default-domain='mydomain.com'
 ```
-Wekan Gantt GPL, disable:
+wekan Gantt GPL, disable:
 ```
 sudo snap unset wekan-gantt-gpl ldap-ad-simple-auth
 

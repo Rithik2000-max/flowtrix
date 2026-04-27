@@ -2,7 +2,7 @@
 
 * Update docker-compose.yml:
   * Add more docs and environment settings
-  * Add latest Wekan and ToroDB.
+  * Add latest wekan and ToroDB.
 
 Thanks to GitHub user xet7 for contributions.
 
@@ -26,7 +26,7 @@ Thanks to GitHub user xet7 for contributions.
 
 # v0.5 2018-08-01
 
-* Enable Wekan API by default, so that Export Board works.
+* Enable wekan API by default, so that Export Board works.
 * Add Matomo options.
 
 Thanks to GitHub user xet7 for contributions.
@@ -63,7 +63,7 @@ with it.
 
 This release adds following new features:
 
-* Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only
+* wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only
   mirroring for SQL access with any programming language
   or Office package that has PostgreSQL support, like
   newest LibreOffice 3.5.

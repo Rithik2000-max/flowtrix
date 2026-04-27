@@ -1,15 +1,15 @@
-In WeKan v7.08 and newer.
+In wekan v7.08 and newer.
 
 ## Description
 
-WeKan has default translations from English to other languages at https://explore.transifex.com/wekan/wekan/
+wekan has default translations from English to other languages at https://explore.transifex.com/wekan/wekan/
 
-With this feature, you can override some default translation string with custom string, your modified new version of translation text, with GUI at Admin Panel, and changes are immediately in use in WeKan.
+With this feature, you can override some default translation string with custom string, your modified new version of translation text, with GUI at Admin Panel, and changes are immediately in use in wekan.
 
 ## To translators, about the word Custom
 
 Custom means something modified, that is not the default.
-For example, WeKan has other feature https://github.com/wekan/wekan/wiki/Custom-Fields ,
+For example, wekan has other feature https://github.com/wekan/wekan/wiki/Custom-Fields ,
 where is added new custom fields, that are not default.
 
 ## Admin Panel / Translation

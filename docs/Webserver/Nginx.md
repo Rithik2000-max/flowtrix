@@ -12,9 +12,9 @@ Once I deleted those files, nginx was working instantly. Propose a new step coul
 
 ## CentOS 7
 
-If you use Nginx in front of Wekan on CentOS 7, please try: `setsebool -P httpd_can_network_connect 1`. This should allow nginx or any other webserver to connect to a container. Please [**do not disable SELinux**](https://github.com/wekan/wekan/issues/2792#issuecomment-630222315) 
+If you use Nginx in front of wekan on CentOS 7, please try: `setsebool -P httpd_can_network_connect 1`. This should allow nginx or any other webserver to connect to a container. Please [**do not disable SELinux**](https://github.com/wekan/wekan/issues/2792#issuecomment-630222315) 
 
-## Nginx requires unsafe-eval for WeKan date format
+## Nginx requires unsafe-eval for wekan date format
 
 [Source](https://github.com/wekan/wekan/issues/4220#issuecomment-990243775)
 
@@ -56,7 +56,7 @@ Below config is tested with Debian 9, it did receive A+ rating at ssllabs.com te
 
 ## Nginx webserver configs
 
-If you use Wekan at sub url, change / to /wekan .
+If you use wekan at sub url, change / to /wekan .
 
 ### /etc/nginx/conf.d/example.com.conf or /etc/nginx/sites-available/example.com.conf:
 
@@ -94,8 +94,8 @@ server {
         return 303 https://browser-update.org/update.html;
     }
 
-    # Pass requests to Wekan.
-    # If you have Wekan at https://example.com/wekan , change location to:
+    # Pass requests to wekan.
+    # If you have wekan at https://example.com/wekan , change location to:
     # location /wekan {
     location / {
         # proxy_pass http://127.0.0.1:3001/wekan;
@@ -134,7 +134,7 @@ http {
 	# Basic Settings
 	##
 
-        ## Max attachment size that can be uploaded to Wekan:
+        ## Max attachment size that can be uploaded to wekan:
         client_max_body_size 100M;
 	sendfile on;
 	tcp_nopush on;
@@ -239,7 +239,7 @@ If config is OK, take it into use:
 sudo systemctl reload nginx    (or: sudo service nginx reload)
 ```
 
-Wekan Snap
+wekan Snap
 
 ```
 sudo apt install snapd

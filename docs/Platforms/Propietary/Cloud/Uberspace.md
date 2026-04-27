@@ -1,6 +1,6 @@
 # NEWEST:
 
-[UberLab/Uberspace 7 Manual: Wekan](https://lab.uberspace.de/guide_wekan.html) - ([Source](https://github.com/wekan/wekan/issues/2009#issuecomment-817010524))
+[UberLab/Uberspace 7 Manual: wekan](https://lab.uberspace.de/guide_wekan.html) - ([Source](https://github.com/wekan/wekan/issues/2009#issuecomment-817010524))
 
 ***
 
@@ -10,9 +10,9 @@
 - [Newest Node/Mongo/Meteor versions](https://github.com/wekan/wekan/blob/main/Dockerfile).
 - For x64 wekan-VERSION.zip is at https://releases.wekan.team and some related install info https://github.com/wekan/wekan/wiki/Raspberry-Pi
 
-**Purpose**: Install latest Wekan release on [Uberspace](https://uberspace.de/) 6 and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
+**Purpose**: Install latest wekan release on [Uberspace](https://uberspace.de/) 6 and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
 
-This script installs Wekan on a fresh Uberspace 6. It setup Node 4, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.32 and 0.63.
+This script installs wekan on a fresh Uberspace 6. It setup Node 4, MongoDB, a Port, installs wekan and starts it as a service. It's tested with wekan versions 0.32 and 0.63.
 
 You have two Options to use it.
 
@@ -34,7 +34,7 @@ Or you can run it automatically.
 ## Usage: ./install_wekan.sh SMTP-password
 ##
 ## Draft
-## Install Wekan (v0.63) on Uberspace 6 by Noodle / Chris
+## Install wekan (v0.63) on Uberspace 6 by Noodle / Chris
 ##
 ## Sources:
 ## https://github.com/wekan/wekan/wiki/Install-and-Update#manual-installation-steps
@@ -87,7 +87,7 @@ echo "FREE_PORT: ${FREE_PORT}"
 
 
 ###################
-### Setup Wekan ###
+### Setup wekan ###
 ###################
 
 ## Issue #907 - Port must be speccified in root url, when Version > 0.10.1
@@ -101,14 +101,14 @@ echo -e "MONGO_URL: ${MONGO_URL} \nPORT: ${PORT} \nROOT_URL: ${ROOT_URL} \nMAIL_
 
 
 #####################
-### Install Wekan ###
+### Install wekan ###
 #####################
 
 mkdir ~/wekan && cd ~/wekan
 
 # Tested versions 0.32, 0.63
-WEKAN_VERSION=0.63
-curl -OL https://github.com/wekan/wekan/releases/download/v${WEKAN_VERSION}/wekan-${WEKAN_VERSION}.tar.gz && tar xzf wekan-${WEKAN_VERSION}.tar.gz && rm wekan-${WEKAN_VERSION}.tar.gz
+wekan_VERSION=0.63
+curl -OL https://github.com/wekan/wekan/releases/download/v${wekan_VERSION}/wekan-${wekan_VERSION}.tar.gz && tar xzf wekan-${wekan_VERSION}.tar.gz && rm wekan-${wekan_VERSION}.tar.gz
 
 cd ~/wekan/bundle/programs/server && npm install
 cd ~
@@ -151,8 +151,8 @@ uberspace-setup-service wekan ~/etc/wekan-start
 echo -e "\n  Login: ${ROOT_URL} \n\n"
 ```
 
-# Control Wekan Service
-Basic control of the Wekan service:
+# Control wekan Service
+Basic control of the wekan service:
 * Stop the service: `svc -d ~/service/wekan`
 * Start the service: `svc -u ~/service/wekan`
 * Keep an eye on the log while running the service: `tailf ~/service/wekan/log/main/current`
@@ -160,8 +160,8 @@ Basic control of the Wekan service:
 More about [daemontools](https://cr.yp.to/daemontools/faq/create.html).
 
 
-# Uninstall Wekan
-To remove Wekan from your uberspace you have to do the following steps.
+# Uninstall wekan
+To remove wekan from your uberspace you have to do the following steps.
 * Stop and remove the service.
 `uberspace-remove-service -s wekan`
 * Remove the complete data.

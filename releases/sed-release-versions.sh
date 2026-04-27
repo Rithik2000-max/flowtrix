@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Update WeKan version number across release files.
+# Update wekan version number across release files.
 #
-# Each file uses a context-specific pattern so that only the WeKan version
+# Each file uses a context-specific pattern so that only the wekan version
 # is replaced, leaving unrelated numbers (npm package versions, CSS values,
 # Node.js versions, MongoDB versions, port numbers, etc.) untouched.
 #
@@ -10,7 +10,7 @@
 #   ./releases/sed-release-versions.sh 8.42 8.43
 
 if [ $# -ne 2 ]; then
-  echo "Syntax with Wekan current-version new-version:"
+  echo "Syntax with wekan current-version new-version:"
   echo "  ./releases/sed-release-versions.sh 8.42 8.43"
   exit 1
 fi
@@ -29,8 +29,8 @@ sedi() {
 }
 
 # package.json and package-lock.json
-#   WeKan's own version entry always has a "v" prefix: "version": "v8.42.0"
-#   npm dependency versions never use a "v" prefix, so this pattern is WeKan-specific.
+#   wekan's own version entry always has a "v" prefix: "version": "v8.42.0"
+#   npm dependency versions never use a "v" prefix, so this pattern is wekan-specific.
 #   The patch component (\1) is preserved as-is.
 sedi 's|"version": "v'"$OLD"'\.\([0-9]*\)"|"version": "v'"$NEW"'.\1"|g' \
   package.json package-lock.json
@@ -46,10 +46,10 @@ sedi 's|appVersion: "v'"$OLD"'\.\([0-9]*\)"|appVersion: "v'"$NEW"'.\1"|g' \
 sedi "s|ARG VERSION=$OLD|ARG VERSION=$NEW|g" Dockerfile
 
 # snapcraft.yaml
-#   Three distinct WeKan-specific patterns, each too narrow to match
+#   Three distinct wekan-specific patterns, each too narrow to match
 #   MongoDB, Node.js, Caddy, or other tool versions present in the file:
 #     1. The snap version: field (anchored to start of line)
-#     2. WeKan bundle filenames: wekan-8.42-<arch>.zip
+#     2. wekan bundle filenames: wekan-8.42-<arch>.zip
 #     3. GitHub release URL path: /releases/download/v8.42/
 sedi "s|^version: '$OLD'|version: '$NEW'|" snapcraft.yaml
 sedi "s|wekan-$OLD-|wekan-$NEW-|g" snapcraft.yaml

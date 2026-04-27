@@ -1,4 +1,4 @@
-In Wekan v4.40 and newer:
+In wekan v4.40 and newer:
 
 - Custom Logo for Login and Top Left Corner.
 - Optional link when clicking logo.
@@ -16,7 +16,7 @@ For those sizes, if logo is a little bigger or smaller, it will be zoomed.
 
 Add image like `https://example.com/logo.png`
 
-## Storing logos in Wekan
+## Storing logos in wekan
 
 1. Create board and change it from private to public (visible to everyone at Internet)
 2. Add card

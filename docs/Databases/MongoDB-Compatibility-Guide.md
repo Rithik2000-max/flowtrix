@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide documents MongoDB compatibility issues and fixes for Wekan across MongoDB versions 3.0 through 8.0, ensuring proper operation with Meteor.js 2.14.
+This guide documents MongoDB compatibility issues and fixes for wekan across MongoDB versions 3.0 through 8.0, ensuring proper operation with Meteor.js 2.14.
 
 ## Current Status
 
@@ -53,7 +53,7 @@ const count = collection.find().countDocuments();
 
 ### Purpose of Direct Operations
 
-Direct operations (`.direct.insert()`, `.direct.update()`, `.direct.remove()`) are used intentionally in Wekan to:
+Direct operations (`.direct.insert()`, `.direct.update()`, `.direct.remove()`) are used intentionally in wekan to:
 
 1. **Bypass Meteor Security**: For system operations that need to bypass validation
 2. **Migration Scripts**: For data migration operations
@@ -63,7 +63,7 @@ Direct operations (`.direct.insert()`, `.direct.update()`, `.direct.remove()`) a
 ### Files Using Direct Operations
 
 **Models**:
-- `models/wekanCreator.js` - Wekan board creation
+- `models/wekanCreator.js` - wekan board creation
 - `models/trelloCreator.js` - Trello import
 - `models/cards.js` - Card operations
 - `models/boards.js` - Board operations
@@ -311,8 +311,8 @@ For MongoDB compatibility issues:
 2. Review MongoDB release notes for version-specific changes
 3. Test with the MongoDB driver system
 4. Use the monitoring tools to diagnose issues
-5. Consult the Wekan community for additional help
+5. Consult the wekan community for additional help
 
 ## License
 
-This MongoDB Compatibility Guide is part of Wekan and is licensed under the MIT License.
+This MongoDB Compatibility Guide is part of wekan and is licensed under the MIT License.

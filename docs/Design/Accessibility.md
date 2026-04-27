@@ -1,10 +1,10 @@
-# Wekan Accessibility & Responsive Design Improvements
+# wekan Accessibility & Responsive Design Improvements
 
 This document outlines the comprehensive accessibility and responsive design improvements implemented across all devices and screen sizes.
 
 ## 🎯 Overview
 
-The improvements ensure Wekan is fully accessible and optimized for:
+The improvements ensure wekan is fully accessible and optimized for:
 - **Smartphones** (320px - 767px)
 - **Tablets** (768px - 1023px) 
 - **Laptops** (1024px - 1919px)
@@ -233,4 +233,4 @@ margin: clamp(12px, 1.5vw, 20px);
 
 ---
 
-**Note**: This implementation ensures Wekan meets WCAG 2.1 AA standards and provides an excellent user experience across all devices and assistive technologies.
+**Note**: This implementation ensures wekan meets WCAG 2.1 AA standards and provides an excellent user experience across all devices and assistive technologies.

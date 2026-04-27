@@ -1,21 +1,21 @@
-## Standalone Wekan: Snap, (Docker, Source, VirtualBox)
+## Standalone wekan: Snap, (Docker, Source, VirtualBox)
 
-1) [Install Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
+1) [Install wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
 
-2) Go to your Wekan URL like https://example.com/sign-up (your address + /sign-up)
+2) Go to your wekan URL like https://example.com/sign-up (your address + /sign-up)
 
 3) Register your username, email address and password. First registered user will be admin, and next ones normal users. If you want other admins too, you can change their permission to admin at Admin Panel.
 
-4) **If you get Internal Server Error when creating account, it's because you have not configured email, and you can ignore it. WORKING EMAIL IS NOT REQUIRED. Wekan works without setting up email.**
+4) **If you get Internal Server Error when creating account, it's because you have not configured email, and you can ignore it. WORKING EMAIL IS NOT REQUIRED. wekan works without setting up email.**
 
 If you really want email sending, do for example:
 ```
 sudo snap set wekan mail-url='smtps://user:pass@mailserver.example.com:457/'
-sudo snap set wekan mail-from='Example Wekan Support <support@example.com>'
+sudo snap set wekan mail-from='Example wekan Support <support@example.com>'
 ```
 For more options see [Troubleshooting Email](Troubleshooting-Mail)
 
-5) Login to Wekan at https://example.com/sign-in (your address + /sign-in)
+5) Login to wekan at https://example.com/sign-in (your address + /sign-in)
 
 6) Click on top right your username / Admin Panel. You can change permissions, name, email address and password in Admin Panel.
 

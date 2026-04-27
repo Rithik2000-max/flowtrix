@@ -244,13 +244,13 @@ DESCRIPTION_METRICS_ALLOWED_IP_ADDRESSES="Metrics allowed IP addresses, separate
 DEFAULT_METRICS_ALLOWED_IP_ADDRESSES=""
 KEY_METRICS_ALLOWED_IP_ADDRESSES="metrics-allowed-ip-addresses"
 
-DESCRIPTION_BROWSER_POLICY_ENABLED="Enable browser policy and allow one trusted URL that can have iframe that has Wekan embedded inside.\n"\
+DESCRIPTION_BROWSER_POLICY_ENABLED="Enable browser policy and allow one trusted URL that can have iframe that has wekan embedded inside.\n"\
 "\t\t\t Setting this to false is not recommended, it also disables all other browser policy protections\n"\
 "\t\t\t and allows all iframing etc. See wekan/server/policy.js"
 DEFAULT_BROWSER_POLICY_ENABLED="true"
 KEY_BROWSER_POLICY_ENABLED="browser-policy-enabled"
 
-DESCRIPTION_TRUSTED_URL="When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds Wekan inside."
+DESCRIPTION_TRUSTED_URL="When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds wekan inside."
 DEFAULT_TRUSTED_URL=""
 KEY_TRUSTED_URL="trusted-url"
 

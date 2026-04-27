@@ -1,4 +1,4 @@
-These are on Standalone Wekan: Snap/Docker/Source/VirtualBox. Some of these are also at Sandstorm Wekan.
+These are on Standalone wekan: Snap/Docker/Source/VirtualBox. Some of these are also at Sandstorm wekan.
 
 ## Move to Archive: Restore possible
 

@@ -12,12 +12,12 @@ function pause(){
 
 echo
 PS3='Please enter your choice: '
-options=("Install Wekan dependencies" "Build Wekan" "Run Meteor for dev on http://localhost:4000" "Run Meteor for dev on http://localhost:4000 with trace warnings, and warnings using old Meteor API that will not exist in Meteor 3.0" "Run Meteor for dev on http://localhost:4000 with bundle visualizer" "Run Meteor for dev on http://CURRENT-IP-ADDRESS:4000" "Run Meteor for dev on http://CURRENT-IP-ADDRESS:4000 with MONGO_URL=mongodb://127.0.0.1:27019/wekan" "Run Meteor for dev on http://CUSTOM-IP-ADDRESS:PORT" "Run tests" "Save Meteor dependency chain to ../meteor-deps.txt" "Quit")
+options=("Install wekan dependencies" "Build wekan" "Run Meteor for dev on http://localhost:4000" "Run Meteor for dev on http://localhost:4000 with trace warnings, and warnings using old Meteor API that will not exist in Meteor 3.0" "Run Meteor for dev on http://localhost:4000 with bundle visualizer" "Run Meteor for dev on http://CURRENT-IP-ADDRESS:4000" "Run Meteor for dev on http://CURRENT-IP-ADDRESS:4000 with MONGO_URL=mongodb://127.0.0.1:27019/wekan" "Run Meteor for dev on http://CUSTOM-IP-ADDRESS:PORT" "Run tests" "Save Meteor dependency chain to ../meteor-deps.txt" "Quit")
 
 select opt in "${options[@]}"
 do
     case $opt in
-        "Install Wekan dependencies")
+        "Install wekan dependencies")
 
 		if [[ "$OSTYPE" == "linux-gnu" ]]; then
 			echo "Linux";
@@ -67,8 +67,8 @@ do
 		break
 		;;
 
-    "Build Wekan")
-		echo "Building Wekan."
+    "Build wekan")
+		echo "Building wekan."
 		rm -rf node_modules .meteor/local .build
 		(meteor update --npm 2>/dev/null || true) && meteor npm install
 		meteor build .build --directory
@@ -144,7 +144,7 @@ do
 		ip address
 		echo "From above list, what is your IP address?"
 		read IPADDRESS
-		echo "On what port you would like to run Wekan?"
+		echo "On what port you would like to run wekan?"
 		read PORT
 		echo "ROOT_URL=http://$IPADDRESS:$PORT"
 		#---------------------------------------------------------------------

@@ -13,7 +13,7 @@
 - [LDAP issues](https://github.com/wekan/wekan-ldap/issues)
 - [Univention LDAP related issues](https://github.com/wekan/univention/issues)
 - [Teams/Organizations feature related LDAP plans](https://github.com/wekan/wekan/issues/802). Needs info from LDAP experts to describe how LDAP works.
-- [Wekan LDAP code](https://github.com/wekan/wekan/tree/main/packages/wekan-ldap)
+- [wekan LDAP code](https://github.com/wekan/wekan/tree/main/packages/wekan-ldap)
 
 ***
 
@@ -27,7 +27,7 @@ wekan.help | less
 ```
 For root-url, see [Settings](Settings)
 
-For Caddy/Wekan/RocketChat Snap settings, see [Snap install page](https://github.com/wekan/wekan-snap/wiki/Install), [OAuth2 page](OAuth2#snap) and [Caddy page](Caddy-Webserver-Config). Instead of Caddy you can also use [Nginx](Nginx-Webserver-Config) or [Apache](Apache).
+For Caddy/wekan/RocketChat Snap settings, see [Snap install page](https://github.com/wekan/wekan-snap/wiki/Install), [OAuth2 page](OAuth2#snap) and [Caddy page](Caddy-Webserver-Config). Instead of Caddy you can also use [Nginx](Nginx-Webserver-Config) or [Apache](Apache).
 
 ## LDAP Filter settings
 
@@ -192,7 +192,7 @@ version: '2'
 services:
 
   wekandb:
-    # All Wekan data is stored in MongoDB. For backup and restore, see:
+    # All wekan data is stored in MongoDB. For backup and restore, see:
     #   https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
     image: mongo:4.0.3
     container_name: wekan-db
@@ -207,7 +207,7 @@ services:
       - wekan-db-dump:/dump
 
   wekan:
-    # Wekan container only has Node.js and related code,
+    # wekan container only has Node.js and related code,
     # there is no data stored here.
     #
     # Docker Hub, usually broken:
@@ -220,13 +220,13 @@ services:
     networks:
       - wekan-tier
     #---------------------------------------------------------------
-    # For running Wekan in different port like 3000, use: 3000:80
+    # For running wekan in different port like 3000, use: 3000:80
     ports:
       - 3000:3000
     environment:
       #---------------------------------------------------------------
       # == ROOT_URL SETTING ==
-      # Change ROOT_URL to your real Wekan URL, for example:
+      # Change ROOT_URL to your real wekan URL, for example:
       #   http://example.com
       #   http://example.com/wekan
       #   http://192.168.1.100
@@ -235,17 +235,17 @@ services:
       #---------------------------------------------------------------
       # == PORT SETTING ==
       # Not needed on Docker, but if you had installed from source,
-      #   you could also have setup Wekan Node.js port at localhost
+      #   you could also have setup wekan Node.js port at localhost
       #   with setting: PORT=3001
-      #   and have Nginx proxy to port 3001, see Wekan wiki.
+      #   and have Nginx proxy to port 3001, see wekan wiki.
       #---------------------------------------------------------------
       - PORT=3000
       #---------------------------------------------------------------
       # == MONGO URL AND OPLOG SETTINGS ==
       # https://github.com/wekan/wekan-mongodb/issues/2#issuecomment-378343587
       # We've fixed our CPU usage problem today with an environment
-      # change around Wekan. I wasn't aware during implementation
-      # that if you're using more than 1 instance of Wekan
+      # change around wekan. I wasn't aware during implementation
+      # that if you're using more than 1 instance of wekan
       # (or any MeteorJS based tool) you're supposed to set
       # MONGO_OPLOG_URL as an environment variable.
       # Without setting it, Meteor will perform a pull-and-diff
@@ -253,14 +253,14 @@ services:
       # the OPLOG. See here
       #   https://blog.meteor.com/tuning-meteor-mongo-livedata-for-scalability-13fe9deb8908
       # After setting
-      # MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rsWekan
-      # the CPU usage for all Wekan instances dropped to an average
+      # MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rswekan
+      # the CPU usage for all wekan instances dropped to an average
       # of less than 10% with only occasional spikes to high usage
       # (I guess when someone is doing a lot of work)
       #---------------------------------------------------------------
       - MONGO_URL=mongodb://wekandb:27017/wekan
       #---------------------------------------------------------------
-      # - MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rsWekan
+      # - MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rswekan
       #---------------------------------------------------------------
       # == EMAIL SETTINGS ==
       # Email settings are required in both MAIL_URL and Admin Panel,
@@ -269,29 +269,29 @@ services:
       # NOTE: Special characters need to be url-encoded in MAIL_URL.
       #---------------------------------------------------------------
       - MAIL_URL='smtp://<mail_url>:25/?ignoreTLS=true&tls={rejectUnauthorized:false}'
-      - MAIL_FROM='Wekan Notifications <noreply.wekan@mydomain.com>'
+      - MAIL_FROM='wekan Notifications <noreply.wekan@mydomain.com>'
 
       #---------------------------------------------------------------
-      # == WEKAN API ==
-      # Wekan Export Board works when WITH_API='true'.
-      # If you disable Wekan API, Export Board does not work.
+      # == wekan API ==
+      # wekan Export Board works when WITH_API='true'.
+      # If you disable wekan API, Export Board does not work.
       - WITH_API=true
       #---------------------------------------------------------------
       ## Optional: Integration with Matomo https://matomo.org that is installed to your server
       ## The address of the server where Matomo is hosted:
       # - MATOMO_ADDRESS=https://example.com/matomo
-      ## The value of the site ID given in Matomo server for Wekan
+      ## The value of the site ID given in Matomo server for wekan
       # - MATOMO_SITE_ID=123456789
       ## The option do not track which enables users to not be tracked by matomo"
       # - MATOMO_DO_NOT_TRACK=false
       ## The option that allows matomo to retrieve the username:
       # - MATOMO_WITH_USERNAME=true
       #---------------------------------------------------------------
-      # Enable browser policy and allow one trusted URL that can have iframe that has Wekan embedded inside.
+      # Enable browser policy and allow one trusted URL that can have iframe that has wekan embedded inside.
       # Setting this to false is not recommended, it also disables all other browser policy protections
       # and allows all iframing etc. See wekan/server/policy.js
       - BROWSER_POLICY_ENABLED=true
-      # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds Wekan inside.
+      # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds wekan inside.
       - TRUSTED_URL=''
       #---------------------------------------------------------------
       # What to send to Outgoing Webhook, or leave out. Example, that includes all that are default: cardId,listId,oldListId,boardId,comment,user,card,commentId . 
@@ -443,14 +443,14 @@ services:
       - ./nginx/ssl/pphrase:/etc/nginx/conf.d/ssl/pphrase:ro
 
 #------------------------------------------------------------------
-#  When using Wekan both at office LAN and remote VPN:
-#    1) Have above Wekan docker container config with LAN IP address
-#    2) Copy all of above Wekan config below, change name to different
+#  When using wekan both at office LAN and remote VPN:
+#    1) Have above wekan docker container config with LAN IP address
+#    2) Copy all of above wekan config below, change name to different
 #       like wekan2 or wekanvpn, and change ROOT_URL to server VPN IP
 #       address.
-#    3) This way both Wekan containers can use same MongoDB database
-#       and see the same Wekan boards.
-#    4) You could also add 3rd Wekan container for 3rd network etc.
+#    3) This way both wekan containers can use same MongoDB database
+#       and see the same wekan boards.
+#    4) You could also add 3rd wekan container for 3rd network etc.
 #------------------------------------------------------------------
 #  wekan2:
 #    ....COPY CONFIG FROM ABOVE TO HERE...

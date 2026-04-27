@@ -4,16 +4,16 @@ kind: Template
 labels:
   template: wekan-mongodb-persistent-template
 message: |-
-  The following service(s) have been created in your project: ${WEKAN_SERVICE_NAME}.
+  The following service(s) have been created in your project: ${wekan_SERVICE_NAME}.
 metadata:
   annotations:
     description: |-
-      This template provides a Wekan instance backed by a standalone MongoDB
+      This template provides a wekan instance backed by a standalone MongoDB
       server. The database is stored on persistent storage.
     iconClass: pficon-trend-up
-    openshift.io/display-name: Wekan backed by MongoDB
+    openshift.io/display-name: wekan backed by MongoDB
     openshift.io/documentation-url: https://wekan.github.io/
-    openshift.io/long-description: This template provides a Wekan platform
+    openshift.io/long-description: This template provides a wekan platform
       with a MongoDB database created. The database is stored on persistent storage. The
       database name, username, and password are chosen via parameters when provisioning
       this service.
@@ -23,10 +23,10 @@ objects:
 - apiVersion: v1
   kind: ServiceAccount
   metadata:
-    name: ${WEKAN_SERVICE_NAME}
+    name: ${wekan_SERVICE_NAME}
     labels:
       app: wekan
-      service: ${WEKAN_SERVICE_NAME}
+      service: ${wekan_SERVICE_NAME}
 - apiVersion: v1
   kind: Secret
   metadata:
@@ -38,7 +38,7 @@ objects:
     name: "${DATABASE_SERVICE_NAME}"
     labels:
       app: wekan
-      service: ${WEKAN_SERVICE_NAME}
+      service: ${wekan_SERVICE_NAME}
   stringData:
     database-admin-password: "${MONGODB_ADMIN_PASSWORD}"
     database-name: "${MONGODB_DATABASE}"
@@ -49,10 +49,10 @@ objects:
   metadata:
     annotations:
       template.openshift.io/expose-uri: http://{.spec.clusterIP}:{.spec.ports[?(.name=="wekan")].port}
-    name: "${WEKAN_SERVICE_NAME}"
+    name: "${wekan_SERVICE_NAME}"
     labels:
       app: wekan
-      service: ${WEKAN_SERVICE_NAME}
+      service: ${wekan_SERVICE_NAME}
   spec:
     ports:
     - name: wekan
@@ -61,7 +61,7 @@ objects:
       protocol: TCP
       targetPort: 8080
     selector:
-      name: "${WEKAN_SERVICE_NAME}"
+      name: "${wekan_SERVICE_NAME}"
     sessionAffinity: ClientIP
     type: ClusterIP
 - apiVersion: v1
@@ -72,7 +72,7 @@ objects:
     name: "${DATABASE_SERVICE_NAME}"
     labels:
       app: wekan
-      service: ${WEKAN_SERVICE_NAME}
+      service: ${wekan_SERVICE_NAME}
   spec:
     ports:
     - name: mongo
@@ -90,7 +90,7 @@ objects:
     name: "${DATABASE_SERVICE_NAME}"
     labels:
       app: wekan
-      service: ${WEKAN_SERVICE_NAME}
+      service: ${wekan_SERVICE_NAME}
   spec:
     accessModes:
     - ReadWriteOnce
@@ -102,12 +102,12 @@ objects:
   metadata:
     labels:
       app: wekan
-    name: ${WEKAN_SERVICE_NAME}
+    name: ${wekan_SERVICE_NAME}
   spec:
     tags:
     - from:
         kind: DockerImage
-        name: ${WEKAN_IMAGE}
+        name: ${wekan_IMAGE}
       generation: 2
       name: latest
       referencePolicy:
@@ -115,29 +115,29 @@ objects:
 - apiVersion: v1
   kind: DeploymentConfig
   metadata:
-    name: ${WEKAN_SERVICE_NAME}
+    name: ${wekan_SERVICE_NAME}
     labels:
       app: wekan
-      service: ${WEKAN_SERVICE_NAME}
+      service: ${wekan_SERVICE_NAME}
   spec:
     replicas: 1
     selector:
       app: wekan
-      deploymentconfig: ${WEKAN_SERVICE_NAME}
+      deploymentconfig: ${wekan_SERVICE_NAME}
     strategy:
       type: Recreate
     template:
       metadata:
         labels:
           app: wekan
-          service: ${WEKAN_SERVICE_NAME}
-          deploymentconfig: ${WEKAN_SERVICE_NAME}
+          service: ${wekan_SERVICE_NAME}
+          deploymentconfig: ${wekan_SERVICE_NAME}
           template: wekan
-          name: ${WEKAN_SERVICE_NAME}
+          name: ${wekan_SERVICE_NAME}
       spec:
         containers:
-        - name: ${WEKAN_SERVICE_NAME}
-          image: ${WEKAN_IMAGE}
+        - name: ${wekan_SERVICE_NAME}
+          image: ${wekan_IMAGE}
           imagePullPolicy: Always
           env:
           - name: MONGO_URL
@@ -148,7 +148,7 @@ objects:
             value: "8080"
           ports:
           - containerPort: 8080
-            name: ${WEKAN_SERVICE_NAME}
+            name: ${wekan_SERVICE_NAME}
             protocol: TCP
           terminationMessagePath: /dev/termination-log
           livenessProbe:
@@ -166,8 +166,8 @@ objects:
             timeoutSeconds: 3
         dnsPolicy: ClusterFirst
         restartPolicy: Always
-        serviceAccount: ${WEKAN_SERVICE_NAME}
-        serviceAccountName: ${WEKAN_SERVICE_NAME}
+        serviceAccount: ${wekan_SERVICE_NAME}
+        serviceAccountName: ${wekan_SERVICE_NAME}
         terminationGracePeriodSeconds: 30
     triggers:
     - type: ConfigChange
@@ -175,10 +175,10 @@ objects:
       imageChangeParams:
         automatic: true
         containerNames:
-        - ${WEKAN_SERVICE_NAME}
+        - ${wekan_SERVICE_NAME}
         from:
           kind: ImageStreamTag
-          name: ${WEKAN_SERVICE_NAME}:latest
+          name: ${wekan_SERVICE_NAME}:latest
         lastTriggeredImage: ""
 - apiVersion: v1
   kind: DeploymentConfig
@@ -188,7 +188,7 @@ objects:
     name: "${DATABASE_SERVICE_NAME}"
     labels:
       app: wekan
-      service: ${WEKAN_SERVICE_NAME}
+      service: ${wekan_SERVICE_NAME}
   spec:
     replicas: 1
     selector:
@@ -343,12 +343,12 @@ parameters:
   name: MONGODB_VERSION
   required: true
   value: '3.6'
-- name: WEKAN_SERVICE_NAME
-  displayName: Wekan Service Name
+- name: wekan_SERVICE_NAME
+  displayName: wekan Service Name
   value: wekan
   required: true
-- name: WEKAN_IMAGE
-  displayName: Wekan Docker Image
+- name: wekan_IMAGE
+  displayName: wekan Docker Image
   value: quay.io/wekan/wekan
   description: The metabase docker image to use
   required: true

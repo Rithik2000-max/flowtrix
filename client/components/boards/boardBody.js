@@ -335,7 +335,7 @@ Template.boardBody.onRendered(function () {
     document.body.appendChild(toggleContainer);
     const checkbox = document.getElementById('shortcuts-toggle-checkbox');
     checkbox.addEventListener('change', function(e) {
-      window.toggleWekanShortcuts(e.target.checked);
+      window.togglewekanShortcuts(e.target.checked);
     });
   }
   */
@@ -806,7 +806,7 @@ Template.boardBody.events({
 
 // Accessibility: Allow users to enable/disable keyboard shortcuts
 window.wekanShortcutsEnabled = true;
-window.toggleWekanShortcuts = function (enabled) {
+window.togglewekanShortcuts = function (enabled) {
   window.wekanShortcutsEnabled = !!enabled;
 };
 

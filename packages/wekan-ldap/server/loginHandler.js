@@ -167,7 +167,7 @@ Accounts.registerLoginHandler('ldap', async function(loginRequest) {
   if (user) {
     if (user.authenticationMethod !== 'ldap' && LDAP.settings_get('LDAP_MERGE_EXISTING_USERS') !== true) {
       log_info('User exists without "authenticationMethod : ldap"');
-      throw new Meteor.Error('LDAP-login-error', `LDAP Authentication succeded, but there's already a matching Wekan account in MongoDB`);
+      throw new Meteor.Error('LDAP-login-error', `LDAP Authentication succeded, but there's already a matching wekan account in MongoDB`);
     }
 
     log_info('Logging user');

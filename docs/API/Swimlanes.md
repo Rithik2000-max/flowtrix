@@ -49,6 +49,6 @@ The swimlane's ID is returned in the format:
 }
 ```
 
-# In Wekan code
+# In wekan code
 
 If you believe that code is the best documentation, be our guest: [models/cards.js](https://github.com/wekan/wekan/blob/main/models/swimlanes.js "Swimlane API code")

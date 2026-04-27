@@ -2,21 +2,21 @@ NOTE: If you use MongoDB Snap package below, most likely it works with many dist
 
 This page is NOT only about Raspberry Pi. This page IS about install without container for ANY Linux/BSD/[macOS](Mac)/[Windows](Offline) using CPU of amd64/arm64/s390x/ppc64le.
 
-WeKan only requires:
-- WeKan bundle .zip file of Javascript etc for that CPU. Only difference per CPU is that fibers package is compiled for that CPU. Those .zip files are built this way, for example:
-  - `git clone https://github.com/wekan/wekan && cd wekan && ./releases/release-wekan.sh WEKAN-VERSION-NUMBER` where version like 5.55
-  - releases directory has `rebuild-release.sh` that build amd64 bundle, `release-bundle.sh` that uploads amd64 bundle to arm64/s390x/ppc64le servers, and `maintainer-make-bundle-*.sh` scripts for compiling fibers on those arm64/s390x/ppc64le servers. Note: Only xet7 has ssh private keys to build servers, as maintainer of WeKan.
+wekan only requires:
+- wekan bundle .zip file of Javascript etc for that CPU. Only difference per CPU is that fibers package is compiled for that CPU. Those .zip files are built this way, for example:
+  - `git clone https://github.com/wekan/wekan && cd wekan && ./releases/release-wekan.sh wekan-VERSION-NUMBER` where version like 5.55
+  - releases directory has `rebuild-release.sh` that build amd64 bundle, `release-bundle.sh` that uploads amd64 bundle to arm64/s390x/ppc64le servers, and `maintainer-make-bundle-*.sh` scripts for compiling fibers on those arm64/s390x/ppc64le servers. Note: Only xet7 has ssh private keys to build servers, as maintainer of wekan.
 - Node.js binary, version number is at https://wekan.fi Download section, like https://nodejs.org/dist/latest-v14.x/
 - MongoDB, version number is at https://wekan.fi Download section, like 5.x https://www.mongodb.com/try/download/community or Percona MongoDB https://www.percona.com/software/mongodb/feature-comparison Download at https://www.percona.com/downloads/percona-server-mongodb-LATEST/
-- some way to start Wekan, like any of:
+- some way to start wekan, like any of:
   - bash script: [start-wekan.sh](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.sh)
   - cmd.exe script: [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat)
   - [systemd service script](#6-running-wekan-as-service)
   - init.d script
   - any other script, that sets environment variables and in bundle directory does `node main.js`
 - most important environment settings are:
-  - `ROOT_URL=http://192.168.0.200` for WeKan server IP address at local network or `ROOT_URL=https://kanban.example.com` if [Caddy](Caddy-Webserver-Config)/[Nginx](Nginx-Webserver-Config)/[Apache2](Apache) proxies from HTTPS to WeKan http://127.0.0.1:4000 etc, see https://github.com/wekan/wekan/wiki/Settings
-  - `PORT=80` or `PORT=4000` or some other port where WeKan Nodejs runs.
+  - `ROOT_URL=http://192.168.0.200` for wekan server IP address at local network or `ROOT_URL=https://kanban.example.com` if [Caddy](Caddy-Webserver-Config)/[Nginx](Nginx-Webserver-Config)/[Apache2](Apache) proxies from HTTPS to wekan http://127.0.0.1:4000 etc, see https://github.com/wekan/wekan/wiki/Settings
+  - `PORT=80` or `PORT=4000` or some other port where wekan Nodejs runs.
   - `MONGO_URL=mongodb://127.0.0.1:27017/wekan` where MongoDB server is, like localhost port 27017 using database name wekan. (Snap usually has MongoDB port at 27019, if it's not changed for example with `sudo snap set wekan mongodb-port='27020'`)
   - `WRITABLE_PATH=..`
   - if using node http at port 80, permission for binding to port 80, like `sudo setcap cap_net_bind_service=+ep /usr/local/bin/node`. See https://github.com/wekan/wekan/issues/4735#issuecomment-1295079327
@@ -113,13 +113,13 @@ mongo
 
 ## About Raspberry Pi
 
-[Blogpost](https://wekan.fi/blog/2019/06/wekan-on-raspi3-and-arm64-server-now-works-and-whats-next-with-cncf/index.html) - [Blogpost repost at dev.to](https://dev.to/xet7/wekan-on-raspi3-and-arm64-server-now-works-and-what-s-next-with-cncf-pbk) - [Thanks at CNCF original issue](https://github.com/cncf/cluster/issues/45#issuecomment-507036930) - [Twitter tweet](https://twitter.com/WekanApp/status/1145168007901134848) - [HN](https://news.ycombinator.com/item?id=20318237)
+[Blogpost](https://wekan.fi/blog/2019/06/wekan-on-raspi3-and-arm64-server-now-works-and-whats-next-with-cncf/index.html) - [Blogpost repost at dev.to](https://dev.to/xet7/wekan-on-raspi3-and-arm64-server-now-works-and-what-s-next-with-cncf-pbk) - [Thanks at CNCF original issue](https://github.com/cncf/cluster/issues/45#issuecomment-507036930) - [Twitter tweet](https://twitter.com/wekanApp/status/1145168007901134848) - [HN](https://news.ycombinator.com/item?id=20318237)
 
-## Please store MongoDB database etc Wekan files to external SSD hardrive (or HDD)
+## Please store MongoDB database etc wekan files to external SSD hardrive (or HDD)
 
 It's very easy to corrupt microSD card with a lot of writes. Please make [at least daily backups](Backup).
 
-## Install Wekan to RasPi3, RasPi4 or any arm64 server
+## Install wekan to RasPi3, RasPi4 or any arm64 server
 
 Look at webbrowser files at https://releases.wekan.team/raspi3/
 
@@ -144,9 +144,9 @@ You should always check what distro, node etc version it has, before downloading
 
 - [Ubuntu 20.04 Server arm64](http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/) for RasPi3 and RasPi4
 - Try [MongoDB Server Community Edition webpage](https://www.mongodb.com/download-center/community) that has Ubuntu 18.04 Linux arm64 server .deb package of MongoDB 4.2.x, or MongoDB 3.6.x from repos
-- Newest Wekan with newest Meteor
+- Newest wekan with newest Meteor
 
-If you have RasPi3, 1 GB RAM can only run Wekan Node.js + MongoDB. There is not enough RAM to run also Ubuntu desktop at the same RasPi.
+If you have RasPi3, 1 GB RAM can only run wekan Node.js + MongoDB. There is not enough RAM to run also Ubuntu desktop at the same RasPi.
 
 If you have RasPi3, you can install textmode webbrowser, and download files with it:
 ```
@@ -211,7 +211,7 @@ sudo apt-get update
 sudo apt-get -y dist-upgrade
 sudo reboot
 ```
-### 5. Login and install Wekan related files
+### 5. Login and install wekan related files
 
 Look at webbrowser files at https://releases.wekan.team/raspi3/
 
@@ -256,7 +256,7 @@ Then unzip file:
 unzip wekan*.zip
 ```
 
-### 6. Running Wekan as service
+### 6. Running wekan as service
 
 If you would like to run node as non-root user, and still have node at port 80, you could add capability to it, by first looking where node binary is:
 ```
@@ -275,7 +275,7 @@ sudo nano /etc/systemd/system/wekan.service
 There add this text:
 ```
 [Unit]
-Description=The Wekan Service
+Description=The wekan Service
 After=syslog.target network.target
 
 [Service]
@@ -312,18 +312,18 @@ PORT=80
 ```
 There are [many more other possible settings here that you can optionally add](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.sh)
 
-After that start and enable Wekan:
+After that start and enable wekan:
 ```
 sudo systemctl start wekan
 sudo systemctl enable wekan
 ```
 
-Wekan should work at your ROOT_URL in your webbrowser like http://192.168.0.x
+wekan should work at your ROOT_URL in your webbrowser like http://192.168.0.x
 
 
 ## 7. Optional: Email
 
-Note: Configuring email is not required to use Wekan.
+Note: Configuring email is not required to use wekan.
 
 If you really would like to install email sending server,
 you could install [postfix](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh#L63-L67), but that would probably make your mail to spam banning lists. You would add to above settings:
@@ -331,31 +331,31 @@ you could install [postfix](https://github.com/wekan/wekan-bash-install-autoupgr
 MAIL_URL='smtp://127.0.0.1:25/'
 MAIL_FROM='Board Support <wekan@example.com>'
 ```
-It is much more recommended to use [email sending service like AWS SES or some other service](Troubleshooting-Mail) that can ensure delivering email correctly, for Wekan email notifications etc.
+It is much more recommended to use [email sending service like AWS SES or some other service](Troubleshooting-Mail) that can ensure delivering email correctly, for wekan email notifications etc.
 
 ## 8. Optional: Nginx and Let's Encrypt SSL
 
-If your router has ports forwarded to your RasPi (in virtual server settings at http://192.168.0.1), then you could also [install nginx and Let's Encrypt SSL](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh) in front of Wekan.
+If your router has ports forwarded to your RasPi (in virtual server settings at http://192.168.0.1), then you could also [install nginx and Let's Encrypt SSL](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh) in front of wekan.
 
-## 9. Updating Wekan
-Stop Wekan and move old stuff away:
+## 9. Updating wekan
+Stop wekan and move old stuff away:
 ```
 sudo systemctl stop wekan
 mkdir old
 mv wekan*.zip old/
 mv bundle old/
 ```
-Download new Wekan version:
+Download new wekan version:
 ```
 elinks https://releases.wekan.team/raspi3/
 ```
 There with keyboard arrow keys go move to top of newest `wekan-3.xx-arm64.zip` and press Enter to download.
 
-Also check README.md about what Node version newest Wekan uses.
+Also check README.md about what Node version newest wekan uses.
 
 In elinks press `q` to exit elinks
 
-Unzip and start Wekan:
+Unzip and start wekan:
 ```
 unzip wekan*.zip
 sudo systemctl start wekan
@@ -372,7 +372,7 @@ rm -rf old
 
 ***
 
-### b) Running Wekan with startup script
+### b) Running wekan with startup script
 Look at what is your IP address at eth0, for example 192.168.0.x, with this command, and write it somewhere to your other computer or phone or paper:
 ```
 ip address
@@ -412,7 +412,7 @@ node main.js
 ```
 You need to check that it changes to correct directory, so that it can start `node main.js`
 
-And then start Wekan with:
+And then start wekan with:
 ```
 ./start-wekan.sh
 ```
@@ -420,16 +420,16 @@ And then start Wekan with:
 ***
 
 
-## Wekan for RasPi3 arm64 and other CPU architectures
+## wekan for RasPi3 arm64 and other CPU architectures
 
-<img src="https://wekan.fi/wekan-raspi3.png" width="100%" alt="Wekan on RasPi3" />
+<img src="https://wekan.fi/wekan-raspi3.png" width="100%" alt="wekan on RasPi3" />
 
-Newest Wekan:
+Newest wekan:
 - Ubuntu 19.10 Server arm64 for RasPi3 and RasPi4
 - MongoDB 3.6.x
-- Newest Wekan with newest Meteor
+- Newest wekan with newest Meteor
 
-To test RasPi3, xet7 tested it with all his Wekan boards data:
+To test RasPi3, xet7 tested it with all his wekan boards data:
 ```
 mongorestore --drop
 ```
@@ -437,13 +437,13 @@ If there is errors in restoring, try:
 ```
 mongorestore --drop --noIndexRestore
 ```
-<img src="https://wekan.fi/wekan-raspi3-with-all-data.jpg" width="100%" alt="Wekan on RasPi3" />
+<img src="https://wekan.fi/wekan-raspi3-with-all-data.jpg" width="100%" alt="wekan on RasPi3" />
 
-When using Firefox on network laptop (Core 2 Duo laptop, 8 GB RAM, SSD harddisk) to browse RasPi Wekan server, small boards load at about 3 seconds at first time. When loading, node CPU usage goes to about 100%. MongoDB CPU usage stays low, sometimes goes to 18%. This is because indexes has been added to Wekan MongoDB database. Loading my biggest Wekan board at first time takes 45 seconds, and next time takes about 2 seconds, because data is at browser cache. When Wekan browser tab is closed, node CPU usage drops 4-23%. There is no errors given by Wekan at RasPi3, RasPi3 arm64 behaves similar to x64 server that has 1 GB RAM. 
+When using Firefox on network laptop (Core 2 Duo laptop, 8 GB RAM, SSD harddisk) to browse RasPi wekan server, small boards load at about 3 seconds at first time. When loading, node CPU usage goes to about 100%. MongoDB CPU usage stays low, sometimes goes to 18%. This is because indexes has been added to wekan MongoDB database. Loading my biggest wekan board at first time takes 45 seconds, and next time takes about 2 seconds, because data is at browser cache. When wekan browser tab is closed, node CPU usage drops 4-23%. There is no errors given by wekan at RasPi3, RasPi3 arm64 behaves similar to x64 server that has 1 GB RAM. 
 
-<img src="https://wekan.fi/wekan-raspi3-cpu-usage.jpg" width="100%" alt="Wekan on RasPi3" />
+<img src="https://wekan.fi/wekan-raspi3-cpu-usage.jpg" width="100%" alt="wekan on RasPi3" />
 
-I did also test Wekan arm64 on arm64 bare metal server, same Wekan bundle worked there.
+I did also test wekan arm64 on arm64 bare metal server, same wekan bundle worked there.
 
 # Old info below
 
@@ -451,7 +451,7 @@ I did also test Wekan arm64 on arm64 bare metal server, same Wekan bundle worked
 
 https://releases.wekan.team/raspi3/wekan-2.94-raspi3-ubuntu18.04server.img.7z
 
-Or alternatively Wekan Meteor 1.8.1 bundle for arm64:
+Or alternatively wekan Meteor 1.8.1 bundle for arm64:
 
 https://releases.wekan.team/raspi3/wekan-2.94-arm64-bundle.tar.gz
 
@@ -464,9 +464,9 @@ sudo apt-get install p7zip-full
 sudo dd if=wekan-2.94-raspi3-ubuntu18.04server.img of=/dev/mmcblk0 conv=sync status=progress bs=100M
 ```
 
-2) Login for Wekan files
+2) Login for wekan files
 - Username wekan
-- Password wekan (for Wekan files)
+- Password wekan (for wekan files)
 
 (Or for ubuntu user: username ubuntu password ubuntuubuntu)
 
@@ -481,11 +481,11 @@ nano start-wekan.sh
 ```
 There change ROOT_URL to have your IP address. Save and Exit: Ctrl-o Enter Ctrl-x Enter
 
-5) Restore your Wekan dump subdirectory
+5) Restore your wekan dump subdirectory
 ```
 mongorestore --drop --noIndexRestore
 ```
-6) Start Wekan:
+6) Start wekan:
 ```
 ./start-wekan.sh
 ```
@@ -524,7 +524,7 @@ sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
 
 #### Upgrade bundle
 
-Stop Wekan. See what is newest bundle version at https://releases.wekan.team .
+Stop wekan. See what is newest bundle version at https://releases.wekan.team .
 
 Then, for example:
 ```
@@ -537,7 +537,7 @@ npm install
 npm install node-gyp node-pre-gyp fibers    (maybe not needed)
 cd ../../..
 ```
-Then Start Wekan.
+Then Start wekan.
 
 #### b) Other CPU architectures
 
@@ -548,7 +548,7 @@ npm install
 npm install node-gyp node-pre-gyp fibers
 cd ../../..
 ```
-Then start Wekan
+Then start wekan
 ```
 ./start-wekan.sh
 ```
@@ -567,14 +567,14 @@ git checkout meteor-1.8
 ./rebuild-wekan.sh
 # 1 and Enter to install deps
 ./rebuild-wekan.sh
-# 2 and Enter to build Wekan
+# 2 and Enter to build wekan
 cd .build
 ```
 Then create tar.gz that included bundle directory, with name wekan-VERSION.tar.gz
 
-Ready-made bundles of Meteor 1.6 Wekan x64 at https://releases.wekan.team
+Ready-made bundles of Meteor 1.6 wekan x64 at https://releases.wekan.team
 
-Ready-made bundle of Meteor 1.8 Wekan for arm64 at https://releases.wekan.team , works at RasPi3, and any other arm64 server that has Ubuntu 18.04 arm64.
+Ready-made bundle of Meteor 1.8 wekan for arm64 at https://releases.wekan.team , works at RasPi3, and any other arm64 server that has Ubuntu 18.04 arm64.
 
 2) Ubuntu Server for RasPi3 from https://www.raspberrypi.org/downloads/
 

@@ -1,13 +1,13 @@
-<img src="https://wekan.fi/wekan-logo.svg" width="60%" alt="Wekan logo" />
+<img src="https://wekan.fi/Flowtrix-logo.svg" width="60%" alt="wekan logo" />
 
-Wekan is an open-source [kanban board][] which allows a card-based task and to-do management.
+wekan is an open-source [kanban board][] which allows a card-based task and to-do management.
 
-Wekan allows to create **Boards**, on which **Cards** can be moved around between a number of **Columns**. Boards can have many members, allowing for easy collaboration, just add everyone that should be able to work with you on the board to it, and you are good to go! You can assign colored **Labels** to cards to facilitate grouping and filtering, additionally you can add members to a card, for example to assign a task to someone.
+wekan allows to create **Boards**, on which **Cards** can be moved around between a number of **Columns**. Boards can have many members, allowing for easy collaboration, just add everyone that should be able to work with you on the board to it, and you are good to go! You can assign colored **Labels** to cards to facilitate grouping and filtering, additionally you can add members to a card, for example to assign a task to someone.
 
-## What is special about Wekan?
-Wekan is distributed under the [MIT License], allowing anyone to easily work with it and modify it. It is perfect for anyone that needs a slick kanban board but doesn't want to use third party services, which are out of user control. Wekan can be hosted on your own server with very little effort, guaranteeing that you have all the time full control over your data and can make sure no one else has access to it and that it won't just vanish from one day to another, that is, if you do backups.
+## What is special about wekan?
+wekan is distributed under the [MIT License], allowing anyone to easily work with it and modify it. It is perfect for anyone that needs a slick kanban board but doesn't want to use third party services, which are out of user control. wekan can be hosted on your own server with very little effort, guaranteeing that you have all the time full control over your data and can make sure no one else has access to it and that it won't just vanish from one day to another, that is, if you do backups.
 
-<a name="Wekan"></a>Wekan
+<a name="wekan"></a>wekan
 
 # Install
 
@@ -25,34 +25,34 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 
 # <a name="General"></a>General
 
-* Current Meteor 2 WeKan Features: [Deep Dive Into WeKan](DeveloperDocs/Deep-Dive-Into-WeKan.md)
-* [WeKan Roadmap kanban board](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license) - board at Wekan demo
-* Future WeKan prototypes: [Multiverse WeKan Roadmap](FAQ/WeKan-Multiverse-Roadmap.md)
+* Current Meteor 2 wekan Features: [Deep Dive Into wekan](DeveloperDocs/Deep-Dive-Into-wekan.md)
+* [wekan Roadmap kanban board](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license) - board at wekan demo
+* Future wekan prototypes: [Multiverse wekan Roadmap](FAQ/wekan-Multiverse-Roadmap.md)
 * [Change Language](Translations/Change-Language.md)
 * [Forgot Password](Login/Forgot-Password.md)
-* [WeKan Design Principles](Design/Design-Principles.md)
+* [wekan Design Principles](Design/Design-Principles.md)
 * [FAQ](FAQ/FAQ.md)
 * [IRC FAQ](FAQ/IRC-FAQ.md) - answers to questions asked at IRC
 * [Team](FAQ/Team.md)
 * [Press](FAQ/Press.md)
 * [Blog](https://wekan.fi/blog)
-* [Wekan vs Trello vs Restyaboard](ImportExport/trello/Wekan-vs-Trello-vs-Restyaboard.md)
+* [wekan vs Trello vs Restyaboard](ImportExport/trello/wekan-vs-Trello-vs-Restyaboard.md)
 * [Results of Survey 2020-01](https://wekan.fi/blog/2020/06/results-of-wekan-survey-2020-01/)
 
-# <a name="NotWeKan"></a>Fake: Not WeKan kanban
+# <a name="Notwekan"></a>Fake: Not wekan kanban
 
-* [Hall of Shame: Fake companies that are NOT WeKan kanban](FAQ/Hall-of-Shame.md)
-* [Others NOT related to WeKan kanban](FAQ/NOT-related-to-Wekan.md)
+* [Hall of Shame: Fake companies that are NOT wekan kanban](FAQ/Hall-of-Shame.md)
+* [Others NOT related to wekan kanban](FAQ/NOT-related-to-wekan.md)
 
 # <a name="Security"></a>Security
 
 * [Allow private boards only: Disable Public Boards](Features/Allow-private-boards-only.md)
-* [Security Disclosure and details of Security in Wekan](../SECURITY.md)
+* [Security Disclosure and details of Security in wekan](../SECURITY.md)
 * [Password Hashing](Login/Password-Hashing.md)
 
 # <a name="Scaling"></a>Scaling
 
-* [Cron: Hourly restart WeKan, because of memory leaks](Webserver/Cron.md)
+* [Cron: Hourly restart wekan, because of memory leaks](Webserver/Cron.md)
 * [Maybe: Add more RAM to Node.js to prevent crash](https://github.com/wekan/wekan/issues/3585)
 * [Clustering AWS etc](Platforms/Propietary/Cloud/AWS.md)
 * [Scaling](Webserver/Scaling.md)
@@ -65,14 +65,14 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 
 # <a name="Migrating"></a>Migrating
 
-* [From Previous Export, paste big WeKan JSON](ImportExport/From-Previous-Export.md)
+* [From Previous Export, paste big wekan JSON](ImportExport/From-Previous-Export.md)
 * [Progress: Import/Export/Sync](ImportExport/Sync.md)
 * [From CSV/TSV](ImportExport/CSV/CSV.md)
 * [From Trello](ImportExport/trello/Migrating-from-Trello.md)
 * [From Jira](ImportExport/Jira.md)
 * [From Asana](ImportExport/asana/Asana.md)
 * [From Zenkit](ImportExport/ZenKit.md)
-* [From old Wekan manually](ImportExport/Migrating-from-old-Wekan-manually.md)
+* [From old wekan manually](ImportExport/Migrating-from-old-wekan-manually.md)
 
 # Backup
 
@@ -82,7 +82,7 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 # <a name="Repair"></a>Repair
 
 * [Repair MongoDB](Backup/Repair-MongoDB.md)
-* [Using Meteor MongoDB to repair files](Platforms/FOSS/Sandstorm/Export-from-Wekan-Sandstorm-grain-.zip-file.md)
+* [Using Meteor MongoDB to repair files](Platforms/FOSS/Sandstorm/Export-from-wekan-Sandstorm-grain-.zip-file.md)
 * [If board does not open and keeps loading](Features/If-board-does-not-open-and-keeps-loading.md)
 * [Repair Docker](Platforms/FOSS/Docker/Repair-Docker.md)
 
@@ -94,7 +94,7 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 
 # <a name="MarkdownSyntax"></a>Markdown Syntax
 
-* [Wekan Markdown](Features/Wekan-Markdown.md)
+* [wekan Markdown](Features/wekan-Markdown.md)
 * [Emoji](Features/Emoji.md)
 * [Mermaid Diagram](Features/Mermaid-Diagram.md) DOES NOT WORK ANYMORE
 * [Numbered text](Features/Numbered-text.md)
@@ -131,7 +131,7 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 # <a name="Integrations"></a>Integrations
 
 * [IFTTT](ImportExport/IFTTT.md)
-* [n8n Wekan docs](https://docs.n8n.io/nodes/n8n-nodes-base.wekan/#example-usage) - [n8n GitHub](https://github.com/n8n-io/n8n)
+* [n8n wekan docs](https://docs.n8n.io/nodes/n8n-nodes-base.wekan/#example-usage) - [n8n GitHub](https://github.com/n8n-io/n8n)
 * [Integrations](ImportExport/Integrations.md)
 * [Gogs](https://github.com/wekan/wekan-gogs)
 
@@ -191,7 +191,7 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 # <a name="API"></a>REST API Docs
 
 * API docs https://wekan.fi/docs/
-* PHP Webhook receiver to WeKan API Python https://github.com/wekan/webhook/blob/main/public/index.php#L46
+* PHP Webhook receiver to wekan API Python https://github.com/wekan/webhook/blob/main/public/index.php#L46
 * API clients
   * Python
     * https://github.com/wekan/wekan/blob/main/api.py
@@ -221,15 +221,15 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 * [Example: New card with Python3 and REST API](API/New-card-with-Python3-and-REST-API.md)
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
 * [Go client to REST API](https://github.com/wekan/wego)
-* [Wekan Sandstorm cards to CSV using Python](Platforms/FOSS/Sandstorm/Wekan-Sandstorm-cards-to-CSV-using-Python.md)
+* [wekan Sandstorm cards to CSV using Python](Platforms/FOSS/Sandstorm/wekan-Sandstorm-cards-to-CSV-using-Python.md)
 * [Excel and VBA](ImportExport/Excel-and-VBA.md)
 
 # <a name="Webhooks"></a>Webhooks
 
 * Per-board events sending at board right sidebar / Board Settings / Webhooks
-  * Check that webhook immediately responds with HTTP 200 OK, otherwise WeKan slows down
+  * Check that webhook immediately responds with HTTP 200 OK, otherwise wekan slows down
 * [Global Webhook](https://github.com/wekan/wekan/pull/2665)
-* PHP Webhook receiver to WeKan API Python https://github.com/wekan/webhook/blob/main/public/index.php#L46
+* PHP Webhook receiver to wekan API Python https://github.com/wekan/webhook/blob/main/public/index.php#L46
 * [Limiting Webhook data](https://github.com/wekan/wekan/issues/2830)
 * [Receiving Webhooks](Webhooks/Receiving-Webhooks)
 * [Java Webhooks](Webhooks/Java.md)
@@ -244,8 +244,8 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 
 * [Kadira integration](https://github.com/wekan/wekan/issues/2152)
 * [Debugging](DeveloperDocs/Debugging.md)
-* [Developer Docs for Standalone Wekan](DeveloperDocs/Developer-Documentation.md)
-* [Developer Docs for Sandstorm Wekan](https://github.com/wekan/wekan/tree/main/docs/Platforms/FOSS/Sandstorm)
+* [Developer Docs for Standalone wekan](DeveloperDocs/Developer-Documentation.md)
+* [Developer Docs for Sandstorm wekan](https://github.com/wekan/wekan/tree/main/docs/Platforms/FOSS/Sandstorm)
 * [Adding new Snap setting to code](DeveloperDocs/Adding-new-Snap-settings-to-code.md)
 * [Directory Structure](DeveloperDocs/Directory-Structure.md)
 * [Beginner](https://github.com/wekan/wekan/labels/Beginner)

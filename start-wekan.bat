@@ -55,10 +55,10 @@ IF "%USE_CHANGE_STREAMS%"=="true" (
     SET MONGO_OPLOG_URL=mongodb://127.0.0.1:27017/local?replicaSet=rs0
 )
 REM # For production with credentials and remote MongoDB:
-REM #   SET MONGO_OPLOG_URL=mongodb://<user>:<password>@<host>:<port>/local?authSource=admin&replicaSet=rsWekan
+REM #   SET MONGO_OPLOG_URL=mongodb://<user>:<password>@<host>:<port>/local?authSource=admin&replicaSet=rswekan
 
-REM # If port is 80, must change ROOT_URL to: http://YOUR-WEKAN-SERVER-IPv4-ADDRESS , like http://192.168.0.100
-REM # If port is not 80, must change ROOT_URL to: http://YOUR-WEKAN-SERVER-IPv4-ADDRESS:YOUR-PORT-NUMBER , like http://192.168.0.100:2000
+REM # If port is 80, must change ROOT_URL to: http://YOUR-wekan-SERVER-IPv4-ADDRESS , like http://192.168.0.100
+REM # If port is not 80, must change ROOT_URL to: http://YOUR-wekan-SERVER-IPv4-ADDRESS:YOUR-PORT-NUMBER , like http://192.168.0.100:2000
 REM # If ROOT_URL is not correct, these do not work: translations, uploading attachments.
 SET ROOT_URL=http://localhost
 
@@ -92,7 +92,7 @@ REM SET S3_SECRET_FILE=
 
 REM # https://github.com/wekan/wekan/wiki/Troubleshooting-Mail
 REM SET MAIL_URL=smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587/
-REM SET MAIL_FROM="Wekan Boards <info@example.com>"
+REM SET MAIL_FROM="wekan Boards <info@example.com>"
 REM # Currently MAIL_SERVICE is not in use.
 REM SET MAIL_SERVICE=Outlook365
 REM SET MAIL_SERVICE_USER=firstname.lastname@hotmail.com
@@ -104,7 +104,7 @@ REM SET MAIL_SERVICE_PASSWORD_FILE=
 REM # ==== NUMBER OF SEARCH RESULTS PER PAGE BY DEFAULT ====
 REM SET RESULTS_PER_PAGE=20
 
-REM # If you disable Wekan API with false, Export Board does not work.
+REM # If you disable wekan API with false, Export Board does not work.
 SET WITH_API=true
 
 REM # ==== AFTER OIDC LOGIN, ADD USERS AUTOMATICALLY TO THIS BOARD ID ====
@@ -198,7 +198,7 @@ REM # ==== METRICS ALLOWED IP ADDRESSES ====
 REM # https://github.com/wekan/wekan/wiki/Metrics
 REM SET METRICS_ALLOWED_IP_ADDRESSES=192.168.0.100,192.168.0.200
 
-REM # The value of the site ID given in Matomo server for Wekan
+REM # The value of the site ID given in Matomo server for wekan
 REM # example: - MATOMO_SITE_ID=12345
 REM SET MATOMO_SITE_ID=
 
@@ -210,12 +210,12 @@ REM # The option that allows matomo to retrieve the username:
 REM # example: MATOMO_WITH_USERNAME=true
 REM SET MATOMO_WITH_USERNAME=false
 
-REM # Enable browser policy and allow one trusted URL that can have iframe that has Wekan embedded inside.
+REM # Enable browser policy and allow one trusted URL that can have iframe that has wekan embedded inside.
 REM # Setting this to false is not recommended, it also disables all other browser policy protections
 REM # and allows all iframing etc. See wekan/server/policy.js
 SET BROWSER_POLICY_ENABLED=true
 
-REM # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds Wekan inside.
+REM # When browser policy is enabled, HTML code at this Trusted URL can have iframe that embeds wekan inside.
 REM SET TRUSTED_URL=
 
 REM # What to send to Outgoing Webhook, or leave out. Example, that includes all that are default: cardId,listId,oldListId,boardId,comment,user,card,commentId .

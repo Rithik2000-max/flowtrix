@@ -1,5 +1,5 @@
 /* Fixed missing 'import nib' stylesheet reset and extra li bullet points
- * https://github.com/wekan/wekan/issues/4512#issuecomment-1129347536
+ * https://github.com/flowtrix/flowtrix/issues/4512#issuecomment-1129347536
  * https://github.com/stylus/nib/blob/master/lib/nib/reset.styl
  */
 a, abbr, acronym, address, applet, big, blockquote, body, caption, cite,
@@ -51,4 +51,71 @@ audio, canvas, video {
 }
 audio:not([controls]),[hidden] {
   display: none;
+}/* ================================================
+   FLOWTRIX REBRAND - Login Page & Navbar
+   ================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+body, * { font-family: 'Outfit', sans-serif !important; }
+
+/* Login page background */
+#authentication-page,
+body.authentication-page {
+  background: #0D0F1A !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login card */
+.at-form {
+  background: #1A1D35 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 20px !important;
+  padding: 2.5rem !important;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.5) !important;
+}
+
+/* Input fields */
+.at-form input[type="email"],
+.at-form input[type="text"],
+.at-form input[type="password"] {
+  background: rgba(255,255,255,0.05) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 10px !important;
+  color: #E2E8F0 !important;
+  padding: 0.7rem 1rem !important;
+}
+.at-form input:focus {
+  border-color: #7B5CF5 !important;
+  box-shadow: 0 0 0 3px rgba(123,92,245,0.2) !important;
+}
+.at-form input::placeholder { color: #94A3B8 !important; }
+
+/* Labels */
+.at-form label { color: #94A3B8 !important; font-size: 0.85rem !important; }
+
+/* Login button */
+.at-btn, button[type="submit"] {
+  background: linear-gradient(135deg, #7B5CF5 0%, #06B6D4 100%) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  width: 100% !important;
+  padding: 0.75rem !important;
+}
+.at-btn:hover { opacity: 0.9 !important; }
+
+/* Links */
+.at-form a { color: #7B5CF5 !important; }
+
+/* Title text */
+.at-form h3, .at-title { color: #E2E8F0 !important; text-align: center !important; }
+
+/* Navbar */
+.board-navbar, nav.top-bar {
+  background: #0D0F1A !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
 }

@@ -1,23 +1,23 @@
-## Testers to ping with new Wekan Edge release
+## Testers to ping with new wekan Edge release
 - All those whose issues were fixed [at ChangeLog](https://github.com/wekan/wekan/blob/main/CHANGELOG.md)
 - @saschafoerster
 
-Those should reply to new issue that has name `Test Edge Wekan (version-number-here)` at https://github.com/wekan/wekan/issues .
+Those should reply to new issue that has name `Test Edge wekan (version-number-here)` at https://github.com/wekan/wekan/issues .
 
 ## Why test?
 
 https://github.com/wekan/wekan/issues/2811
 
 ## Who should test
-- If you are the person in your company that gets yelled at when something breaks in new version of Wekan.
-- If you think xet7 releasing new version of Wekan every day directly to stable production Snap channel is in any way risky.
+- If you are the person in your company that gets yelled at when something breaks in new version of wekan.
+- If you think xet7 releasing new version of wekan every day directly to stable production Snap channel is in any way risky.
 
-## What usually happens when Wekan gets broken
+## What usually happens when wekan gets broken
 
 1. There is many new issues about some same new feature or bug. Yes, also when some notices new feature that is already [at ChangeLog](https://github.com/wekan/wekan/blob/main/CHANGELOG.md), they add issue about it, usually asking "Can this feature be turned off or made optional?". This is usually if new feature changes some old workflow radically.
 2. Many do tag @xet7 that are you aware of the issue.
-3. Someone yells at IRC that "this is too much, it's time to fork Wekan". Well, that's because he gets yelled at by all users of Wekan at his company.
-4. xet7 does not have time to answer those, he just fixes the issue - usually at the same day, makes new release, closes all related issues with last comment "Please try Wekan (version-number-here)".
+3. Someone yells at IRC that "this is too much, it's time to fork wekan". Well, that's because he gets yelled at by all users of wekan at his company.
+4. xet7 does not have time to answer those, he just fixes the issue - usually at the same day, makes new release, closes all related issues with last comment "Please try wekan (version-number-here)".
 5. There is [only one comment](https://github.com/wekan/wekan/issues/2812#issuecomment-555860032) that says "This resolved things for me. Thanks for such a quick fix. This is an invaluable piece of software for me!"
 6. xet7 thinks this is great normal development day: Got some features added, got some bugs fixes, and happily goes to sleep well. This is because above 1-5 has happened many times before, it's just normal.
 
@@ -27,7 +27,7 @@ https://github.com/wekan/wekan/blob/main/CHANGELOG.md
 
 ## Backup before testing. And backup daily in production.
 
-Why? Well, Wekan has no undo yet. If you delete Swimlane/List/Card, it's gone.
+Why? Well, wekan has no undo yet. If you delete Swimlane/List/Card, it's gone.
 That's why it's harder to reach in submenu. It's better to Arhive those,
 and unarchive.
 
@@ -127,7 +127,7 @@ Uncomment from those this way:
         - METEOR_EDGE=${METEOR_EDGE}
         - USE_EDGE=${USE_EDGE}
 ```
-Then start Wekan to http://localhost this way:
+Then start wekan to http://localhost this way:
 ```
 docker-compose up -d --build
 ```
@@ -140,5 +140,5 @@ docker-compose up -d --build
 https://github.com/wekan/wekan/wiki/Sandstorm
 Local sandstorm is at http://local.sandstorm.io:6080/ .
 
-3) Download your production Wekan grain .zip file with down arrow button. Upload to your dev local Sandstorm.
+3) Download your production wekan grain .zip file with down arrow button. Upload to your dev local Sandstorm.
 Try does it work.

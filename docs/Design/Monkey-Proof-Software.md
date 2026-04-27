@@ -2,7 +2,7 @@
 
 ## 1. What is Monkey Proof Software?
 
-Someone told xet7, that WeKan is Monkey Proof Software. Jira is not Monkey Proof Software. Here we are exploring what it means.
+Someone told xet7, that wekan is Monkey Proof Software. Jira is not Monkey Proof Software. Here we are exploring what it means.
 
 ## 2. Proofing
 
@@ -49,7 +49,7 @@ https://en.wikipedia.org/wiki/Monkey_testing
 
 @xet7 wrote at https://github.com/wekan/wekan/issues/4167#issuecomment-1151557772 to this comment
 
-> Wekan functions better on pretty much all fronts except for customization options given that one can directly change kanboard CSS to fit their needs.
+> wekan functions better on pretty much all fronts except for customization options given that one can directly change kanboard CSS to fit their needs.
 
 From @xet7
 
@@ -63,9 +63,9 @@ Custom CSS and Javascript is very dangerous: https://github.com/wekan/wekan/issu
 
 Correct solution is to add setting like here https://github.com/wekan/wekan/issues/4558 
 
-WeKan target group is those that call WeKan "Monkey Proof Software", so that WeKan is easy to figure out, user friendly, polished enough. Jira is not "Monkey Proof Software".
+wekan target group is those that call wekan "Monkey Proof Software", so that wekan is easy to figure out, user friendly, polished enough. Jira is not "Monkey Proof Software".
 
-If someone is asking for "Custom CSS", that means they are programmers, and should be sending PRs to WeKan with fixes to UI, new settings, etc, so that WeKan works safely without "Custom CSS", for normal non-programmer people.
+If someone is asking for "Custom CSS", that means they are programmers, and should be sending PRs to wekan with fixes to UI, new settings, etc, so that wekan works safely without "Custom CSS", for normal non-programmer people.
 
 ## 6. Towards more Monkey Proof Software
 

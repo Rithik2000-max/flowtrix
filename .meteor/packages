@@ -28,9 +28,6 @@ jam:pub-sub
 
 # Account system
 accounts-password@3.2.3-beta350.7
-communitypackages:core
-communitypackages:unstyled
-communitypackages:flow-routing
 # Routing
 ostrio:flow-router-extra
 wekan-ldap

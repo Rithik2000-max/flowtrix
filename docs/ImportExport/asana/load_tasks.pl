@@ -52,7 +52,7 @@ foreach my $tasks_file (@files) {
    my $board_data = decode_json( $labels_res->content);
    my $labels = $board_data->{labels};
    my $label_to_use;
-   # We're merging several Asana boards onto one Wekan board, with labels per project.
+   # We're merging several Asana boards onto one wekan board, with labels per project.
    foreach my $label (@$labels) {
        $label_to_use = $label->{_id} if $label->{name} eq $project;
    }
@@ -62,7 +62,7 @@ foreach my $tasks_file (@files) {
    my $lanes     = decode_json( $lanes_res->content );
    my $lane_to_use;
    foreach my $lane (@$lanes) {
-      # Our Asana didn't use swimlanes; all of our Wekan boards have a "Bugs" lane, so use that.
+      # Our Asana didn't use swimlanes; all of our wekan boards have a "Bugs" lane, so use that.
       $lane_to_use = $lane->{_id} if $lane->{title} eq 'Bugs';
    }
 

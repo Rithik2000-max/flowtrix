@@ -1,6 +1,6 @@
-You can read up how to set up Rancher on a host together with Rancher Active Proxy and a Wekan/MongoDB Docker Stack.
+You can read up how to set up Rancher on a host together with Rancher Active Proxy and a wekan/MongoDB Docker Stack.
 
-This way you have Wekan running on a rancher host with automatic letsencrypt retrieval/renewal and proxying to a domain of your choice.
+This way you have wekan running on a rancher host with automatic letsencrypt retrieval/renewal and proxying to a domain of your choice.
 
 Here's how to set up Rancher + Rancher Active Proxy:
 https://github.com/adi90x/rancher-active-proxy/issues/21

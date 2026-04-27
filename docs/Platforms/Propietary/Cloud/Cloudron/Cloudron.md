@@ -1,12 +1,12 @@
 # Cloudron setup
 
 Status:
-- [Cloudron now uses upstream Wekan directly](https://github.com/wekan/wekan/issues/3035), so Cloudron users get all Wekan newest features and fixes
+- [Cloudron now uses upstream wekan directly](https://github.com/wekan/wekan/issues/3035), so Cloudron users get all wekan newest features and fixes
 
 Cloudron is a complete solution for running apps on your server and keeping them up-to-date and secure.
 
 1. First install Cloudron on your server with 3 simple commands - https://cloudron.io/get.html
-2. Install Wekan from the Cloudron Store. Once installed, you will get automatic updates for Wekan as and when they get released.
+2. Install wekan from the Cloudron Store. Once installed, you will get automatic updates for wekan as and when they get released.
 
 [![Install](cloudron.svg)](https://cloudron.io/button.html?app=io.wekan.cloudronapp)
 

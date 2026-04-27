@@ -48,7 +48,7 @@ See example below:
   NOTE: orgs & teams won't be updated if they already exist.
 
   5. Manages admin rights as well. If user is in Group which has isAdmin: set to true, user will get admin
-     privileges in Wekan as well.
+     privileges in wekan as well.
      If no adjustments (e.g. 1-3) are made on oidc provider's side, user will receive his/her admin rights from before.
 
 ## For further empowerment of oidc as sso solution

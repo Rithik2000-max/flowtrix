@@ -1,8 +1,8 @@
 Also see: [Windows](Windows)
 
-[Other CPU/OS On-Premise WeKan install](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
+[Other CPU/OS On-Premise wekan install](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
 
-## Wekan Windows 64bit version On-Premise
+## wekan Windows 64bit version On-Premise
 
 INFO ABOUT SETTINGS: https://github.com/wekan/wekan/issues/5591#issuecomment-2503681293
 
@@ -29,7 +29,7 @@ bundle (directory)
   |_ node.exe (downloaded file)
   |_ main.js (extracted file)
 ```
-8. Edit `start-wekan.bat` with Notepad. There add [Windows computer IP address](https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9) , like this, then Wekan will be at http://IP-ADDRESS-HERE/sign-in , for example http://192.168.0.100/sign-in but your different IP address. Add there wekan server computer IP address, not localhost. `node.exe main.js` is at bottom of `start-wekan.bat`, change there longer filename:
+8. Edit `start-wekan.bat` with Notepad. There add [Windows computer IP address](https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9) , like this, then wekan will be at http://IP-ADDRESS-HERE/sign-in , for example http://192.168.0.100/sign-in but your different IP address. Add there wekan server computer IP address, not localhost. `node.exe main.js` is at bottom of `start-wekan.bat`, change there longer filename:
 ```
 SET ROOT_URL=http://IP-ADDRESS-HERE
 
@@ -46,7 +46,7 @@ SET ROOT_URL=http://IP-ADDRESS-HERE:2000
 
 SET PORT=2000
 ```
-Then Wekan will be at http://IP-ADDRESS-HERE:2000/sign-in , for example http://192.168.0.100/sign-in , but with your different IP address.
+Then wekan will be at http://IP-ADDRESS-HERE:2000/sign-in , for example http://192.168.0.100/sign-in , but with your different IP address.
 
 9. Double click `start-wekan.bat` to run it. Give permission to network. If it does not work, try instead with right click, Run as Administrator.
 
@@ -111,7 +111,7 @@ This tells the client that any certificate signed by this CA (like your `server.
 
 As Administrator, edit with Notepad, changing dropdown *.txt to All Files, C:\Windows\System32\drivers\etc\hosts textfile.
 
-To hosts file, add WeKan server local IP address:
+To hosts file, add wekan server local IP address:
 
 ```
 192.168.0.200 wekan.example.com
@@ -133,18 +133,18 @@ This will start Caddy, like this:
 example.com CloudFlare SSL/TLS Origin Certificate HTTP 443
 => Public IPv4 Cable modem HTTPS port 443
 => Local IPv4 HTTPS port 443 Caddy
-=> Local IPv4 HTTP port 2000 Node.js main.js WeKan
+=> Local IPv4 HTTP port 2000 Node.js main.js wekan
 => MongoDB port 27017
 ```
 
 From CloudFlare to Caddy, all is SSL/TLS encrypted.
 Caddy proxies all encrypted traffic to Node.js unencrypted HTTP port 2000.
 
-At WeKan server laptop/desktop, locally between these executeable files,
+At wekan server laptop/desktop, locally between these executeable files,
 HTTP traffic is not encrypted:
 
-- Between Caddy and WeKan
-- Between WeKan and MongoDB
+- Between Caddy and wekan
+- Between wekan and MongoDB
 
 But outside of that server, all is SSL/TLS encrypted.
 
@@ -161,7 +161,7 @@ HTTP 80:
 Description: HTTP
 Inbound Port: 80 to 80
 Format: TCP
-Private IP Address: YOUR-WEKAN-SERVER-LOCAL-IPv4-ADDRESS (example: 192.168.0.200)
+Private IP Address: YOUR-wekan-SERVER-LOCAL-IPv4-ADDRESS (example: 192.168.0.200)
 Local Port: 80 to 80
 ```
 
@@ -170,12 +170,12 @@ HTTPS 443:
 Description: HTTP
 Inbound Port: 443 to 443
 Format: TCP
-Private IP Address: YOUR-WEKAN-SERVER-LOCAL-IPv4-ADDRESS (example: 192.168.0.200)
+Private IP Address: YOUR-wekan-SERVER-LOCAL-IPv4-ADDRESS (example: 192.168.0.200)
 Local Port: 443 to 443
 ```
 
 
-#### 2) Check your WeKan server Windows computer local IPv4 address
+#### 2) Check your wekan server Windows computer local IPv4 address
 
 You can check your IP address on Windows 11 using either the **Settings app** or the **Command Prompt**.
 These methods will show you your **local IP address**, which is the address your device uses to
@@ -213,7 +213,7 @@ b) To find your public IP address, simply open a web browser and search for "**w
 
 ### 5) Add settings at CloudFlare
 
-1. CloudFlare / Account Home / AI Audit: Block all AI crawlers, so that they do not slow down your websites and WeKan.
+1. CloudFlare / Account Home / AI Audit: Block all AI crawlers, so that they do not slow down your websites and wekan.
    But if you need Google Search to see your website like example.com, allow Googlebot.
 
 2. CloudFlare / Account Home / example.com / DNS / Records / Add Record
@@ -329,20 +329,20 @@ This will start Caddy, like this:
 example.com CloudFlare SSL/TLS Origin Certificate HTTP 443
 => Public IPv4 Cable modem HTTPS port 443
 => Local IPv4 HTTPS port 443 Caddy
-=> Local IPv4 HTTP port 2000 Node.js main.js WeKan
+=> Local IPv4 HTTP port 2000 Node.js main.js wekan
 => MongoDB port 27017
 
 From CloudFlare to Caddy, all is SSL/TLS encrypted.
 Caddy proxies all encrypted traffic to Node.js unencrypted HTTP port 2000.
 
-At WeKan server laptop/desktop, locally between these executeable files,
+At wekan server laptop/desktop, locally between these executeable files,
 HTTP traffic is not encrypted:
-- Between Caddy and WeKan
-- Between WeKan and MongoDB
+- Between Caddy and wekan
+- Between wekan and MongoDB
 
 But outside of that server, all is SSL/TLS encrypted.
 
-## Docker WeKan Offline
+## Docker wekan Offline
 
 
 At Internet connected computer, download:
@@ -361,17 +361,17 @@ At Offline Windows computer:
 5. Do steps 2-4 also for `wekan-db` container
 6. `docker-compose up -d`
 
-## WeKan Updates
+## wekan Updates
 
-1. Updating only WeKan. Not updating Node.js and MongoDB.
+1. Updating only wekan. Not updating Node.js and MongoDB.
 
 1.1. Make backup, look at steps 2.1. and 2.2 below.
 
-1.2. Download newest WeKan bundle .zip file from https://github.com/wekan/wekan/releases
+1.2. Download newest wekan bundle .zip file from https://github.com/wekan/wekan/releases
 
 1.3. Replace old bundle with new from that .zip file.
 
-1.4. Start WeKan with `start-wekan.sh`
+1.4. Start wekan with `start-wekan.sh`
 
 2. If it does not work, you maybe need to update Node.js and MongoDB.
 
@@ -381,11 +381,11 @@ mongodump
 ```
 Backup will be is in directory `dump`. More info at https://github.com/wekan/wekan/wiki/Backup
 
-2.2. Backup part 2/2. If there is files at `WRITABLE_PATH` directory mentioned at `start-wekan.bat` of https://github.com/wekan/wekan , also backup those. For example, if there is `WRITABLE_PATH=..`, it means previous directory. So when WeKan is started with `node main.js` in bundle directory, it may create in previous directory (where is bundle) directory `files`, where is subdirectories like `files\attachments`, `files\avatars` or similar.
+2.2. Backup part 2/2. If there is files at `WRITABLE_PATH` directory mentioned at `start-wekan.bat` of https://github.com/wekan/wekan , also backup those. For example, if there is `WRITABLE_PATH=..`, it means previous directory. So when wekan is started with `node main.js` in bundle directory, it may create in previous directory (where is bundle) directory `files`, where is subdirectories like `files\attachments`, `files\avatars` or similar.
 
-2.3. Check required compatible version of Node.js from https://wekan.fi `Install WeKan ® Server` section and Download that version node.exe for Windows 64bit from https://nodejs.org/dist/
+2.3. Check required compatible version of Node.js from https://wekan.fi `Install wekan ® Server` section and Download that version node.exe for Windows 64bit from https://nodejs.org/dist/
 
-2.4. Check required compatible version of MongoDB from https://wekan.fi `Install WeKan ® Server` section and Download that version Windows MongoDB .msi installer from https://www.mongodb.com/try/download/community
+2.4. Check required compatible version of MongoDB from https://wekan.fi `Install wekan ® Server` section and Download that version Windows MongoDB .msi installer from https://www.mongodb.com/try/download/community
 
 2.5. Remove old Node.js and MongoDB (at Windows, Control Panel / Add Remove Programs).
 
@@ -401,7 +401,7 @@ mongorestore --drop --noIndexRestore
 ```
 2.8. Start wekan with `start-wekan.bat`
 
-2.9. If WeKan does not start with your old start-wekan.bat, download newest [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) and look are there differences to your old start-wekan.bat . For example, with this command, could work on WSL or PowerShell or Linux or after installing git:
+2.9. If wekan does not start with your old start-wekan.bat, download newest [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) and look are there differences to your old start-wekan.bat . For example, with this command, could work on WSL or PowerShell or Linux or after installing git:
 ```
 diff old-start-wekan.bat start-wekan.bat
 ```
@@ -424,13 +424,13 @@ npm install bcrypt
 
 [WSL](WSL)
 
-## d) Wekan to VirtualBox Ubuntu offline
+## d) wekan to VirtualBox Ubuntu offline
 
 1. Install newest [VirtualBox](https://www.virtualbox.org/)
 
 2. Install newest [Ubuntu 64bit](https://ubuntu.com) to VirtualBox
 
-3. Install Wekan [Snap](https://github.com/wekan/wekan-snap/wiki/Install) version to Ubuntu with these commands:
+3. Install wekan [Snap](https://github.com/wekan/wekan-snap/wiki/Install) version to Ubuntu with these commands:
 ```
 sudo snap install wekan
 ```
@@ -462,7 +462,7 @@ sudo snap set wekan root-url='http://192.168.0.100'
 sudo snap set wekan port='80'
 ```
 
-12. Then at local network Wekan is at:
+12. Then at local network wekan is at:
 http://192.168.0.100
 
 #### Windows notes (tested on Windows 11)

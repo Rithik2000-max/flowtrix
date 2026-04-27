@@ -1,5 +1,5 @@
 // emailLocalization.js
-// Utility functions to handle email localization in Wekan
+// Utility functions to handle email localization in wekan
 
 import { TAPi18n } from '/imports/i18n';
 import { ReactiveCache } from '/imports/reactiveCache';

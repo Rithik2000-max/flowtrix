@@ -17,9 +17,9 @@ template(name="header")
         if currentSetting.customTopLeftCornerLogoImageUrl
           if currentSetting.customTopLeftCornerLogoLinkUrl
             a(href="{{currentSetting.customTopLeftCornerLogoLinkUrl}}" alt="{{currentSetting.productName}}" title="{{currentSetting.productName}}")
-              img(src="{{currentSetting.customTopLeftCornerLogoImageUrl}}" height="{{#if currentSetting.customTopLeftCornerLogoHeight}}#{currentSetting.customTopLeftCornerLogoHeight}{{else}}27{{/if}}" width="auto" margin="0" padding="0")
+              img(src="{{currentSetting.customTopLeftCornerLogoImageUrl}}" height="{{#if currentSetting.customTopLeftCornerLogoHeight}}#{currentSetting.customTopLeftCornerLogoHeight}{{else}}40{{/if}}" width="40" margin="10" padding="10")
           unless currentSetting.customTopLeftCornerLogoLinkUrl
-            img(src="{{currentSetting.customTopLeftCornerLogoImageUrl}}" height="{{#if currentSetting.customTopLeftCornerLogoHeight}}#{currentSetting.customTopLeftCornerLogoHeight}{{else}}27{{/if}}" width="auto" margin="0" padding="0" alt="{{currentSetting.productName}}" title="{{currentSetting.productName}}")
+            img(src="{{currentSetting.customTopLeftCornerLogoImageUrl}}" height="{{#if currentSetting.customTopLeftCornerLogoHeight}}#{currentSetting.customTopLeftCornerLogoHeight}{{else}}40{{/if}}" width="40" margin="10" padding="10" alt="{{currentSetting.productName}}" title="{{currentSetting.productName}}")
         unless currentSetting.customTopLeftCornerLogoImageUrl
           div#headerIsSettingDatabaseCallDone
             img(src="{{pathFor '/logo-header.png'}}" alt="{{currentSetting.productName}}" title="{{currentSetting.productName}}")

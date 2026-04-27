@@ -30,7 +30,7 @@ Files in this directory are served by meteor as-is to the client. It hosts some 
   * **[minicard.jade](https://github.com/wekan/wekan/tree/main/client/components/cards/minicard.jade)**: has the `minicard` template
 * **[forms](https://github.com/wekan/wekan/tree/main/client/components/forms)**: **[inlinedform.jade](https://github.com/wekan/wekan/tree/main/client/components/forms/inlinedform.jade)** has the`inlinedForm` template;
 * **[import](https://github.com/wekan/wekan/tree/main/client/components/import)**:
-  * **[import.jade](https://github.com/wekan/wekan/tree/main/client/components/import/import.jade)**: `importHeaderBar`, `import`, `importTextarea`, `importMapMembers`, `importMapMembersAddPopup` are all templates used for importing Trello (via **[trelloMembersMapper.js](https://github.com/wekan/wekan/tree/main/client/components/import/trelloMembersMapper.js)**) and Wekan (via **[wekanMembersMapper.js](https://github.com/wekan/wekan/tree/main/client/components/import/wekanMembersMapper.js)**) boards;
+  * **[import.jade](https://github.com/wekan/wekan/tree/main/client/components/import/import.jade)**: `importHeaderBar`, `import`, `importTextarea`, `importMapMembers`, `importMapMembersAddPopup` are all templates used for importing Trello (via **[trelloMembersMapper.js](https://github.com/wekan/wekan/tree/main/client/components/import/trelloMembersMapper.js)**) and wekan (via **[wekanMembersMapper.js](https://github.com/wekan/wekan/tree/main/client/components/import/wekanMembersMapper.js)**) boards;
 * **[lists](https://github.com/wekan/wekan/tree/main/client/components/lists)**:
   * **[list.jade](https://github.com/wekan/wekan/tree/main/client/components/lists/list.jade)**: `list` is the simple, main template for lists;
   * **[listBody.jade](https://github.com/wekan/wekan/tree/main/client/components/lists/listBody.jade)**: `listBody`, `addCardForm`, `autocompleteLabelLine` templates;
@@ -135,7 +135,7 @@ Collections (mostly `Mongo.Collection` except as noted) are defined in:
 Other files:
 * **[watchable.js](https://github.com/wekan/wekan/tree/main/models/watchable.js)**: extends the schema, helpers and mutations of `Boards`, `Lists` and `Cards`.
 * **[export.js](https://github.com/wekan/wekan/tree/main/models/export.js)**: has some code to support the REST API.
-* **[import.js](https://github.com/wekan/wekan/tree/main/models/import.js)**: implements `importBoard()` method so that Trello (in **[trelloCreator.js](https://github.com/wekan/wekan/tree/main/models/trelloCreator.js)**) and Wekan (in **[wekanCreator.js](https://github.com/wekan/wekan/tree/main/models/wekanCreator.js)**) boards can be imported. <span style="color:red">*XXX: Solid candidates for a directory of their own.*</span>
+* **[import.js](https://github.com/wekan/wekan/tree/main/models/import.js)**: implements `importBoard()` method so that Trello (in **[trelloCreator.js](https://github.com/wekan/wekan/tree/main/models/trelloCreator.js)**) and wekan (in **[wekanCreator.js](https://github.com/wekan/wekan/tree/main/models/wekanCreator.js)**) boards can be imported. <span style="color:red">*XXX: Solid candidates for a directory of their own.*</span>
 
 # Tools
 
@@ -183,5 +183,5 @@ Other files:
 
 # Contributions to this page
 
-This documentation was contributed by [TNick](https://github.com/TNick) and [xet7](https://github.com/xet7) while Wekan was at commit [e2f768c](https://github.com/wekan/wekan/tree/e2f768c6a0f913b7c5f07695dce8cec692037255). 
+This documentation was contributed by [TNick](https://github.com/TNick) and [xet7](https://github.com/xet7) while wekan was at commit [e2f768c](https://github.com/wekan/wekan/tree/e2f768c6a0f913b7c5f07695dce8cec692037255). 
 Please add new files, fixes, updates, etc directly to this page.

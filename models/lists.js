@@ -10,7 +10,7 @@ const { SimpleSchema } = require('/imports/simpleSchema');
 const Lists = new Mongo.Collection('lists');
 
 /**
- * A list (column) in the Wekan board.
+ * A list (column) in the wekan board.
  */
 Lists.attachSchema(
   new SimpleSchema({

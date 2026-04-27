@@ -1,4 +1,4 @@
-Migrations from every possible old Wekan version are not implemented yet.
+Migrations from every possible old wekan version are not implemented yet.
 
 Here are some starting points.
 
@@ -33,9 +33,9 @@ sed -i 's|FindThisText|ReplaceWithThisText|g' *
 
 ## 5) Some migrations could be missing
 
-Some of the database schema can be different. If you see difference in these files, you could fix it for everybody by adding new code to migrations, so old schema is converted to new one automatically when Wekan starts.
+Some of the database schema can be different. If you see difference in these files, you could fix it for everybody by adding new code to migrations, so old schema is converted to new one automatically when wekan starts.
 
-## 6) Inform Wekan about what is missing
+## 6) Inform wekan about what is missing
 
 ### a) Add issue
 

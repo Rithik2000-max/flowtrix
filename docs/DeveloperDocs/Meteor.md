@@ -34,18 +34,18 @@
     - 2024-09-02: Meteor.js generators https://www.youtube.com/watch?v=Z6nY2wqPgSE
     - 2024-09-09: Can we build static web pages with Meteor.js? https://www.youtube.com/watch?v=cr-Nm0YFb1w
     - 2024-09-16: Revisiting Mantra application architecture for today's Meteor.js https://www.youtube.com/watch?v=YyzY7ySqBAg
-  - 2024-08-23: TWIM 052: Year of TWIM in review. Trying to of sometime have xet7 at TWIM show again. They recommended people to help xet7 when possible, xet7 is hitting some walls developing WeKan. https://www.youtube.com/watch?v=c5E3uZST4Vs
+  - 2024-08-23: TWIM 052: Year of TWIM in review. Trying to of sometime have xet7 at TWIM show again. They recommended people to help xet7 when possible, xet7 is hitting some walls developing wekan. https://www.youtube.com/watch?v=c5E3uZST4Vs
   - 2024-08-20:
     - Vazco interviewing Storyteller: How to approach building Open Source products? https://www.youtube.com/watch?v=j5BrTYcJDVc
     - Meteor inteviewing Storyteller: Programmer, open source contributor, entrepreneur https://www.youtube.com/watch?v=dsp0_r8uJx8
   - Meteor Roles:
     - 2024-07-33: Meteor Roles the full checkpoint https://www.youtube.com/watch?v=ow1i4UXdbbI
     - 2024-08-12: Meteor Roles building up teams https://www.youtube.com/watch?v=ZAuSYKfV114
-  - 2024-07-15: WeKan Upgrades https://www.youtube.com/watch?v=Zjb3m9JsAD0
+  - 2024-07-15: wekan Upgrades https://www.youtube.com/watch?v=Zjb3m9JsAD0
   - 2024-07-08: Upgrading Meteor examples https://www.youtube.com/watch?v=jzWXxOe93t4
   - Upcoming and past: https://www.youtube.com/@storytellercz/streams
 - React.js
-  - WeKan uses Blaze and Jade, not React.
+  - wekan uses Blaze and Jade, not React.
   - 2024-09-25:
     - Meteor 3 React Compiler: https://x.com/FilipeNevola/status/1838911432282583432
   - 2024-08-02:
@@ -60,8 +60,8 @@
 https://www.youtube.com/watch?v=8pDqJVdNa44
 - Meteor Dispatches Podcast
   - 46: 2024-07-12: Packages you need in every app https://www.youtube.com/watch?v=S2YkZfKN0DI
-  - 25: 2024-02-09: WeKan Security https://www.youtube.com/watch?v=zic-h8jG6F8
-  - 16: 2023-12-08: WeKan interview https://www.youtube.com/watch?v=ke-mbnZM3zE
+  - 25: 2024-02-09: wekan Security https://www.youtube.com/watch?v=zic-h8jG6F8
+  - 16: 2023-12-08: wekan interview https://www.youtube.com/watch?v=ke-mbnZM3zE
   - Upcoming and past: https://www.youtube.com/@meteorjscommunity/streams
   - Playlists: https://www.youtube.com/@meteorjscommunity/playlists
   - Some recent also had info, how to make dependencies compatible with both Meteor 2 and Meteor 3
@@ -97,7 +97,7 @@ From Meteor Discord chat from someone:
 > Just sharing it here in case someone has never heard about it before
 
 
-## Building WeKan
+## Building wekan
 
 - https://github.com/wekan/wekan/wiki/Emoji
 - Docs: https://github.com/wekan/wekan/tree/main/docs

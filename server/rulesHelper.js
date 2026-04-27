@@ -132,12 +132,12 @@ export const RulesHelper = {
       const text = action.emailMsg || '';
       const subject = action.emailSubject || '';
       try {
-        // Try to detect the recipient's language preference if it's a Wekan user
+        // Try to detect the recipient's language preference if it's a wekan user
         // Otherwise, use the default language for the rule-triggered emails
         let recipientUser = null;
         let recipientLang = TAPi18n.getLanguage() || 'en';
 
-        // Check if recipient is a Wekan user to get their language
+        // Check if recipient is a wekan user to get their language
         if (to && to.includes('@')) {
           recipientUser = await ReactiveCache.getUser({ 'emails.address': to.toLowerCase() });
           if (recipientUser && typeof recipientUser.getLanguage === 'function') {

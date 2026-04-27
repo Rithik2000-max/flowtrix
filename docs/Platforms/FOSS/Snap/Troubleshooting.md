@@ -8,7 +8,7 @@ $ snap install wekan
 
 2) Enable/disable is not needed, it is there for cases when for example you want to stop wekan, but do not want to uninstall it (uninstall will delete also all user data)
 
-3) Wekan is service, so apart of help, it does not have any "user executables"
+3) wekan is service, so apart of help, it does not have any "user executables"
 
 4) You can check status of wekan with:
 

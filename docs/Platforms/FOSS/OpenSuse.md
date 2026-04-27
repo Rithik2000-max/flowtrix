@@ -1,10 +1,10 @@
-## Install WeKan for OpenSuse amd64
+## Install wekan for OpenSuse amd64
 
 1) Install Snap:
 
 https://snapcraft.io/docs/installing-snap-on-opensuse
 
-2) Install WeKan:
+2) Install wekan:
 
 ```
 sudo snap install wekan --channel=latest/candidate
@@ -18,7 +18,7 @@ Login at http://localhost/sign-in
 
 More info at https://github.com/wekan/wekan/wiki/Adding-users
 
-4) If you instead would like to access WeKan from other
+4) If you instead would like to access wekan from other
 laptops on your local network, check what is your computer
 IP address, and change your IP address here:
 

@@ -1,1 +1,1 @@
-WeKan Requiremens are at https://wekan.fi/install/
+wekan Requiremens are at https://wekan.fi/install/

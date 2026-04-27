@@ -91,7 +91,7 @@ foreach my $project (@$projects) {
          $list = $membership->{section}->{name};
       }
 
-      # I was trying to create JSON that I could use on the import screen in Wekan,
+      # I was trying to create JSON that I could use on the import screen in wekan,
       # but for bigger boards, it was just *too* hefty, so I took that JSON and used 
       # APIs to import.
       my %output_task = (

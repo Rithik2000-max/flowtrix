@@ -1,6 +1,6 @@
 # Description
 
-When Wekan is loading big board, selected Wait Spinner animation is shown.
+When wekan is loading big board, selected Wait Spinner animation is shown.
 
 # Allowed Wait Spinners
 

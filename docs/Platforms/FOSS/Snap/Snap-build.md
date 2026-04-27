@@ -1,4 +1,4 @@
-# Building the Wekan snap without timeouts
+# Building the wekan snap without timeouts
 
 This guide focuses on macOS hosts (Multipass VM) and common timeout fixes. It also applies to Linux hosts with LXD.
 

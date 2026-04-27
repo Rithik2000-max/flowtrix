@@ -8,7 +8,7 @@
 
 ## 📋 Documentation Overview
 
-This folder contains the complete, current documentation for Wekan's data persistence architecture as of December 23, 2025.
+This folder contains the complete, current documentation for wekan's data persistence architecture as of December 23, 2025.
 
 **Key Change**: Swimlane height and list width are now **per-board** (stored in documents, shared with all users), not per-user.
 

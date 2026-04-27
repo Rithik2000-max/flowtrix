@@ -1,4 +1,4 @@
-# v1.0 2021-12-26 WeKan ® Python Trello API CLI release
+# v1.0 2021-12-26 wekan ® Python Trello API CLI release
 
 This release adds the following new features:
 

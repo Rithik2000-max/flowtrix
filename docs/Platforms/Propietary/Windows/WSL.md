@@ -45,7 +45,7 @@ Then edit Windows Internet network settings. There:
 - Have only IPv4 enabled (not IPv6)
 - DNS: 1.1.1.1 with HTTPS Automatic encryption settings.
 
-## WeKan Snap amd64 on WSL2
+## wekan Snap amd64 on WSL2
 
 1. At https://ubuntu.com/blog/ubuntu-wsl-enable-systemd read `How to enable systemd in Ubuntu WSL` to install WSL2 and SystemD.
 
