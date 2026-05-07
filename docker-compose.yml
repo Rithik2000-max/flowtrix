@@ -1,44 +1,32 @@
-
 services:
-  flowtrix-db:
-    image: mongo:7
-    container_name: flowtrix-db
-    restart: always
-    command: mongod --oplogSize 128 --replSet rs0 --bind_ip_all --quiet
-    networks:
-      - flowtrix-tier
-    volumes:
-      - flowtrix-db:/data/db
-    healthcheck:
-      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 30s
-
   flowtrix:
-    image: ghcr.io/rithik-tri/flowtrix:v0.0.1.26.04.27.02
+    build:
+      context: .
+      dockerfile: Dockerfile
+      
     container_name: flowtrix
+    image: flowtrix:v0.0.1.26050601
+
     restart: always
+
     networks:
       - flowtrix-tier
+
     ports:
-      - "3004:8080"
+      - "3005:8080"
+
     env_file:
       - .env
+
     environment:
-      ROOT_URL: http://localhost:3004
+      ROOT_URL: http://localhost:3005
       PORT: 8080
-      MONGO_URL: mongodb://flowtrix-db:27017/flowtrix?replicaSet=rs0
-      MONGO_OPLOG_URL: mongodb://flowtrix-db:27017/local?replicaSet=rs0
+
+      MONGO_URL: mongodb+srv://admin_db_user:UjckcEXbdcOtyyuw@dev.dyebs9o.mongodb.net/flowtrix?retryWrites=true&w=majority
+      MONGO_OPLOG_URL: ""
+
       ACCOUNTS_EMAIL_VERIFICATION: false
       MAIL_URL: smtp://localhost:25
-    depends_on:
-      flowtrix-db:
-        condition: service_healthy
-
-volumes:
-  flowtrix-db:
 
 networks:
   flowtrix-tier:
